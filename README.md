@@ -8,14 +8,9 @@ The project includes
 ## Authors
 This project has been initially created by
 
-Felix Nyffenegger
-HSR, Rapperswil, Switzerland
-
-Louis Rivest
-ETS, Montreal, Canada
-
-Christian Braesch
-Univ. Savoie Mont-Blanc - SYMME, Annecy, France
+* Felix Nyffenegger, HSR, Rapperswil, Switzerland
+* Louis Rivest, ETS, Montreal, Canada
+* Christian Braesch, Univ. Savoie Mont-Blanc - SYMME, Annecy, France
 
 ## Project structure
 
