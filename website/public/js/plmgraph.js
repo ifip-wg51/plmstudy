@@ -136,8 +136,9 @@ var APP = function() {
                   res.id + '</td><td>' + 
                   res.name + '</td><td>' + 
                   round(res.slope, 4) + '</td><td>' + 
-                  round(res.intercept, 0) + '</td><td>' + 
-                  round(res.r2, 4) + '</td></tr>');
+                  round(res.intercept, 0) + '</td>' +
+                  //'<td>' + round(res.r2, 4) + '</td>'
+                  '</tr>');
                 i++;
               }
             } else {

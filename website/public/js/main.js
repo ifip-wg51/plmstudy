@@ -11,8 +11,8 @@ var APP = function() {
           jList += '<li>' + item.name + ' (' + item.count + ')</li>'; 
         }
         $('#basicdata > tbody:last-child').append('<tr><td>Top 3 journals</td><td><ol>'+jList+'</ol></td></tr>');
-        $('#basicdata > tbody:last-child').append('<tr><td>Number of conferneces involved</td><td>'+result.confCount+'</td></tr>');
-        $('#basicdata > tbody:last-child').append('<tr><td>Number of publications from conferneces</td><td>'+result.pubConfCount+'</td></tr>');
+        $('#basicdata > tbody:last-child').append('<tr><td>Number of conferences involved</td><td>'+result.confCount+'</td></tr>');
+        $('#basicdata > tbody:last-child').append('<tr><td>Number of publications from conferences</td><td>'+result.pubConfCount+'</td></tr>');
         var cList = '';
         for (j in result.topConfs) {
           var item = result.topConfs[j];

@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Research project to analyse some 1200 papers about plm",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ifip-wg51/plmstudy.git"
+  },
   "dependencies": {
     "express": "^4.13.3",
     "sqlite3": "^3.1.0"

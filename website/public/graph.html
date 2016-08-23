@@ -20,7 +20,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="header" id="header">
-            <h1>Identifying Themes, Trends and Clusters in Reserach</h1>
+            <h1>Identifying Themes, Trends and Clusters in Research</h1>
             Co-Occurrence Network
         </div>
         <div class="header-spacer"></div>
@@ -61,7 +61,7 @@
                         <div id="node_details" class="details"></div>
                     </div>
                     <div class="col">
-                        <h3>Histogramm</h3>
+                        <h3>Histogram</h3>
                         <div id="node_detail_trend"></div>
                     </div>
                     <!--<div id="clusterTrends">
@@ -86,7 +86,7 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Titel</th>
+                                    <th>Title</th>
                                     <th>Year</th>
                                     <th>Source</th>
                                 </tr>
@@ -97,27 +97,27 @@
                     </div>
                </section>
                 <section>
-                    <h2>Network Statistics</h2>
+                    <h2>General Statistics of the Complete Network</h2>
                     <p>There is different statistics that can be applied to a graph to identify the importance of a node or clusters. The Tool used behind the data presented is Gephi, which offers a wide range of statistics.</p>
-                    <p>Basic explaniation can be found here: 
+                    <p>Basic explanation can be found here: 
                     <ul>
                         <li><a href="http://www.faculty.ucr.edu/~hanneman/nettext/C10_Centrality.html" target="_blank">hhttp://www.faculty.ucr.edu/~hanneman/nettext/C10_Centrality.html</a></li>
                         <li><a href="https://github.com/gephi/gephi/wiki/Statistics" target="_blank">https://github.com/gephi/gephi/wiki/Statistics</a></li>
                     </ul></p>
                     <h3>Meta clusters</h3>
-                    <p>Looking at the data, we need to remove complexity from the network. Some of the keywords are co-ocurring with almost every keyword. We call them "Meta Clusters".
-                    Meta clusters descripbe PLM in a very generic matter and only add trivial information but a lot of noise to the statistics. Thus they shoul be remved from the graph.</p>
-                    <p>Metaclusters can be identified by two criteria:
+                    <p>Looking at the data, we need to remove complexity from the network. Some of the keywords are co-occurring with almost every keyword. We call them "Meta Clusters".
+                    Meta clusters describe PLM in a very generic matter and only add trivial information but a lot of noise to the statistics. Thus you might want to remove them from the graph.</p>
+                    <p>Meta clusters can be identified by two criteria:
                     <ul>
                         <li>A very high degree (most authors tend to use them to describe PLM)</li>
-                        <li>Very constant over time (they have been continously used to describe PLM)</li>
+                        <li>Very constant over time (they have been continuously used to describe PLM)</li>
                     </ul></p>
 
-                    <h3>Network Mesure</h3>
+                    <h3>Network Measure</h3>
                     <h4>Degree</h4>
-                    <p>The degree mesures how well an element is connected in the network. It corresponds to the number of connections a keyword has with other keywords.
-                    The follwing graph shows the distribution of degrees among the keywords</p>
-                    <p><em><strong>Hypothesis:</strong> All keywords having a degree highter then x can be considered as meta clusters. </em></p>
+                    <p>The degree measures how well an element is connected in the network. It corresponds to the number of connections a keyword has with other keywords.
+                    The following graph shows the distribution of degrees among the keywords</p>
+                    <p><em><strong>Hypothesis:</strong> All keywords having a degree higher than x can be considered as meta clusters. </em></p>
                     <div id="key_degree"></div>
                     <table id="network_data">
                         <thead>
@@ -125,8 +125,9 @@
                                 <th>ID</th>
                                 <th>Name</th>
                                 <th>Degree</th>
+                                <!--<th>Occurrence</th>-->
                                 <th>Eigenvector Centrality</th>
-                                <th>Betweeness Centrality</th>
+                                <th>Betweenness Centrality</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -134,8 +135,8 @@
                     </table>
 
                     <h3>Trend</h3>
-                    <p>Another intersting mesure is the trend. Do the authors tend to use a certain keyword more often or did they stop to use it?
-                    We consider a good mesure of the trend is the linear regression over the histrogramm of a keywords. Where the histrogramm plotts the number of papers using a certain keyword per year (occurances per year).</p>
+                    <p>Another interesting measure is the trend. Do the authors tend to use a certain keyword more often or did they stop to use it?
+                    We consider a good measure of the trend is the linear regression over the histogram of a keyword. The histogram plots the number of papers using a certain keyword per year (occurrences per year).</p>
                     <p>The following graph shows the distribution of keyword trends. And the table below shows the 50 most trendy keywords.</p>
                     <table id="trends">
                         <thead>
@@ -144,7 +145,8 @@
                                 <th>Name</th>
                                 <th>Slope</th>
                                 <th>Intercept</th>
-                                <th>r2</th>
+                                <!--<th>Degree</th>
+                                <th>Occurrence</th>-->
                             </tr>
                         </thead>
                         <tbody>
