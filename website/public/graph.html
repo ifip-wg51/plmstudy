@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="cssß/normalize.min.css">
+        <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/graph.css">
+        <script src="js/lib/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="header" id="header">
+            <h1>Identifying Themes, Trends and Clusters in Reserach</h1>
+            Co-Occurrence Network
+        </div>
+        <div class="header-spacer"></div>
+        <div id="main">
+            <div id="toolbar">
+                <div class="left">
+                    Max
+                    <select id = "filter_max">
+                        <option value="degree" selected="true">Degree</option>
+                        <option value="occurrence">Occurrence</option>
+                    </select>
+                    <input id="max_value" value="">
+                    Min
+                    <select id = "filter_min">
+                        <option value="degree" selected="true">Degree</option>
+                        <option value="occurrence">Occurrence</option>
+                    </select>
+                    <input id="min_value" value="" placeholder="2">
+                    <button id="filter">Filter</button>
+                </div>
+                <div class="middle">
+                    <button id="initial">Initial Graph</button>
+                    <button id="showHideEdges">Show Edges</button>
+                    <button id="startLayout">Start Layout</button>
+                    <button id="stopLayout">Stop Layout</button>
+                </div>
+            	<div class="right">
+                    <label for="search">Find Keyword : </label> 
+                    <input id="search" type="search" placeholder="search">
+                </div>
+            </div>
+    		<div id="container"></div>
+            <div id="keyStats">
+                <section>
+                    <h2>Node Details</h2>
+                    <div class="col">
+                        <h3>Attributes</h3>
+                        <div id="node_details" class="details"></div>
+                    </div>
+                    <div class="col">
+                        <h3>Histogramm</h3>
+                        <div id="node_detail_trend"></div>
+                    </div>
+                    <!--<div id="clusterTrends">
+                        <h3>Trends in Cluster</h3>
+                            <table id="node_detail_pubs">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Slope</th>
+                                    <th>Intercept</th>
+                                    <th>r2</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>-->
+                    <div calss="col" id="publications">
+                        <h3>Publications</h3>
+                            <table id="node_detail_pubs">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Titel</th>
+                                    <th>Year</th>
+                                    <th>Source</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+               </section>
+                <section>
+                    <h2>Network Statistics</h2>
+                    <p>There is different statistics that can be applied to a graph to identify the importance of a node or clusters. The Tool used behind the data presented is Gephi, which offers a wide range of statistics.</p>
+                    <p>Basic explaniation can be found here: 
+                    <ul>
+                        <li><a href="http://www.faculty.ucr.edu/~hanneman/nettext/C10_Centrality.html" target="_blank">hhttp://www.faculty.ucr.edu/~hanneman/nettext/C10_Centrality.html</a></li>
+                        <li><a href="https://github.com/gephi/gephi/wiki/Statistics" target="_blank">https://github.com/gephi/gephi/wiki/Statistics</a></li>
+                    </ul></p>
+                    <h3>Meta clusters</h3>
+                    <p>Looking at the data, we need to remove complexity from the network. Some of the keywords are co-ocurring with almost every keyword. We call them "Meta Clusters".
+                    Meta clusters descripbe PLM in a very generic matter and only add trivial information but a lot of noise to the statistics. Thus they shoul be remved from the graph.</p>
+                    <p>Metaclusters can be identified by two criteria:
+                    <ul>
+                        <li>A very high degree (most authors tend to use them to describe PLM)</li>
+                        <li>Very constant over time (they have been continously used to describe PLM)</li>
+                    </ul></p>
+
+                    <h3>Network Mesure</h3>
+                    <h4>Degree</h4>
+                    <p>The degree mesures how well an element is connected in the network. It corresponds to the number of connections a keyword has with other keywords.
+                    The follwing graph shows the distribution of degrees among the keywords</p>
+                    <p><em><strong>Hypothesis:</strong> All keywords having a degree highter then x can be considered as meta clusters. </em></p>
+                    <div id="key_degree"></div>
+                    <table id="network_data">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Degree</th>
+                                <th>Eigenvector Centrality</th>
+                                <th>Betweeness Centrality</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+
+                    <h3>Trend</h3>
+                    <p>Another intersting mesure is the trend. Do the authors tend to use a certain keyword more often or did they stop to use it?
+                    We consider a good mesure of the trend is the linear regression over the histrogramm of a keywords. Where the histrogramm plotts the number of papers using a certain keyword per year (occurances per year).</p>
+                    <p>The following graph shows the distribution of keyword trends. And the table below shows the 50 most trendy keywords.</p>
+                    <table id="trends">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Slope</th>
+                                <th>Intercept</th>
+                                <th>r2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div><
+		<script src="js/lib/jquery-1.11.2.min.js"></script>
+	    <script src="js/lib/sigmajs.103/sigma.min.js"></script>
+	    <script src="js/lib/sigmajs.103/plugins/sigma.parsers.gexf.min.js"></script>
+	    <script src="js/lib/sigmajs.103/plugins/sigma.layout.forceAtlas2.min.js"></script>
+        <script src="js/lib/Chart.min.js"></script>
+        <script src="js/utils.js"></script>
+	    <script src="js/plmgraph.js"></script>
+    </body>
+</html>

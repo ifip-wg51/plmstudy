@@ -1,0 +1,17 @@
+// Nodes
+SELECT DISTINCT tagID as id, name as label, COUNT(name) as size FROM tags NATURAL JOIN itemTags WHERE libraryID isNull AND name NOT LIKE "COUNTRY_%" GROUP BY name ORDER BY name
+
+// Edges
+SELECT DISTINCT source.tagID as source, target.tagID as target, COUNT(target.tagID) as weight FROM itemTags source INNER JOIN itemTags target ON source.itemID = target.itemID GROUP BY target.tagID;
+
+// Edges (currentl used)
+SELECT DISTINCT source.tagID as source, target.tagID as target FROM itemTags source INNER JOIN itemTags target ON source.itemID = target.itemID;
+
+
+
+
+//Nodes New DB
+SELECT DISTINCT tagID as id, name as label, COUNT(name) as size FROM tags NATURAL JOIN itemTags GROUP BY name ORDER BY name
+
+// Edges (currentl used)
+SELECT DISTINCT source.tagID as source, target.tagID as target FROM itemTags source INNER JOIN itemTags target ON source.itemID = target.itemID;
