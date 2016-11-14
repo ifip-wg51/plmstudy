@@ -8,6 +8,7 @@ import java.util.Map;
 
 //import org.apache.commons.lang3.StringEscapeUtils;
 
+// A small comment from Christian
 public class dbGenerator {
 	static String rootDir = "/Users/nyfelix/dev/plmstudy";
 	static String source = rootDir + "/database/zotero.sqlite";
