@@ -39,4 +39,8 @@ public HashMap<String, String> sources;
 		return res;
 	}
 
+	public Boolean containsKey(String key) {
+		return sources.containsKey(key);
+	}
+
 }

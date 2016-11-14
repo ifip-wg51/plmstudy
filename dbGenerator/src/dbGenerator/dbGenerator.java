@@ -6,14 +6,17 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.apache.commons.lang3.StringEscapeUtils;
+//import org.apache.commons.lang3.StringEscapeUtils;
 
 public class dbGenerator {
-	static String source = "D:\\dev\\hsr.plmstudy.res\\database\\zotero.sqlite";
-	static String target = "D:\\dev\\hsr.plmstudy.res\\database\\analysis.sqlite";
-	static String normKeywordFile = "D:\\dev\\hsr.plmstudy.res\\database\\normalized.csv";
-	static String acronymsFile = "D:\\dev\\hsr.plmstudy.res\\database\\acronyms.csv";
-	static String sourcesFile = "D:\\dev\\hsr.plmstudy.res\\database\\sources.csv";
+	static String rootDir = "/Users/nyfelix/dev/plmstudy";
+	static String source = rootDir + "/database/zotero.sqlite";
+	static String target = rootDir + "/database/analysis.sqlite";
+	static String normKeywordFile = rootDir + "/database/normalized.csv";
+	static String acronymsFile = rootDir + "/database/acronyms.csv";
+	static String sourcesFile = rootDir + "/database/sources.csv";
+	static String missingKeywordsFile = rootDir + "/database/missingKeywords.txt";
+	static String missingSourcesFile = rootDir + "/database/missingSources.txt";
 	static int currentIDKeywords = 50000;
 	
 	public static void main(String[] args) {
@@ -44,13 +47,20 @@ public class dbGenerator {
 		    // Write Normalized Tags into Target
 		    //writeNormalizedKeywords(cTarget, normKeywords, acronyms);
 		    
+		    // Collect Logdata
+		    ArrayList<String> missingKeywords = new ArrayList<String>();
+		    ArrayList<String> missingSources = new ArrayList<String>();
+		    
 		    // Loop through Publications List and insert Publication and Normalized Keywords into Target DB
 		    Statement stmtPublications = cSource.createStatement();
 		    Statement stmtCreatePublicaiton = cTarget.createStatement();
 		    Statement stmtCountry = cTarget.createStatement();
+
+		    // Only Papers with itemTypeID = 4 OR itemTypeID = 33
 		    ResultSet rs = stmtPublications.executeQuery( "SELECT itemID, fieldName, value " +
-		    "FROM items NATURAL JOIN itemData NATURAL JOIN fields NATURAL JOIN itemDataValues " +
-		    "WHERE libraryID isNull AND fieldName IN ('title', 'date', 'abstractNote', 'publicationTitle', 'conferenceName') ORDER BY itemID;" );
+		    "FROM items NATURAL JOIN itemTypes NATURAL JOIN itemData NATURAL JOIN fields NATURAL JOIN itemDataValues " +
+		    "WHERE libraryID isNull AND (itemTypeID = 4 OR itemTypeID = 33) AND fieldName IN ('title', 'date', 'abstractNote', 'publicationTitle', " +
+		    "'conferenceName') ORDER BY itemID;" );
 		    
 			int rowcount = 0;
 			int tagRelCount = 0;
@@ -73,7 +83,9 @@ public class dbGenerator {
 						stmtCreatePublicaiton.addBatch(sqlInsert);						
 						
 						// Read tags for publication
+						// Make sure keyWord Type (0 and 1) are imported, they might be the same with different ids
 						ResultSet rsTags = cSource.createStatement().executeQuery( "SELECT tagID, name FROM itemTags NATURAL JOIN tags WHERE itemID = " + prevID );
+						// Check that publication has keywords, if not publication must be removed in export
 						int countryID = 0;						
 						while (rsTags.next()) {							
 							Integer origTagID = rsTags.getInt(1);
@@ -85,12 +97,14 @@ public class dbGenerator {
 								}
 								rsCounty.close();
 							} else {							
-								NormElement normTag = normKeywords.getNormElement(origTagID);
+								//NormElement normTag = normKeywords.getNormElement(origTagID);
+								NormElement normTag = normKeywords.getNormElement(origName);
+								
 								if (normTag != null) {
 
 									if (normTag.isGeneric()) {
 										// find correct translation in list of acronyms																			
-										normTag = normTag.getElementRefernce(String.valueOf(prevID));
+										//normTag = normTag.getElementRefernce(String.valueOf(prevID));
 										System.out.println("# " + origName + " translated to " + normTag.key + " ID: " + normTag.id);
 									}
 									
@@ -99,7 +113,11 @@ public class dbGenerator {
 									tagRelCount++;
 								}
 								else {
-									System.out.println("No normalized tag found for: " + origTagID);
+									// Write to normalization Log
+									if (!missingKeywords.contains(origName)) {
+										missingKeywords.add(origName);
+									}
+									System.out.println("No normalized tag found for: " + origTagID + " / " + origName);
 								}
 							}
 						}
@@ -107,6 +125,8 @@ public class dbGenerator {
 						String sqlUpdatePublication = "UPDATE publications SET couID = '" + countryID + "' WHERE pubID = " + prevID + ";";						
 						stmtCreatePublicaiton.addBatch(sqlUpdatePublication);							
 						rowcount++;
+					} else {
+						System.out.println("No Abstract for publication: " + itemID );
 					}
 					attributes = "";
 					values = "";
@@ -136,8 +156,18 @@ public class dbGenerator {
 						attributes += "pubType, pubSource";
 						break;
 					case "conferenceName":
-						values += "'conferencePaper', '" + sources.get(val) + "'";
-						attributes += "pubType, pubSource";
+						// Check of Source exits, if not write to logfile
+						
+						if (sources.containsKey(val)) {
+							values += "'conferencePaper', '" + sources.get(val) + "'";
+							attributes += "pubType, pubSource";
+						} else {
+							// Wirte to Logfile
+							if (!missingSources.contains(val)) {
+								missingSources.add(val);
+							}
+							System.out.println("No Source for: " + val);
+						}
 						break;
 				}
 				
@@ -146,15 +176,28 @@ public class dbGenerator {
 				
 			}
 			rs.close();
-			stmtCreatePublicaiton.executeBatch();
+			//stmtCreatePublicaiton.executeBatch();
 			stmtCreatePublicaiton.close();
 			stmtPublications.close();
 			stmtCountry.close();
+		    PrintWriter keywordLog = new PrintWriter(missingKeywordsFile, "UTF-8");
+		    System.out.println("Number of missing keywords :" + missingKeywords.size());
+		    for (String keyword: missingKeywords) {
+		    	keywordLog.write(keyword + "\n");
+		    }
+			keywordLog.close();
+		    PrintWriter sourcesLog = new PrintWriter(missingSourcesFile, "UTF-8");
+		    for (String source: missingSources) {
+		    	sourcesLog.write(source + "\n");
+		    }
+		    sourcesLog.close();
+
 			System.out.println("# Publications: "+ rowcount);
 			System.out.println("# Relations: "+ tagRelCount);
 			
 	    } catch ( Exception e ) {
 	    	System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+	    	e.printStackTrace();
 	    	System.exit(0);
 	    }
 	}

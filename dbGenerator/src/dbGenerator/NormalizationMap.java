@@ -8,8 +8,8 @@ import java.util.HashMap;
 
 public class NormalizationMap {
 
-	public HashMap<String, NormElement> normElements;
-	public HashMap<String, String> sourceElements;
+	public HashMap<String, NormElement> normElements; // List of all normalized 
+	public HashMap<String, String> sourceElements; // 
 	public AcronymsMap acronyms;
 	
 	public NormalizationMap(AcronymsMap acronyms) {
@@ -28,7 +28,7 @@ public class NormalizationMap {
 			BufferedReader csvFile =  new BufferedReader(new FileReader(file));
 			String line = csvFile.readLine(); // Read first line and ignore it
 			NormElement el;
-			String orgID, orgName, normName; 
+			String orgID, orgName, normName;
 			String[] fields;
 		    while ((line = csvFile.readLine()) != null) {
 		    	fields = line.split(";");
@@ -41,7 +41,7 @@ public class NormalizationMap {
 		    	if (normName.equals("****")) {
 		    		el = new NormElement(i++, fields[3], true);
 		    		el.sourceKeys.add(Integer.parseInt(orgID));
-
+		    		el.sourceTagNames.add(orgName);
 					// find correct translation in list of acronyms																			
 		    		HashMap<String, String> alternatives = acronyms.getKeywordsForAcronym(orgName);
 					for (String key : alternatives.keySet()) {
@@ -61,9 +61,11 @@ public class NormalizationMap {
 			    	el = normElements.get(normName);
 			    	if (el != null) {
 			    		el.sourceKeys.add(Integer.parseInt(orgID));
+			    		el.sourceTagNames.add(orgName);
 			    	} else {
 			    		el = new NormElement(i++, normName, false);
 			    		el.sourceKeys.add(Integer.parseInt(orgID));
+			    		el.sourceTagNames.add(orgName);
 			    		normElements.put(el.key, el);
 			    	}
 				}
@@ -88,6 +90,10 @@ public class NormalizationMap {
 	public NormElement getNormElement(String origKey) {
 		for (NormElement el : normElements.values()) {
 			// TODO: implement, if needed
+			
+			if (el.sourceTagNames.contains(origKey)) {
+				return el;
+			}
 		}
 		return null;
 	}

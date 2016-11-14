@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 public class NormElement {
 	public ArrayList<Integer> sourceKeys;
+	public ArrayList<String> sourceTagNames;
 	public HashMap<String, NormElement> normElementRefs;
 	public int id;
 	public String key;
@@ -13,6 +14,7 @@ public class NormElement {
 	
 	public NormElement(int id, String key, boolean generic) {
 		sourceKeys = new ArrayList<Integer>();
+		sourceTagNames = new ArrayList<String>();
 		normElementRefs = new HashMap<String, NormElement>();
 		this.id = id;
 		this.key = key;
