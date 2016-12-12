@@ -104,7 +104,9 @@ public class dbGenerator {
 								if (normTag != null) {
 
 									if (normTag.isGeneric()) {
-										// find correct translation in list of acronyms																			
+										// find correct translation in list of acronyms	
+										// Careful: The publication IDs in the acronyms cvs file do not match
+										// To the current database!
 										//normTag = normTag.getElementRefernce(String.valueOf(prevID));
 										System.out.println("# " + origName + " translated to " + normTag.key + " ID: " + normTag.id);
 									}
