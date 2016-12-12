@@ -1,9 +1,143 @@
-Engineering action’s management system
-User’s preference
-Supplier’s integration
+; ; ; ; ;
+life cycle analyse
+material flow analyse
+Printed Circuit Board
+disabled users
+new foundations to geometry
+transfer
+recoverability
+tolerance
+waste from electrical and electronic equipment
+cathode ray tube
+CRT
+Expert Systems (ESs)
+hardware and software data management
+object-oriented
+re-usability
+genetic algorithm
+Qualitiy of service negotiation
+Principal Components Analysis (PCA)
+Three-Dimensional Virtual Prototyping (3DVP)
+Function–Behaviour–Structure
+process; product
+Reconfigurable Machine Tool
+Reconfigurable Manufacturing System
+Java; ontology
+model potential customers
+function modelling
+design method
+bill of materials;
+CE label
+electro-magnetic compatibility
+parametric feature
+neutral modelling command
+heterogeneous system
+product life cycle cost
+command sequence
+history based
+standard for the exchange of product model data;
+food
+SW
+meta model
+congruence
+; ; ; ; ; ; ; ; ;
+holon
+Life Cycle Cost (LCC)
+maintenance and support
+longevity of digital information
+manufacturing data structures;
+Computer-Aided Design (CAD)
+Virtual Prototype (VP)
+Virtual Reality Modelling Language (VRML)
+environmental and safety standards
+geometry interface
+Standard
+technology
+knowledge and information
+life-cycle engineering
+constraint satisfaction and optimisation
+intelligent functions
+profit-maximising solutions
+design-accompanying cost calculation
+multi-criteria analysis
+foreign direct investment
+RP
+productisation
+information system design
+enterprise architecture framework;
+requirement management
+failure reporting analysis and corrective action system
+repair overhaul
+concrete element
+products
+shipbuilding PLM
+FP
+self organising map
+activities
+task
+tutoring
+work plan
+multi-linear regression modelling
+diminishing manufacturing sources and material shortages
+design refresh plan
+DRP
+constraint-driven
+sustainment
+viewpoints
+item-level product lifecycle management
+item-level
+global
+internet of services
+workspace
+Semantic Object Model (SOM)
+Middle of Life (MOL)
+roadmap
+business/IT-alignment
+history-based parametric modelling
+international standard
+product life cycle costing
+product design support system
+Constraint Satisfaction Problem (CSP) solver
+Artificial Intelligence (AI) based meta-modelling techniques
+environment
+Italian industrial context
+GPD
+strategy assessment tool
+project team
+knowledge-based system
+wastes of electrical and electronic equipment
+CAD/CAPP/CAM
+fair exchange
+VA
+used product
+interoperability product-process-organisation model
+information and control web services
+ontology and synchronisation modelling
+PLM web-driven systems
+topoplogy
+Virtual Reality (VR)
+Artificial Intelligence (AI)
+soft-computing
+LNG
+design fo r manufacturing
+discrete-event simulation
+product retrieval system
+subjective query
+part management
+Provenance
+enterprise resource system
+decision-making in product quality
+failure knowledge network
+decision-making model
+analytic network process
+geometric constraint solving
+capitalising and reusing knowledge
+product models and knowledge models
+headlamp
+component- based PDM
+closed- loop systems
+life cycle assessment;
 Façade
-Eco-Indicator’99
-Protégé
 after-sales strategy
 Product lifecycle management
 Information sharing
@@ -41,90 +175,57 @@ problem solving method
 continuous improvement
 Features
 military aircraft
-Markov chain
 time line
-stochastic approach
-cycle time reduction
-aircraft manufacturing
-aircraft assembly
 probability
 armament carrier
-technological change
-aircraft design
-e-waste recycling
-appliance dismantling
+Markov
+technological
 disassembly effort
 ergonomic hazards
-formal recycling sector
-informal recycling sector
-developing countries
-CRT monitors
-CPU
-occupational hazards
-electronic waste
-automotive ECM
+informal recycling sectors
+dismantling
+EoL of electronic appliances
+formal recycling sectors
 engineering change request
 engineering change notice
-conceptual mapping
-PLM terms
 ambiguous terms
 discrete manufacturing
 illustrated glossary
 unified PLM vocabulary
-PLM users
-user perspectives
-organisational impact
-user acceptance
-information structure
-Web 2.0
-employee collaboration
+PLM impact
+PLM user
+organisational change management
 Enterprise 2.0
 social computing
-aerospace and defence industry
-social media sites
-project collaboration
-groupware prototype
-cross-functional teams
-horizontal portfolios
-vertical portfolios
-ontology design
+dispersed employee collaboration
+product portfolio management processes
+horizontal and vertical product portfolios
 LCS
 DES
-industrial systems
-early design phase
-sensing technologies
+optimal solution
 harsh environments
-product passports
-nozzle guide vanes
-high pressure NGV
 circular economy
-data requirements
-jet engines
-hostile environments
+product passport
+nozzle guide vane
+NGV
+improved product lifecycle management
 automated report generation
 total cost of ownership
 TCO
 semantic web technologies
 data linking
-semantic modelling
-knowledge visualisation
 worker assistance
 working situation
-digital factory assistant
-tutoring
-data extraction
-partial least squares
 PLS
-structural equation modelling
-SEM
-reengineering changes
+professionals
+construction
+partial least square
 Cyber-Physical production systems
 Data model
 Smart products
 Collaborative platforms
 Demand Driven Supply Network (DDSN)
 Publish/Subscribe pattern
-Printed Circuit Board
 Life cycle inventory
 Pareto rule
 Meta-Product
@@ -273,7 +374,6 @@ Smart Energy Product
 Utility-industry
 Product-service-systems
 Virtual confidence
-Provenance
 Bibliometrics
 Citation analysis
 PLM conference proceedings
@@ -360,11 +460,12 @@ Project-Based Learning
 country_Estonia
 Data dissemination
 Fuzzy AHP
+user acceptance
 Inspection Planning
 Design for manufacture
 Internet of Things
 Closed-loop PLM
-CL2M®
+Web 2.0
 Knowledge Based Systems
 Condition Monitoring Maintenance
 Decision Support Systems
@@ -594,7 +695,6 @@ Smart factory
 Geometric constraints
 Mining Information System
 MLM
-Standard
 OntoSTEP-NC
 Closed-Loop Manufacturing
 higher education courses

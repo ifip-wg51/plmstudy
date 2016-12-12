@@ -237,7 +237,7 @@ TagID;Keyword;Count;Nomalized Keyword;Topic/Domain;Business Area;Comments
 5034;Bernstein polynomials;1;bernstein polynomial;;;
 3772;Best Practice;1;best practice;;;
 3817;best practices;1;best practice;;;
-5025;BÈzier curves;1;bezier curve;;;
+5025;BeÃÅzier curves;1;bezier curve;;;
 5537;bicycle design;1;bicycle design;;;
 5538;bidirectional trade-offs;1;bidirectional trade off;;;
 18908;bill of material (BOM);2;bill of materials;;;
@@ -390,7 +390,7 @@ TagID;Keyword;Count;Nomalized Keyword;Topic/Domain;Business Area;Comments
 3974;China;1;China;;;
 4859;Civil;1;civil;;Building Industry;
 5430;Civil Construction;1;civil construction;;Building Industry;
-4863;CL2MÆ;1;closed loop lifecycle management;;;
+4863;CL2M¬Æ;1;closed loop lifecycle management;;;
 3701;Claims;1;claim;;;
 5028;class function;1;class function;;;
 18468;classification;1;classification;;;
@@ -919,7 +919,7 @@ TagID;Keyword;Count;Nomalized Keyword;Topic/Domain;Business Area;Comments
 18627;Eco design;2;ecodesign;;;
 4245;Eco-design;4;ecodesign;;;
 5797;eco-efficiency;1;ecoefficiency;;;
-4592;Eco-Indicatorí99;1;ECOINDICATOR 99;;;
+4592;Eco-Indicator‚Äô99;1;ECOINDICATOR 99;;;
 3966;EcoDesign;3;ecodesign;;;
 5798;economic analysis;1;economic analysis;;;
 4498;economic value analysis;1;economic value analysis;;;
@@ -980,7 +980,7 @@ TagID;Keyword;Count;Nomalized Keyword;Topic/Domain;Business Area;Comments
 4828;Engineer-to-order product;1;engineer to order product;;;
 18818;Engineering;2;engineering;;;
 3845;Engineering & Contracting;1;engineering and contracting;;;
-4905;Engineering actionís management system;1;engineering actions management system;;;
+4905;Engineering action‚Äôs management system;1;engineering actions management system;;;
 5825;engineering assets;1;engineering asset;;;
 4267;Engineering Bill Of Material;2;engineering bill of materials;;;
 18588;engineering change;1;engineering change;;;
@@ -1336,7 +1336,7 @@ TagID;Keyword;Count;Nomalized Keyword;Topic/Domain;Business Area;Comments
 5963;identification;1;identification;;;
 4565;iDMU;1;industrial digital mockup;;;
 4430;IFC;2;industry foundation class;;;
-4401;Ill-defined design System's approach;1;ill defined design system approach;;;
+4401;Ill-defined design System‚Äôs approach;1;ill defined design system approach;;;
 4588;ILS;1;Integrated logistics support;;;
 18379;IMM;1;information mirror model ;;;
 3767;impact;1;impact;;;
@@ -2629,7 +2629,7 @@ TagID;Keyword;Count;Nomalized Keyword;Topic/Domain;Business Area;Comments
 3835;proof of usage;1;proof of usage;;;
 6440;property developers;1;property developer;;;
 6441;property validation;1;property validation;;;
-4082;ProtÈgÈ;1;PROTEGE;;;Software language name
+4082;Prot√©g√©;1;PROTEGE;;;Software language name
 6442;protocols;1;protocol;;;
 3954;Prototype management;1;prototype management;;;
 18676;prototype of software;1;prototype of software;;;
@@ -3034,7 +3034,7 @@ TagID;Keyword;Count;Nomalized Keyword;Topic/Domain;Business Area;Comments
 5201;Supplier involvement;1;supplier involvement;Supplier Integration;;
 6604;supplier qualification;1;supplier qualification;Supplier Integration;;
 5089;Supplier Relationship Management (SRM);1;supplier relationship management;Supplier Integration;;
-5363;Supplier's integration;1;supplier integration;;;
+5363;Supplier‚Äôs integration;1;supplier integration;;;
 4047;Suppliers;1;supplier;;;
 18794;Suppliers Integration;1;supplier integration;;;
 18338;supply chain;11;supply chain;;;
@@ -3257,7 +3257,7 @@ TagID;Keyword;Count;Nomalized Keyword;Topic/Domain;Business Area;Comments
 5179;User Story Mapping Method;1;user story mapping;;;
 5613;User- centric design;1;user centric design;;;
 6488;User-centred design;1;user centric design;;;
-4080;Userís preference;1;user preference;;;
+4080;User‚Äôs preference;1;user preference;;;
 5264;Utilization conditions;1;utilization condition;;;
 6694;validation;3;validation;;;
 4917;Validation and Verification;1;verification and validation;;;

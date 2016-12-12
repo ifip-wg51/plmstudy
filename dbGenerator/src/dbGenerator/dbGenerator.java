@@ -99,15 +99,16 @@ public class dbGenerator {
 								rsCounty.close();
 							} else {							
 								//NormElement normTag = normKeywords.getNormElement(origTagID);
+						    	/*if (origName.contains("Ill-defined")) {
+						    		System.out.println("Found special");
+						    	}*/
 								NormElement normTag = normKeywords.getNormElement(origName);
 								
 								if (normTag != null) {
 
 									if (normTag.isGeneric()) {
-										// find correct translation in list of acronyms	
-										// Careful: The publication IDs in the acronyms cvs file do not match
-										// To the current database!
-										//normTag = normTag.getElementRefernce(String.valueOf(prevID));
+										// find correct translation in list of acronyms
+										normTag = normTag.getElementRefernce(String.valueOf(prevID));
 										System.out.println("# " + origName + " translated to " + normTag.key + " ID: " + normTag.id);
 									}
 									

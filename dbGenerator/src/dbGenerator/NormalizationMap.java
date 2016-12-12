@@ -2,6 +2,10 @@ package dbGenerator;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -25,12 +29,14 @@ public class NormalizationMap {
 	public int readFromFile (String file, int startID) {
 		int i = startID;
 		try {
-			BufferedReader csvFile =  new BufferedReader(new FileReader(file));
+			BufferedReader csvFile =  new BufferedReader(new InputStreamReader(
+					new FileInputStream(file), "UTF8"));
 			String line = csvFile.readLine(); // Read first line and ignore it
 			NormElement el;
 			String orgID, orgName, normName;
 			String[] fields;
 		    while ((line = csvFile.readLine()) != null) {
+
 		    	fields = line.split(";");
 		    	orgID = fields[0];
 		    	orgName = fields[1];
@@ -89,9 +95,34 @@ public class NormalizationMap {
 	
 	public NormElement getNormElement(String origKey) {
 		for (NormElement el : normElements.values()) {
-			// TODO: implement, if needed
-			
-			if (el.sourceTagNames.contains(origKey)) {
+			/*String test = "---";
+	    	if (el.sourceTagNames.toString().contains(test) && origKey.contains(test)) {
+	    		System.out.println("Found specail");
+	    		System.out.println("From Table:" + el.sourceTagNames.get(0));
+	    		System.out.println("Orig: "+ origKey);
+	    		
+	    		//System.out.println(el.sourceTagNames.contains(origKey.trim()));
+	    		//System.out.println(el.sourceTagNames.get(0).equals(origKey));   
+	    		
+	    		char[] first  = origKey.toLowerCase().toCharArray();
+	    		char[] second = el.sourceTagNames.get(0).toLowerCase().toCharArray();
+
+	    		int minLength = Math.min(first.length, second.length);
+
+	    		for(int i = 0; i < minLength; i++)
+	    		{
+	    		        if (first[i] != second[i])
+	    		        {
+	    		        	System.out.println("Not Equal: " + first[i] + " " + second[i]);
+	    		        } else {
+	    		        	System.out.println(first[i]);
+	    		        }
+	    		        	
+	    		}
+	    		System.out.println("===");
+	    	}*/
+	    	//if (el.sourceTagNames.contains(origKey))
+			if (el.sourceTagNames.contains((CharSequence)origKey)) {
 				return el;
 			}
 		}

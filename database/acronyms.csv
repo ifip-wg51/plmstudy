@@ -10,15 +10,15 @@ AI;Artificial intelligence;artifial intelligence;;
 AIDC;automated identification and data capture;automated identification data capture;;Acronym defined  in keyword through 2 keywords: automated identification and data capture
 AIRE;AREVA Interoperabilty Rich Environment  ;areva interoperability rich environment;;Other description in the same publication: AREVA IRING Environmen
 ALM;application lifecycle management;application lifecycle management;*;Common description
-ALM;application-layer multicasting;application layer multicasting;2706;
-ALM;Asset Lifecycle Management;asset lifecycle management;2023;
+ALM;application-layer multicasting;application layer multicasting;161;
+ALM;Asset Lifecycle Management;asset lifecycle management;688;
 AM;Asset management;asset management;;
 ANN;artificial neural networks;artificial neural network;;
 ANP;analytic network process ;analytic network process;;
 AP233;AP233;AP233;;STEP data exchange standard
-API;Assembly Process Information;assembly process information;2109;
+API;Assembly Process Information;assembly process information;776;
 API;Application Programming Interface;application programming interface;*;Common description
-API;active pharmaceutical ingredient;active pharmaceutical ingredient;8937;
+API;active pharmaceutical ingredient;active pharmaceutical ingredient;2233;
 APS;Automated Production System;automated production system;;
 ARINC 672;ARINC 672;ARINC 673;;Standard ?
 ARIS;Architecture of Integrated Information Systems;ARIS;;Platform name
@@ -65,7 +65,7 @@ CL2M;Closed-Loop Lifecycle Management ;closed loop product lifecycle management;
 CM;Construction Management;construction management;;
 CMII;configuration management II;configuration management;;
 CMM;Capability maturity model;capability maturity model;*;
-CMM;Coodinate Measuring Machine;coodinate measuring machine;8866;
+CMM;Coodinate Measuring Machine;coodinate measuring machine;2182;
 CMMI;Capability Maturity model integration;apability maturity model integration;;
 CNC;Computer Numerical Command;computer numerical command;;
 CO2;CO2;CO2;;
@@ -96,8 +96,8 @@ DMSMS;Diminishing manufacturing sources and material shortages;diminishing manuf
 DMU;Digital mock up;digital mockup;;
 DPD;digital product development;digital product development;;
 DRP;Design refresh planning;design refresh planning;;
-DSM;Domain Specific Modeling;domain specific modeling;2009;
-DSM;design structure matrix ;design structure matrix;9146;
+DSM;Domain Specific Modeling;domain specific modeling;672;
+DSM;design structure matrix ;design structure matrix;2375;
 DSS;Decision support System;decision support system;;
 DTP2;divertor test platform 2;divertor test platform;;
 EAF;enterprise architecture framework;enterprise architecture framework;;
@@ -176,8 +176,8 @@ KMS;Knowledge Management System;knowledge management system;;
 KPI;Key performance indicator;key performance indicator;;
 LCA;Life cycle assessment;lifecycle assessment;;
 LCC;Life Cycle Cost;lifecycle cost;;
-LCD;lifecycle design;lifecycle design;1992;
-LCD;liquid crystal display;liquid crystal display;1636;
+LCD;lifecycle design;lifecycle design;74;
+LCD;liquid crystal display;liquid crystal display;1393;
 LCIA;life cycle impact assessment;lifecycle impact assessment;;
 LCM;life-cycle management ;lifecycle management ;;
 LSA;Logistics Support Analysis;logistics support analysis;;
