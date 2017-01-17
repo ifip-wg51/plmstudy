@@ -1,321 +1,321 @@
 Acronym;Description;Normalized description;PublicationID;Comments
-3DVP;three dimensional virtual prototyping;3D virtual prototyping;;
-ABC;activity based costing;activity based costing;;
-ABS;acrylonitrile butadien styrene;acrylonitrile butadien styrene;;
-ACM;asset configuration management;asset configuration management;;
-Active ACM;active asset configuration management;active asset configuration management;;
-AF;Assembly feature;assembly feature;;
-AHP;Analytical Hierarchy Process;analytic hierarchy process ;;
-AI;Artificial intelligence;artifial intelligence;;
-AIDC;automated identification and data capture;automated identification data capture;;Acronym defined  in keyword through 2 keywords: automated identification and data capture
-AIRE;AREVA Interoperabilty Rich Environment  ;areva interoperability rich environment;;Other description in the same publication: AREVA IRING Environmen
+3DVP;three dimensional virtual prototyping;3D virtual prototyping;
+ABC;activity based costing;activity based costing;
+ABS;acrylonitrile butadien styrene;acrylonitrile butadien styrene;
+ACM;asset configuration management;asset configuration management;
+Active ACM;active asset configuration management;active asset configuration management;
+AF;Assembly feature;assembly feature;
+AHP;Analytical Hierarchy Process;analytic hierarchy process ;
+AI;Artificial intelligence;artifial intelligence;
+AIDC;automated identification and data capture;automated identification data capture;Acronym defined  in keyword through 2 keywords: automated identification and data capture
+AIRE;AREVA Interoperabilty Rich Environment  ;areva interoperability rich environment;Other description in the same publication: AREVA IRING Environmen
 ALM;application lifecycle management;application lifecycle management;*;Common description
 ALM;application-layer multicasting;application layer multicasting;161;
 ALM;Asset Lifecycle Management;asset lifecycle management;688;
-AM;Asset management;asset management;;
-ANN;artificial neural networks;artificial neural network;;
-ANP;analytic network process ;analytic network process;;
-AP233;AP233;AP233;;STEP data exchange standard
+AM;Asset management;asset management;
+ANN;artificial neural networks;artificial neural network;
+ANP;analytic network process ;analytic network process;
+AP233;AP233;AP233;STEP data exchange standard
 API;Assembly Process Information;assembly process information;776;
 API;Application Programming Interface;application programming interface;*;Common description
 API;active pharmaceutical ingredient;active pharmaceutical ingredient;2233;
-APS;Automated Production System;automated production system;;
-ARINC 672;ARINC 672;ARINC 673;;Standard ?
-ARIS;Architecture of Integrated Information Systems;ARIS;;Platform name
-ASME;American Society of Mechanical Engineers ;ASME;;Organization name (American Societey of Mechnaical Engineering)
-ATHENA;ATHENA;ATHENA;;Project name
-ATL;ATLAS Transformation Language;ATL;;Computer language name
-ATO;Assemble-to-order;assemble to order;;
-AudrosBOX;AudrosBox;AUDROSBOX;;Software application name
-automation API;automation API;AUTOMATION API;;Microsoft platform name
-B/S mode;B/S MODE;B/S MODE;;unknown acronym
-B2B;Business to business;business to business;;
-BIM;Building Information Management;building information management;;
-BMI;bio-medical imaging;biomedical imaging;;
-BOL;Beginning of life;beginning of life;;
-BOM;Bill of material ;bill of materials;;
-BPM;Business process management;business process management;;
-BPM;Business process model;not used;;
-BPMN;Business process management notation;business process management notation;;
-BPR;Business process reengineering;business process reengineering;;
-BTOPP;Benefit-Tools-Organization-Process-People;benefit tools organization process people;;
-C-K theory;concept-knowledge theory;concept knowledge theory;;
-C-L PLM;Closed-Loop Product Lifecycle Management;closed loop product lifecycle management;;
-C-PLM;Construction Project Lifecycle Management;construction project lifecycle management;;
-CAD;Computer-aided design;computer aided design;;
-CADCAM or CAD/CAM;Computer aided design computer aided manufacturing;computer aided design and manufacturing;;
-CAD-CAM- CNC or CADCAM- CNC;Computer aided design computer aided manufacturing control numerical command;computer aided design and manufacturing control numerical command;;
-cad/cam/cae;Computer aided design computer aided manufacturing computer aided engineering;computer aided design manufacturing and engineering;;
-CAE;computer aided engineering;computer aided engineering;;
-CAM;computer-aided manufacturing;computer aided manufacturing;;
-CAPP;Computer-Aided Process Planning;computer aided process planning;;
-CATIA or CAT;CATIA;CATIA;;
-CBM;Condition-based Maintenance;condition based maintenance;;
-CCA;Component Collaboration Architecture;component collaboration architecture;;
-cDMU;Configured Digital Mockup;configured digital mochup;;
-CE;concurrent engineering;not used;;
-CE;concurrent engineering;CE;;Unknown
-CE labelling;;CE CONFORMITY;;Unknown
-CE labelling;??;CE LABELLING;;Unknown
-CE mark;??;CE MARK;;Unknown
-CERN;CERN;CERN;;Unknown
-CFT;cross functional team;cross functional team;;
-CHI;compulsory health insurance;compulsory health insurance;;
-CL2M;Closed-Loop Lifecycle Management ;closed loop product lifecycle management;;
-CM;Construction Management;construction management;;
-CMII;configuration management II;configuration management;;
+APS;Automated Production System;automated production system;
+ARINC 672;ARINC 672;ARINC 673;Standard ?
+ARIS;Architecture of Integrated Information Systems;ARIS;Platform name
+ASME;American Society of Mechanical Engineers ;ASME;Organization name (American Societey of Mechnaical Engineering)
+ATHENA;ATHENA;ATHENA;Project name
+ATL;ATLAS Transformation Language;ATL;Computer language name
+ATO;Assemble-to-order;assemble to order;
+AudrosBOX;AudrosBox;AUDROSBOX;Software application name
+automation API;automation API;AUTOMATION API;Microsoft platform name
+B/S mode;B/S MODE;B/S MODE;unknown acronym
+B2B;Business to business;business to business;
+BIM;Building Information Management;building information management;
+BMI;bio-medical imaging;biomedical imaging;
+BOL;Beginning of life;beginning of life;
+BOM;Bill of material ;bill of materials;
+BPM;Business process management;business process management;
+BPM;Business process model;not used;
+BPMN;Business process management notation;business process management notation;
+BPR;Business process reengineering;business process reengineering;
+BTOPP;Benefit-Tools-Organization-Process-People;benefit tools organization process people;
+C-K theory;concept-knowledge theory;concept knowledge theory;
+C-L PLM;Closed-Loop Product Lifecycle Management;closed loop product lifecycle management;
+C-PLM;Construction Project Lifecycle Management;construction project lifecycle management;
+CAD;Computer-aided design;computer aided design;
+CADCAM or CAD/CAM;Computer aided design computer aided manufacturing;computer aided design and manufacturing;
+CAD-CAM- CNC or CADCAM- CNC;Computer aided design computer aided manufacturing control numerical command;computer aided design and manufacturing control numerical command;
+cad/cam/cae;Computer aided design computer aided manufacturing computer aided engineering;computer aided design manufacturing and engineering;
+CAE;computer aided engineering;computer aided engineering;
+CAM;computer-aided manufacturing;computer aided manufacturing;
+CAPP;Computer-Aided Process Planning;computer aided process planning;
+CATIA or CAT;CATIA;CATIA;
+CBM;Condition-based Maintenance;condition based maintenance;
+CCA;Component Collaboration Architecture;component collaboration architecture;
+cDMU;Configured Digital Mockup;configured digital mochup;
+CE;concurrent engineering;not used;
+CE;concurrent engineering;CE;Unknown
+CE labelling;CE CONFORMITY;Unknown
+CE labelling;??;CE LABELLING;Unknown
+CE mark;??;CE MARK;Unknown
+CERN;CERN;CERN;Unknown
+CFT;cross functional team;cross functional team;
+CHI;compulsory health insurance;compulsory health insurance;
+CL2M;Closed-Loop Lifecycle Management ;closed loop product lifecycle management;
+CM;Construction Management;construction management;
+CMII;configuration management II;configuration management;
 CMM;Capability maturity model;capability maturity model;*;
 CMM;Coodinate Measuring Machine;coodinate measuring machine;2182;
-CMMI;Capability Maturity model integration;apability maturity model integration;;
-CNC;Computer Numerical Command;computer numerical command;;
-CO2;CO2;CO2;;
-COCOMO;COnstructive COst MOdel;constructive cost model;;
-CPC;collaborative product commerce;collaborative product commerce;;
-CPD;Collaborative Product Development;collaborative product development;;
-CPI;collaborative product innovation;collaborative product innovation;;
-CPLM;collaborative product lifecycle management;collaborative product lifecycle management;;
-CPM;core product model ;core product model ;;
-CRM;Customer Relationship management;customer relationship management;;
-CSCW;Computer-supported Collaborative Work;computer supported collaborative work;;
-CSFs;Critical Success Factors;critical success factors;;
-CSM;Concept Selection Matrix;concept selection matrix;;
-CSP;Constraint Satisfaction Problem;constraint satisfaction problem;;
-CT;Collaboration technologies;collaboration technology;;
-DA;Design automation;Design automation;;
-DAR;decomposition analysis resolution process;decomposition analysis resolution process;;
-DCSP;distributed constraint satisfaction problem;distributed constraint satisfaction problem;;
-DF;Digital factory;digital factory;;
-DFM;Design for manufacturing;design for manufacturing;;
-DFSM;design for sustainable manufacturing;design for sustainable manufacturing;;
-DFX;Design for Excellence;design for excellence;;
-DHM;Digital human modeling;digital human modeling;;
-DHRM;Digital Heritage Reference Model;digital heritage reference model;;
-DIJA;DIJA;DIJA;;Project name
-DL;Description Logics;description logic;;
-DMSMS;Diminishing manufacturing sources and material shortages;diminishing manufacturing source and material shortage;;
-DMU;Digital mock up;digital mockup;;
-DPD;digital product development;digital product development;;
-DRP;Design refresh planning;design refresh planning;;
+CMMI;Capability Maturity model integration;apability maturity model integration;
+CNC;Computer Numerical Command;computer numerical command;
+CO2;CO2;CO2;
+COCOMO;COnstructive COst MOdel;constructive cost model;
+CPC;collaborative product commerce;collaborative product commerce;
+CPD;Collaborative Product Development;collaborative product development;
+CPI;collaborative product innovation;collaborative product innovation;
+CPLM;collaborative product lifecycle management;collaborative product lifecycle management;
+CPM;core product model ;core product model ;
+CRM;Customer Relationship management;customer relationship management;
+CSCW;Computer-supported Collaborative Work;computer supported collaborative work;
+CSFs;Critical Success Factors;critical success factors;
+CSM;Concept Selection Matrix;concept selection matrix;
+CSP;Constraint Satisfaction Problem;constraint satisfaction problem;
+CT;Collaboration technologies;collaboration technology;
+DA;Design automation;Design automation;
+DAR;decomposition analysis resolution process;decomposition analysis resolution process;
+DCSP;distributed constraint satisfaction problem;distributed constraint satisfaction problem;
+DF;Digital factory;digital factory;
+DFM;Design for manufacturing;design for manufacturing;
+DFSM;design for sustainable manufacturing;design for sustainable manufacturing;
+DFX;Design for Excellence;design for excellence;
+DHM;Digital human modeling;digital human modeling;
+DHRM;Digital Heritage Reference Model;digital heritage reference model;
+DIJA;DIJA;DIJA;Project name
+DL;Description Logics;description logic;
+DMSMS;Diminishing manufacturing sources and material shortages;diminishing manufacturing source and material shortage;
+DMU;Digital mock up;digital mockup;
+DPD;digital product development;digital product development;
+DRP;Design refresh planning;design refresh planning;
 DSM;Domain Specific Modeling;domain specific modeling;672;
 DSM;design structure matrix ;design structure matrix;2375;
-DSS;Decision support System;decision support system;;
-DTP2;divertor test platform 2;divertor test platform;;
-EAF;enterprise architecture framework;enterprise architecture framework;;
-EBOM;Engineering Bill Of Material;engineering bill of materials;;
-EC;Engineering change;engineering change;;
-ECM;engineering change management;engineering change management;;
-ECN;engineering collaboration via negotiation ;engineering collaboration via negotiation ;;
-ECO;engineering change order;engineering change order;;
-EDM;Engineering Data Management ;engineering data management ;;
-EDMS;Engineering Data Management System;engineering data management system;;
-EDOC;Enterprise Distributed Object Computing;enterprise distributed object computing;;
-EIA;environmental impact assessment;environmental impact assessment;;
-ELV;End-of-Life Vehicle ;end of life vehicle ;;
-EMC;electromagnetic compliance;electromagnetic compliance;;
-EOMs;Original Equipment Manufacturers;original equipment manufacturers;;
-EPC;Engineering, Procurement and Construction ;engineering, procurement and construction ;;
-EQFD;Enhanced Quality Function Deployment;enhanced quality function deployment;;
-ERP;Enterprise resource planning;enterprise resource planning;;
-ES;Expert System;expert eystem;;
-ESB;Enterprise Service Bus;enterprise service bus;;
-ETO;Engineer-to-order;engineer to order;;
-FBD;Feature based design;feature based design;;
-FBS;Function-Behaviour-Structure;function behavior structure;;
-FDI;foreign direct investment;foreign direct investment;;
-FEA;Finite Element Analysis;finite element analysis;;
-FFSF;Free-form surface feature;free form surface feature;;
-FKN;failure knowledge network;failure knowledge network;;
-FM;Facility Management;facility management;;
-FMEA;Failure Mode and Effect Analysis;failure mode and effect analysis;;
-FRACAS;Failure Reporting Analysis and Corrective Action System ;failure report analysis and corrective action system;;
-FRP;Fibre-reinforced polymer ;fibre reinforced polymer;;
-fuzzy AD;fuzzy axiomatic design;fuzzy axiomatic design;;
-GEN;Global Engineering Networks;global engineering network;;
-GHG;greenhouse gases;greenhouse gases;;
-GIS;Geographic information systems ;geographic information systems ;;
-GPD;Global Product Development;global product development;;
-GSCF;global supply chain forum;global supply chain forum;;
-HCD;Human centred design;human centred design;;
-HDD;hard disk drive;hard disk drive;;
-HDM;hierarchical decision modeling;hierarchical decision modeling;;
-HLA;High Level Architecture;high level architecture;;
-HTML;Hyper Text Markup Language;HTML;;software language name
-i-Manufacturing;i-Manufacturing;I-MANUFACTUIRNG;;unknown acronym
-IBCA;initiative, behavior, context, and action;initiative, behavior, context, and action;;
-ICD;interface control documents;interface control document;;
-ICT;Information and Communications Technologies;information and communications technology;;
-IDDS;integrated design and delivery solution;integrated design and delivery solution;;
-IDEAS;ATHENA Project;IDEAS;;project name
-IDEF;Integrated Definition Methods;IDEF;;method name
-IDEF0;Integrated Definition Method 0;IDEF;;method name
-idMU;industrial Digital Mock-Up;industrial digital mockup;;
-IFC;Industry Foundation Class;industry foundation class;;
-IGQFD;Integrated Green and Quality Function Deployment;integrated green and quality function deployment;;
-ILS;Integrated Logistics Support;Integrated logistics support;;
-IMM;Information Mirror Model ;information mirror model ;;
-IoT;Internet of Things;internet of things;;
-IPC-2571;IPC;IPC-2571;;
-IPPD;integrated product and process development;integrated product and process development;;
-IPR;intellectual property rights;intellectual property rights;;
-IS;Information System;information system;;
-ISO;International Standard Organization;ISO;;organism name
-IT;Information Technology;information technology;;
-ITER;International Thermonuclear Experimental Reactor;ITER;;brand
-J2EE;Java 2 Enterprise Edition;J2EE;;software language name
-JADE;java agent development environment;JADE;;software language name
-JDBC;Java Data Base Connectivity ;JDBC;;software language name
-JSP;Java Server Page;JSP;;software language name
-JT;Jupiter Tesselation;JT;;3D format name
-JXME;Java 2 mobile edition;JAVA;;software language name
-KBE;Knowledge Based Engineering;knowledge based engineering;;
-KBS;Knowledge based system;knowledge based system;;
-KC;Key Characteristic;key characteristic;;
-KF;KF;KF;;Unknown acronym -> publication ID = 1476 
-KM;Knowledge Management;knowledge management;;
-KMS;Knowledge Management System;knowledge management system;;
-KPI;Key performance indicator;key performance indicator;;
-LCA;Life cycle assessment;lifecycle assessment;;
-LCC;Life Cycle Cost;lifecycle cost;;
+DSS;Decision support System;decision support system;
+DTP2;divertor test platform 2;divertor test platform;
+EAF;enterprise architecture framework;enterprise architecture framework;
+EBOM;Engineering Bill Of Material;engineering bill of materials;
+EC;Engineering change;engineering change;
+ECM;engineering change management;engineering change management;
+ECN;engineering collaboration via negotiation ;engineering collaboration via negotiation ;
+ECO;engineering change order;engineering change order;
+EDM;Engineering Data Management ;engineering data management ;
+EDMS;Engineering Data Management System;engineering data management system;
+EDOC;Enterprise Distributed Object Computing;enterprise distributed object computing;
+EIA;environmental impact assessment;environmental impact assessment;
+ELV;End-of-Life Vehicle ;end of life vehicle ;
+EMC;electromagnetic compliance;electromagnetic compliance;
+EOMs;Original Equipment Manufacturers;original equipment manufacturers;
+EPC;"Engineering; Procurement and Construction ";"engineering; procurement and construction ";
+EQFD;Enhanced Quality Function Deployment;enhanced quality function deployment;
+ERP;Enterprise resource planning;enterprise resource planning;
+ES;Expert System;expert eystem;
+ESB;Enterprise Service Bus;enterprise service bus;
+ETO;Engineer-to-order;engineer to order;
+FBD;Feature based design;feature based design;
+FBS;Function-Behaviour-Structure;function behavior structure;
+FDI;foreign direct investment;foreign direct investment;
+FEA;Finite Element Analysis;finite element analysis;
+FFSF;Free-form surface feature;free form surface feature;
+FKN;failure knowledge network;failure knowledge network;
+FM;Facility Management;facility management;
+FMEA;Failure Mode and Effect Analysis;failure mode and effect analysis;
+FRACAS;Failure Reporting Analysis and Corrective Action System ;failure report analysis and corrective action system;
+FRP;Fibre-reinforced polymer ;fibre reinforced polymer;
+fuzzy AD;fuzzy axiomatic design;fuzzy axiomatic design;
+GEN;Global Engineering Networks;global engineering network;
+GHG;greenhouse gases;greenhouse gases;
+GIS;Geographic information systems ;geographic information systems ;
+GPD;Global Product Development;global product development;
+GSCF;global supply chain forum;global supply chain forum;
+HCD;Human centred design;human centred design;
+HDD;hard disk drive;hard disk drive;
+HDM;hierarchical decision modeling;hierarchical decision modeling;
+HLA;High Level Architecture;high level architecture;
+HTML;Hyper Text Markup Language;HTML;software language name
+i-Manufacturing;i-Manufacturing;I-MANUFACTUIRNG;unknown acronym
+IBCA;"initiative; behavior; context; and action";"initiative; behavior; context; and action";
+ICD;interface control documents;interface control document;
+ICT;Information and Communications Technologies;information and communications technology;
+IDDS;integrated design and delivery solution;integrated design and delivery solution;
+IDEAS;ATHENA Project;IDEAS;project name
+IDEF;Integrated Definition Methods;IDEF;method name
+IDEF0;Integrated Definition Method 0;IDEF;method name
+idMU;industrial Digital Mock-Up;industrial digital mockup;
+IFC;Industry Foundation Class;industry foundation class;
+IGQFD;Integrated Green and Quality Function Deployment;integrated green and quality function deployment;
+ILS;Integrated Logistics Support;Integrated logistics support;
+IMM;Information Mirror Model ;information mirror model ;
+IoT;Internet of Things;internet of things;
+IPC-2571;IPC;IPC-2571;
+IPPD;integrated product and process development;integrated product and process development;
+IPR;intellectual property rights;intellectual property rights;
+IS;Information System;information system;
+ISO;International Standard Organization;ISO;organism name
+IT;Information Technology;information technology;
+ITER;International Thermonuclear Experimental Reactor;ITER;brand
+J2EE;Java 2 Enterprise Edition;J2EE;software language name
+JADE;java agent development environment;JADE;software language name
+JDBC;Java Data Base Connectivity ;JDBC;software language name
+JSP;Java Server Page;JSP;software language name
+JT;Jupiter Tesselation;JT;3D format name
+JXME;Java 2 mobile edition;JAVA;software language name
+KBE;Knowledge Based Engineering;knowledge based engineering;
+KBS;Knowledge based system;knowledge based system;
+KC;Key Characteristic;key characteristic;
+KF;KF;KF;Unknown acronym -> publication ID = 1476 
+KM;Knowledge Management;knowledge management;
+KMS;Knowledge Management System;knowledge management system;
+KPI;Key performance indicator;key performance indicator;
+LCA;Life cycle assessment;lifecycle assessment;
+LCC;Life Cycle Cost;lifecycle cost;
 LCD;lifecycle design;lifecycle design;74;
 LCD;liquid crystal display;liquid crystal display;1393;
-LCIA;life cycle impact assessment;lifecycle impact assessment;;
-LCM;life-cycle management ;lifecycle management ;;
-LSA;Logistics Support Analysis;logistics support analysis;;
-LSAR;Logistics Support Analysis Record;logistics support analysis record;;
-LSC;Life Support Cost;life support cost;;
-MAAD;Multilevel Abstraction Based Self Adaptive Definition ;multilevel abstraction based self adaptive definition ;;
-MAS;Multi agent systems;multi agent system;;
-MASON;MAnufacturing's Semantics ONtology;manufacturing's semantics ontology;;
-MBD;Model-based Definition;model based definition;;
-MBSE;Model-based systems engineering ;model based systems engineering ;;
-MDA;model driven architecture;model driven architecture;;
-MDE;model-driven engineering;model driven engineering;;
-MDI;Model Driven Interoperability ;model driven interoperability ;;
-MDO;Multidisciplinary Design Optimization;multidisciplinary design optimization;;
-MDRT;Manufacturing Design Request Tracker;manufacturing design request tracker;;
-MDS;multidimensional scaling;multidimensional scaling;;
-MES;Manufacturing execution system;manufacturing execution system;;
-MFA;Material Flow Analysis;material flow analysis;;
-MIS;?? Management information System;management information system;;
-ML;Machine Learning;machine learning;;
-MNC;multinational corporation;multinational corporation;;
-MOL;Middle of Life;middle of life;;
-MRO;maintenance repair and overhaul;maintenance repair and overhaul;;
-MTO;Make-to-order;make to order;;
-MTS;Make-to-stock;make to stock;;
-NC;nc;nc;;Unkwon acronym -> Publication ID = 1611 Numerical Command?
-NFF;No-fault-found ;no fault found ;;
-NIF;Neutral Interchange File;neutral interchange file;;
-NPD;New Product development;new product development;;
-NPDI;New Product development and Introduction;new product development introduction;;
-NRIE;Northern Region Industrial Estate;nothern region industrial estate;;
-NX;NX;NX;;Unkwon acronym
-OAIS;Open Archival Information System;open archival Information system;;
-OCL;object constraint language;OCL;;software language name
-OEM;Original Equipment Manufacturers;original equipment manufacturer;;
-OGSA;Open Grid Services Architecture;open grid services architecture;;
-OMG;Object Management Group;OMG;;organism name
-OWL;Ontology Web Language;OWL;;software language name
-P2P;Peer to peer;peer to peer;;
-P3R;product, process, plant and resource;product, process, plant and resource;;
-PACE®;Name of package of software R?;pace;;Name of package of software R
-PBL;Performance Based Logistics;performance based logistics;;
-PCA;principal components analysis;principal components analysis;;
-PCB;?? Printed circuit board;printed circuit board;;To be ckecked
-PCMA;PLM Components Maturity Assessment;product lifecycle management maturity assessment;;
-PD;Product development;product development;;
-PDCA;Plan Do Check Act;PDCA;;method name
-PDM;Product Data Management;product data management;;
-PDM/PLM;Product Data Management Product Lifecycle Management;Product data lifecycle management;;
-PDMS;Product Data Management System;product data management system;;
-PDX;Product Data Exchange;product data exchange;;
-PIED;Product embedded information devices;product embedded information device;;
-PIML;Product information markup language;product information markup language;;
-PK;Product knowledge;product knowledge;;
-PLC;product life cycle;product lifecycle;;
-PLCC;Product Lifecycle Cost;productlifecycle cost;;
-PLCS;product lifecycle support;product lifecycle support;;
-PLD;Product Lifecycle Database;product lifecycle database;;
-PLIB;Parts Library Standardisation Initiative;parts library standardisation initiative;;
-PLIM;product lifecycle information model ;product lifecycle information model ;;
-PLM;Product lifecycle Management;Product lifecycle management;;
-PLMS;Product lifecycle management system;product lifecycle management system;;
-PLS;Partial Least Square;partial least square;;
-PMBOK;Project Management Body of Knowledge;PMBOK;;method name
-POC;Proof of Concept;proof of concept;;
-PPO;Product-Process-Organization;product process organization;;
-PPR;product, process and manufacturing resource;product process and manufacturing resource;;
-PSO;Product and System Optimisation;product and system organization;;
-PSS;Product Service system;product service system;;
-PTP;pollution transfer phenomena;pollution transfer phenomena;;
-QC;quality characteristic;quality characteristic;;
-QFD;Quality Function Deployment;quality function deployment;;
-QLM;quantum lifecycle management;quantum lifecycle management;;
-QoS;Quality of Service;quality of service;;
-R&D;Research and development;research and development;;
-RAD;Role Activity Diagram;role active diagram;;
-RC bridge column;reinforced concrete bridge column;reinforced concrete bridge column;;
-RD;reduced dimensioning;reduced dimensioning;;
-RDF;Resource Description Framwork;resource description framework;;
-RE;Reverse Engineering;reverse engineering;;
+LCIA;life cycle impact assessment;lifecycle impact assessment;
+LCM;life-cycle management ;lifecycle management ;
+LSA;Logistics Support Analysis;logistics support analysis;
+LSAR;Logistics Support Analysis Record;logistics support analysis record;
+LSC;Life Support Cost;life support cost;
+MAAD;Multilevel Abstraction Based Self Adaptive Definition ;multilevel abstraction based self adaptive definition ;
+MAS;Multi agent systems;multi agent system;
+MASON;MAnufacturing's Semantics ONtology;manufacturing's semantics ontology;
+MBD;Model-based Definition;model based definition;
+MBSE;Model-based systems engineering ;model based systems engineering ;
+MDA;model driven architecture;model driven architecture;
+MDE;model-driven engineering;model driven engineering;
+MDI;Model Driven Interoperability ;model driven interoperability ;
+MDO;Multidisciplinary Design Optimization;multidisciplinary design optimization;
+MDRT;Manufacturing Design Request Tracker;manufacturing design request tracker;
+MDS;multidimensional scaling;multidimensional scaling;
+MES;Manufacturing execution system;manufacturing execution system;
+MFA;Material Flow Analysis;material flow analysis;
+MIS;?? Management information System;management information system;
+ML;Machine Learning;machine learning;
+MNC;multinational corporation;multinational corporation;
+MOL;Middle of Life;middle of life;
+MRO;maintenance repair and overhaul;maintenance repair and overhaul;
+MTO;Make-to-order;make to order;
+MTS;Make-to-stock;make to stock;
+NC;nc;nc;Unkwon acronym -> Publication ID = 1611 Numerical Command?
+NFF;No-fault-found ;no fault found ;
+NIF;Neutral Interchange File;neutral interchange file;
+NPD;New Product development;new product development;
+NPDI;New Product development and Introduction;new product development introduction;
+NRIE;Northern Region Industrial Estate;nothern region industrial estate;
+NX;NX;NX;Unkwon acronym
+OAIS;Open Archival Information System;open archival Information system;
+OCL;object constraint language;OCL;software language name
+OEM;Original Equipment Manufacturers;original equipment manufacturer;
+OGSA;Open Grid Services Architecture;open grid services architecture;
+OMG;Object Management Group;OMG;organism name
+OWL;Ontology Web Language;OWL;software language name
+P2P;Peer to peer;peer to peer;
+P3R;"product; process; plant and resource";"product; process; plant and resource";
+PACE©;Name of package of software R?;pace;Name of package of software R
+PBL;Performance Based Logistics;performance based logistics;
+PCA;principal components analysis;principal components analysis;
+PCB;?? Printed circuit board;printed circuit board;To be ckecked
+PCMA;PLM Components Maturity Assessment;product lifecycle management maturity assessment;
+PD;Product development;product development;
+PDCA;Plan Do Check Act;PDCA;method name
+PDM;Product Data Management;product data management;
+PDM/PLM;Product Data Management Product Lifecycle Management;Product data lifecycle management;
+PDMS;Product Data Management System;product data management system;
+PDX;Product Data Exchange;product data exchange;
+PIED;Product embedded information devices;product embedded information device;
+PIML;Product information markup language;product information markup language;
+PK;Product knowledge;product knowledge;
+PLC;product life cycle;product lifecycle;
+PLCC;Product Lifecycle Cost;productlifecycle cost;
+PLCS;product lifecycle support;product lifecycle support;
+PLD;Product Lifecycle Database;product lifecycle database;
+PLIB;Parts Library Standardisation Initiative;parts library standardisation initiative;
+PLIM;product lifecycle information model ;product lifecycle information model ;
+PLM;Product lifecycle Management;Product lifecycle management;
+PLMS;Product lifecycle management system;product lifecycle management system;
+PLS;Partial Least Square;partial least square;
+PMBOK;Project Management Body of Knowledge;PMBOK;method name
+POC;Proof of Concept;proof of concept;
+PPO;Product-Process-Organization;product process organization;
+PPR;"product; process and manufacturing resource";product process and manufacturing resource;
+PSO;Product and System Optimisation;product and system organization;
+PSS;Product Service system;product service system;
+PTP;pollution transfer phenomena;pollution transfer phenomena;
+QC;quality characteristic;quality characteristic;
+QFD;Quality Function Deployment;quality function deployment;
+QLM;quantum lifecycle management;quantum lifecycle management;
+QoS;Quality of Service;quality of service;
+R&D;Research and development;research and development;
+RAD;Role Activity Diagram;role active diagram;
+RC bridge column;reinforced concrete bridge column;reinforced concrete bridge column;
+RD;reduced dimensioning;reduced dimensioning;
+RDF;Resource Description Framwork;resource description framework;
+RE;Reverse Engineering;reverse engineering;
 REST;Remanufacturing Energy Software Tool ;remanufacturing energy software tool;*;
-RFID;Radio Frequency Identification;RFID;;
-RFLP;requirement, functional, logical, and physical;requirement, functional, logical, and physical;;
-RFP;Request for Proposal ;request for proposal;;
-RH;remote handling;remote handling;;
-RISESTEP;?? Name of project?;RISESTEP;;project name?
-RLC;Relations, Links, and Constraints;relations, links and constraints;;
-RMS;reconfigurable manufacturing systems;reconfigurable manufacturing system;;
-RMT;reconfigurable machine tools;reconfigurable machine tool;;
-ROHS;Restriction of Hazardous Substances (UK Directive);rohs;;UK directive
-ROI;Return on Invetissment;return on investissment;;
-RP;Rapid prototyping;rapid prototyping;;
-RSP;Risk sharing partner;risk sharing partner;;
-SASIG;SASIG;SASIG;;group name
-SAVE;SAVE;SAVE;;project name
-SBCE;Set based concurrent engineering;set based concurrent engineering;;
-SCEM;Supply Chain Event Management;supply chain event management;;To be checked
+RFID;Radio Frequency Identification;RFID;
+RFLP;"requirement; functional; logical; and physical";"requirement; functional; logical; and physical";
+RFP;Request for Proposal ;request for proposal;
+RH;remote handling;remote handling;
+RISESTEP;?? Name of project?;RISESTEP;project name?
+RLC;"Relations; Links; and Constraints";"relations; links and constraints";
+RMS;reconfigurable manufacturing systems;reconfigurable manufacturing system;
+RMT;reconfigurable machine tools;reconfigurable machine tool;
+ROHS;Restriction of Hazardous Substances (UK Directive);rohs;UK directive
+ROI;Return on Invetissment;return on investissment;
+RP;Rapid prototyping;rapid prototyping;
+RSP;Risk sharing partner;risk sharing partner;
+SASIG;SASIG;SASIG;group name
+SAVE;SAVE;SAVE;project name
+SBCE;Set based concurrent engineering;set based concurrent engineering;
+SCEM;Supply Chain Event Management;supply chain event management;To be checked
 SCM;supply chain management;supply chain management;*;
-SCOR;supply chain operations reference;supply chain operations reference;;
-SDM;simulation data management ;simulation data management ;;
-SE;System engineering;system engineering;;
-SLM;Service Lifecycle management;service lifecycle management;;
-SLS;Selective Laser Sintering ;selective laser sintering ;;
-SME;Small and medium enterprise;small and medium sized enterprise;;
-SOA;Service Oriented Architecture;service oriented architecture;;
+SCOR;supply chain operations reference;supply chain operations reference;
+SDM;simulation data management ;simulation data management ;
+SE;System engineering;system engineering;
+SLM;Service Lifecycle management;service lifecycle management;
+SLS;Selective Laser Sintering ;selective laser sintering ;
+SME;Small and medium enterprise;small and medium sized enterprise;
+SOA;Service Oriented Architecture;service oriented architecture;
 SOM;Semantic Object Model;semantic object model;*;
-SoSE;system-of-systems engineerin;system-of-systems engineerin;;
-SPARQL;Software language;SPARQL;;
-SQFD;Software Quality Function Deployment ;software quality function deployment ;;
-SRM;Supplier relationship Management;supplier relationship management;;
-SSCM;sustainable SCM;sustainable supply chain managmeent;;
-STEP;STandard for the eXchange of Product data model ;STEP;;Standard name
-SVM;support vector machine;support vector machine;;
-SVR;Support vector regression;support vector regression;;
-SWRL;Semantic Web Rule Language;SWRL;;
-TAM;Technology acceptance model;technology acceptance model;;
-TBL;triple bottom-line;triple bottom line;;
-TCBO;Total costs and benefits of ownership;total costs and benefits of ownership;;
-TIFOS;TechnoWare, InforWare, FunctionWare, OrgaWare, and SustainWare;technoware inforware functionware orgaware and sustainware;;
-TLC;through-life costing;through life costing;;
-TM;Technology Management;technology management;;
-TOUM;Total object unified Model;total object unified model;;
-TRENIN;TRENIN;TRENIN;;Name
-TRIZ;Teoriya Resheniya Izobreatatelskikh Zadatch;TRIZ;;
-TRL;Technology Readiness Level;technology readiness level;;
-ULM;Usage lifecycle management;usage lifecycle management;;
-UML;Unified Modeling language ;unified modeling language ;;
-V&V;Verfication & Validation;verfication and validation;;
-VCOR;Value Chain Operations Reference ;value chain operations reference ;;
-VCR;virtual collaboration room;virtual collaboration room;;
-VJ++;Software Language;VJ++;;
-VM;virtual machine;virtual machine;;
-VP;Virtual prototype;virtual prototype;;
-VRM;Vehicle Relationship Management ;vehicle relationship management ;;
-VRML;Virtual Reality Modeling Language;VRML;;Software language name
-WEEE;waste of electrical and electronic equipment ;waste of electrical and electronic equipment ;;
-WPLM;Wireless product lifecycle management;wireless product lifecycle management;;
-XMI;XML Metadata Interchange (Software language);XMI;;Software language name
-XML;Extensible markup language (Software language);XML;;Software language name
-XSLT;Extensible stylesheet language transformations (software language);XSLT;;Software language name
-ZDD;Zero-Suppressed Binary Decision Diagrams ;zero suppressed binary decision diagram;;
+SoSE;system-of-systems engineerin;system-of-systems engineerin;
+SPARQL;Software language;SPARQL;
+SQFD;Software Quality Function Deployment ;software quality function deployment ;
+SRM;Supplier relationship Management;supplier relationship management;
+SSCM;sustainable SCM;sustainable supply chain managmeent;
+STEP;STandard for the eXchange of Product data model ;STEP;Standard name
+SVM;support vector machine;support vector machine;
+SVR;Support vector regression;support vector regression;
+SWRL;Semantic Web Rule Language;SWRL;
+TAM;Technology acceptance model;technology acceptance model;
+TBL;triple bottom-line;triple bottom line;
+TCBO;Total costs and benefits of ownership;total costs and benefits of ownership;
+TIFOS;"TechnoWare; InforWare; FunctionWare; OrgaWare; and SustainWare";technoware inforware functionware orgaware and sustainware;
+TLC;through-life costing;through life costing;
+TM;Technology Management;technology management;
+TOUM;Total object unified Model;total object unified model;
+TRENIN;TRENIN;TRENIN;Name
+TRIZ;Teoriya Resheniya Izobreatatelskikh Zadatch;TRIZ;
+TRL;Technology Readiness Level;technology readiness level;
+ULM;Usage lifecycle management;usage lifecycle management;
+UML;Unified Modeling language ;unified modeling language ;
+V&V;Verfication & Validation;verfication and validation;
+VCOR;Value Chain Operations Reference ;value chain operations reference ;
+VCR;virtual collaboration room;virtual collaboration room;
+VJ++;Software Language;VJ++;
+VM;virtual machine;virtual machine;
+VP;Virtual prototype;virtual prototype;
+VRM;Vehicle Relationship Management ;vehicle relationship management ;
+VRML;Virtual Reality Modeling Language;VRML;Software language name
+WEEE;waste of electrical and electronic equipment ;waste of electrical and electronic equipment ;
+WPLM;Wireless product lifecycle management;wireless product lifecycle management;
+XMI;XML Metadata Interchange (Software language);XMI;Software language name
+XML;Extensible markup language (Software language);XML;Software language name
+XSLT;Extensible stylesheet language transformations (software language);XSLT;Software language name
+ZDD;Zero-Suppressed Binary Decision Diagrams ;zero suppressed binary decision diagram;
