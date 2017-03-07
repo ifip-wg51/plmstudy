@@ -1,31 +1,18 @@
-; ; ; ; ;
-Function–Behaviour–Structure
 standard for the exchange of product model data;
-; ; ; ; ; ; ; ; ;
 manufacturing data structures;
+LCD
+SCM
 maintenance, repair overhaul
 life cycle assessment;
 Scenario’s
-Engineering action’s management system
-User’s preference
+REST
 Supplier’s integration
-Façade
-Eco-Indicator’99
-SSME (Service Science, Management and Engineering)
-Protégé
-Service-oriented Architecture
+DSM
+API
 ENOVIA V6, CATIA V6
-Tangible user interfaces
 country_Estonia
-CL2M®
-stigmergy
-Maintenance, repair and overhaul
-design and manufacturing representation of the hardware’s structure
 MIMOSA.
 Colloboration
-Maintenance, repair and overhaul (MRO)
-P3R (product, process, plant and resource) data-driven modeling & simulation
 Process Planning/Equipment Selection
 COUNTRY-GERMANY
 Human Factors, Motivation
-logical,

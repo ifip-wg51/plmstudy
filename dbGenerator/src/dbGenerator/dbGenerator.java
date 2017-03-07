@@ -251,13 +251,13 @@ public class dbGenerator {
 			stmtCreate.execute(dropExperimentTags);
 			stmtCreate.execute(dropExperimentLinks);
 			stmtCreate.execute(dropPublications);
-			//stmtCreate.execute(dropTags);
-			//stmtCreate.execute(dropCountries);
+			stmtCreate.execute(dropTags);
+			stmtCreate.execute(dropCountries);
 			stmtCreate.execute(dropExperiments);
 			
-			//stmtCreate.execute(createCountries);
+			stmtCreate.execute(createCountries);
 			stmtCreate.execute(createPublications);
-			//stmtCreate.execute(createTags);
+			stmtCreate.execute(createTags);
 			stmtCreate.execute(createExperiments);
 			stmtCreate.execute(createPublicationTags);
 			stmtCreate.execute(createExperimentTags);

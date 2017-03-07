@@ -38,14 +38,17 @@ public class NormalizationMap {
 		    while ((line = csvFile.readLine()) != null) {
 
 		    	fields = line.split(";");
-		    	orgID = fields[0];
-		    	orgName = fields[1];
-		    	normName = fields[3];
+		    	if (fields.length != 2) {
+		    		System.out.println("Error in normalization file: " + line);
+		    	}
+		    	orgID = "0"; //fields[0];
+		    	orgName = fields[0];
+		    	normName = fields[1];
 		    	sourceElements.put(orgID, orgName);
 		    	
 		    	// Treat special Case **** here
 		    	if (normName.equals("****")) {
-		    		el = new NormElement(i++, fields[3], true);
+		    		el = new NormElement(i++, normName, true);
 		    		el.sourceKeys.add(Integer.parseInt(orgID));
 		    		el.sourceTagNames.add(orgName);
 					// find correct translation in list of acronyms																			
