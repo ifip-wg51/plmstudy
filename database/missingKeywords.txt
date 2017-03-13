@@ -1,18 +1,12 @@
-standard for the exchange of product model data;
-manufacturing data structures;
+SVMs
 LCD
 SCM
 maintenance, repair overhaul
-life cycle assessment;
 Scenario’s
 REST
 Supplier’s integration
 DSM
 API
-ENOVIA V6, CATIA V6
+PLM-Methodology
 country_Estonia
-MIMOSA.
 Colloboration
-Process Planning/Equipment Selection
-COUNTRY-GERMANY
-Human Factors, Motivation
