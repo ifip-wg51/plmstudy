@@ -65,7 +65,7 @@ public class NormalizationMap {
 						}
 					}
 					
-					normElements.put(el.key + ":" + orgID, el);
+					normElements.put(el.key + ":" + orgName, el);
 				} else {
 			    	el = normElements.get(normName);
 			    	if (el != null) {
@@ -98,33 +98,7 @@ public class NormalizationMap {
 	
 	public NormElement getNormElement(String origKey) {
 		for (NormElement el : normElements.values()) {
-			/*String test = "---";
-	    	if (el.sourceTagNames.toString().contains(test) && origKey.contains(test)) {
-	    		System.out.println("Found specail");
-	    		System.out.println("From Table:" + el.sourceTagNames.get(0));
-	    		System.out.println("Orig: "+ origKey);
-	    		
-	    		//System.out.println(el.sourceTagNames.contains(origKey.trim()));
-	    		//System.out.println(el.sourceTagNames.get(0).equals(origKey));   
-	    		
-	    		char[] first  = origKey.toLowerCase().toCharArray();
-	    		char[] second = el.sourceTagNames.get(0).toLowerCase().toCharArray();
-
-	    		int minLength = Math.min(first.length, second.length);
-
-	    		for(int i = 0; i < minLength; i++)
-	    		{
-	    		        if (first[i] != second[i])
-	    		        {
-	    		        	System.out.println("Not Equal: " + first[i] + " " + second[i]);
-	    		        } else {
-	    		        	System.out.println(first[i]);
-	    		        }
-	    		        	
-	    		}
-	    		System.out.println("===");
-	    	}*/
-	    	//if (el.sourceTagNames.contains(origKey))
+			
 			if (el.sourceTagNames.contains((CharSequence)origKey)) {
 				return el;
 			}

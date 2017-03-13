@@ -2,22 +2,23 @@ package dbGenerator;
 import java.io.*;
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+
 
 //import org.apache.commons.lang3.StringEscapeUtils;
 
 // A small comment from Christian
 public class dbGenerator {
-	static String rootDir = "/Users/nyfelix/dev/plmstudy";
-	static String source = rootDir + "/database/zotero.sqlite";
-	static String target = rootDir + "/database/analysis.sqlite";
-	static String normKeywordFile = rootDir + "/database/normalized.csv";
-	static String acronymsFile = rootDir + "/database/acronyms.csv";
-	static String sourcesFile = rootDir + "/database/sources.csv";
-	static String missingKeywordsFile = rootDir + "/database/missingKeywords.txt";
-	static String missingSourcesFile = rootDir + "/database/missingSources.txt";
+	static String dbPrefix = "PLM";
+	//static String dbPrefix = "I40";
+	
+	static String rootDir = "/Users/nyfelix/dev/plmstudy/database/";
+	static String source = rootDir + dbPrefix + "_zotero.sqlite";
+	static String target = rootDir + dbPrefix + "_analysis.sqlite";
+	static String normKeywordFile = rootDir + dbPrefix + "_normalized.csv";
+	static String acronymsFile = rootDir + dbPrefix + "_acronyms.csv";
+	static String sourcesFile = rootDir + dbPrefix + "_sources.csv";
+	static String missingKeywordsFile = rootDir + dbPrefix + "_missingKeywords.txt";
+	static String missingSourcesFile = rootDir + dbPrefix + "_missingSources.txt";
 	static int currentIDKeywords = 50000;
 	
 	public static void main(String[] args) {
@@ -33,6 +34,18 @@ public class dbGenerator {
 		    // Clear Target (for debug)
 		    createTargetDatabase(cTarget);
 		    
+		    // Read Blacklist (TODO: Read from file)
+		    ArrayList<Integer> blacklist = new ArrayList<Integer>();
+		    if (dbPrefix == "PLM") {
+		    	blacklist.add(1129);
+		    	blacklist.add(3065);
+		    	blacklist.add(1113);
+		    	blacklist.add(1215);
+		    	blacklist.add(1299);
+		    	blacklist.add(812);
+		    	blacklist.add(980);
+		    }
+		    
 		    // Read AcronymsTable
 		    AcronymsMap acronyms = new AcronymsMap();
 		    acronyms.readFromFile(acronymsFile);
@@ -46,7 +59,7 @@ public class dbGenerator {
 		    sources.readFromFile(sourcesFile);
 		    
 		    // Write Normalized Tags into Target
-		    //writeNormalizedKeywords(cTarget, normKeywords, acronyms);
+		    writeNormalizedKeywords(cTarget, normKeywords, acronyms);
 		    
 		    // Collect Logdata
 		    ArrayList<String> missingKeywords = new ArrayList<String>();
@@ -74,8 +87,14 @@ public class dbGenerator {
 			while (rs.next()) {
 				//Collect values for publication
 				itemID = rs.getInt(1);
-				//System.out.println(itemID);
+
 				if (prevID != itemID) {
+					//Check for Blacklist
+					if (blacklist.contains(itemID)) {
+						System.out.println("Blacklist publication ignored: " + itemID);
+						prevID = itemID;
+						continue;
+					}
 					// Make sure all Publications contain an Abstract
 					if (prevID != 0 && attributes.contains("pubAbstract")) {
 						// Write Publication into targetDB
@@ -91,17 +110,13 @@ public class dbGenerator {
 						while (rsTags.next()) {							
 							Integer origTagID = rsTags.getInt(1);
 							String origName = rsTags.getString(2);
-							if (origName.startsWith("COUNTRY_")) {								
+							if (origName.startsWith("COUNTRY_") || origName.startsWith("country_Estonia")) {								
 								ResultSet rsCounty = stmtCountry.executeQuery("SELECT couID FROM countries WHERE couZoteroName LIKE '" + origName +"';" );
 								if (rsCounty.next()) {
 									countryID = rsCounty.getInt(1);
 								}
 								rsCounty.close();
 							} else {							
-								//NormElement normTag = normKeywords.getNormElement(origTagID);
-						    	/*if (origName.contains("Ill-defined")) {
-						    		System.out.println("Found special");
-						    	}*/
 								NormElement normTag = normKeywords.getNormElement(origName);
 								
 								if (normTag != null) {
@@ -109,7 +124,7 @@ public class dbGenerator {
 									if (normTag.isGeneric()) {
 										// find correct translation in list of acronyms
 										normTag = normTag.getElementRefernce(String.valueOf(prevID));
-										System.out.println("# " + origName + " translated to " + normTag.key + " ID: " + normTag.id);
+										//System.out.println("# " + origName + " translated to " + normTag.key + " ID: " + normTag.id);
 									}
 									
 									String sqlItemTags = "INSERT OR REPLACE INTO publicationTags (pubID, tagID) VALUES (" + prevID + "," + normTag.id + ");";	
@@ -212,8 +227,11 @@ public class dbGenerator {
 			Statement stmtCreateTag = cTarget.createStatement();
 			for (NormElement keyword : normKeywords.values()) {
 				if (!keyword.isGeneric()) {
-					String sqlInsert = "INSERT OR REPLACE INTO tags (tagID, tagName, tagShortName, tagType) VALUES (" + keyword.id + ",'" + keyword.key + "', '" + "NO SHORT NAME" + "', 1);";
 					i++;
+					if (i == 337) {
+						//System.out.println("Break");
+					}
+					String sqlInsert = "INSERT OR REPLACE INTO tags (tagID, tagName, tagShortName, tagType) VALUES (" + keyword.id + ",'" + keyword.key + "', '" + "NO SHORT NAME" + "', 1);";
 					stmtCreateTag.addBatch(sqlInsert);
 				}
 			}

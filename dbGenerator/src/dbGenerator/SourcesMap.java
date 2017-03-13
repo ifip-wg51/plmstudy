@@ -21,7 +21,7 @@ public HashMap<String, String> sources;
 		    while ((line = csvFile.readLine()) != null) {
 		    	String[] fields = line.split(";");
 		    	String key = fields[0];
-		    	sources.put(key, fields[1]);
+		    	sources.put(key, fields[2]);
 	    		i++;
 		    } 
 		    csvFile.close();
