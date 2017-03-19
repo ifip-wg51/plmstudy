@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 // A small comment from Christian
 public class dbGenerator {
-	static String dbPrefix = "PLM";
-	//static String dbPrefix = "I40";
+	// String dbPrefix = "PLM";
+	static String dbPrefix = "I40";
 	
 	static String rootDir = "/Users/nyfelix/dev/plmstudy/database/";
 	static String source = rootDir + dbPrefix + "_zotero.sqlite";
@@ -195,7 +195,7 @@ public class dbGenerator {
 				
 			}
 			rs.close();
-			//stmtCreatePublicaiton.executeBatch();
+			stmtCreatePublicaiton.executeBatch();
 			stmtCreatePublicaiton.close();
 			stmtPublications.close();
 			stmtCountry.close();
@@ -228,14 +228,10 @@ public class dbGenerator {
 			for (NormElement keyword : normKeywords.values()) {
 				if (!keyword.isGeneric()) {
 					i++;
-					if (i == 337) {
-						//System.out.println("Break");
-					}
-					String sqlInsert = "INSERT OR REPLACE INTO tags (tagID, tagName, tagShortName, tagType) VALUES (" + keyword.id + ",'" + keyword.key + "', '" + "NO SHORT NAME" + "', 1);";
+					String sqlInsert = "INSERT OR REPLACE INTO tags (tagID, tagName, tagShortName, tagType) VALUES (" + keyword.id + ",\"" + keyword.key + "\", '" + "NO SHORT NAME" + "', 1);";
 					stmtCreateTag.addBatch(sqlInsert);
 				}
 			}
-			
 			stmtCreateTag.executeBatch();
 			stmtCreateTag.close();
 			System.out.println("# Inserted Keywords");
