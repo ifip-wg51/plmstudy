@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 // A small comment from Christian
 public class dbGenerator {
-	// String dbPrefix = "PLM";
-	static String dbPrefix = "I40";
+	static String dbPrefix = "PLM";
+	//static String dbPrefix = "I40";
 	
 	static String rootDir = "/Users/nyfelix/dev/plmstudy/database/";
 	static String source = rootDir + dbPrefix + "_zotero.sqlite";
