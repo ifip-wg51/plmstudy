@@ -30,4 +30,10 @@ This project is divided into 4 sub projects:
 
 ## Installation of the web project
 
+Notes:
+
+start / restart the webserveron yoda2: sudo restart plmstudy
+
 ## Process to create and enhance the database
+
+
