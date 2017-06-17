@@ -1,4 +1,5 @@
 // Inspired by https://github.com/tlrobinson/long-stack-traces
+var EventEmitter = require('events').EventEmitter;
 var util = require('util');
 
 function extendTrace(object, property, pos) {

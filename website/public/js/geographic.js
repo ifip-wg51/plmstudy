@@ -68,7 +68,7 @@ var APP = function() {
 
     // method that we will use to update the control based on feature properties passed
     info.update = function (props) {
-        this._div.innerHTML = '<h4>Country Details</h4>' +  (props ?
+        this._div.innerHTML = '<h4>Counry Details</h4>' +  (props ?
             '<b>' + props.name + '</b><br/>' + props.count + ' Publications</br><div id="infodetails"></div>'
             : 'Hover over a country');
         if (props) {

@@ -10,7 +10,7 @@ Asynchronous, non-blocking [SQLite3](http://sqlite.org/) bindings for [Node.js](
 
 ## Supported platforms
 
-The `sqlite3` module works with Node.js v0.10.x, v0.12.x, v4.x, and v5.x.
+The `sqlite3` module works with Node.js v0.10.x, v0.12.x, v0.4.x, and v0.5.x.
 
 Binaries for most Node versions and platforms are provided by default via [node-pre-gyp](https://github.com/mapbox/node-pre-gyp).
 
@@ -52,7 +52,6 @@ db.close();
  - [Extension support](https://github.com/mapbox/node-sqlite3/wiki/Extensions)
  - Big test suite
  - Written in modern C++ and tested for memory leaks
- - Bundles Sqlite3 3.9.1 as a fallback if the installing system doesn't include SQLite
 
 
 # API
@@ -68,7 +67,8 @@ You can use [`npm`](https://github.com/isaacs/npm) to download and install:
 
 * GitHub's `master` branch: `npm install https://github.com/mapbox/node-sqlite3/tarball/master`
 
-The module uses [node-pre-gyp](https://github.com/mapbox/node-pre-gyp) to download a pre-compiled binary for your platform, if it exists. Otherwise, it uses `node-gyp` to build the extension.
+In both cases the module is automatically built with npm's internal version of `node-gyp`,
+and thus your system must meet [node-gyp's requirements](https://github.com/TooTallNate/node-gyp#installation).
 
 It is also possible to make your own build of `sqlite3` from its source instead of its npm package ([see below](#building-from-the-source)).
 
@@ -76,21 +76,32 @@ It is possible to use the installed package in [node-webkit](https://github.co
 
 ## Source install
 
-To skip searching for pre-compiled binaries, and force a build from source, use
+Unless building via `npm install` (which uses its own `node-gyp`) you will need `node-gyp` installed globally:
 
-    npm install --build-from-source
+    npm install node-gyp -g
 
 The sqlite3 module depends only on libsqlite3. However, by default, an internal/bundled copy of sqlite will be built and statically linked, so an externally installed sqlite3 is not required.
 
-If you wish to install against an external sqlite then you need to pass the `--sqlite` argument to `npm` wrapper:
+If you wish to install against an external sqlite then you need to pass the `--sqlite` argument to `node-gyp`, `npm install` or the `configure` wrapper.
 
-    npm install --build-from-source --sqlite=/usr/local
+    ./configure --sqlite=/usr/local
+    make
+
+Or, using the node-gyp directly:
+
+     node-gyp --sqlite=/usr/local
+     make
+
+Or, using npm:
+
+     npm install --sqlite=/usr/local
 
 If building against an external sqlite3 make sure to have the development headers available. Mac OS X ships with these by default. If you don't have them installed, install the `-dev` package with your package manager, e.g. `apt-get install libsqlite3-dev` for Debian/Ubuntu. Make sure that you have at least `libsqlite3` >= 3.6.
 
 Note, if building against homebrew-installed sqlite on OS X you can do:
 
-    npm install --build-from-source --sqlite=/usr/local/opt/sqlite/
+    ./configure --sqlite=/usr/local/opt/sqlite/
+    make
 
 ## Building for node-webkit
 

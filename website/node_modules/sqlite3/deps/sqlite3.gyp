@@ -80,8 +80,6 @@
         'defines': [
           'SQLITE_THREADSAFE=1',
           'SQLITE_ENABLE_FTS3',
-          'SQLITE_ENABLE_FTS4',
-          'SQLITE_ENABLE_FTS5',
           'SQLITE_ENABLE_JSON1',
           'SQLITE_ENABLE_RTREE'
         ],
@@ -94,8 +92,6 @@
         '_REENTRANT=1',
         'SQLITE_THREADSAFE=1',
         'SQLITE_ENABLE_FTS3',
-        'SQLITE_ENABLE_FTS4',
-        'SQLITE_ENABLE_FTS5',
         'SQLITE_ENABLE_JSON1',
         'SQLITE_ENABLE_RTREE'
       ],
