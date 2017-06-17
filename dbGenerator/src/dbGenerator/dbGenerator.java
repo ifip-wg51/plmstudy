@@ -114,6 +114,8 @@ public class dbGenerator {
 								ResultSet rsCounty = stmtCountry.executeQuery("SELECT couID FROM countries WHERE couZoteroName LIKE '" + origName +"';" );
 								if (rsCounty.next()) {
 									countryID = rsCounty.getInt(1);
+								} else {
+									System.out.println("Country not Found: " + origName);
 								}
 								rsCounty.close();
 							} else {							
@@ -266,10 +268,10 @@ public class dbGenerator {
 			stmtCreate.execute(dropExperimentLinks);
 			stmtCreate.execute(dropPublications);
 			stmtCreate.execute(dropTags);
-			stmtCreate.execute(dropCountries);
+			//stmtCreate.execute(dropCountries);
 			stmtCreate.execute(dropExperiments);
 			
-			stmtCreate.execute(createCountries);
+			//stmtCreate.execute(createCountries);
 			stmtCreate.execute(createPublications);
 			stmtCreate.execute(createTags);
 			stmtCreate.execute(createExperiments);
