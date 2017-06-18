@@ -15,3 +15,10 @@ SELECT DISTINCT tagID as id, name as label, COUNT(name) as size FROM tags NATURA
 
 // Edges (currentl used)
 SELECT DISTINCT source.tagID as source, target.tagID as target FROM itemTags source INNER JOIN itemTags target ON source.itemID = target.itemID;
+
+
+//Nodes 2017 DB
+SELECT DISTINCT tagID as id, tagName as label, COUNT(tagName) as cnt, STUFF(pubYear) as fyear  FROM tags NATURAL JOIN publicationTags NATURAL JOIN publications GROUP BY tagName HAVING cnt>2 ORDER BY tagName 
+
+//Edges 2017 DB
+SELECT source.tagID as source, target.tagID as target, COUNT(*) as weight  FROM publicationTags source INNER JOIN  publicationTags target ON source.pubID = target.pubID  WHERE source > target GROUP BY source, target;

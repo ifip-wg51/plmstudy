@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/nyfelix/dev/plmstudy/database/PLM_analysis.sqlite"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="2217"/><expanded_item id="0" parent="-1"/><expanded_item id="1" parent="-1"/><expanded_item id="2" parent="-1"/><expanded_item id="3" parent="-1"/></tab_structure><tab_browse><current_table name=""/><default_encoding codec=""/><browsetable_info data="AAAAAA=="/></tab_browse><tab_sql><sql name="SQL 1">SELECT  tagID as id, tagName as label, COUNT(tagName) as cnt, STUFF(
+         (SELECT DISTINCT ',' + pubYear
+          FROM publications
+          WHERE [User] = a.[User] 
+          FOR XML PATH (''))
+          , 1, 1, '') 
+ as fyear  FROM tags NATURAL JOIN publicationTags NATURAL JOIN publications GROUP BY tagName HAVING cnt&gt;2 ORDER BY tagName 
+</sql><current_tab id="0"/></tab_sql></sqlb_project>

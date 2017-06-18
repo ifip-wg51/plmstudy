@@ -27,7 +27,7 @@ var pathGEXF = '/data/plmgraph.gexf';
    and all normalization files. 
    @TODO: Replace this by an array, so multpile databases can be accessed
 */
-var pathAnalysisDB = '/../database/analysis.sqlite';
+var pathAnalysisDB = '/../database/PLM_analysis.sqlite';
 /* GeoJSON Data for Countries 
    Data borrowed from: https://github.com/johan/world.geo.json*/
 var pathGeoJSON = '/maps/countries.geo.json';
