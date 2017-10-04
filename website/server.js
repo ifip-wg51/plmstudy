@@ -304,7 +304,7 @@ app.get('/data/get/geojson/countries', function (req, res) {
   Get basic Information about our database
 */
 app.get('/data/get/basicdata', function (req, res) {
-  var db = new sqlite3.Database(__dirname + '/../database/analysis.sqlite');
+  var db = new sqlite3.Database(__dirname + pathAnalysisDB);
   // Evaulate request for optional year data
   var minYear = defaultMinYear;
   var maxYear = defaultMaxYear;
