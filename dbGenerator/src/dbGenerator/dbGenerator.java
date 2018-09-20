@@ -8,8 +8,11 @@ import java.util.ArrayList;
 
 // A small comment from Christian
 public class dbGenerator {
-	static String dbPrefix = "PLM";
+	//static String dbPrefix = "BIM";
 	//static String dbPrefix = "I40";
+	static String dbPrefix = "PLM";
+	static int minYear = 2005;
+	static int maxYear = 2015;
 	
 	static String rootDir = "/Users/nyfelix/dev/plmstudy/database/";
 	static String source = rootDir + dbPrefix + "_zotero.sqlite";
@@ -71,10 +74,18 @@ public class dbGenerator {
 		    Statement stmtCountry = cTarget.createStatement();
 
 		    // Only Papers with itemTypeID = 4 OR itemTypeID = 33
+		    /*
 		    ResultSet rs = stmtPublications.executeQuery( "SELECT itemID, fieldName, value " +
 		    "FROM items NATURAL JOIN itemTypes NATURAL JOIN itemData NATURAL JOIN fields NATURAL JOIN itemDataValues " +
 		    "WHERE libraryID isNull AND (itemTypeID = 4 OR itemTypeID = 33) AND fieldName IN ('title', 'date', 'abstractNote', 'publicationTitle', " +
-		    "'conferenceName') ORDER BY itemID;" );
+		    "'conferenceName') ORDER BY itemID;" );*/
+		    
+		    // Final query for PLM
+		    //ResultSet rs = stmtPublications.executeQuery( "SELECT itemID, fieldName, value FROM items NATURAL JOIN itemTypes NATURAL JOIN itemData NATURAL JOIN fields NATURAL JOIN itemDataValues NATURAL JOIN collectionItems WHERE collectionID = 12 AND fieldName IN ('title', 'date', 'abstractNote', 'publicationTitle', 'conferenceName') ORDER BY itemID" );
+		    
+		    // Final query for I40
+		    ResultSet rs = stmtPublications.executeQuery( "SELECT itemID, fieldName, value FROM items NATURAL JOIN itemTypes NATURAL JOIN itemData NATURAL JOIN fields NATURAL JOIN itemDataValues NATURAL JOIN collectionItems WHERE fieldName IN ('title', 'date', 'abstractNote', 'publicationTitle', 'conferenceName') ORDER BY itemID" );
+				    
 		    
 			int rowcount = 0;
 			int tagRelCount = 0;
@@ -82,7 +93,8 @@ public class dbGenerator {
 			int itemID = 0;
 			String attributes = "";
 			String values = "";
-			
+			boolean timeFilter = false;
+			boolean pubTypeFilter = true;
 			
 			while (rs.next()) {
 				//Collect values for publication
@@ -95,8 +107,8 @@ public class dbGenerator {
 						prevID = itemID;
 						continue;
 					}
-					// Make sure all Publications contain an Abstract
-					if (prevID != 0 && attributes.contains("pubAbstract")) {
+					// Make sure all Publications contain an Abstract and pubYear is in the defined Scope
+					if (prevID != 0 && attributes.contains("pubAbstract") && timeFilter == false && pubTypeFilter == false) {
 						// Write Publication into targetDB
 						String sqlInsert = "INSERT OR REPLACE INTO publications (pubID, " + attributes + ") VALUES (" + prevID + "," + values + ");";						
 						//System.out.println(sqlInsert);
@@ -147,10 +159,19 @@ public class dbGenerator {
 						stmtCreatePublicaiton.addBatch(sqlUpdatePublication);							
 						rowcount++;
 					} else {
-						System.out.println("No Abstract for publication: " + itemID );
+						System.out.print("Qualitycheck failed - ");
+						if (!attributes.contains("pubAbstract")) {
+							System.out.println("No Abstract for publication: " + itemID );
+						} else if (timeFilter == true){
+							System.out.println("Not in time scope:" + itemID );
+						} else if (pubTypeFilter == true){
+							System.out.println("Publication type not allowed: " + itemID );
+						}
 					}
 					attributes = "";
 					values = "";
+					timeFilter = false;
+					pubTypeFilter = true;
 				} else {
 					attributes += ", ";
 					values += ", ";
@@ -158,11 +179,15 @@ public class dbGenerator {
 				String attribute = rs.getString(2);
 				String val = rs.getString(3);
 				String defaultVal = "'" + val.replace("'", "''") + "'";
-				
 				switch  (attribute) {
 					case "date" :
+						int year =  Integer.parseInt(val.substring(0, 4));
 						values += val.substring(0, 4);
 						attributes += "pubYear";
+						if (year > maxYear || year < minYear) {
+							timeFilter = true;
+							System.out.print(year  + " : ");
+						}
 						break;
 					case "abstractNote":
 						values += defaultVal;
@@ -175,6 +200,7 @@ public class dbGenerator {
 					case "publicationTitle":
 						values += "'journalArticle', " + defaultVal;
 						attributes += "pubType, pubSource";
+						pubTypeFilter = false;
 						break;
 					case "conferenceName":
 						// Check of Source exits, if not write to logfile
@@ -182,6 +208,7 @@ public class dbGenerator {
 						if (sources.containsKey(val)) {
 							values += "'conferencePaper', '" + sources.get(val) + "'";
 							attributes += "pubType, pubSource";
+							pubTypeFilter = false;
 						} else {
 							// Wirte to Logfile
 							if (!missingSources.contains(val)) {
@@ -230,6 +257,9 @@ public class dbGenerator {
 			for (NormElement keyword : normKeywords.values()) {
 				if (!keyword.isGeneric()) {
 					i++;
+					if (i==61) {
+						int h = 1;
+					}
 					String sqlInsert = "INSERT OR REPLACE INTO tags (tagID, tagName, tagShortName, tagType) VALUES (" + keyword.id + ",\"" + keyword.key + "\", '" + "NO SHORT NAME" + "', 1);";
 					stmtCreateTag.addBatch(sqlInsert);
 				}
@@ -252,10 +282,10 @@ public class dbGenerator {
 			String dropExperimentLinks  = "DROP TABLE IF EXISTS experimentLinks;";
 			String dropPublications= "DROP TABLE IF EXISTS publications;";
 			String dropTags = "DROP TABLE IF EXISTS tags;";
-			String dropCountries = "DROP TABLE IF EXISTS countries;";
+			//String dropCountries = "DROP TABLE IF EXISTS countries;";
 			String dropExperiments = "DROP TABLE IF EXISTS experiments;";
 			
-			String createCountries = "CREATE TABLE countries (couID INTEGER NOT NULL, couName TEXT, couZoteroName TEXT, couLongitude REAL, couLatitude REAL, PRIMARY KEY(couID))";
+			//String createCountries = "CREATE TABLE countries (couID INTEGER NOT NULL, couName TEXT, couZoteroName TEXT, couLongitude REAL, couLatitude REAL, PRIMARY KEY(couID))";
 			String createPublications = "CREATE TABLE publications (pubID INTEGER, pubTitle TEXT, pubYear INTEGER, pubType TEXT, pubSource TEXT, pubOrigin TEXT, pubAbstract TEXT, couID INTEGER, PRIMARY KEY(pubID), FOREIGN KEY (couID) REFERENCES countries(couID));";
 			String createTags = "CREATE TABLE tags (tagID INTEGER, tagName TEXT NOT NULL, tagShortName TEXT, tagType INT NOT NULL, PRIMARY KEY(tagID));";
 			String createExperiments = "CREATE TABLE experiments (expID INTEGER NOT NULL, expName TEXT, expType INTEGER, expObjectives TEXT, PRIMARY KEY(expID))";

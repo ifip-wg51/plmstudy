@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList/>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_nhLhwqW1EeaN0YO3Qnuf0g" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_oNz-QqW1EeaN0YO3Qnuf0g" label="%trimmedwindow.label.eclipseSDK" x="4" y="28" width="1363" height="1193">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_nhLhwqW1EeaN0YO3Qnuf0g" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_oNz-QqW1EeaN0YO3Qnuf0g" label="%trimmedwindow.label.eclipseSDK" x="4" y="23" width="1363" height="965">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -429,7 +429,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oQKHoKW1EeaN0YO3Qnuf0g" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Tr7tcFM_EeePN7RZKuCi_A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_niUxbKW1EeaN0YO3Qnuf0g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_7DIZAKkwEeeUXO1seM3Yyg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_niUxbKW1EeaN0YO3Qnuf0g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oQKusKW1EeaN0YO3Qnuf0g" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -453,7 +453,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oQLVwKW1EeaN0YO3Qnuf0g" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Tr-JsVM_EeePN7RZKuCi_A" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_niRuE6W1EeaN0YO3Qnuf0g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_7DN4kKkwEeeUXO1seM3Yyg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_niRuE6W1EeaN0YO3Qnuf0g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oQLVwaW1EeaN0YO3Qnuf0g" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -855,7 +855,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_njl8lqW1EeaN0YO3Qnuf0g" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.views.ProblemView"/>
     </bindings>
-    <bindings xmi:id="_SgspYFM_EeePN7RZKuCi_A" keySequence="COMMAND+CTRL+F" command="_nki-0KW1EeaN0YO3Qnuf0g"/>
+    <bindings xmi:id="_6Zb7wakwEeeUXO1seM3Yyg" keySequence="COMMAND+CTRL+F" command="_nki-0KW1EeaN0YO3Qnuf0g"/>
   </bindingTables>
   <bindingTables xmi:id="_njUPx6W1EeaN0YO3Qnuf0g" elementId="org.eclipse.ui.textEditorScope" bindingContext="_nifwYqW1EeaN0YO3Qnuf0g">
     <bindings xmi:id="_njUPyKW1EeaN0YO3Qnuf0g" keySequence="COMMAND+SHIFT+ARROW_LEFT" command="_niVYcqW1EeaN0YO3Qnuf0g">
@@ -1043,7 +1043,7 @@
     <bindings xmi:id="_njjgUKW1EeaN0YO3Qnuf0g" keySequence="CTRL+D" command="_niXNgKW1EeaN0YO3Qnuf0g"/>
   </bindingTables>
   <bindingTables xmi:id="_nkkM8KW1EeaN0YO3Qnuf0g" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_nhMI0KW1EeaN0YO3Qnuf0g">
-    <bindings xmi:id="_SgspYVM_EeePN7RZKuCi_A" keySequence="M1+W" command="_nkjl4qW1EeaN0YO3Qnuf0g"/>
+    <bindings xmi:id="_6Zci0KkwEeeUXO1seM3Yyg" keySequence="M1+W" command="_nkjl4qW1EeaN0YO3Qnuf0g"/>
   </bindingTables>
   <bindingTables xmi:id="_odRWkKW1EeaN0YO3Qnuf0g" bindingContext="_odQvgKW1EeaN0YO3Qnuf0g"/>
   <bindingTables xmi:id="_odRWkqW1EeaN0YO3Qnuf0g" bindingContext="_odRWkaW1EeaN0YO3Qnuf0g"/>
@@ -2500,7 +2500,7 @@
   <addons xmi:id="_nhMI3KW1EeaN0YO3Qnuf0g" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_nhMI3aW1EeaN0YO3Qnuf0g" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_nhXH8KW1EeaN0YO3Qnuf0g" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_Se-LEVM_EeePN7RZKuCi_A" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <addons xmi:id="_nkgikKW1EeaN0YO3Qnuf0g" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler"/>
   <categories xmi:id="_niKZMKW1EeaN0YO3Qnuf0g" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
