@@ -35,11 +35,12 @@ public class NormalizationMap {
 			NormElement el;
 			String orgID, orgName, normName;
 			String[] fields;
+			int count = 0;
 		    while ((line = csvFile.readLine()) != null) {
-
+		    	count++;
 		    	fields = line.split(";");
 		    	if (fields.length != 2) {
-		    		System.out.println("Error in normalization file: " + line);
+		    		System.out.println("Error in normalization file: " + line + " in line " + count);
 		    	}
 		    	orgID = "0"; //fields[0];
 		    	orgName = fields[0];
