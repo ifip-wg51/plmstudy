@@ -9,10 +9,10 @@ import java.util.ArrayList;
 // A small comment from Christian
 public class dbGenerator {
 	//static String dbPrefix = "BIM";
-	//static String dbPrefix = "I40";
-	static String dbPrefix = "PLM";
-	static int minYear = 2005;
-	static int maxYear = 2015;
+	static String dbPrefix = "I40";
+	//static String dbPrefix = "PLM";
+	static int minYear = 2000;
+	static int maxYear = 2018;
 	
 	static String rootDir = "/Users/nyfelix/dev/plmstudy/database/";
 	static String source = rootDir + dbPrefix + "_zotero.sqlite";
@@ -108,7 +108,7 @@ public class dbGenerator {
 						continue;
 					}
 					// Make sure all Publications contain an Abstract and pubYear is in the defined Scope
-					if (prevID != 0 && attributes.contains("pubAbstract") && timeFilter == false && pubTypeFilter == false) {
+					if (prevID != 0) { //prevID != 0 && attributes.contains("pubAbstract") && timeFilter == false && pubTypeFilter == false) {
 						// Write Publication into targetDB
 						String sqlInsert = "INSERT OR REPLACE INTO publications (pubID, " + attributes + ") VALUES (" + prevID + "," + values + ");";						
 						//System.out.println(sqlInsert);
@@ -159,14 +159,14 @@ public class dbGenerator {
 						stmtCreatePublicaiton.addBatch(sqlUpdatePublication);							
 						rowcount++;
 					} else {
-						System.out.print("Qualitycheck failed - ");
+						/*System.out.print("Qualitycheck failed - ");
 						if (!attributes.contains("pubAbstract")) {
 							System.out.println("No Abstract for publication: " + itemID );
 						} else if (timeFilter == true){
 							System.out.println("Not in time scope:" + itemID );
 						} else if (pubTypeFilter == true){
 							System.out.println("Publication type not allowed: " + itemID );
-						}
+						}*/
 					}
 					attributes = "";
 					values = "";
