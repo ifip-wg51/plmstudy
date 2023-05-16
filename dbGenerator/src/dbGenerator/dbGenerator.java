@@ -9,7 +9,7 @@ import java.util.ArrayList;
 // A small comment from Christian
 public class dbGenerator {
 	//static String dbPrefix = "BIM";
-	static String dbPrefix = "I40";
+	static String dbPrefix = "PLM";
 	//static String dbPrefix = "PLM";
 	static int minYear = 2000;
 	static int maxYear = 2018;
