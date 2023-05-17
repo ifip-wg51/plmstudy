@@ -1,0 +1,235 @@
+Models for Manufacturing (MfM)
+Model Lifecycle Management (MLM)
+3-Layer Model (3LM)
+Manufacturing modelling
+Product configuration
+Configuration systems
+Configuration rules
+Data quality
+Neuronal network
+NMR spectroscopy
+Tracability
+HVAC diagram recognition
+Machine learning
+Computer vision
+Building information modelling
+Shared mobility services
+System dynamics
+Reconfiguration
+System of systems
+Lifecycle management
+Embodied energy
+Volatile emission allocation
+Dynamic life cycle assessment
+CO emissions
+Water use assessment
+Batik production process
+Knowledge reuse
+Knowledge transfer
+Knowledge management
+Knowledge-based engineering
+Computer aided design (CAD)
+Lifecycle management
+Nuclear system
+Machine learning
+Body language
+Intent detection
+Computer-aided design
+Flexible factories
+Product life-cycle management
+Technology development capabilities
+Lifecycle Engineering (LCE)
+Product Lifecycle Management (PLM)
+Engineering Graph
+Industry 4.0
+Best practices
+Circular economy
+Generative design
+Generative engineering
+Topology optimization
+Artificial intelligence
+NLP
+NER
+Dataset
+Deep learning
+Legal domain
+Machine learning
+Parameter optimization
+Laser welding
+Productivity
+Spatial organization
+Safety requirements
+Knowledge-based engineering
+Perception-retrieval cognitive mechanism
+Crowd intelligence
+Carbon footprint
+Life cycle assessment
+Data engineering
+Data storage technology
+PVD
+GLAD
+Columns
+Point cloud
+Meshes
+User experience
+Human interaction
+Software design
+Augmented reality
+Asset Administration Shell
+BIM integration
+Datapoint
+HVAC
+Retrofit
+Classification
+Machine learning
+Ecological transition
+Infrastructure Lifecycle Management (ILM)
+Industry 4.0
+4th industrial revolution
+Business model
+Systematic literature review
+Digital twin
+Energy consumption management
+Production
+Industry 4.0
+Supervision and reconfiguration of complex industrial systems
+Digital twin
+Geometry
+Coherence
+Geometric change
+Human–robot interaction
+Virtual human
+Digital human
+Immersive analytics
+Haptic feedback
+Force feedback
+Built environment
+Technology
+Modular construction
+Global trends
+Real estate innovation
+Complex socio-technical system
+Learning ecosystem
+Effective learning
+Knowledge gap
+Research and innovation project
+Luxury industry
+Industry 5.0
+University spin-offs
+Disruptive innovation
+Science-based enterprises
+Knowledge-based enterprises
+Product innovation
+Product development
+System models
+Model signatures
+Model networks
+Technology readiness level
+Model-based design
+Cyber-physical system
+Digital innovation hub
+Mixed Reality (MR)
+Computer Numerical Control (CNC)
+G-code
+Human-Machine-Interaction (HMI)
+Operation management
+Systems Engineering
+Model based systems engineering
+Digital engineering
+Cyber-physical-human systems
+Telexistence
+Digital twin
+Immersive interface
+Formulated product
+Cosmetic industry
+Fragrance industry
+Model-based design
+Grounding
+Benchmark problem
+Requirements co-engineering
+Capability maturity
+Protocol
+Technology
+Product Lifecycle Management
+Data analysis
+Machine learning
+Production
+Stage-gate
+Computational design method
+Design automation
+Data provenance
+Data literacy
+Virtual product development
+Circular value chain
+Circular economy
+Automotive sector
+Shipbuilding industry
+Digital continuity
+mBOM
+eBOM
+BOP
+Industry 4.0
+Digital transformation
+Aerospace & Defence case study
+Roadmap
+Data analytics capabilities
+Pay-per-outcome
+Business model
+Equipment manufacturing
+Remote monitoring
+Roadmap
+Digitalisation
+Industry 4.0
+Holistic view
+Metro map
+Software part
+Software part classification
+Classification framework
+Software classification standards
+Classification for ALM
+Carbon footprint
+Digital twin
+Aerospace industry
+Digital technology
+Industry 4.0
+Disassembly
+Digital twin
+Lean Management
+Product life cycle
+Lean tools
+Integrated Lean
+Smart product
+Industry 4.0
+Problem analysis
+Toyota Kata
+Lean
+Process improvement
+Structured Bibliographic Research
+SWOT analysis
+Pay-per-X
+Pay-per-use
+Pay-per-outcome
+Pay-per-output
+Positive emotions
+Responsible consumption
+Emotional experience
+User experience
+Smart product-service systems
+Product-service ecosystems
+Knowledge-based engineering
+Smart product engineering
+Zero-defect manufacturing
+Assembly line
+Platform
+Knowledge exchange
+Open innovation
+Artificial intelligence
+Formal systems
+Data reasoning
+Hybrid intelligence
+Human-systems integration
+Customized matrix
+Design building
+Work planning
+Bill of materials
+Enterprise IT

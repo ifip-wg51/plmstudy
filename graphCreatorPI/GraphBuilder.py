@@ -13,12 +13,12 @@ class GraphBuilder:
                 index = i
                 break
         if index == -1:
+            index = len(self.edges)
             self.edges.append({
                 'A': keyA,
                 'B': keyB,
                 'weight': 1
             })
-            index = len(self.edges)
         return index
 
     def build(self, publications):

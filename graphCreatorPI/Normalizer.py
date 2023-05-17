@@ -1,5 +1,7 @@
 import csv
 
+##Todo: Handle Acronyms
+
 class Normalizer:
     def __init__(self, normTableFile, logfile):
         self.normTableFile = normTableFile
@@ -26,17 +28,15 @@ class Normalizer:
         normTable = self.readNormTable()
         for pub in publications:
             normKeywords = []
-            print(pub)
             for keyword in pub['keywords']:
                 #find normalized form
                 check = False
                 for row in normTable:
-                    if row[0] == keyword:
+                    if row[0].lower() == keyword.lower():
                         #lookup acronyms with multiple meanings
                         index = self.addOrWeightKeyword(row[1])
                         normKeywords.append(index)
                         check = True
-                        print('Normalized: ' + keyword + ' to ' + row[1])
                         break
                 if check == False:
                     print('Keyword not found: "' + keyword + '" in  "' + pub['title']+'"')
@@ -52,12 +52,22 @@ class Normalizer:
                 index = i
                 break
         if index == -1:
+            index = len(self.keywords)
             self.keywords.append({
                 'keyword': keyword,
                 'count': 1
             })
-            index = len(self.keywords)
         return index
 
     def getKeywordByID(self, id):
-        return self.keywords[id]
+        return self.keywords[id]['keyword']
+    
+    def writePublications(self, filename, publications):
+        open(filename, 'w').close()
+        file = open(filename, 'a')
+        for i, pub in enumerate(publications):
+            file.write(str(i) + ';' + str(pub['title']) + ';')
+            for key in pub['keywords']:
+                file.write(self.keywords[key]['keyword'] + ';')
+            file.write("\n")
+        file.close

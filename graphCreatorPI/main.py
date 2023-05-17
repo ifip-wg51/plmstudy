@@ -14,10 +14,11 @@ import icplmReader as reader
 from Normalizer import Normalizer
 from GraphBuilder import GraphBuilder
 
-logfile = '../logs/plm-keywords.txt'
+logfile = 'out/missing-keywords.txt'
 normTableFile = '../database/PLM/PLM_normalized.csv'
-graphKeywords = 'graphKeywords.csv'
-graphEdges = 'graphEdges.csv'
+publicationsFile = 'out/publications.csv'
+graphKeywordsFile = 'out/graphKeywords.csv'
+graphEdgesFile = 'out/graphEdges.csv'
 
 open(logfile, 'w').close()
 
@@ -25,8 +26,9 @@ print("Start building graph data")
 publications = reader.read()
 normalizer = Normalizer(normTableFile, logfile)
 normalizer.normalize(publications)
+normalizer.writePublications(publicationsFile, publications)
 
 graph = GraphBuilder(normalizer.keywords)
 graph.build(publications)
-graph.write(graphKeywords, graphEdges)
+graph.write(graphKeywordsFile, graphEdgesFile)
 
