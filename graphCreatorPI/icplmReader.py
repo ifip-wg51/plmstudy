@@ -2,8 +2,8 @@ import requests
 
 isbns = [
     "978-3-031-25182-5",
-    "978-3-030-94335-6",
-    "978-3-030-62807-9"
+    #"978-3-030-94335-6",
+    #"978-3-030-62807-9"
 ]
 
 def getSpringerAPI(isbn):
@@ -27,9 +27,9 @@ def read():
     print("Start reading IC PLM input Data")
     print("  ... get content from Springer API")
     for isbn in isbns:  
-        data = getSpringerAPI(isbn)
-        print('isbn: ' + isbn + ' count: ' + str(len(data)))
-        publications.append(data)
+        pubs = getSpringerAPI(isbn)
+        print('isbn: ' + isbn + ' count: ' + str(len(pubs)))
+        publications.extend(pubs)
     # add manual content here
     print("Done reading")
     return publications

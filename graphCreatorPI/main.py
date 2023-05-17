@@ -10,8 +10,23 @@
 
 # Global Settings
 
-import  icplmReader as reader
+import icplmReader as reader
+from Normalizer import Normalizer
+from GraphBuilder import GraphBuilder
+
+logfile = '../logs/plm-keywords.txt'
+normTableFile = '../database/PLM/PLM_normalized.csv'
+graphKeywords = 'graphKeywords.csv'
+graphEdges = 'graphEdges.csv'
+
+open(logfile, 'w').close()
 
 print("Start building graph data")
-reader.read()
+publications = reader.read()
+normalizer = Normalizer(normTableFile, logfile)
+normalizer.normalize(publications)
+
+graph = GraphBuilder(normalizer.keywords)
+graph.build(publications)
+graph.write(graphKeywords, graphEdges)
 
