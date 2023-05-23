@@ -1,921 +1,358 @@
-0;design process modeling;1
-1;model based engineering;2
-2;computer aided design modeling;1
-3;product lifecycle management solution;1
-4;product lifecycle management implementation;6
-5;product lifecycle management architecture;1
-6;guideline;1
-7;collaborative work;2
-8;project review;1
-9;conflict solving;1
-10;intuitive interaction;1
-11;computer aided design;14
-12;boundary representation;1
-13;mesh;2
-14;error detection;1
-15;error documentation;1
-16;product lifecycle management;224
-17;reference model;2
-18;product lifecycle management system;7
-19;3D plant layout;1
-20;constructive solid geometry;1
-21;STEP;4
-22;COLLADA;1
-23;WEBGL;1
-24;product lifecycle management harmonization;1
-25;product lifecycle management planning;1
-26;product lifecycle management integration;2
-27;product lifecycle management procedure model;1
-28;product lifecycle management decision framework;1
-29;design reuse;2
-30;case study;8
-31;engineering education;4
-32;communication;2
-33;free software;1
-34;assembly modeling;1
-35;ontology;25
-36;mereotopology;1
-37;concurrent engineering;4
-38;tolerancing process;1
-39;product development process;10
-40;product data management;17
-41;computer aided tolerancing;1
-42;knowledge reuse;6
-43;collaborative product development;3
-44;knowledge management;33
-45;semantic relationship;1
-46;data graph;1
-47;data reuse;1
-48;product development;20
-49;data value;1
-50;product data;2
-51;architectural design process;1
-52;modularization;1
-53;interface modeling;1
-54;bill of materials;4
-55;model driven engineering;2
-56;mechatronic design;2
-57;application lifecycle management;3
-58;version control;1
-59;collaborative engineering;6
-60;product data and  lifecycle management;2
-61;digital engineering tool;1
-62;virtual product creation;1
-63;process standard;1
-64;engineering efficiency;1
-65;new media in engineering;1
-66;product master data management;1
-67;ontology based data integration;1
-68;data architecture;1
-69;qualitative research;1
-70;service lifecycle management;3
-71;virtual factory;2
-72;service science management and engineering;1
-73;ecosystem collaboration;1
-74;model based system engineering;7
-75;engineering data management;1
-76;product architecture modeling;1
-77;design for simulation;1
-78;risk management;2
-79;uncertainty;5
-80;multiple domain matrix;2
-81;integrated product development;2
-82;product service system;14
-83;product planning;2
-84;lifecycle model;1
-85;temporal pattern;1
-86;social network;2
-87;FACEBOOK;1
-88;product avatar;2
-89;production;4
-90;internet of things;24
-91;product state;1
-92;data management;2
-93;middle of life;4
-94;leisure boat production;1
-95;fact based design;1
-96;requirement engineering;2
-97;lifecycle phase;2
-98;structural complexity management;2
-99;requirement module;1
-100;change propagation;3
-101;customer orientation;1
-102;maturity model;17
-103;knowledge flow;1
-104;product data standard;1
-105;information model;2
-106;engineering design;3
-107;design system;1
-108;design practice;1
-109;design assessment;1
-110;assessment tool;2
-111;knowledge representation and definition;1
-112;bottom up approach;1
-113;user story mapping;1
-114;digital mockup;7
-115;work package;1
-116;association;1
-117;transposition of associations;1
-118;computer aided design data;1
-119;reconciliation matrix;1
-120;lean engineering;1
-121;iteration;1
-122;product life management;1
-123;workflow;2
-124;supply chain;10
-125;integrated logistics;1
-126;optimization;2
-127;system engineering;11
-128;model based system engineering ;4
-129;performance evaluation and improvement;1
-130;process maturity model;1
-131;virtual engineering;1
-132;lean product development;5
-133;product development waste;1
-134;set based concurrent engineering;4
-135;learning and serious game;1
-136;new product definition;1
-137;knowledge need;1
-138;benefit tool organization process people framework;1
-139;knowledge management of product lifecycle;1
-140;quick term project development;1
-141;product structure;5
-142;software management;1
-143;concurrent engineering department;1
-144;model based enterprise;2
-145;model based definition;5
-146;neutral file format;1
-147;standard;4
-148;rule;1
-149;power plant;1
-150;description logic;1
-151;SWRL;1
-152;information system;7
-153;business process;7
-154;interoperability;18
-155;product lifecycle;11
-156;research facility;1
-157;particle accelerator;1
-158;prototyping;2
-159;testing;1
-160;product data exchange;1
-161;data semantic;1
-162;XML;1
-163;XQUERY;1
-164;future product lifecycle management;1
-165;informal communication;1
-166;social networking;1
-167;manufacturing process planning;1
-168;coordination;1
-169;complex product development;1
-170;service data management;1
-171;service business process;1
-172;maintenance;5
-173;maintenance repair and overhaul;1
-174;steam turbine;1
-175;industrial case;1
-176;organizational innovation;1
-177;fostering innovation;1
-178;constraint satisfaction problem;1
-179;product configuration;7
-180;engineering process;1
-181;complex engineering;1
-182;method and tool;1
-183;creativity;3
-184;tool;1
-185;process;4
-186;innovation;7
-187;competitiveness;1
-188;product lifecycle knowledge management;1
-189;innovation process;4
-190;biotechnology;1
-191;non linear dynamic system;1
-192;digital mockup maturity;1
-193;product reverse engineering;1
-194;product assembly;1
-195;model comparison;2
-196;product shape;1
-197;difference identification;1
-198;geometric constraint;1
-199;impact;1
-200;analysis;1
-201;benefit;1
-202;defect;1
-203;potential;1
-204;beginning of life;1
-205;end of life;3
-206;closed loop product lifecycle management;8
-207;information flow;1
-208;sustainable manufacturing;5
-209;UML;2
-210;change management;5
-211;AUDROSBOX;1
-212;collaborative feature;1
-213;printed circuit board;2
-214;pollution transfer phenomena;1
-215;lifecycle assessment;12
-216;lifecycle impact assessment;2
-217;material flow analysis;2
-218;building information modeling;21
-219;construction manager;1
-220;construction management body of knowledge;1
-221;industrial digital mockup;4
-222;proactive engineering;1
-223;qualitative description;1
-224;understanding;1
-225;awareness in design;1
-226;multi domain ontology;1
-227;data integration;1
-228;enterprise architecture;5
-229;multidisciplinary collaboration;1
-230;operation;1
-231;facility management;5
-232;archival;1
-233;exchange;2
-234;automotive;3
-235;open archival Information system;1
-236;SASIG;1
-237;mass customization;8
-238;configuration;1
-239;building information management;20
-240;teamwork;1
-241;mental model;1
-242;integrated design and delivery solution;1
-243;aeronautical final assembly line conceptual design;1
-244;product information exchange;1
-245;shape feature taxonomy;1
-246;volumetric feature;1
-247;deformation feature;1
-248;free form surface feature;1
-249;lifecycle orientation;1
-250;empirical study;1
-251;engineering change;1
-252;data quality;4
-253;engineering collaboration;2
-254;migration;1
-255;virtual assistant;1
-256;ubiquitous computing;1
-257;methodology;3
-258;software integrator;1
-259;biomedical imaging;2
-260;neuroscience;1
-261;product lifecycle information model ;1
-262;construction education;1
-263;building information management education and training;1
-264;framework;6
-265;collaborative environment;1
-266;cultural heritage;2
-267;museum;1
-268;digital heritage reference model;1
-269;ergonomic;4
-270;usability;3
-271;user experience;5
-272;agile method;1
-273;traceability;9
-274;heritage;1
-275;assembly sequence;1
-276;liaison graph;1
-277;related ratio;1
-278;common area;1
-279;environmental sustainable design;1
-280;information management;7
-281;collaboration;5
-282;configuration management;4
-283;continuous improvement;2
-284;self assessment;1
-285;technology transfer;1
-286;product lifecycle management process improvement;1
-287;research steering;1
-288;maturity;4
-289;technology readiness level;1
-290;scenario;1
-291;proof of usage;1
-292;business process management notation;1
-293;modeling;3
-294;configuration rule;2
-295;visualization;5
-296;authoring;1
-297;performance measurement;4
-298;metrics;1
-299;mechatronic system design;1
-300;multi domain system integration;1
-301;agile design method;1
-302;design decision integration model;1
-303;engineering actions management system;1
-304;collaboration workspace;1
-305;ecodesign;4
-306;knowledge capture;1
-307;lifecycle thinking;1
-308;product model;2
-309;collaboration platform;2
-310;production design;1
-311;intelligent product;1
-312;leisure boat;1
-313;social network service;1
-314;servitization;2
-315;lifecycle;8
-316;civil;1
-317;marine;1
-318;wind;1
-319;open industry framework;1
-320;parallel distributed processing;1
-321;different types of industry;1
-322;modular production;1
-323;basic need;1
-324;reverse engineering;4
-325;reeb graph;1
-326;shape matching;2
-327;path planning;1
-328;virtual reality tool;1
-329;assembly;2
-330;manipulation;1
-331;perception assessment;1
-332;experimental data and information;1
-333;business process modeling;2
-334;industrial implementation;1
-335;product lifecycle management tool;3
-336;new product development process;1
-337;informational integration;1
-338;agency;1
-339;rule of use;1
-340;interaction;1
-341;complexity;1
-342;virtual reality;10
-343;intuitiveness;1
-344;fashion industry;4
-345;maturity level;1
-346;knowledge based engineering;9
-347;engineering visualization;1
-348;data exchange;3
-349;JT standard;1
-350;product lifecycle management maturity model;2
-351;analytic hierarchy process methodology;1
-352;key performance indicator;3
-353;TIFOS framework;1
-354;product knowledge management;1
-355;product design;10
-356;complex product configuration;1
-357;product quality;1
-358;quality control loop;1
-359;prototype phase;1
-360;ramp up;1
-361;reconfiguration;4
-362;manufacturing resource;1
-363;item;1
-364;asset;1
-365;CERN;1
-366;master geometry;1
-367;master geometry creation;1
-368;master geometry validation workflow;1
-369;buffer geometry;1
-370;integrated design and manufacturing;1
-371;computer aided design manufacturing and numerical control;1
-372;aviation maintenance;1
-373;model based product definition;1
-374;model based work instruction;1
-375;mobile computing;1
-376;undergraduate research;1
-377;process management;2
-378;design structure matrix;2
-379;preliminary collaborative design;1
-380;decision making;4
-381;plant;1
-382;ISO 15926;1
-383;ISO 15926 ;1
-384;exchange process;1
-385;semantic web;3
-386;AREVA interoperability rich environment;1
-387;availability contract;1
-388;through life costing;1
-389;system;1
-390;input output analysis;1
-391;defence aerospace;1
-392;sustainability;15
-393;lifecycle design;1
-394;extended enterprise;2
-395;information technology system;1
-396;product portfolio management;1
-397;new product development;11
-398;medical device industry;1
-399;best practice;3
-400;aerospace industry;2
-401;social software;1
-402;work breakdown structure;1
-403;tertiary education;1
-404;information technology;2
-405;thermal design;1
-406;SYSML;6
-407;software change;1
-408;electronic product;1
-409;embedded system;1
-410;system level;1
-411;simulation;5
-412;low temperature burn injury;1
-413;laser scanner;1
-414;point cloud data;1
-415;edge measurement;1
-416;3D target;1
-417;system lifecycle management;2
-418;sustainable development;2
-419;geographical information system;3
-420;lifecycle information management;1
-421;asset management;3
-422;3D digitization;1
-423;design and manufacturing;1
-424;product design architecture;1
-425;organizational capability;1
-426;process optimization;2
-427;product globalization;1
-428;computer aided engineering;1
-429;requirement information management;1
-430;lifecycle based requirement;1
-431;reusability;1
-432;customer centric manufacturing;1
-433;next generation;1
-434;engineering operating system;1
-435;intelligence;1
-436;product lifecycle management improvement concept;1
-437;virtual enterprise;1
-438;reframing;1
-439;product position;1
-440;strategy;2
-441;lifecycle management;6
-442;project management;1
-443;knowledge;4
-444;agent;1
-445;prioritization;1
-446;process information model;1
-447;process parameter;1
-448;sheet metal operation;1
-449;knowledge acquisition;3
-450;mechanical assembly;1
-451;discourse analysis;1
-452;segmentation;1
-453;asset management system;1
-454;reconfigurable production system;1
-455;skill based model;1
-456;vertical integration;1
-457;digital factory;3
-458;construction industry;5
-459;MALAYSIA;2
-460;partial least square;1
-461;supply chain integration;1
-462;energy renovation;1
-463;industrialization;1
-464;design;2
-465;project and program management;1
-466;knowledge engineering;1
-467;business referential;1
-468;knowledge referential;1
-469;knowledge base;1
-470;repair;1
-471;overhaul;1
-472;aeronautical;1
-473;development process efficiency;1
-474;sustainability analysis;1
-475;lifecycle tool;1
-476;green aviation;1
-477;project lifecycle management;1
-478;completion;1
-479;triangular fuzzy element;1
-480;product lifecycle management maturity evaluation;1
-481;product lifecycle management component maturity assessment;1
-482;data;2
-483;offshore wind farm;1
-484;naval;2
-485;decomposition analysis resolution process;1
-486;engine;1
-487;head gasket;1
-488;coolant;1
-489;seal;1
-490;leakage;1
-491;heterogeneous data;2
-492;information visualization;1
-493;graph theory;3
-494;product upgradability;1
-495;customer demand;1
-496;set based design;1
-497;knowledge and data extraction;1
-498;WINDCHILL;1
-499;semantic ontology;1
-500;design intent;6
-501;know how;1
-502;OWL;1
-503;PROTEGE;1
-504;quantum lifecycle management;2
-505;new product development performance;1
-506;new product development strategy;1
-507;material flow;1
-508;socio technical system;1
-509;agent based simulation modeling;1
-510;indonesian fertiliser industry;1
-511;professional practice;1
-512;role and responsibility;1
-513;knowledge competency;1
-514;stakeholder relation;1
-515;quality management system;1
-516;configured digital mockup;1
-517;configured digital mokup;1
-518;dynamic instant innovation;1
-519;user specialization;1
-520;ambidexterity;1
-521;exploration;1
-522;exploitation;1
-523;education;5
-524;efficiency;1
-525;original equipment manufacturer;1
-526;tool and process;1
-527;training;1
-528;productivity;3
-529;design engineering;1
-530;lifecycle costing;2
-531;lifecycle cost;2
-532;lifecycle optimization;1
-533;lifecycle simulation;1
-534;simplified lifecycle assessment;1
-535;product portfolio assessment;1
-536;innovation management;1
-537;escalation;1
-538;information system project;1
-539;outsourcing;1
-540;credible deterrence;1
-541;credible commitment;1
-542;mechanical system design;1
-543;model driven architecture;1
-544;design system process;1
-545;data model;4
-546;sound quality;1
-547;evaluation grid method;1
-548;use case;1
-549;design structure matrix clustering analysis;1
-550;general manufacturing model;1
-551;SYSTEMATICA metamodel;1
-552;master data;1
-553;master data management ;1
-554;information technology governance;1
-555;enterprise search;1
-556;virtual prototype;1
-557;product service system sustainability;1
-558;product service system design;2
-559;product service system assessment;1
-560;business model;10
-561;discrete event simulation;3
-562;smart factory;3
-563;maturity approach;1
-564;state of the art;1
-565;comparison;3
-566;information extraction;1
-567;TF_IDF;2
-568;opinion mining;1
-569;dependency relation;1
-570;part of speech;1
-571;user integration;1
-572;service orientation;1
-573;development lifecycle;1
-574;design process;4
-575;mechatronic product;2
-576;multiobjective optimization;1
-577;embodiment design;1
-578;closed loop;1
-579;system lifecycle;1
-580;bioimaging;1
-581;knowledge sharing;1
-582;ontology graph;1
-583;reconfigurable modularization;1
-584;product with growing value;1
-585;customer engagement;1
-586;process value;1
-587;self actualization;1
-588;in service;1
-589;engineering project process;1
-590;process evolution;1
-591;object process methodology;1
-592;conceptual modeling;1
-593;quality management;1
-594;manufacturing;5
-595;production planning and control;1
-596;big data;5
-597;DBSCAN;1
-598;cultural heritage ontology;1
-599;prediction;2
-600;engineering change management;2
-601;system of systems;4
-602;mechatronic;1
-603;cyber physical system;2
-604;meta model;2
-605;manufacturing execution system;4
-606;monitoring system;2
-607;numerical simulation;1
-608;STEP AP209;1
-609;simulation lifecycle management;1
-610;verification and validation;1
-611;MTCONNECT;1
-612;milling;2
-613;data generator;1
-614;data analytics;6
-615;reverse logistics;1
-616;compromising strategy;1
-617;decision making model;1
-618;waste electrical and electronic equipment;1
-619;sustainable performance;1
-620;product validation and testing;1
-621;social media tool;1
-622;tacit knowledge;1
-623;Value network;1
-624;value creation;1
-625;service oriented manufacturing;1
-626;additive manufacturing;10
-627;supply chain management;3
-628;agile;2
-629;3D printing;3
-630;user;1
-631;product system performance;1
-632;data visualization;1
-633;architecture;3
-634;cyber physical production system;1
-635;smart product;6
-636;collaborative platform;1
-637;demand driven supply network;1
-638;enterprise service bus;1
-639;publish subscribe pattern;1
-640;reliability centered maintenance;1
-641;end of life product;1
-642;factory relocation;1
-643;product platform;1
-644;quotation;1
-645;reuse;2
-646;design rationale;3
-647;natural language text;2
-648;diagnosis;1
-649;Sentiment analysis;2
-650;procedural modeling;1
-651;computer generated architecture;1
-652;FACADE modeling;1
-653;CITYENGINE;1
-654;ARCGIS;1
-655;multidisciplinary integration;2
-656;interface;1
-657;innovation performance measurement;1
-658;knowledge management performance measurement;1
-659;knowledge management process;1
-660;integrated framework;1
-661;digitalization;7
-662;measurement service;1
-663;virtual validation;1
-664;construction project;2
-665;improvement;1
-666;product lifecycle management maturity;1
-667;product lifecycle management system architecture;1
-668;functional digital mockup;1
-669;natural language processing;1
-670;requirement;1
-671;parametric modeling;1
-672;smart city;3
-673;event management;1
-674;product development assessment;1
-675;product development maturity;1
-676;benchmarking;2
-677;product development best practice;1
-678;CLIMB model;1
-679;augmented reality aided manufacturing;1
-680;prismatic machining;1
-681;computer aided design and manufacturing;1
-682;numerical control;1
-683;employer information requirement;1
-684;information requirement;1
-685;lifecycle information flow;1
-686;social lifecycle assessment;2
-687;smart energy product;1
-688;product complexity;2
-689;utility industry;1
-690;collaborative business process;1
-691;performance;1
-692;execution trace;1
-693;customer requirement;1
-694;collaborative design;4
-695;mixed reality;1
-696;KANSEI engineering;1
-697;tangible user interface;1
-698;role;1
-699;responsibility;1
-700;construction player;1
-701;lack of data;1
-702;polypropylene;1
-703;recycling;2
-704;early prototyping;1
-705;business experiment;1
-706;agile product development;1
-707;digital industry;1
-708;virtual confidence;1
-709;simulation data management;1
-710;provenance;1
-711;design automation system;1
-712;computer supported engineering design;1
-713;manufacturing company;1
-714;indicator;1
-715;process simulation;1
-716;design for additive manufacturing;1
-717;meta product;1
-718;supply chain uncertainty;1
-719;modified MARKOV process;1
-720;stochastic process;1
-721;risk assessment;2
-722;notation;1
-723;cognitive dimension framework;1
-724;development of notational system;1
-725;diagram;1
-726;sigmoid;1
-727;evolution;1
-728;edit trace behaviour;1
-729;engineering project management;1
-730;process reengineering;1
-731;operation and maintenance;1
-732;maintenance concept;1
-733;data mining;1
-734;wind turbine;1
-735;design for manufacturability;1
-736;knowledge capitalization;2
-737;multi scale modelling;1
-738;3D computer aided design;1
-739;architecture engineering and construction;1
-740;shipbuilding;3
-741;bibliometric;1
-742;citation analysis;1
-743;product lifecycle management conference proceeding;1
-744;regular pattern;1
-745;symmetry in computer aided design model;1
-746;mechatronic system;1
-747;manufacturability;1
-748;robotic welding;1
-749;multi objective optimization;1
-750;capitalization;1
-751;management;2
-752;end to end information and communication technology solution;1
-753;business collaboration;1
-754;process monitoring;1
-755;small and medium sized enterprise;13
-756;knowledge representation;1
-757;servicization;1
-758;success factor product lifecycle management;1
-759;cloud computing;1
-760;GOOGLE APPS;1
-761;learning cloud service;1
-762;software as a service;2
-763;software selection;1
-764;artificial neural network;3
-765;foot plantar pressure;1
-766;mechanical comfort;1
-767;lifecycle inventory;1
-768;PARETO rule;1
-769;design method;3
-770;graph;3
-771;biomedical;1
-772;machining;1
-773;product lifecycle support;1
-774;information modeling;1
-775;intelligent manufacturing;2
-776;core product model;1
-777;open assembly model;1
-778;modularity;2
-779;safety engineering;1
-780;integrated design;1
-781;platform;3
-782;liaison;1
-783;neural network;2
-784;product lifecycle management process;1
-785;semantic interoperability;8
-786;collaborative design process;1
-787;complex system;2
-788;big data analytics;1
-789;planning;1
-790;machine learning;13
-791;assembly model;1
-792;return on investment;1
-793;value;1
-794;simulation data management ;1
-795;construction;1
-796;modular;1
-797;trend;2
-798;cloud manufacturing;1
-799;modeling and simulation;2
-800;design automation;3
-801;global manufacturing;1
-802;design management;1
-803;quality function deployment;1
-804;field data;1
-805;survey;1
-806;context;1
-807;modular design;2
-808;product feature;1
-809;integration;4
-810;sustainable design;1
-811;digital manufacturing;2
-812;lean thinking;2
-813;decision mining;1
-814;semantic search;1
-815;cost estimation;3
-816;organizational change;1
-817;assembly simulation;1
-818;system design;1
-819;part reuse;2
-820;virtual prototyping;1
-821;multi agent system;1
-822;ISO 10303;1
-823;conceptual design;6
-824;performance management;1
-825;artificial intelligence;12
-826;content management;2
-827;bayesian network;1
-828;augmented reality;5
-829;process planning;1
-830;six sigma;1
-831;lean concept;1
-832;knowledge structure;1
-833;remanufacturing;2
-834;finite element analysis;1
-835;design for manufacturing;1
-836;predictive maintenance;3
-837;implementation;3
-838;clustering;1
-839;industry foundation class;1
-840;engineering knowledge;1
-841;assessment;2
-842;function;1
-843;product improvement;1
-844;reference ontology;1
-845;product recovery;2
-846;disassembly;3
-847;knowledge extraction;1
-848;context awareness;1
-849;lean;3
-850;3D modeling;1
-851;assessment method;1
-852;open source;1
-853;prototype;1
-854;parametric design;1
-855;communication protocol;1
-856;variety;1
-857;genetic algorithm;1
-858;product family;1
-859;intelligent system;1
-860;safety standard;1
-861;carbon footprint;3
-862;data collection;1
-863;sketching;1
-864;ecoefficiency;1
-865;cluster;1
-866;line design;1
-867;information retrieval;1
-868;manufacturing industry;1
-869;model;1
-870;product;1
-871;alignment;1
-872;circular economy;4
-873;enterprise resource planning;2
-874;design review;2
-875;synchronization;1
-876;fashion;2
-877;dashboard;1
-878;knowledge based system;1
-879;obsolescence;1
-880;obsolescence management;1
-881;SCRUM;1
-882;design for x;2
-883;agility;1
-884;analytic hierarchy process ;1
-885;textile;1
-886;automotive industry;1
-887;software engineering;1
-888;software product management;1
-889;social responsibility;1
-890;cost driver;1
-891;activity based costing;1
-892;production management;1
-893;production engineering;1
-894;human;1
-895;configuration system;1
-896;knowledge transfer;1
-897;FEM;1
-898;business process management;1
-899;classification;1
-900;geometry;1
-901;tracking;1
-902;technology;2
-903;product innovation;1
-904;metadata;1
-905;model based design;2
-906;production system;1
-907;enterprise information system;1
-908;capability maturity;1
-909;stage gate;1
-910;information sharing;1
-911;shipbuilding industry;1
-912;engineering bill of materials;1
-913;roadmap;2
-914;equipment manufacturing;1
-915;lean management;1
-916;process improvement;1
-917;assembly line;1
-918;knowledge exchange;1
-919;open innovation;1
-920;TRIZ;1
+0;building information management;14
+1;product lifecycle management;129
+2;product design;10
+3;ergonomic;3
+4;design method;3
+5;business process modeling;1
+6;product data management;7
+7;architecture;2
+8;product development;12
+9;product development process;5
+10;heterogeneous data;2
+11;graph;3
+12;biomedical;1
+13;lean product development;3
+14;system engineering;9
+15;knowledge management;16
+16;engineering education;2
+17;machining;1
+18;performance measurement;2
+19;fashion industry;2
+20;product lifecycle support;1
+21;information modeling;1
+22;smart factory;2
+23;intelligent manufacturing;2
+24;core product model;1
+25;open assembly model;1
+26;interoperability;13
+27;modularity;2
+28;safety engineering;1
+29;integrated design;1
+30;collaborative engineering;4
+31;platform;4
+32;liaison;1
+33;ontology;19
+34;knowledge based framework;1
+35;data analytics;5
+36;meta model;1
+37;neural network;2
+38;internet of things;21
+39;product lifecycle management process;1
+40;big data;4
+41;semantic interoperability;8
+42;collaborative design process;1
+43;decision making;3
+44;knowledge based engineering;7
+45;complex system;2
+46;multidisciplinary integration;1
+47;agile;1
+48;big data analytics;1
+49;innovation;5
+50;small and medium sized enterprise;12
+51;planning;1
+52;reverse engineering;2
+53;machine learning;14
+54;assembly model;1
+55;middle of life;1
+56;closed loop product lifecycle management;6
+57;social network;1
+58;smart product;6
+59;return on investment;1
+60;value;1
+61;simulation data management ;1
+62;traceability;6
+63;service lifecycle management;1
+64;closed loop lifecycle management;1
+65;system of systems;4
+66;smart city;2
+67;product structure;2
+68;bill of materials;2
+69;construction;1
+70;modular;1
+71;trend;2
+72;collaboration;3
+73;standard;3
+74;supply chain;5
+75;new product development;6
+76;cloud manufacturing;1
+77;modeling and simulation;2
+78;design automation;3
+79;design intent;4
+80;design rationale;1
+81;geographical information system;2
+82;lifecycle assessment;4
+83;global manufacturing;1
+84;natural language text;1
+85;Sentiment analysis;1
+86;design management;1
+87;quality function deployment;1
+88;modeling;2
+89;software as a service;1
+90;data model;2
+91;reconfiguration;3
+92;building information modeling;7
+93;field data;1
+94;shape matching;1
+95;information visualization;1
+96;SYSML;4
+97;education;5
+98;survey;1
+99;context;1
+100;knowledge acquisition;2
+101;modular design;3
+102;product configuration;4
+103;design process;1
+104;product lifecycle management system;2
+105;knowledge reuse;5
+106;product feature;1
+107;cultural heritage;1
+108;integration;4
+109;sustainable design;1
+110;ecodesign;1
+111;digital manufacturing;2
+112;digital factory;1
+113;lean thinking;3
+114;sustainable manufacturing;4
+115;lifecycle;5
+116;decision mining;1
+117;business process;4
+118;collaborative design;2
+119;additive manufacturing;7
+120;manufacturing;5
+121;product lifecycle management tool;2
+122;model based definition;4
+123;semantic search;1
+124;cost estimation;3
+125;organizational change;1
+126;productivity;2
+127;mass customization;4
+128;modularization;2
+129;assembly simulation;1
+130;enterprise architecture;3
+131;configuration management;2
+132;transformation;1
+133;system design;1
+134;system lifecycle management;2
+135;industrial digital mockup;2
+136;assembly;1
+137;product lifecycle management implementation;2
+138;product service system design;1
+139;management;1
+140;part reuse;2
+141;simulation;3
+142;case study;6
+143;virtual reality;8
+144;virtual prototyping;1
+145;framework;2
+146;extended enterprise;1
+147;information system;2
+148;uncertainty;2
+149;product service system;4
+150;strategy;1
+151;information management;4
+152;computer aided design;6
+153;multi agent system;1
+154;knowledge capitalization;1
+155;maturity model;10
+156;ISO 10303;1
+157;STEP;1
+158;UML;1
+159;conceptual design;8
+160;concurrent engineering;2
+161;facility management;1
+162;shipbuilding;2
+163;performance management;1
+164;key performance indicator;1
+165;artificial intelligence;12
+166;discrete event simulation;2
+167;model based system engineering;6
+168;prototyping;1
+169;content management;2
+170;innovation process;2
+171;creativity;2
+172;visualization;3
+173;optimization;1
+174;change propagation;1
+175;bayesian network;1
+176;augmented reality;5
+177;manufacturing resource;1
+178;process planning;2
+179;maintenance;1
+180;six sigma;1
+181;lean concept;1
+182;reference ontology;2
+183;knowledge structure;1
+184;graph theory;2
+185;digitalization;6
+186;sustainable development;1
+187;digital mockup;1
+188;lifecycle management;4
+189;end of life;2
+190;business model;12
+191;recycling;1
+192;reuse;1
+193;remanufacturing;2
+194;personalization;1
+195;product lifecycle;6
+196;finite element analysis;1
+197;change management;2
+198;project based learning;2
+199;design for manufacturing;1
+200;data management;1
+201;process optimization;1
+202;predictive maintenance;3
+203;servitization;1
+204;implementation;4
+205;sustainability;11
+206;reference model;1
+207;TF_IDF;1
+208;clustering;1
+209;industry foundation class;1
+210;engineering knowledge;1
+211;data exchange;2
+212;cyber physical system;1
+213;engineering design;1
+214;assessment;2
+215;function;1
+216;product improvement;1
+217;product recovery;2
+218;disassembly;3
+219;decision support system;1
+220;knowledge extraction;1
+221;context awareness;2
+222;lean;3
+223;3D modeling;1
+224;communication;1
+225;assessment method;1
+226;usability;2
+227;open source;1
+228;lifecycle simulation;1
+229;engineering change management;1
+230;structural complexity management;1
+231;prototype;1
+232;3D printing;2
+233;parametric design;1
+234;communication protocol;1
+235;variety;1
+236;genetic algorithm;1
+237;product family;1
+238;intelligent system;1
+239;safety standard;1
+240;carbon footprint;3
+241;data collection;1
+242;construction industry;1
+243;continuous improvement;1
+244;sketching;1
+245;design;1
+246;comparison;1
+247;ecoefficiency;1
+248;data quality;1
+249;cluster;1
+250;risk assessment;1
+251;supply chain management;3
+252;line design;1
+253;information retrieval;1
+254;manufacturing industry;1
+255;artificial neural network;2
+256;maturity;1
+257;model;1
+258;product;1
+259;alignment;1
+260;circular economy;4
+261;enterprise resource planning;2
+262;manufacturing execution system;2
+263;design review;2
+264;model based system engineering ;4
+265;application lifecycle management;1
+266;exchange;1
+267;synchronization;1
+268;fashion;2
+269;technology acceptance model;1
+270;dashboard;1
+271;knowledge based system;2
+272;obsolescence;2
+273;obsolescence management;1
+274;automotive;1
+275;model based enterprise;2
+276;benchmarking;1
+277;SCRUM;1
+278;design for x;2
+279;agility;1
+280;analytic hierarchy process ;1
+281;business strategy;1
+282;methodology;1
+283;textile;1
+284;automotive industry;1
+285;requirement engineering;1
+286;asset management;1
+287;software engineering;1
+288;software product management;1
+289;social responsibility;1
+290;user experience;3
+291;human computer interaction;1
+292;cost driver;1
+293;activity based costing;1
+294;production management;1
+295;production engineering;1
+296;human;1
+297;risk management;1
+298;wireless sensor network;1
+299;lean production;1
+300;failure mode and effect analysis;1
+301;strategic alignment;1
+302;PMBOK;1
+303;semantic;1
+304;knowledge;2
+305;data mapping;1
+306;system integration;1
+307;risk;1
+308;taxonomy;2
+309;knowledge transfer;2
+310;mechatronic product;2
+311;new product development project;1
+312;security;1
+313;information integration;1
+314;workflow;1
+315;provenance;1
+316;****;1
+317;maturity level;1
+318;configuration system;1
+319;configuration rule;1
+320;best practice;1
+321;FEM;1
+322;mesh;1
+323;business process management;1
+324;classification;1
+325;production;2
+326;geometry;1
+327;tracking;1
+328;virtual human;1
+329;technology;2
+330;product innovation;1
+331;metadata;1
+332;technology readiness level;1
+333;model based design;2
+334;collaboration platform;1
+335;operation management;1
+336;product complexity;1
+337;production system;1
+338;enterprise information system;1
+339;capability maturity;1
+340;process;1
+341;protocol;1
+342;stage gate;1
+343;information sharing;1
+344;shipbuilding industry;1
+345;engineering bill of materials;1
+346;roadmap;2
+347;equipment manufacturing;1
+348;aerospace industry;1
+349;lean management;1
+350;process improvement;1
+351;assembly line;1
+352;knowledge exchange;1
+353;open innovation;1
+354;TRIZ;1
+355;data warehouse;1
+356;neutral model;1
+357;nuclear power plant;1
