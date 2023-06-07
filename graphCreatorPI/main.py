@@ -31,15 +31,14 @@ isbns = [
     "978-3-030-94399-8", #2021 Part 1
     "978-3-031-25182-5", #2022
 ]
-
-
+isbns = []
 
 print("Start building graph data")
 
 print("... read source data")
 reader = ICPLMReader(dbFile, 2005, 2011, isbns)
 publications = reader.read()
-
+print(publications)
 print("... normalize keywords")
 normalizer = Normalizer(normTableFile, logfile)
 normalizer.normalize(publications)

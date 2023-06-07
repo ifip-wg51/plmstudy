@@ -10,12 +10,15 @@ class ICPLMReader:
         self.isbns = isbns
 
     def getPLMStudyDatabase(self):
+        pubs=[]
         con = sqlite3.connect(self.dbFile)
         cur = con.cursor()
         #select all publications where source = "International Conference on Product Lifecycle Management"
         #Returns values from 2005 until 2015
-        pubs=[]
-        for sqlPub in cur.execute('SELECT * FROM publications WHERE pubSource = "International Conference on Product Lifecycle Management"'):
+
+        cur.execute('SELECT * FROM publications WHERE pubSource = "International Conference on Product Lifecycle Management"')
+        sqlPubs = cur.fetchall()
+        for sqlPub in sqlPubs:
             curKeys = con.cursor()
             keys =[]
             for sqlKey in cur.execute('SELECT tags. tagName FROM publicationTags INNER JOIN tags ON publicationTags.tagID=tags.tagID WHERE publicationTags.pubID=' + str(sqlPub[0])):
