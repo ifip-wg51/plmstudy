@@ -1,12 +1,11 @@
 import csv
 
-##Todo: Handle Acronyms
-
 class Normalizer:
     def __init__(self, normTableFile, logfile):
         self.normTableFile = normTableFile
         self.logfile = logfile
         self.keywords = []
+        open(logfile, 'w').close()
 
     def readNormTable(self):
         self.normTable = []
@@ -25,6 +24,7 @@ class Normalizer:
         file.close
 
     def normalize(self, publications):
+        missingKeywordCount = 0
         normTable = self.readNormTable()
         for pub in publications:
             normKeywords = []
@@ -32,30 +32,41 @@ class Normalizer:
                 #find normalized form
                 check = False
                 for row in normTable:
-                    if row[0].lower() == keyword.lower():
-                        #lookup acronyms with multiple meanings
-                        index = self.addOrWeightKeyword(row[1])
+                    # check if keywords matches mapping in normalization or is already in normalized form
+                    if row[0].lower() == keyword.lower() or row[1] == keyword.lower():
+                        index = self.addOrWeightKeyword(row[1], pub['year'])
                         normKeywords.append(index)
                         check = True
                         break
                 if check == False:
-                    print('Keyword not found: "' + keyword + '" in  "' + pub['title']+'"')
+                    #print('Keyword not found: "' + keyword + '" in  "' + pub['title']+'"')
+                    missingKeywordCount = missingKeywordCount + 1
                     self.logMissingKeywords(keyword)
             pub['keywords'] = normKeywords
+        print ('    Quality report: Missing keywords: ' + str(missingKeywordCount))
         return publications
 
-    def addOrWeightKeyword(self, keyword):
+    def addOrWeightKeyword(self, keyword, year):
         index = -1
         for i, key in enumerate(self.keywords):
             if key['keyword'] == keyword:
-                key['count'] = key['count']+1
+                key['count'] = key['count'] + 1
+                yearCount = -1
+                for y in key['years']:
+                    if y['year'] == year:
+                        yearCount = y['count'] + 1
+                        y['count'] = yearCount
+                        break
+                if yearCount == -1:
+                    key['years'].append({ 'year' : year, 'count': 1})
                 index = i
                 break
         if index == -1:
             index = len(self.keywords)
             self.keywords.append({
                 'keyword': keyword,
-                'count': 1
+                'count': 1,
+                'years': [{ 'year' : year, 'count': 1}]
             })
         return index
 

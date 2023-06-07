@@ -35,15 +35,28 @@ class GraphBuilder:
         return
     
     def write(self, keywordFile, edgeFile):
+        #Node Table
         open(keywordFile, 'w').close()
         file = open(keywordFile, 'a')
+        file.write("Id;Label;Timestamp;Count;Time_count\n")
         for i, key in enumerate(self.keywords):
-            file.write(str(i) + ';' + str(key['keyword']) + ';' + str(key['count']) + "\n")
+            timeInterval = "<["
+            countInterval = "<"
+            for y in key['years']:
+                #timeInterval += "[" + str(y['year']) + "," + str(y['year']+1) + "]"
+                timeInterval += str(y['year']) + ","
+                countInterval += "[" + str(y['year']) + "," + str(y['count']) + "]"
+            timeInterval += "]>"
+            countInterval += ">"
+            file.write(str(i) + ';' + str(key['keyword']) + ';' + timeInterval + ';' + str(key['count']) + ';' + countInterval + "\n")
         file.close
+
+        #Edge Table
         open(edgeFile, 'w').close()
         file = open(edgeFile, 'a')
+        file.write("Source;Target;Type;Weight\n")
         for edge in self.edges:
-            file.write(str(edge['A']) + ';' + str(edge['B'])+ ';' + str(edge['weight']) + "\n")
+            file.write(str(edge['A']) + ';' + str(edge['B']) + ';Undirected;' + str(edge['weight']) + "\n")
         file.close
         return
     

@@ -1,921 +1,1523 @@
-0;design process modeling;1
-1;model based engineering;2
-2;computer aided design modeling;1
-3;product lifecycle management solution;1
-4;product lifecycle management implementation;6
-5;product lifecycle management architecture;1
-6;guideline;1
-7;collaborative work;2
-8;project review;1
-9;conflict solving;1
-10;intuitive interaction;1
-11;computer aided design;14
-12;boundary representation;1
-13;mesh;2
-14;error detection;1
-15;error documentation;1
-16;product lifecycle management;224
-17;reference model;2
-18;product lifecycle management system;7
-19;3D plant layout;1
-20;constructive solid geometry;1
-21;STEP;4
-22;COLLADA;1
-23;WEBGL;1
-24;product lifecycle management harmonization;1
-25;product lifecycle management planning;1
-26;product lifecycle management integration;2
-27;product lifecycle management procedure model;1
-28;product lifecycle management decision framework;1
-29;design reuse;2
-30;case study;8
-31;engineering education;4
-32;communication;2
-33;free software;1
-34;assembly modeling;1
-35;ontology;25
-36;mereotopology;1
-37;concurrent engineering;4
-38;tolerancing process;1
-39;product development process;10
-40;product data management;17
-41;computer aided tolerancing;1
-42;knowledge reuse;6
-43;collaborative product development;3
-44;knowledge management;33
-45;semantic relationship;1
-46;data graph;1
-47;data reuse;1
-48;product development;20
-49;data value;1
-50;product data;2
-51;architectural design process;1
-52;modularization;1
-53;interface modeling;1
-54;bill of materials;4
-55;model driven engineering;2
-56;mechatronic design;2
-57;application lifecycle management;3
-58;version control;1
-59;collaborative engineering;6
-60;product data and  lifecycle management;2
-61;digital engineering tool;1
-62;virtual product creation;1
-63;process standard;1
-64;engineering efficiency;1
-65;new media in engineering;1
-66;product master data management;1
-67;ontology based data integration;1
-68;data architecture;1
-69;qualitative research;1
-70;service lifecycle management;3
-71;virtual factory;2
-72;service science management and engineering;1
-73;ecosystem collaboration;1
-74;model based system engineering;7
-75;engineering data management;1
-76;product architecture modeling;1
-77;design for simulation;1
-78;risk management;2
-79;uncertainty;5
-80;multiple domain matrix;2
-81;integrated product development;2
-82;product service system;14
-83;product planning;2
-84;lifecycle model;1
-85;temporal pattern;1
-86;social network;2
-87;FACEBOOK;1
-88;product avatar;2
-89;production;4
-90;internet of things;24
-91;product state;1
-92;data management;2
-93;middle of life;4
-94;leisure boat production;1
-95;fact based design;1
-96;requirement engineering;2
-97;lifecycle phase;2
-98;structural complexity management;2
-99;requirement module;1
-100;change propagation;3
-101;customer orientation;1
-102;maturity model;17
-103;knowledge flow;1
-104;product data standard;1
-105;information model;2
-106;engineering design;3
-107;design system;1
-108;design practice;1
-109;design assessment;1
-110;assessment tool;2
-111;knowledge representation and definition;1
-112;bottom up approach;1
-113;user story mapping;1
-114;digital mockup;7
-115;work package;1
-116;association;1
-117;transposition of associations;1
-118;computer aided design data;1
-119;reconciliation matrix;1
-120;lean engineering;1
-121;iteration;1
-122;product life management;1
-123;workflow;2
-124;supply chain;10
-125;integrated logistics;1
-126;optimization;2
-127;system engineering;11
-128;model based system engineering ;4
-129;performance evaluation and improvement;1
-130;process maturity model;1
-131;virtual engineering;1
-132;lean product development;5
-133;product development waste;1
-134;set based concurrent engineering;4
-135;learning and serious game;1
-136;new product definition;1
-137;knowledge need;1
-138;benefit tool organization process people framework;1
-139;knowledge management of product lifecycle;1
-140;quick term project development;1
-141;product structure;5
-142;software management;1
-143;concurrent engineering department;1
-144;model based enterprise;2
-145;model based definition;5
-146;neutral file format;1
-147;standard;4
-148;rule;1
-149;power plant;1
-150;description logic;1
-151;SWRL;1
-152;information system;7
-153;business process;7
-154;interoperability;18
-155;product lifecycle;11
-156;research facility;1
-157;particle accelerator;1
-158;prototyping;2
-159;testing;1
-160;product data exchange;1
-161;data semantic;1
-162;XML;1
-163;XQUERY;1
-164;future product lifecycle management;1
-165;informal communication;1
-166;social networking;1
-167;manufacturing process planning;1
-168;coordination;1
-169;complex product development;1
-170;service data management;1
-171;service business process;1
-172;maintenance;5
-173;maintenance repair and overhaul;1
-174;steam turbine;1
-175;industrial case;1
-176;organizational innovation;1
-177;fostering innovation;1
-178;constraint satisfaction problem;1
-179;product configuration;7
-180;engineering process;1
-181;complex engineering;1
-182;method and tool;1
-183;creativity;3
-184;tool;1
-185;process;4
-186;innovation;7
-187;competitiveness;1
-188;product lifecycle knowledge management;1
-189;innovation process;4
-190;biotechnology;1
-191;non linear dynamic system;1
-192;digital mockup maturity;1
-193;product reverse engineering;1
-194;product assembly;1
-195;model comparison;2
-196;product shape;1
-197;difference identification;1
-198;geometric constraint;1
-199;impact;1
-200;analysis;1
-201;benefit;1
-202;defect;1
-203;potential;1
-204;beginning of life;1
-205;end of life;3
-206;closed loop product lifecycle management;8
-207;information flow;1
-208;sustainable manufacturing;5
-209;UML;2
-210;change management;5
-211;AUDROSBOX;1
-212;collaborative feature;1
-213;printed circuit board;2
-214;pollution transfer phenomena;1
-215;lifecycle assessment;12
-216;lifecycle impact assessment;2
-217;material flow analysis;2
-218;building information modeling;21
-219;construction manager;1
-220;construction management body of knowledge;1
-221;industrial digital mockup;4
-222;proactive engineering;1
-223;qualitative description;1
-224;understanding;1
-225;awareness in design;1
-226;multi domain ontology;1
-227;data integration;1
-228;enterprise architecture;5
-229;multidisciplinary collaboration;1
-230;operation;1
-231;facility management;5
-232;archival;1
-233;exchange;2
-234;automotive;3
-235;open archival Information system;1
-236;SASIG;1
-237;mass customization;8
-238;configuration;1
-239;building information management;20
-240;teamwork;1
-241;mental model;1
-242;integrated design and delivery solution;1
-243;aeronautical final assembly line conceptual design;1
-244;product information exchange;1
-245;shape feature taxonomy;1
-246;volumetric feature;1
-247;deformation feature;1
-248;free form surface feature;1
-249;lifecycle orientation;1
-250;empirical study;1
-251;engineering change;1
-252;data quality;4
-253;engineering collaboration;2
-254;migration;1
-255;virtual assistant;1
-256;ubiquitous computing;1
-257;methodology;3
-258;software integrator;1
-259;biomedical imaging;2
-260;neuroscience;1
-261;product lifecycle information model ;1
-262;construction education;1
-263;building information management education and training;1
-264;framework;6
-265;collaborative environment;1
-266;cultural heritage;2
-267;museum;1
-268;digital heritage reference model;1
-269;ergonomic;4
-270;usability;3
-271;user experience;5
-272;agile method;1
-273;traceability;9
-274;heritage;1
-275;assembly sequence;1
-276;liaison graph;1
-277;related ratio;1
-278;common area;1
-279;environmental sustainable design;1
-280;information management;7
-281;collaboration;5
-282;configuration management;4
-283;continuous improvement;2
-284;self assessment;1
-285;technology transfer;1
-286;product lifecycle management process improvement;1
-287;research steering;1
-288;maturity;4
-289;technology readiness level;1
-290;scenario;1
-291;proof of usage;1
-292;business process management notation;1
-293;modeling;3
-294;configuration rule;2
-295;visualization;5
-296;authoring;1
-297;performance measurement;4
-298;metrics;1
-299;mechatronic system design;1
-300;multi domain system integration;1
-301;agile design method;1
-302;design decision integration model;1
-303;engineering actions management system;1
-304;collaboration workspace;1
-305;ecodesign;4
-306;knowledge capture;1
-307;lifecycle thinking;1
-308;product model;2
-309;collaboration platform;2
-310;production design;1
-311;intelligent product;1
-312;leisure boat;1
-313;social network service;1
-314;servitization;2
-315;lifecycle;8
-316;civil;1
-317;marine;1
-318;wind;1
-319;open industry framework;1
-320;parallel distributed processing;1
-321;different types of industry;1
-322;modular production;1
-323;basic need;1
-324;reverse engineering;4
-325;reeb graph;1
-326;shape matching;2
-327;path planning;1
-328;virtual reality tool;1
-329;assembly;2
-330;manipulation;1
-331;perception assessment;1
-332;experimental data and information;1
-333;business process modeling;2
-334;industrial implementation;1
-335;product lifecycle management tool;3
-336;new product development process;1
-337;informational integration;1
-338;agency;1
-339;rule of use;1
-340;interaction;1
-341;complexity;1
-342;virtual reality;10
-343;intuitiveness;1
-344;fashion industry;4
-345;maturity level;1
-346;knowledge based engineering;9
-347;engineering visualization;1
-348;data exchange;3
-349;JT standard;1
-350;product lifecycle management maturity model;2
-351;analytic hierarchy process methodology;1
-352;key performance indicator;3
-353;TIFOS framework;1
-354;product knowledge management;1
-355;product design;10
-356;complex product configuration;1
-357;product quality;1
-358;quality control loop;1
-359;prototype phase;1
-360;ramp up;1
-361;reconfiguration;4
-362;manufacturing resource;1
-363;item;1
-364;asset;1
-365;CERN;1
-366;master geometry;1
-367;master geometry creation;1
-368;master geometry validation workflow;1
-369;buffer geometry;1
-370;integrated design and manufacturing;1
-371;computer aided design manufacturing and numerical control;1
-372;aviation maintenance;1
-373;model based product definition;1
-374;model based work instruction;1
-375;mobile computing;1
-376;undergraduate research;1
-377;process management;2
-378;design structure matrix;2
-379;preliminary collaborative design;1
-380;decision making;4
-381;plant;1
-382;ISO 15926;1
-383;ISO 15926 ;1
-384;exchange process;1
-385;semantic web;3
-386;AREVA interoperability rich environment;1
-387;availability contract;1
-388;through life costing;1
-389;system;1
-390;input output analysis;1
-391;defence aerospace;1
-392;sustainability;15
-393;lifecycle design;1
-394;extended enterprise;2
-395;information technology system;1
-396;product portfolio management;1
-397;new product development;11
-398;medical device industry;1
-399;best practice;3
-400;aerospace industry;2
-401;social software;1
-402;work breakdown structure;1
-403;tertiary education;1
-404;information technology;2
-405;thermal design;1
-406;SYSML;6
-407;software change;1
-408;electronic product;1
-409;embedded system;1
-410;system level;1
-411;simulation;5
-412;low temperature burn injury;1
-413;laser scanner;1
-414;point cloud data;1
-415;edge measurement;1
-416;3D target;1
-417;system lifecycle management;2
-418;sustainable development;2
-419;geographical information system;3
-420;lifecycle information management;1
-421;asset management;3
-422;3D digitization;1
-423;design and manufacturing;1
-424;product design architecture;1
-425;organizational capability;1
-426;process optimization;2
-427;product globalization;1
-428;computer aided engineering;1
-429;requirement information management;1
-430;lifecycle based requirement;1
-431;reusability;1
-432;customer centric manufacturing;1
-433;next generation;1
-434;engineering operating system;1
-435;intelligence;1
-436;product lifecycle management improvement concept;1
-437;virtual enterprise;1
-438;reframing;1
-439;product position;1
-440;strategy;2
-441;lifecycle management;6
-442;project management;1
-443;knowledge;4
-444;agent;1
-445;prioritization;1
-446;process information model;1
-447;process parameter;1
-448;sheet metal operation;1
-449;knowledge acquisition;3
-450;mechanical assembly;1
-451;discourse analysis;1
-452;segmentation;1
-453;asset management system;1
-454;reconfigurable production system;1
-455;skill based model;1
-456;vertical integration;1
-457;digital factory;3
-458;construction industry;5
-459;MALAYSIA;2
-460;partial least square;1
-461;supply chain integration;1
-462;energy renovation;1
-463;industrialization;1
-464;design;2
-465;project and program management;1
-466;knowledge engineering;1
-467;business referential;1
-468;knowledge referential;1
-469;knowledge base;1
-470;repair;1
-471;overhaul;1
-472;aeronautical;1
-473;development process efficiency;1
-474;sustainability analysis;1
-475;lifecycle tool;1
-476;green aviation;1
-477;project lifecycle management;1
-478;completion;1
-479;triangular fuzzy element;1
-480;product lifecycle management maturity evaluation;1
-481;product lifecycle management component maturity assessment;1
-482;data;2
-483;offshore wind farm;1
-484;naval;2
-485;decomposition analysis resolution process;1
-486;engine;1
-487;head gasket;1
-488;coolant;1
-489;seal;1
-490;leakage;1
-491;heterogeneous data;2
-492;information visualization;1
-493;graph theory;3
-494;product upgradability;1
-495;customer demand;1
-496;set based design;1
-497;knowledge and data extraction;1
-498;WINDCHILL;1
-499;semantic ontology;1
-500;design intent;6
-501;know how;1
-502;OWL;1
-503;PROTEGE;1
-504;quantum lifecycle management;2
-505;new product development performance;1
-506;new product development strategy;1
-507;material flow;1
-508;socio technical system;1
-509;agent based simulation modeling;1
-510;indonesian fertiliser industry;1
-511;professional practice;1
-512;role and responsibility;1
-513;knowledge competency;1
-514;stakeholder relation;1
-515;quality management system;1
-516;configured digital mockup;1
-517;configured digital mokup;1
-518;dynamic instant innovation;1
-519;user specialization;1
-520;ambidexterity;1
-521;exploration;1
-522;exploitation;1
-523;education;5
-524;efficiency;1
-525;original equipment manufacturer;1
-526;tool and process;1
-527;training;1
-528;productivity;3
-529;design engineering;1
-530;lifecycle costing;2
-531;lifecycle cost;2
-532;lifecycle optimization;1
-533;lifecycle simulation;1
-534;simplified lifecycle assessment;1
-535;product portfolio assessment;1
-536;innovation management;1
-537;escalation;1
-538;information system project;1
-539;outsourcing;1
-540;credible deterrence;1
-541;credible commitment;1
-542;mechanical system design;1
-543;model driven architecture;1
-544;design system process;1
-545;data model;4
-546;sound quality;1
-547;evaluation grid method;1
-548;use case;1
-549;design structure matrix clustering analysis;1
-550;general manufacturing model;1
-551;SYSTEMATICA metamodel;1
-552;master data;1
-553;master data management ;1
-554;information technology governance;1
-555;enterprise search;1
-556;virtual prototype;1
-557;product service system sustainability;1
-558;product service system design;2
-559;product service system assessment;1
-560;business model;10
-561;discrete event simulation;3
-562;smart factory;3
-563;maturity approach;1
-564;state of the art;1
-565;comparison;3
-566;information extraction;1
-567;TF_IDF;2
-568;opinion mining;1
-569;dependency relation;1
-570;part of speech;1
-571;user integration;1
-572;service orientation;1
-573;development lifecycle;1
-574;design process;4
-575;mechatronic product;2
-576;multiobjective optimization;1
-577;embodiment design;1
-578;closed loop;1
-579;system lifecycle;1
-580;bioimaging;1
-581;knowledge sharing;1
-582;ontology graph;1
-583;reconfigurable modularization;1
-584;product with growing value;1
-585;customer engagement;1
-586;process value;1
-587;self actualization;1
-588;in service;1
-589;engineering project process;1
-590;process evolution;1
-591;object process methodology;1
-592;conceptual modeling;1
-593;quality management;1
-594;manufacturing;5
-595;production planning and control;1
-596;big data;5
-597;DBSCAN;1
-598;cultural heritage ontology;1
-599;prediction;2
-600;engineering change management;2
-601;system of systems;4
-602;mechatronic;1
-603;cyber physical system;2
-604;meta model;2
-605;manufacturing execution system;4
-606;monitoring system;2
-607;numerical simulation;1
-608;STEP AP209;1
-609;simulation lifecycle management;1
-610;verification and validation;1
-611;MTCONNECT;1
-612;milling;2
-613;data generator;1
-614;data analytics;6
-615;reverse logistics;1
-616;compromising strategy;1
-617;decision making model;1
-618;waste electrical and electronic equipment;1
-619;sustainable performance;1
-620;product validation and testing;1
-621;social media tool;1
-622;tacit knowledge;1
-623;Value network;1
-624;value creation;1
-625;service oriented manufacturing;1
-626;additive manufacturing;10
-627;supply chain management;3
-628;agile;2
-629;3D printing;3
-630;user;1
-631;product system performance;1
-632;data visualization;1
-633;architecture;3
-634;cyber physical production system;1
-635;smart product;6
-636;collaborative platform;1
-637;demand driven supply network;1
-638;enterprise service bus;1
-639;publish subscribe pattern;1
-640;reliability centered maintenance;1
-641;end of life product;1
-642;factory relocation;1
-643;product platform;1
-644;quotation;1
-645;reuse;2
-646;design rationale;3
-647;natural language text;2
-648;diagnosis;1
-649;Sentiment analysis;2
-650;procedural modeling;1
-651;computer generated architecture;1
-652;FACADE modeling;1
-653;CITYENGINE;1
-654;ARCGIS;1
-655;multidisciplinary integration;2
-656;interface;1
-657;innovation performance measurement;1
-658;knowledge management performance measurement;1
-659;knowledge management process;1
-660;integrated framework;1
-661;digitalization;7
-662;measurement service;1
-663;virtual validation;1
-664;construction project;2
-665;improvement;1
-666;product lifecycle management maturity;1
-667;product lifecycle management system architecture;1
-668;functional digital mockup;1
-669;natural language processing;1
-670;requirement;1
-671;parametric modeling;1
-672;smart city;3
-673;event management;1
-674;product development assessment;1
-675;product development maturity;1
-676;benchmarking;2
-677;product development best practice;1
-678;CLIMB model;1
-679;augmented reality aided manufacturing;1
-680;prismatic machining;1
-681;computer aided design and manufacturing;1
-682;numerical control;1
-683;employer information requirement;1
-684;information requirement;1
-685;lifecycle information flow;1
-686;social lifecycle assessment;2
-687;smart energy product;1
-688;product complexity;2
-689;utility industry;1
-690;collaborative business process;1
-691;performance;1
-692;execution trace;1
-693;customer requirement;1
-694;collaborative design;4
-695;mixed reality;1
-696;KANSEI engineering;1
-697;tangible user interface;1
-698;role;1
-699;responsibility;1
-700;construction player;1
-701;lack of data;1
-702;polypropylene;1
-703;recycling;2
-704;early prototyping;1
-705;business experiment;1
-706;agile product development;1
-707;digital industry;1
-708;virtual confidence;1
-709;simulation data management;1
-710;provenance;1
-711;design automation system;1
-712;computer supported engineering design;1
-713;manufacturing company;1
-714;indicator;1
-715;process simulation;1
-716;design for additive manufacturing;1
-717;meta product;1
-718;supply chain uncertainty;1
-719;modified MARKOV process;1
-720;stochastic process;1
-721;risk assessment;2
-722;notation;1
-723;cognitive dimension framework;1
-724;development of notational system;1
-725;diagram;1
-726;sigmoid;1
-727;evolution;1
-728;edit trace behaviour;1
-729;engineering project management;1
-730;process reengineering;1
-731;operation and maintenance;1
-732;maintenance concept;1
-733;data mining;1
-734;wind turbine;1
-735;design for manufacturability;1
-736;knowledge capitalization;2
-737;multi scale modelling;1
-738;3D computer aided design;1
-739;architecture engineering and construction;1
-740;shipbuilding;3
-741;bibliometric;1
-742;citation analysis;1
-743;product lifecycle management conference proceeding;1
-744;regular pattern;1
-745;symmetry in computer aided design model;1
-746;mechatronic system;1
-747;manufacturability;1
-748;robotic welding;1
-749;multi objective optimization;1
-750;capitalization;1
-751;management;2
-752;end to end information and communication technology solution;1
-753;business collaboration;1
-754;process monitoring;1
-755;small and medium sized enterprise;13
-756;knowledge representation;1
-757;servicization;1
-758;success factor product lifecycle management;1
-759;cloud computing;1
-760;GOOGLE APPS;1
-761;learning cloud service;1
-762;software as a service;2
-763;software selection;1
-764;artificial neural network;3
-765;foot plantar pressure;1
-766;mechanical comfort;1
-767;lifecycle inventory;1
-768;PARETO rule;1
-769;design method;3
-770;graph;3
-771;biomedical;1
-772;machining;1
-773;product lifecycle support;1
-774;information modeling;1
-775;intelligent manufacturing;2
-776;core product model;1
-777;open assembly model;1
-778;modularity;2
-779;safety engineering;1
-780;integrated design;1
-781;platform;3
-782;liaison;1
-783;neural network;2
-784;product lifecycle management process;1
-785;semantic interoperability;8
-786;collaborative design process;1
-787;complex system;2
-788;big data analytics;1
-789;planning;1
-790;machine learning;13
-791;assembly model;1
-792;return on investment;1
-793;value;1
-794;simulation data management ;1
-795;construction;1
-796;modular;1
-797;trend;2
-798;cloud manufacturing;1
-799;modeling and simulation;2
-800;design automation;3
-801;global manufacturing;1
-802;design management;1
-803;quality function deployment;1
-804;field data;1
-805;survey;1
-806;context;1
-807;modular design;2
-808;product feature;1
-809;integration;4
-810;sustainable design;1
-811;digital manufacturing;2
-812;lean thinking;2
-813;decision mining;1
-814;semantic search;1
-815;cost estimation;3
-816;organizational change;1
-817;assembly simulation;1
-818;system design;1
-819;part reuse;2
-820;virtual prototyping;1
-821;multi agent system;1
-822;ISO 10303;1
-823;conceptual design;6
-824;performance management;1
-825;artificial intelligence;12
-826;content management;2
-827;bayesian network;1
-828;augmented reality;5
-829;process planning;1
-830;six sigma;1
-831;lean concept;1
-832;knowledge structure;1
-833;remanufacturing;2
-834;finite element analysis;1
-835;design for manufacturing;1
-836;predictive maintenance;3
-837;implementation;3
-838;clustering;1
-839;industry foundation class;1
-840;engineering knowledge;1
-841;assessment;2
-842;function;1
-843;product improvement;1
-844;reference ontology;1
-845;product recovery;2
-846;disassembly;3
-847;knowledge extraction;1
-848;context awareness;1
-849;lean;3
-850;3D modeling;1
-851;assessment method;1
-852;open source;1
-853;prototype;1
-854;parametric design;1
-855;communication protocol;1
-856;variety;1
-857;genetic algorithm;1
-858;product family;1
-859;intelligent system;1
-860;safety standard;1
-861;carbon footprint;3
-862;data collection;1
-863;sketching;1
-864;ecoefficiency;1
-865;cluster;1
-866;line design;1
-867;information retrieval;1
-868;manufacturing industry;1
-869;model;1
-870;product;1
-871;alignment;1
-872;circular economy;4
-873;enterprise resource planning;2
-874;design review;2
-875;synchronization;1
-876;fashion;2
-877;dashboard;1
-878;knowledge based system;1
-879;obsolescence;1
-880;obsolescence management;1
-881;SCRUM;1
-882;design for x;2
-883;agility;1
-884;analytic hierarchy process ;1
-885;textile;1
-886;automotive industry;1
-887;software engineering;1
-888;software product management;1
-889;social responsibility;1
-890;cost driver;1
-891;activity based costing;1
-892;production management;1
-893;production engineering;1
-894;human;1
-895;configuration system;1
-896;knowledge transfer;1
-897;FEM;1
-898;business process management;1
-899;classification;1
-900;geometry;1
-901;tracking;1
-902;technology;2
-903;product innovation;1
-904;metadata;1
-905;model based design;2
-906;production system;1
-907;enterprise information system;1
-908;capability maturity;1
-909;stage gate;1
-910;information sharing;1
-911;shipbuilding industry;1
-912;engineering bill of materials;1
-913;roadmap;2
-914;equipment manufacturing;1
-915;lean management;1
-916;process improvement;1
-917;assembly line;1
-918;knowledge exchange;1
-919;open innovation;1
-920;TRIZ;1
+Id;Label;Timestamp;Count;Time_count
+0;data warehouse;<[2006,]>;2;<[2006,2]>
+1;neutral model;<[2006,]>;1;<[2006,1]>
+2;nuclear power plant;<[2006,]>;1;<[2006,1]>
+3;lifecycle design;<[2006,2013,]>;2;<[2006,1][2013,1]>
+4;design for environment;<[2006,2007,]>;2;<[2006,1][2007,1]>
+5;ecodesign;<[2006,2011,2009,2014,2013,]>;6;<[2006,1][2011,1][2009,1][2014,2][2013,1]>
+6;environmental impact assessment;<[2006,2008,2007,2009,]>;4;<[2006,1][2008,1][2007,1][2009,1]>
+7;lifecycle assessment;<[2006,2013,2008,2010,2007,2005,2009,2011,2014,2015,]>;15;<[2006,1][2013,1][2008,1][2010,1][2007,3][2005,1][2009,1][2011,1][2014,2][2015,3]>
+8;lifecycle thinking;<[2006,2011,2013,]>;3;<[2006,1][2011,1][2013,1]>
+9;sustainable development;<[2006,2007,2010,2014,]>;4;<[2006,1][2007,1][2010,1][2014,1]>
+10;coupling;<[2006,]>;1;<[2006,1]>
+11;product architecture;<[2006,2007,2005,]>;4;<[2006,1][2007,2][2005,1]>
+12;product family;<[2006,2009,]>;2;<[2006,1][2009,1]>
+13;product platform;<[2006,2015,]>;2;<[2006,1][2015,1]>
+14;product data management;<[2006,2012,2010,2009,2014,2011,2005,2013,2007,2008,2015,]>;23;<[2006,2][2012,3][2010,4][2009,4][2014,2][2011,1][2005,2][2013,1][2007,2][2008,1][2015,1]>
+15;quality function deployment;<[2006,2005,2009,]>;3;<[2006,1][2005,1][2009,1]>
+16;lifecycle;<[2006,2007,2010,2014,2009,2013,2015,]>;10;<[2006,2][2007,2][2010,2][2014,1][2009,1][2013,1][2015,1]>
+17;production planning;<[2006,]>;1;<[2006,1]>
+18;simulation;<[2006,2007,2009,2011,2015,]>;6;<[2006,1][2007,2][2009,1][2011,1][2015,1]>
+19;claim;<[2006,]>;1;<[2006,1]>
+20;product lifecycle management;<[2006,2013,2007,2012,2014,2005,2010,2011,2008,2009,2015,]>;196;<[2006,11][2013,20][2007,22][2012,24][2014,17][2005,12][2010,24][2011,13][2008,12][2009,17][2015,24]>
+21;warranty management;<[2006,]>;1;<[2006,1]>
+22;collaborative design;<[2006,2005,2008,2010,2009,2007,2015,]>;13;<[2006,3][2005,2][2008,2][2010,1][2009,1][2007,2][2015,2]>
+23;digital mockup;<[2006,2014,2005,2012,2013,2009,2007,]>;9;<[2006,1][2014,1][2005,1][2012,3][2013,1][2009,1][2007,1]>
+24;extended enterprise;<[2006,2007,2010,2005,2011,2013,]>;8;<[2006,1][2007,3][2010,1][2005,1][2011,1][2013,1]>
+25;document delivery process;<[2006,]>;1;<[2006,1]>
+26;electronic product documentation;<[2006,]>;1;<[2006,1]>
+27;product lifecycle support;<[2006,2009,2005,]>;3;<[2006,1][2009,1][2005,1]>
+28;biomedical imaging;<[2013,2014,]>;2;<[2013,1][2014,1]>
+29;knowledge management;<[2013,2011,2007,2014,2009,2012,2010,2008,2005,2015,]>;31;<[2013,9][2011,4][2007,4][2014,3][2009,2][2012,2][2010,1][2008,1][2005,1][2015,4]>
+30;neuroscience;<[2013,]>;1;<[2013,1]>
+31;data exchange;<[2006,2007,2010,2013,2005,]>;6;<[2006,2][2007,1][2010,1][2013,1][2005,1]>
+32;interoperability;<[2006,2010,2008,2011,2013,2009,2005,2007,2014,2012,2015,]>;21;<[2006,2][2010,2][2008,2][2011,1][2013,3][2009,2][2005,4][2007,2][2014,1][2012,1][2015,1]>
+33;open standard;<[2006,]>;1;<[2006,1]>
+34;product lifecycle management system;<[2006,2012,2005,2007,2013,2010,]>;9;<[2006,1][2012,2][2005,2][2007,1][2013,2][2010,1]>
+35;product realization;<[2006,2008,]>;2;<[2006,1][2008,1]>
+36;standard;<[2006,2005,2013,2012,]>;6;<[2006,1][2005,3][2013,1][2012,1]>
+37;supply chain management;<[2006,2007,2010,2011,2008,2015,]>;7;<[2006,1][2007,2][2010,1][2011,1][2008,1][2015,1]>
+38;customer relationship management;<[2006,2007,]>;2;<[2006,1][2007,1]>
+39;relationship;<[2006,]>;1;<[2006,1]>
+40;support;<[2006,]>;1;<[2006,1]>
+41;vehicle;<[2006,]>;1;<[2006,1]>
+42;vehicule relationship management;<[2006,]>;1;<[2006,1]>
+43;document structure;<[2006,]>;1;<[2006,1]>
+44;interactive technical publication;<[2006,]>;1;<[2006,1]>
+45;product lifecycle;<[2006,2007,2013,2011,2012,2008,2009,2005,2014,2015,]>;19;<[2006,3][2007,4][2013,1][2011,3][2012,1][2008,1][2009,1][2005,2][2014,1][2015,2]>
+46;integrated model;<[2006,2005,]>;2;<[2006,1][2005,1]>
+47;notification;<[2006,]>;1;<[2006,1]>
+48;product process organization model;<[2006,2005,]>;2;<[2006,1][2005,1]>
+49;knowledge engineering;<[2011,2014,]>;2;<[2011,1][2014,1]>
+50;project memory;<[2011,]>;1;<[2011,1]>
+51;traceability;<[2011,2014,2005,2013,2015,]>;6;<[2011,1][2014,2][2005,1][2013,1][2015,1]>
+52;integrated engineering;<[2006,]>;1;<[2006,1]>
+53;simulation lifecycle management;<[2006,2015,]>;2;<[2006,1][2015,1]>
+54;STEP;<[2006,2005,2013,2011,2009,2010,2012,2015,]>;9;<[2006,1][2005,2][2013,1][2011,1][2009,1][2010,1][2012,1][2015,1]>
+55;collaboration;<[2006,2005,2014,2010,2009,2011,2013,2008,]>;11;<[2006,2][2005,1][2014,1][2010,1][2009,2][2011,2][2013,1][2008,1]>
+56;electronic manufacturing;<[2006,]>;1;<[2006,1]>
+57;data semantic;<[2006,2012,]>;2;<[2006,1][2012,1]>
+58;heterogeneous information sharing;<[2006,]>;1;<[2006,1]>
+59;ontology;<[2006,2012,2014,2010,2007,2011,2013,2009,2005,2008,2015,]>;24;<[2006,1][2012,4][2014,1][2010,1][2007,4][2011,2][2013,2][2009,2][2005,3][2008,2][2015,2]>
+60;product lifecycle application;<[2006,]>;1;<[2006,1]>
+61;collaborative and simultaneous product development;<[2007,]>;1;<[2007,1]>
+62;collaborative product lifecycle management;<[2007,]>;2;<[2007,2]>
+63;quick budget estimation;<[2007,]>;1;<[2007,1]>
+64;small and medium sized enterprise;<[2007,2006,2009,2015,]>;5;<[2007,2][2006,1][2009,1][2015,1]>
+65;supply chain;<[2007,2010,2013,2014,2012,2008,]>;9;<[2007,2][2010,2][2013,2][2014,1][2012,1][2008,1]>
+66;time to market;<[2007,]>;1;<[2007,1]>
+67;multiview;<[2010,]>;1;<[2010,1]>
+68;product breakdown;<[2010,]>;1;<[2010,1]>
+69;semantic tag;<[2010,]>;1;<[2010,1]>
+70;customer driven;<[2006,]>;1;<[2006,1]>
+71;intelligent design support;<[2006,]>;1;<[2006,1]>
+72;mass customization;<[2006,2013,2010,2015,]>;6;<[2006,1][2013,3][2010,1][2015,1]>
+73;self learning;<[2006,]>;1;<[2006,1]>
+74;augmented product;<[2006,]>;1;<[2006,1]>
+75;competitive differentiation;<[2006,2005,]>;2;<[2006,1][2005,1]>
+76;customer;<[2006,]>;1;<[2006,1]>
+77;innovation;<[2006,2007,2005,2012,2014,2011,2008,2013,]>;11;<[2006,2][2007,3][2005,1][2012,1][2014,1][2011,1][2008,1][2013,1]>
+78;product decision;<[2006,]>;1;<[2006,1]>
+79;computer aided design knowledge;<[2006,]>;1;<[2006,1]>
+80;business process management;<[2007,2009,]>;2;<[2007,1][2009,1]>
+81;enterprise portal;<[2007,]>;1;<[2007,1]>
+82;enterprise service bus;<[2007,2015,]>;2;<[2007,1][2015,1]>
+83;service oriented architecture;<[2007,2008,2009,]>;5;<[2007,2][2008,2][2009,1]>
+84;web service;<[2007,2005,2009,2008,2011,]>;7;<[2007,1][2005,2][2009,1][2008,2][2011,1]>
+85;analysis;<[2012,2010,2007,]>;3;<[2012,1][2010,1][2007,1]>
+86;benefit;<[2012,]>;1;<[2012,1]>
+87;defect;<[2012,]>;1;<[2012,1]>
+88;impact;<[2012,]>;1;<[2012,1]>
+89;potential;<[2012,]>;1;<[2012,1]>
+90;description logic;<[2012,2011,2008,]>;3;<[2012,1][2011,1][2008,1]>
+91;power plant;<[2012,]>;1;<[2012,1]>
+92;rule;<[2012,2007,]>;2;<[2012,1][2007,1]>
+93;SWRL;<[2012,2011,]>;2;<[2012,1][2011,1]>
+94;engineering and contracting;<[2006,]>;1;<[2006,1]>
+95;plant lifecycle;<[2006,]>;1;<[2006,1]>
+96;concurrent engineering;<[2007,2008,2012,2010,]>;8;<[2007,2][2008,2][2012,3][2010,1]>
+97;product process;<[2007,]>;1;<[2007,1]>
+98;environmentally conscious nano product;<[2006,]>;1;<[2006,1]>
+99;product design;<[2006,2011,2009,2013,2005,2007,2015,]>;8;<[2006,1][2011,1][2009,2][2013,1][2005,1][2007,1][2015,1]>
+100;product lifecycle simulation;<[2006,]>;1;<[2006,1]>
+101;model;<[2007,]>;1;<[2007,1]>
+102;parametric geometry;<[2007,]>;1;<[2007,1]>
+103;simulation software coupling;<[2007,]>;1;<[2007,1]>
+104;information;<[2006,2010,]>;2;<[2006,1][2010,1]>
+105;interaction;<[2006,2013,]>;2;<[2006,1][2013,1]>
+106;knowledge;<[2006,2014,2010,2015,]>;6;<[2006,1][2014,2][2010,2][2015,1]>
+107;requirement;<[2006,2009,2015,]>;3;<[2006,1][2009,1][2015,1]>
+108;task;<[2006,]>;1;<[2006,1]>
+109;actual production cost;<[2006,]>;1;<[2006,1]>
+110;communicating product data;<[2006,]>;1;<[2006,1]>
+111;pharmaceutical industry;<[2006,]>;1;<[2006,1]>
+112;product phase;<[2006,]>;1;<[2006,1]>
+113;novelty;<[2006,]>;1;<[2006,1]>
+114;case study;<[2005,2010,2013,2009,2012,2015,]>;6;<[2005,1][2010,1][2013,1][2009,1][2012,1][2015,1]>
+115;lifecycle management;<[2005,2009,2007,2014,]>;6;<[2005,1][2009,2][2007,2][2014,1]>
+116;product and service solution;<[2005,]>;1;<[2005,1]>
+117;maturity model;<[2014,2011,2012,2013,2015,]>;8;<[2014,2][2011,1][2012,1][2013,2][2015,2]>
+118;model comparison;<[2014,2012,2011,]>;3;<[2014,1][2012,1][2011,1]>
+119;knowledge fusion;<[2006,]>;1;<[2006,1]>
+120;parametric;<[2006,2005,]>;3;<[2006,1][2005,2]>
+121;digital manufacturing;<[2006,2011,]>;2;<[2006,1][2011,1]>
+122;portfolio management;<[2006,]>;1;<[2006,1]>
+123;deformation feature;<[2013,]>;1;<[2013,1]>
+124;free form surface feature;<[2013,]>;1;<[2013,1]>
+125;product information exchange;<[2013,]>;1;<[2013,1]>
+126;shape feature taxonomy;<[2013,]>;1;<[2013,1]>
+127;volumetric feature;<[2013,]>;1;<[2013,1]>
+128;complex product design;<[2007,]>;1;<[2007,1]>
+129;conflict management;<[2007,]>;1;<[2007,1]>
+130;constraint;<[2007,]>;1;<[2007,1]>
+131;interdisciplinary product design;<[2007,]>;1;<[2007,1]>
+132;object oriented modeling;<[2007,]>;1;<[2007,1]>
+133;adaptive workflow;<[2005,]>;1;<[2005,1]>
+134;component based approach;<[2005,]>;1;<[2005,1]>
+135;deployment;<[2005,]>;1;<[2005,1]>
+136;dynamic change;<[2005,]>;1;<[2005,1]>
+137;function;<[2005,]>;2;<[2005,2]>
+138;computer aided tolerancing;<[2012,]>;1;<[2012,1]>
+139;knowledge reuse;<[2012,2015,]>;2;<[2012,1][2015,1]>
+140;product development process;<[2012,2011,2010,2008,2007,2014,]>;7;<[2012,2][2011,1][2010,1][2008,1][2007,1][2014,1]>
+141;tolerancing process;<[2012,]>;1;<[2012,1]>
+142;logistics;<[2007,]>;1;<[2007,1]>
+143;process lifecycle;<[2007,2009,]>;2;<[2007,1][2009,1]>
+144;engineering operating system;<[2014,]>;1;<[2014,1]>
+145;intelligence;<[2014,]>;1;<[2014,1]>
+146;next generation;<[2014,]>;1;<[2014,1]>
+147;ASME;<[2005,]>;1;<[2005,1]>
+148;ISO;<[2005,]>;1;<[2005,1]>
+149;UML;<[2005,2008,2012,2007,]>;6;<[2005,1][2008,2][2012,1][2007,2]>
+150;XML;<[2005,2009,2007,2012,2008,]>;8;<[2005,3][2009,1][2007,2][2012,1][2008,1]>
+151;closed loop product lifecycle management;<[2013,2012,2007,]>;4;<[2013,2][2012,1][2007,1]>
+152;lifecycle impact assessment;<[2013,2015,]>;2;<[2013,1][2015,1]>
+153;pollution transfer phenomena;<[2013,]>;1;<[2013,1]>
+154;printed circuit board;<[2013,2015,]>;2;<[2013,1][2015,1]>
+155;methodology;<[2013,2007,2015,]>;3;<[2013,1][2007,1][2015,1]>
+156;software integrator;<[2013,]>;1;<[2013,1]>
+157;building information management;<[2014,2013,2015,]>;8;<[2014,3][2013,3][2015,2]>
+158;building information modeling;<[2014,2013,2010,2009,2015,]>;14;<[2014,5][2013,5][2010,1][2009,1][2015,2]>
+159;configured digital mockup;<[2014,]>;1;<[2014,1]>
+160;configured digital mokup;<[2014,]>;1;<[2014,1]>
+161;maintenance;<[2014,2012,2010,2007,]>;7;<[2014,3][2012,1][2010,1][2007,2]>
+162;new product development;<[2014,2011,2010,2013,2009,2007,2015,]>;12;<[2014,3][2011,2][2010,1][2013,1][2009,3][2007,1][2015,1]>
+163;new product development performance;<[2014,]>;1;<[2014,1]>
+164;new product development strategy;<[2014,]>;1;<[2014,1]>
+165;product methodology;<[2006,]>;1;<[2006,1]>
+166;option valuation;<[2005,]>;1;<[2005,1]>
+167;product family architecture;<[2005,]>;1;<[2005,1]>
+168;product family configuration design;<[2005,]>;1;<[2005,1]>
+169;real option;<[2005,]>;1;<[2005,1]>
+170;business referential;<[2014,]>;1;<[2014,1]>
+171;knowledge base;<[2014,]>;1;<[2014,1]>
+172;knowledge referential;<[2014,]>;1;<[2014,1]>
+173;project and program management;<[2014,]>;1;<[2014,1]>
+174;semantic web;<[2014,2010,2007,2011,2013,2008,2015,]>;9;<[2014,1][2010,1][2007,2][2011,2][2013,1][2008,1][2015,1]>
+175;codesign;<[2010,]>;1;<[2010,1]>
+176;collaborative product development;<[2010,2013,2012,2008,2009,2011,]>;9;<[2010,3][2013,1][2012,2][2008,1][2009,1][2011,1]>
+177;computer supported cooperative work;<[2010,2009,]>;2;<[2010,1][2009,1]>
+178;product lifecycle management metrics;<[2010,]>;1;<[2010,1]>
+179;communication;<[2007,2012,]>;3;<[2007,2][2012,1]>
+180;PMBOK;<[2007,]>;1;<[2007,1]>
+181;project management;<[2007,2014,2005,]>;4;<[2007,2][2014,1][2005,1]>
+182;risk;<[2007,]>;1;<[2007,1]>
+183;stakeholder;<[2007,]>;1;<[2007,1]>
+184;work breakdown structure;<[2007,]>;1;<[2007,1]>
+185;architecture;<[2008,2010,2009,2015,]>;4;<[2008,1][2010,1][2009,1][2015,1]>
+186;generic architecture;<[2008,]>;1;<[2008,1]>
+187;integration;<[2008,2010,2007,]>;7;<[2008,3][2010,2][2007,2]>
+188;item specific product;<[2008,]>;1;<[2008,1]>
+189;customer centric manufacturing;<[2014,]>;1;<[2014,1]>
+190;lifecycle based requirement;<[2014,]>;1;<[2014,1]>
+191;product service system;<[2014,2010,2013,2012,2015,]>;11;<[2014,2][2010,1][2013,2][2012,1][2015,5]>
+192;requirement information management;<[2014,]>;1;<[2014,1]>
+193;reusability;<[2014,2005,]>;2;<[2014,1][2005,1]>
+194;sustainability;<[2014,2011,2013,2007,2010,2015,]>;10;<[2014,3][2011,3][2013,1][2007,1][2010,1][2015,1]>
+195;global network;<[2010,]>;1;<[2010,1]>
+196;product variety;<[2010,]>;2;<[2010,2]>
+197;value system;<[2010,]>;1;<[2010,1]>
+198;automation;<[2005,]>;1;<[2005,1]>
+199;optimization;<[2005,2009,2012,]>;4;<[2005,2][2009,1][2012,1]>
+200;reuse;<[2005,2008,2009,2015,]>;4;<[2005,1][2008,1][2009,1][2015,1]>
+201;configuration management;<[2013,2006,2011,2014,]>;5;<[2013,2][2006,1][2011,1][2014,1]>
+202;framework;<[2013,2007,2015,]>;5;<[2013,3][2007,1][2015,1]>
+203;information technology system;<[2013,]>;1;<[2013,1]>
+204;lifecycle phase;<[2013,2012,]>;2;<[2013,1][2012,1]>
+205;process;<[2013,2005,2010,2012,2014,2007,]>;7;<[2013,1][2005,2][2010,1][2012,1][2014,1][2007,1]>
+206;buffer geometry;<[2013,]>;1;<[2013,1]>
+207;master geometry;<[2013,]>;1;<[2013,1]>
+208;master geometry creation;<[2013,]>;1;<[2013,1]>
+209;master geometry validation workflow;<[2013,]>;1;<[2013,1]>
+210;data integration;<[2010,2013,]>;2;<[2010,1][2013,1]>
+211;OWL;<[2010,2009,2007,2014,2008,]>;5;<[2010,1][2009,1][2007,1][2014,1][2008,1]>
+212;reasoning;<[2010,2009,]>;2;<[2010,1][2009,1]>
+213;computer aided x;<[2010,]>;1;<[2010,1]>
+214;functional requirement;<[2010,]>;1;<[2010,1]>
+215;numerical simulation;<[2010,2011,2015,]>;3;<[2010,1][2011,1][2015,1]>
+216;knowledge based engineering;<[2011,2005,2008,2007,2013,2015,]>;9;<[2011,2][2005,3][2008,1][2007,1][2013,1][2015,1]>
+217;knowledge configuration management;<[2011,]>;1;<[2011,1]>
+218;modular design;<[2011,]>;1;<[2011,1]>
+219;parametric modeling;<[2011,2015,]>;2;<[2011,1][2015,1]>
+220;performance evaluation and improvement;<[2012,]>;1;<[2012,1]>
+221;process maturity model;<[2012,]>;1;<[2012,1]>
+222;virtual engineering;<[2012,2008,]>;2;<[2012,1][2008,1]>
+223;AUTOMATION API;<[2005,]>;1;<[2005,1]>
+224;computer aided design model exchange;<[2005,]>;1;<[2005,1]>
+225;integration of the translator;<[2005,]>;1;<[2005,1]>
+226;macro parametrics;<[2005,2010,]>;2;<[2005,1][2010,1]>
+227;data management;<[2006,2012,2011,]>;3;<[2006,1][2012,1][2011,1]>
+228;point of view;<[2006,]>;1;<[2006,1]>
+229;point of view modeling;<[2006,]>;1;<[2006,1]>
+230;view;<[2006,]>;1;<[2006,1]>
+231;implementation;<[2008,2009,2010,]>;5;<[2008,2][2009,2][2010,1]>
+232;performance measurement;<[2008,2014,2013,]>;3;<[2008,1][2014,1][2013,1]>
+233;lifecycle cost;<[2011,2009,2014,2015,]>;4;<[2011,1][2009,1][2014,1][2015,1]>
+234;road mapping;<[2011,]>;1;<[2011,1]>
+235;scenario;<[2011,2007,2009,2013,]>;5;<[2011,1][2007,2][2009,1][2013,1]>
+236;sustainable building;<[2011,]>;1;<[2011,1]>
+237;design optimization;<[2005,]>;1;<[2005,1]>
+238;education;<[2005,2014,2007,]>;3;<[2005,1][2014,1][2007,1]>
+239;data architecture;<[2012,]>;1;<[2012,1]>
+240;ontology based data integration;<[2012,]>;1;<[2012,1]>
+241;product master data management;<[2012,]>;1;<[2012,1]>
+242;qualitative research;<[2012,]>;1;<[2012,1]>
+243;decision support system;<[2007,]>;3;<[2007,3]>
+244;maintenance cost management;<[2007,]>;1;<[2007,1]>
+245;modular service;<[2010,]>;1;<[2010,1]>
+246;service product;<[2010,]>;1;<[2010,1]>
+247;service product lifecycle management;<[2010,]>;1;<[2010,1]>
+248;service productization;<[2010,]>;1;<[2010,1]>
+249;business coevolution;<[2007,]>;1;<[2007,1]>
+250;lifecycle engineering;<[2007,2008,]>;3;<[2007,2][2008,1]>
+251;lifecycle management architecture;<[2007,]>;1;<[2007,1]>
+252;product lifecycle management implementation;<[2007,2011,2012,2009,2010,2013,2015,]>;12;<[2007,2][2011,3][2012,2][2009,1][2010,2][2013,1][2015,1]>
+253;design process;<[2005,2008,2011,2010,2015,]>;7;<[2005,1][2008,1][2011,1][2010,1][2015,3]>
+254;knowledge representation;<[2005,2015,]>;2;<[2005,1][2015,1]>
+255;machining processes simulation;<[2007,]>;1;<[2007,1]>
+256;surface roughness;<[2007,]>;1;<[2007,1]>
+257;virtual manufacturing;<[2007,]>;1;<[2007,1]>
+258;dye solar cell;<[2008,]>;1;<[2008,1]>
+259;product innovation;<[2008,]>;1;<[2008,1]>
+260;product lifecycle management strategy;<[2008,]>;1;<[2008,1]>
+261;analytic hierarchy process methodology;<[2013,]>;1;<[2013,1]>
+262;key performance indicator;<[2013,2014,]>;2;<[2013,1][2014,1]>
+263;product lifecycle management maturity model;<[2013,2014,]>;2;<[2013,1][2014,1]>
+264;TIFOS framework;<[2013,]>;1;<[2013,1]>
+265;planning;<[2005,]>;1;<[2005,1]>
+266;quality;<[2005,]>;2;<[2005,2]>
+267;value;<[2005,2010,2009,]>;3;<[2005,1][2010,1][2009,1]>
+268;cultural heritage;<[2013,]>;1;<[2013,1]>
+269;digital heritage reference model;<[2013,]>;1;<[2013,1]>
+270;museum;<[2013,]>;1;<[2013,1]>
+271;business process reengineering;<[2008,]>;1;<[2008,1]>
+272;enterprise modeling;<[2008,2011,2010,]>;3;<[2008,1][2011,1][2010,1]>
+273;agile method;<[2013,]>;1;<[2013,1]>
+274;ergonomic;<[2013,]>;1;<[2013,1]>
+275;usability;<[2013,2015,]>;2;<[2013,1][2015,1]>
+276;user experience;<[2013,2010,]>;3;<[2013,2][2010,1]>
+277;service engineering;<[2010,]>;1;<[2010,1]>
+278;data maturity;<[2005,]>;1;<[2005,1]>
+279;design feature;<[2005,]>;1;<[2005,1]>
+280;engineering data management system;<[2005,]>;1;<[2005,1]>
+281;preliminary information;<[2005,]>;1;<[2005,1]>
+282;cloud computing;<[2011,2015,]>;2;<[2011,1][2015,1]>
+283;emerging technology;<[2011,2008,]>;2;<[2011,1][2008,1]>
+284;knowledge discovery;<[2011,]>;1;<[2011,1]>
+285;automotive industry;<[2005,]>;1;<[2005,1]>
+286;sales;<[2005,]>;1;<[2005,1]>
+287;decision support;<[2010,2008,2009,]>;3;<[2010,1][2008,1][2009,1]>
+288;engineering process management;<[2010,]>;1;<[2010,1]>
+289;process configuration;<[2010,]>;2;<[2010,2]>
+290;heterogeneous system;<[2010,2011,]>;2;<[2010,1][2011,1]>
+291;information exchange;<[2010,]>;2;<[2010,2]>
+292;neutral schema;<[2010,]>;1;<[2010,1]>
+293;collaborative;<[2008,]>;1;<[2008,1]>
+294;industry specific;<[2008,]>;1;<[2008,1]>
+295;object management;<[2008,]>;1;<[2008,1]>
+296;open product lifecycle management;<[2008,]>;1;<[2008,1]>
+297;project based;<[2008,]>;1;<[2008,1]>
+298;design structure matrix clustering analysis;<[2014,]>;1;<[2014,1]>
+299;evaluation grid method;<[2014,]>;1;<[2014,1]>
+300;sound quality;<[2014,]>;1;<[2014,1]>
+301;SYSML;<[2014,2009,2007,]>;4;<[2014,1][2009,2][2007,1]>
+302;use case;<[2014,]>;1;<[2014,1]>
+303;material characterization;<[2010,]>;1;<[2010,1]>
+304;material flow;<[2010,2014,]>;2;<[2010,1][2014,1]>
+305;recycling;<[2010,2011,2009,2007,2015,]>;6;<[2010,1][2011,1][2009,1][2007,2][2015,1]>
+306;secondary resource;<[2010,]>;1;<[2010,1]>
+307;pilot project;<[2011,]>;2;<[2011,2]>
+308;product lifecycle management introduction;<[2011,]>;2;<[2011,2]>
+309;statistical analysis;<[2011,]>;2;<[2011,2]>
+310;user need;<[2011,]>;2;<[2011,2]>
+311;process model;<[2011,]>;1;<[2011,1]>
+312;product model;<[2011,2009,2005,2013,2007,2015,]>;6;<[2011,1][2009,1][2005,1][2013,1][2007,1][2015,1]>
+313;property validation;<[2011,]>;1;<[2011,1]>
+314;semantic network;<[2011,]>;1;<[2011,1]>
+315;product lifecycle management 2.0;<[2010,]>;1;<[2010,1]>
+316;social media;<[2010,]>;1;<[2010,1]>
+317;social networking;<[2010,2012,]>;2;<[2010,1][2012,1]>
+318;social product development;<[2010,]>;1;<[2010,1]>
+319;system engineering;<[2005,2011,2012,2013,2007,2015,]>;7;<[2005,1][2011,1][2012,2][2013,1][2007,1][2015,1]>
+320;apparel;<[2010,]>;1;<[2010,1]>
+321;fashion;<[2010,]>;1;<[2010,1]>
+322;information and communication technology;<[2010,]>;2;<[2010,2]>
+323;collaborative recommendation system;<[2011,]>;1;<[2011,1]>
+324;context management;<[2011,]>;1;<[2011,1]>
+325;decision mining;<[2011,]>;1;<[2011,1]>
+326;group profiling;<[2011,]>;1;<[2011,1]>
+327;behavior model generation;<[2010,]>;1;<[2010,1]>
+328;collaborative engineering;<[2010,2012,2007,2009,2005,2013,]>;9;<[2010,3][2012,1][2007,1][2009,1][2005,2][2013,1]>
+329;mechatronic;<[2010,2009,2007,2015,]>;4;<[2010,1][2009,1][2007,1][2015,1]>
+330;multidisciplinary simulation;<[2010,]>;1;<[2010,1]>
+331;integration of simulation;<[2010,]>;1;<[2010,1]>
+332;environmental management system;<[2011,]>;1;<[2011,1]>
+333;ISO 14001;<[2011,]>;1;<[2011,1]>
+334;strategic management;<[2011,]>;1;<[2011,1]>
+335;collaboration technology;<[2008,]>;1;<[2008,1]>
+336;collaboration workspace;<[2008,2013,]>;2;<[2008,1][2013,1]>
+337;cross functional team;<[2008,]>;1;<[2008,1]>
+338;product development;<[2008,2012,2009,2011,2014,2007,2010,2005,2015,]>;18;<[2008,1][2012,4][2009,1][2011,1][2014,1][2007,4][2010,1][2005,1][2015,4]>
+339;user requirement;<[2008,]>;1;<[2008,1]>
+340;annotation;<[2010,2009,2011,]>;3;<[2010,1][2009,1][2011,1]>
+341;specialist engineering viewpoint;<[2010,]>;1;<[2010,1]>
+342;concurrent engineering department;<[2012,]>;1;<[2012,1]>
+343;product structure;<[2012,2010,2008,2009,]>;5;<[2012,2][2010,1][2008,1][2009,1]>
+344;software management;<[2012,]>;1;<[2012,1]>
+345;model based system engineering;<[2014,2012,2015,]>;3;<[2014,1][2012,1][2015,1]>
+346;system lifecycle management;<[2014,]>;1;<[2014,1]>
+347;numerical control;<[2008,2015,]>;2;<[2008,1][2015,1]>
+348;reference model;<[2008,2012,2010,2007,]>;5;<[2008,1][2012,1][2010,1][2007,2]>
+349;change prediction;<[2008,]>;1;<[2008,1]>
+350;through life management;<[2008,]>;1;<[2008,1]>
+351;novel reman;<[2008,]>;1;<[2008,1]>
+352;platform strategy;<[2008,]>;1;<[2008,1]>
+353;remanufacturing;<[2008,2007,]>;2;<[2008,1][2007,1]>
+354;assembly modeling;<[2012,2005,]>;2;<[2012,1][2005,1]>
+355;mereotopology;<[2012,]>;1;<[2012,1]>
+356;product complexity;<[2010,2015,]>;3;<[2010,2][2015,1]>
+357;product lifecycle management process;<[2010,]>;1;<[2010,1]>
+358;telecommunication industry;<[2010,]>;1;<[2010,1]>
+359;architectural design process;<[2012,]>;1;<[2012,1]>
+360;interface modeling;<[2012,]>;1;<[2012,1]>
+361;modularization;<[2012,]>;1;<[2012,1]>
+362;globalization;<[2005,]>;1;<[2005,1]>
+363;lean concept;<[2005,]>;1;<[2005,1]>
+364;product lifecycle management backbone;<[2005,]>;1;<[2005,1]>
+365;product lifecycle management data model;<[2005,]>;1;<[2005,1]>
+366;regulation and standard;<[2005,]>;1;<[2005,1]>
+367;iteration;<[2012,]>;1;<[2012,1]>
+368;lean engineering;<[2012,]>;1;<[2012,1]>
+369;product life management;<[2012,]>;1;<[2012,1]>
+370;workflow;<[2012,]>;2;<[2012,2]>
+371;exchange information;<[2007,]>;1;<[2007,1]>
+372;multidisciplinary collaboration;<[2007,2013,]>;2;<[2007,1][2013,1]>
+373;multiple viewpoints;<[2007,]>;1;<[2007,1]>
+374;product and process information;<[2007,]>;1;<[2007,1]>
+375;association;<[2012,]>;1;<[2012,1]>
+376;change propagation;<[2012,]>;2;<[2012,2]>
+377;computer aided design data;<[2012,]>;1;<[2012,1]>
+378;reconciliation matrix;<[2012,]>;1;<[2012,1]>
+379;transposition of associations;<[2012,]>;1;<[2012,1]>
+380;work package;<[2012,]>;1;<[2012,1]>
+381;particle accelerator;<[2012,]>;1;<[2012,1]>
+382;research facility;<[2012,]>;1;<[2012,1]>
+383;metrics;<[2007,2013,]>;2;<[2007,1][2013,1]>
+384;agile design method;<[2013,]>;1;<[2013,1]>
+385;design decision integration model;<[2013,]>;1;<[2013,1]>
+386;engineering actions management system;<[2013,]>;1;<[2013,1]>
+387;mechatronic system design;<[2013,]>;1;<[2013,1]>
+388;multi domain system integration;<[2013,]>;1;<[2013,1]>
+389;criterion;<[2011,]>;1;<[2011,1]>
+390;disassembly;<[2011,]>;1;<[2011,1]>
+391;hard disk drive;<[2011,]>;1;<[2011,1]>
+392;identification;<[2011,]>;1;<[2011,1]>
+393;recovery of resource;<[2011,]>;1;<[2011,1]>
+394;robotic;<[2011,]>;1;<[2011,1]>
+395;waste;<[2011,]>;1;<[2011,1]>
+396;waste electrical and electronic equipment;<[2011,2007,2015,]>;4;<[2011,1][2007,2][2015,1]>
+397;product lifecycle management component maturity assessment;<[2014,]>;1;<[2014,1]>
+398;product lifecycle management maturity evaluation;<[2014,]>;1;<[2014,1]>
+399;triangular fuzzy element;<[2014,]>;1;<[2014,1]>
+400;collaboration product development;<[2005,]>;1;<[2005,1]>
+401;computer aided design tool for early design;<[2005,]>;1;<[2005,1]>
+402;user interaction technique;<[2005,]>;1;<[2005,1]>
+403;virtual simulation environment;<[2005,]>;1;<[2005,1]>
+404;end of life vehicle;<[2007,]>;1;<[2007,1]>
+405;product lifecycle information management;<[2007,]>;1;<[2007,1]>
+406;product recovery;<[2007,]>;1;<[2007,1]>
+407;PROMISE;<[2007,]>;1;<[2007,1]>
+408;radio frequency identification;<[2007,2008,2009,]>;6;<[2007,3][2008,2][2009,1]>
+409;manufacturing process management;<[2008,2010,]>;2;<[2008,1][2010,1]>
+410;platform approach;<[2008,]>;1;<[2008,1]>
+411;production scheduling;<[2008,]>;1;<[2008,1]>
+412;existing product;<[2005,]>;1;<[2005,1]>
+413;function analysis;<[2005,]>;2;<[2005,2]>
+414;problem solving;<[2005,]>;1;<[2005,1]>
+415;value management;<[2005,]>;1;<[2005,1]>
+416;integrated design and delivery solution;<[2013,]>;1;<[2013,1]>
+417;mental model;<[2013,]>;1;<[2013,1]>
+418;teamwork;<[2013,2009,]>;2;<[2013,1][2009,1]>
+419;engineering bill of materials;<[2011,2008,]>;2;<[2011,1][2008,1]>
+420;manufacturing bill of materials;<[2011,]>;1;<[2011,1]>
+421;hazard identification;<[2005,]>;1;<[2005,1]>
+422;plant design;<[2005,]>;1;<[2005,1]>
+423;lifecycle simulation;<[2008,2014,]>;2;<[2008,1][2014,1]>
+424;network agent;<[2008,2009,]>;2;<[2008,1][2009,1]>
+425;user preference;<[2008,]>;1;<[2008,1]>
+426;maturity assessment;<[2011,2010,]>;2;<[2011,1][2010,1]>
+427;configurable product;<[2010,]>;1;<[2010,1]>
+428;design structure matrix;<[2013,2015,]>;2;<[2013,1][2015,1]>
+429;information management;<[2013,2007,2008,]>;7;<[2013,3][2007,2][2008,2]>
+430;multiple domain matrix;<[2013,2012,]>;2;<[2013,1][2012,1]>
+431;process management;<[2013,2015,]>;2;<[2013,1][2015,1]>
+432;process optimization;<[2007,2014,]>;2;<[2007,1][2014,1]>
+433;space;<[2007,]>;1;<[2007,1]>
+434;tertiary education;<[2013,]>;1;<[2013,1]>
+435;performance;<[2010,2015,]>;2;<[2010,1][2015,1]>
+436;program;<[2010,]>;1;<[2010,1]>
+437;return on investment;<[2010,]>;1;<[2010,1]>
+438;computer aided design and product data management integration;<[2008,]>;1;<[2008,1]>
+439;collaborative knowledge;<[2005,]>;1;<[2005,1]>
+440;lifecycle of collaborative exchange;<[2005,]>;1;<[2005,1]>
+441;modeling engineering design;<[2005,]>;1;<[2005,1]>
+442;guideline;<[2012,]>;1;<[2012,1]>
+443;product lifecycle management architecture;<[2012,]>;1;<[2012,1]>
+444;product lifecycle management solution;<[2012,2009,]>;2;<[2012,1][2009,1]>
+445;archival;<[2013,]>;1;<[2013,1]>
+446;automotive;<[2013,2015,]>;2;<[2013,1][2015,1]>
+447;computer aided design;<[2013,2012,2007,2005,2014,2009,2010,2011,2015,]>;16;<[2013,3][2012,3][2007,2][2005,2][2014,1][2009,1][2010,1][2011,1][2015,2]>
+448;exchange;<[2013,]>;1;<[2013,1]>
+449;SASIG;<[2013,]>;1;<[2013,1]>
+450;ambidexterity;<[2014,]>;1;<[2014,1]>
+451;dynamic instant innovation;<[2014,]>;1;<[2014,1]>
+452;exploitation;<[2014,]>;1;<[2014,1]>
+453;exploration;<[2014,]>;1;<[2014,1]>
+454;user specialization;<[2014,]>;1;<[2014,1]>
+455;asset;<[2010,2013,]>;2;<[2010,1][2013,1]>
+456;behavior;<[2010,2005,]>;2;<[2010,1][2005,1]>
+457;information quality;<[2010,]>;1;<[2010,1]>
+458;autonomous logistics;<[2010,]>;1;<[2010,1]>
+459;intelligent product;<[2010,2008,2013,]>;4;<[2010,2][2008,1][2013,1]>
+460;positive emergence;<[2010,]>;1;<[2010,1]>
+461;extended product;<[2008,2011,]>;2;<[2008,1][2011,1]>
+462;integrated product lifecycle management process approach;<[2008,]>;1;<[2008,1]>
+463;multi lifecycle management;<[2008,]>;1;<[2008,1]>
+464;product lifecycle management fast;<[2008,]>;1;<[2008,1]>
+465;product lifecycle management flex;<[2008,]>;1;<[2008,1]>
+466;product lifecycle management max;<[2008,]>;1;<[2008,1]>
+467;CERN;<[2013,]>;1;<[2013,1]>
+468;change management;<[2013,2011,2009,]>;4;<[2013,2][2011,1][2009,1]>
+469;item;<[2013,]>;1;<[2013,1]>
+470;FACEBOOK;<[2012,]>;1;<[2012,1]>
+471;internet of things;<[2012,2015,]>;4;<[2012,1][2015,3]>
+472;product avatar;<[2012,2013,2008,]>;3;<[2012,1][2013,1][2008,1]>
+473;product state;<[2012,]>;1;<[2012,1]>
+474;production;<[2012,2007,2010,2015,]>;4;<[2012,1][2007,1][2010,1][2015,1]>
+475;social network;<[2012,]>;1;<[2012,1]>
+476;product carbon footprint;<[2010,]>;1;<[2010,1]>
+477;collaboration platform;<[2013,]>;1;<[2013,1]>
+478;production design;<[2013,]>;1;<[2013,1]>
+479;product data management system;<[2007,2011,]>;2;<[2007,1][2011,1]>
+480;product data model;<[2007,]>;2;<[2007,2]>
+481;variant management;<[2007,2011,]>;2;<[2007,1][2011,1]>
+482;heritage;<[2013,]>;1;<[2013,1]>
+483;structuring system;<[2013,]>;1;<[2013,1]>
+484;assembly line;<[2005,]>;1;<[2005,1]>
+485;line balancing;<[2005,]>;1;<[2005,1]>
+486;assembly sequence;<[2013,]>;1;<[2013,1]>
+487;common area;<[2013,]>;1;<[2013,1]>
+488;liaison graph;<[2013,]>;1;<[2013,1]>
+489;related ratio;<[2013,]>;1;<[2013,1]>
+490;product lifecycle management improvement concept;<[2014,]>;1;<[2014,1]>
+491;virtual enterprise;<[2014,]>;1;<[2014,1]>
+492;data;<[2014,2007,2010,]>;4;<[2014,2][2007,1][2010,1]>
+493;naval;<[2014,]>;2;<[2014,2]>
+494;digital engineering tool;<[2012,]>;1;<[2012,1]>
+495;engineering efficiency;<[2012,]>;1;<[2012,1]>
+496;new media in engineering;<[2012,]>;1;<[2012,1]>
+497;process standard;<[2012,]>;1;<[2012,1]>
+498;product data and  lifecycle management;<[2012,]>;2;<[2012,2]>
+499;virtual product creation;<[2012,2009,]>;2;<[2012,1][2009,1]>
+500;preliminary design;<[2005,]>;1;<[2005,1]>
+501;sensory analysis;<[2005,]>;1;<[2005,1]>
+502;user;<[2005,2015,]>;2;<[2005,1][2015,1]>
+503;agent;<[2008,2014,]>;2;<[2008,1][2014,1]>
+504;automotive suspension system;<[2008,]>;1;<[2008,1]>
+505;engineering framework;<[2008,]>;1;<[2008,1]>
+506;future product lifecycle management;<[2012,]>;1;<[2012,1]>
+507;informal communication;<[2012,]>;1;<[2012,1]>
+508;design for simulation;<[2012,]>;1;<[2012,1]>
+509;engineering data management;<[2012,]>;1;<[2012,1]>
+510;product architecture modeling;<[2012,]>;1;<[2012,1]>
+511;benchmarking methodology;<[2007,]>;1;<[2007,1]>
+512;best practice;<[2013,2015,]>;2;<[2013,1][2015,1]>
+513;medical device industry;<[2013,]>;1;<[2013,1]>
+514;product portfolio management;<[2013,]>;1;<[2013,1]>
+515;integrated product process and manufacturing system development;<[2008,]>;1;<[2008,1]>
+516;green supply chain;<[2007,]>;1;<[2007,1]>
+517;social responsibility;<[2007,]>;1;<[2007,1]>
+518;textile industry;<[2007,]>;1;<[2007,1]>
+519;boundary representation;<[2012,]>;1;<[2012,1]>
+520;error detection;<[2012,]>;1;<[2012,1]>
+521;error documentation;<[2012,]>;1;<[2012,1]>
+522;mesh;<[2012,]>;1;<[2012,1]>
+523;fuzzy expert system;<[2007,]>;1;<[2007,1]>
+524;machine tool;<[2007,]>;1;<[2007,1]>
+525;predictive maintenance;<[2007,]>;1;<[2007,1]>
+526;knowledge based processing;<[2008,]>;1;<[2008,1]>
+527;programmable logic controller programming;<[2008,]>;1;<[2008,1]>
+528;task oriented method;<[2008,]>;1;<[2008,1]>
+529;unit function element;<[2008,]>;1;<[2008,1]>
+530;complex product development;<[2012,2007,]>;2;<[2012,1][2007,1]>
+531;coordination;<[2012,2009,]>;2;<[2012,1][2009,1]>
+532;competitiveness;<[2012,]>;1;<[2012,1]>
+533;creativity;<[2012,]>;1;<[2012,1]>
+534;tool;<[2012,2007,]>;2;<[2012,1][2007,1]>
+535;design knowledge integration;<[2007,]>;1;<[2007,1]>
+536;knowledge transfer;<[2007,]>;1;<[2007,1]>
+537;benefit analysis;<[2007,]>;1;<[2007,1]>
+538;instance specific information management;<[2007,]>;1;<[2007,1]>
+539;middleware;<[2007,]>;1;<[2007,1]>
+540;bottom up approach;<[2012,]>;1;<[2012,1]>
+541;knowledge representation and definition;<[2012,]>;1;<[2012,1]>
+542;user story mapping;<[2012,]>;1;<[2012,1]>
+543;device centric service oriented architecture;<[2007,]>;1;<[2007,1]>
+544;sensor network;<[2007,]>;1;<[2007,1]>
+545;fostering innovation;<[2012,]>;1;<[2012,1]>
+546;organizational innovation;<[2012,2007,]>;2;<[2012,1][2007,1]>
+547;JADE;<[2010,]>;1;<[2010,1]>
+548;multi agent system;<[2010,2011,2008,]>;3;<[2010,1][2011,1][2008,1]>
+549;trust model;<[2010,]>;1;<[2010,1]>
+550;asset management system;<[2014,]>;1;<[2014,1]>
+551;digital factory;<[2014,2011,2015,]>;3;<[2014,1][2011,1][2015,1]>
+552;reconfigurable production system;<[2014,]>;1;<[2014,1]>
+553;skill based model;<[2014,]>;1;<[2014,1]>
+554;vertical integration;<[2014,]>;1;<[2014,1]>
+555;model based definition;<[2012,2009,]>;2;<[2012,1][2009,1]>
+556;model based enterprise;<[2012,]>;1;<[2012,1]>
+557;neutral file format;<[2012,]>;1;<[2012,1]>
+558;prioritization;<[2014,]>;1;<[2014,1]>
+559;car component production;<[2005,]>;1;<[2005,1]>
+560;molding process;<[2005,]>;1;<[2005,1]>
+561;access control;<[2008,]>;1;<[2008,1]>
+562;security;<[2008,2009,]>;2;<[2008,1][2009,1]>
+563;knowledge valorization;<[2013,]>;1;<[2013,1]>
+564;after sales service;<[2011,]>;1;<[2011,1]>
+565;data sharing;<[2011,]>;1;<[2011,1]>
+566;engineering knowledge;<[2011,]>;1;<[2011,1]>
+567;competence profile;<[2007,]>;1;<[2007,1]>
+568;knowledge management in flexible supply network;<[2007,]>;1;<[2007,1]>
+569;engineering change management;<[2008,2009,2011,2015,]>;7;<[2008,1][2009,3][2011,2][2015,1]>
+570;biodiesel;<[2007,]>;1;<[2007,1]>
+571;biofuel;<[2007,]>;1;<[2007,1]>
+572;diesel;<[2007,]>;1;<[2007,1]>
+573;industrial ecology;<[2007,]>;1;<[2007,1]>
+574;vegetable oil;<[2007,]>;1;<[2007,1]>
+575;electronic waste;<[2007,]>;1;<[2007,1]>
+576;end of life management;<[2007,2009,]>;2;<[2007,1][2009,1]>
+577;engineering collaboration;<[2013,]>;2;<[2013,2]>
+578;engineering visualization;<[2013,]>;1;<[2013,1]>
+579;JT standard;<[2013,]>;1;<[2013,1]>
+580;design engineering;<[2014,]>;1;<[2014,1]>
+581;efficiency;<[2014,]>;1;<[2014,1]>
+582;original equipment manufacturer;<[2014,2005,]>;2;<[2014,1][2005,1]>
+583;productivity;<[2014,]>;1;<[2014,1]>
+584;tool and process;<[2014,]>;1;<[2014,1]>
+585;training;<[2014,]>;1;<[2014,1]>
+586;performance management;<[2005,]>;1;<[2005,1]>
+587;process reengineering;<[2005,2015,]>;2;<[2005,1][2015,1]>
+588;supply chain operations reference;<[2005,]>;1;<[2005,1]>
+589;value chain operations reference ;<[2005,]>;1;<[2005,1]>
+590;value stream;<[2005,]>;1;<[2005,1]>
+591;credible commitment;<[2014,]>;1;<[2014,1]>
+592;credible deterrence;<[2014,]>;1;<[2014,1]>
+593;escalation;<[2014,]>;1;<[2014,1]>
+594;information system project;<[2014,]>;1;<[2014,1]>
+595;outsourcing;<[2014,2007,]>;2;<[2014,1][2007,1]>
+596;design reuse;<[2012,]>;2;<[2012,2]>
+597;difference identification;<[2012,]>;1;<[2012,1]>
+598;geometric constraint;<[2012,]>;1;<[2012,1]>
+599;product shape;<[2012,]>;1;<[2012,1]>
+600;decision making;<[2009,2011,2007,2005,2013,]>;5;<[2009,1][2011,1][2007,1][2005,1][2013,1]>
+601;supplier integration;<[2009,]>;2;<[2009,2]>
+602;waste electrical and electronic equipment end of life strategy;<[2009,]>;1;<[2009,1]>
+603;information system communication;<[2009,]>;1;<[2009,1]>
+604;integration level;<[2009,]>;1;<[2009,1]>
+605;trust level;<[2009,]>;1;<[2009,1]>
+606;activity recording;<[2010,]>;1;<[2010,1]>
+607;design corpus;<[2010,]>;1;<[2010,1]>
+608;user centric design;<[2010,2009,]>;2;<[2010,1][2009,1]>
+609;capability maturity model integration;<[2010,]>;1;<[2010,1]>
+610;graph;<[2010,]>;1;<[2010,1]>
+611;product lifecycle management data;<[2010,]>;1;<[2010,1]>
+612;assembly process model;<[2009,]>;1;<[2009,1]>
+613;assembly product model;<[2009,]>;1;<[2009,1]>
+614;associativity;<[2009,]>;1;<[2009,1]>
+615;design change;<[2009,]>;1;<[2009,1]>
+616;liaison;<[2009,]>;1;<[2009,1]>
+617;product lifecycle management project execution;<[2009,]>;1;<[2009,1]>
+618;survey analysis;<[2009,]>;1;<[2009,1]>
+619;usage of product lifecycle management system;<[2009,]>;1;<[2009,1]>
+620;engineering process;<[2009,2012,]>;3;<[2009,2][2012,1]>
+621;product service;<[2009,]>;1;<[2009,1]>
+622;codesign platform;<[2009,]>;1;<[2009,1]>
+623;complex product;<[2011,]>;1;<[2011,1]>
+624;computer aided;<[2011,]>;1;<[2011,1]>
+625;interface control document;<[2011,2009,]>;2;<[2011,1][2009,1]>
+626;interface management;<[2011,2009,]>;2;<[2011,1][2009,1]>
+627;consumer electronic appliance;<[2009,]>;1;<[2009,1]>
+628;radio frequency identification tag;<[2009,]>;1;<[2009,1]>
+629;supporting consumer;<[2009,]>;1;<[2009,1]>
+630;lean thinking;<[2009,]>;1;<[2009,1]>
+631;mapping;<[2009,]>;1;<[2009,1]>
+632;operation management;<[2009,]>;1;<[2009,1]>
+633;planning and control;<[2009,]>;1;<[2009,1]>
+634;simulation modeling;<[2009,]>;1;<[2009,1]>
+635;software development;<[2009,]>;1;<[2009,1]>
+636;software development model;<[2009,]>;1;<[2009,1]>
+637;software quality function deployment ;<[2009,]>;1;<[2009,1]>
+638;biomimicry;<[2009,]>;1;<[2009,1]>
+639;virtual reality;<[2008,2007,2013,2010,2015,]>;5;<[2008,1][2007,1][2013,1][2010,1][2015,1]>
+640;information and knowledge organization;<[2008,]>;1;<[2008,1]>
+641;manufacturing best practice;<[2008,]>;1;<[2008,1]>
+642;system design;<[2008,]>;1;<[2008,1]>
+643;collaborative environment;<[2007,2005,]>;2;<[2007,1][2005,1]>
+644;I-MANUFACTURING;<[2009,]>;1;<[2009,1]>
+645;manufacturing innovation;<[2009,]>;1;<[2009,1]>
+646;reeb graph;<[2013,]>;1;<[2013,1]>
+647;reverse engineering;<[2013,2009,2010,2015,]>;4;<[2013,1][2009,1][2010,1][2015,1]>
+648;shape matching;<[2013,]>;1;<[2013,1]>
+649;analytic hierarchy process ;<[2009,2008,]>;2;<[2009,1][2008,1]>
+650;data envelopment analysis;<[2009,]>;1;<[2009,1]>
+651;design chain partner evaluation;<[2009,]>;1;<[2009,1]>
+652;topsis;<[2009,]>;1;<[2009,1]>
+653;product lifecycle management decision framework;<[2012,]>;1;<[2012,1]>
+654;product lifecycle management harmonization;<[2012,]>;1;<[2012,1]>
+655;product lifecycle management integration;<[2012,2010,2015,]>;3;<[2012,1][2010,1][2015,1]>
+656;product lifecycle management planning;<[2012,]>;1;<[2012,1]>
+657;product lifecycle management procedure model;<[2012,]>;1;<[2012,1]>
+658;assessment;<[2011,2007,]>;2;<[2011,1][2007,1]>
+659;corporate strategy;<[2011,]>;1;<[2011,1]>
+660;standard reference framework;<[2011,]>;1;<[2011,1]>
+661;product lifecycle sustainability;<[2011,]>;1;<[2011,1]>
+662;reverse logistics;<[2011,2007,2015,]>;3;<[2011,1][2007,1][2015,1]>
+663;semantic interoperability;<[2008,2009,2005,]>;3;<[2008,1][2009,1][2005,1]>
+664;support vector regression;<[2008,]>;1;<[2008,1]>
+665;design;<[2009,2014,2007,2010,2008,2011,]>;8;<[2009,1][2014,1][2007,2][2010,2][2008,1][2011,1]>
+666;feature;<[2009,]>;1;<[2009,1]>
+667;ISO 10303;<[2009,2011,]>;2;<[2009,1][2011,1]>
+668;machining;<[2009,]>;1;<[2009,1]>
+669;translation;<[2009,]>;1;<[2009,1]>
+670;environmental impact;<[2009,]>;1;<[2009,1]>
+671;long lasting product;<[2009,]>;1;<[2009,1]>
+672;sustainability indicator;<[2009,]>;1;<[2009,1]>
+673;action research;<[2005,]>;1;<[2005,1]>
+674;asset lifecycle management;<[2005,2009,]>;2;<[2005,1][2009,1]>
+675;web based service;<[2005,]>;1;<[2005,1]>
+676;energy renovation;<[2014,]>;1;<[2014,1]>
+677;industrialization;<[2014,2010,]>;2;<[2014,1][2010,1]>
+678;bill of materials;<[2012,2014,]>;2;<[2012,1][2014,1]>
+679;model driven engineering;<[2012,2013,2011,]>;3;<[2012,1][2013,1][2011,1]>
+680;enterprise resource planning;<[2007,2009,2010,]>;4;<[2007,2][2009,1][2010,1]>
+681;migration;<[2007,2013,]>;2;<[2007,1][2013,1]>
+682;service;<[2007,]>;1;<[2007,1]>
+683;conceptual design;<[2007,2005,]>;2;<[2007,1][2005,1]>
+684;end of life;<[2007,2008,2012,]>;4;<[2007,2][2008,1][2012,1]>
+685;computer aided design and virtual reality integration;<[2007,]>;1;<[2007,1]>
+686;computer aided engineering;<[2007,2014,2009,]>;4;<[2007,2][2014,1][2009,1]>
+687;virtual prototyping;<[2007,]>;1;<[2007,1]>
+688;front loading;<[2009,]>;1;<[2009,1]>
+689;demand chain supply chain;<[2005,]>;1;<[2005,1]>
+690;demand lifecycle;<[2005,]>;1;<[2005,1]>
+691;technology lifecycle;<[2005,]>;1;<[2005,1]>
+692;data reuse;<[2012,]>;1;<[2012,1]>
+693;data value;<[2012,]>;1;<[2012,1]>
+694;product data;<[2012,2007,2009,2014,]>;4;<[2012,1][2007,1][2009,1][2014,1]>
+695;civil construction;<[2010,]>;1;<[2010,1]>
+696;requirement engineering;<[2010,2012,]>;2;<[2010,1][2012,1]>
+697;email;<[2009,]>;1;<[2009,1]>
+698;engineering;<[2009,2007,]>;2;<[2009,1][2007,1]>
+699;participant;<[2009,]>;1;<[2009,1]>
+700;record;<[2009,]>;1;<[2009,1]>
+701;domain specific language;<[2009,]>;1;<[2009,1]>
+702;graph transformation;<[2009,]>;1;<[2009,1]>
+703;metamodel;<[2009,]>;1;<[2009,1]>
+704;multiview modeling;<[2009,]>;1;<[2009,1]>
+705;multidisciplinary product;<[2009,]>;1;<[2009,1]>
+706;usage mode;<[2007,]>;1;<[2007,1]>
+707;living labs;<[2010,]>;1;<[2010,1]>
+708;open innovation;<[2010,]>;1;<[2010,1]>
+709;small enterprise;<[2009,]>;1;<[2009,1]>
+710;non functional requirement;<[2009,]>;1;<[2009,1]>
+711;project;<[2009,]>;1;<[2009,1]>
+712;survey;<[2009,]>;1;<[2009,1]>
+713;knowledge competency;<[2014,]>;1;<[2014,1]>
+714;professional practice;<[2014,]>;1;<[2014,1]>
+715;role and responsibility;<[2014,]>;1;<[2014,1]>
+716;stakeholder relation;<[2014,]>;1;<[2014,1]>
+717;automotive product development;<[2005,]>;1;<[2005,1]>
+718;supplier;<[2005,]>;1;<[2005,1]>
+719;product management;<[2009,2008,]>;2;<[2009,1][2008,1]>
+720;algorithm based;<[2009,]>;1;<[2009,1]>
+721;configuration;<[2009,2013,]>;2;<[2009,1][2013,1]>
+722;product property;<[2009,]>;1;<[2009,1]>
+723;conditional constraint satisfaction problem;<[2008,]>;1;<[2008,1]>
+724;model decomposition;<[2008,]>;1;<[2008,1]>
+725;product configuration;<[2008,2007,]>;3;<[2008,1][2007,2]>
+726;product data exchange;<[2007,2009,2012,2008,]>;5;<[2007,1][2009,2][2012,1][2008,1]>
+727;standard for exchange;<[2007,]>;1;<[2007,1]>
+728;foundation ontology;<[2009,]>;1;<[2009,1]>
+729;knowledge sharing;<[2009,2015,]>;2;<[2009,1][2015,1]>
+730;manufacturing;<[2009,2010,2015,]>;4;<[2009,1][2010,2][2015,1]>
+731;enterprise network;<[2009,]>;1;<[2009,1]>
+732;organization design;<[2009,]>;1;<[2009,1]>
+733;interdependency;<[2009,]>;1;<[2009,1]>
+734;collaborative virtual prototyping;<[2009,]>;1;<[2009,1]>
+735;computer aided process planning;<[2009,2007,]>;2;<[2009,1][2007,1]>
+736;design for excellence;<[2009,]>;1;<[2009,1]>
+737;lifecycle analysis;<[2009,2007,]>;2;<[2009,1][2007,1]>
+738;complexity management;<[2009,]>;1;<[2009,1]>
+739;industrialization telecommunication industry;<[2009,]>;1;<[2009,1]>
+740;integrated product lifecycle management;<[2009,2014,]>;2;<[2009,1][2014,1]>
+741;lean product development;<[2009,2012,]>;3;<[2009,1][2012,2]>
+742;process standardization;<[2009,]>;1;<[2009,1]>
+743;product modularization;<[2009,]>;1;<[2009,1]>
+744;complex product configuration;<[2013,]>;1;<[2013,1]>
+745;product knowledge management;<[2013,]>;1;<[2013,1]>
+746;data quality;<[2013,2015,]>;3;<[2013,1][2015,2]>
+747;aero engine;<[2009,]>;2;<[2009,2]>
+748;cost modeling;<[2009,]>;1;<[2009,1]>
+749;cost tool;<[2009,]>;1;<[2009,1]>
+750;gas turbine;<[2009,]>;1;<[2009,1]>
+751;business process modeling;<[2009,2013,]>;3;<[2009,2][2013,1]>
+752;product design automation;<[2009,]>;1;<[2009,1]>
+753;inheritance;<[2009,]>;1;<[2009,1]>
+754;multi resolution model;<[2009,]>;1;<[2009,1]>
+755;skeleton model;<[2009,]>;1;<[2009,1]>
+756;top down assembly design;<[2009,]>;1;<[2009,1]>
+757;product lifecycle management n tier architecture;<[2005,]>;1;<[2005,1]>
+758;synchronization model of control web service;<[2005,]>;1;<[2005,1]>
+759;3D digitization;<[2014,]>;1;<[2014,1]>
+760;design and manufacturing;<[2014,]>;1;<[2014,1]>
+761;organizational capability;<[2014,]>;1;<[2014,1]>
+762;product design architecture;<[2014,]>;1;<[2014,1]>
+763;product globalization;<[2014,]>;1;<[2014,1]>
+764;cost index model;<[2009,]>;1;<[2009,1]>
+765;material recovering process;<[2009,]>;1;<[2009,1]>
+766;product lifecycle engineering;<[2009,]>;1;<[2009,1]>
+767;model driven interoperability approach;<[2009,]>;1;<[2009,1]>
+768;product lifecycle management interoperability;<[2009,]>;1;<[2009,1]>
+769;biomimetic;<[2008,]>;1;<[2008,1]>
+770;design repository;<[2008,]>;1;<[2008,1]>
+771;organization lifecycle;<[2009,]>;1;<[2009,1]>
+772;business process;<[2014,2005,2011,2008,2010,2012,]>;6;<[2014,1][2005,1][2011,1][2008,1][2010,1][2012,1]>
+773;information system;<[2014,2009,2005,2007,2010,2012,2015,]>;9;<[2014,1][2009,1][2005,1][2007,1][2010,1][2012,1][2015,3]>
+774;information technology;<[2014,]>;2;<[2014,2]>
+775;intellectual property;<[2009,2008,]>;2;<[2009,1][2008,1]>
+776;technology transfer;<[2009,2013,]>;2;<[2009,1][2013,1]>
+777;workflow process;<[2009,]>;1;<[2009,1]>
+778;design process management;<[2009,2005,]>;2;<[2009,1][2005,1]>
+779;interoperability of product models;<[2009,]>;1;<[2009,1]>
+780;completion;<[2014,]>;1;<[2014,1]>
+781;green aviation;<[2014,]>;1;<[2014,1]>
+782;project lifecycle management;<[2014,]>;1;<[2014,1]>
+783;leisure boat;<[2013,]>;1;<[2013,1]>
+784;servitization;<[2013,]>;1;<[2013,1]>
+785;social network service;<[2013,]>;1;<[2013,1]>
+786;engineering collaboration via negotiation ;<[2009,]>;1;<[2009,1]>
+787;negotiation;<[2009,]>;1;<[2009,1]>
+788;explorative research;<[2005,]>;1;<[2005,1]>
+789;guidance system;<[2007,2009,]>;2;<[2007,1][2009,1]>
+790;maritime industry;<[2007,2009,]>;2;<[2007,1][2009,1]>
+791;operating data;<[2007,2009,]>;2;<[2007,1][2009,1]>
+792;complexity;<[2009,2013,2010,]>;3;<[2009,1][2013,1][2010,1]>
+793;measure;<[2009,]>;1;<[2009,1]>
+794;plastics waste;<[2007,]>;1;<[2007,1]>
+795;embedded system;<[2009,2007,]>;2;<[2009,1][2007,1]>
+796;model based system engineering ;<[2009,2012,]>;2;<[2009,1][2012,1]>
+797;JT;<[2009,]>;1;<[2009,1]>
+798;visualization;<[2009,2013,]>;3;<[2009,1][2013,2]>
+799;conceptual model;<[2005,]>;1;<[2005,1]>
+800;form;<[2005,]>;1;<[2005,1]>
+801;information model;<[2005,2011,2012,]>;5;<[2005,2][2011,1][2012,2]>
+802;XML schema;<[2005,]>;1;<[2005,1]>
+803;biotechnology;<[2012,]>;1;<[2012,1]>
+804;innovation process;<[2012,2015,]>;2;<[2012,1][2015,1]>
+805;non linear dynamic system;<[2012,]>;1;<[2012,1]>
+806;product lifecycle knowledge management;<[2012,]>;1;<[2012,1]>
+807;computer supported collaborative work;<[2009,]>;1;<[2009,1]>
+808;web application development;<[2009,]>;1;<[2009,1]>
+809;computer aided design system;<[2011,]>;1;<[2011,1]>
+810;design for x;<[2009,2007,]>;2;<[2009,1][2007,1]>
+811;integrated product development;<[2009,2012,2015,]>;3;<[2009,1][2012,1][2015,1]>
+812;product flexibility;<[2009,]>;1;<[2009,1]>
+813;product lifecycle model;<[2009,]>;1;<[2009,1]>
+814;product planning;<[2009,2012,]>;2;<[2009,1][2012,1]>
+815;global data exchange;<[2009,]>;1;<[2009,1]>
+816;global japanese manufacturing firm;<[2009,]>;1;<[2009,1]>
+817;product module design;<[2009,]>;1;<[2009,1]>
+818;construction industry;<[2009,2014,2015,]>;3;<[2009,1][2014,1][2015,1]>
+819;construction project lifecycle management;<[2009,]>;1;<[2009,1]>
+820;active asset configuration management;<[2009,]>;1;<[2009,1]>
+821;asset configuration management;<[2009,]>;1;<[2009,1]>
+822;corporate environmental management;<[2007,]>;1;<[2007,1]>
+823;discriminant analysis;<[2007,]>;1;<[2007,1]>
+824;food packaging;<[2007,]>;1;<[2007,1]>
+825;organizational championship;<[2007,]>;1;<[2007,1]>
+826;product oriented environmental;<[2007,]>;1;<[2007,1]>
+827;availability contract;<[2013,]>;1;<[2013,1]>
+828;defence aerospace;<[2013,]>;1;<[2013,1]>
+829;input output analysis;<[2013,]>;1;<[2013,1]>
+830;system;<[2013,]>;1;<[2013,1]>
+831;through life costing;<[2013,]>;1;<[2013,1]>
+832;customer orientation;<[2012,]>;1;<[2012,1]>
+833;ISO 15926;<[2009,2011,2013,2008,]>;4;<[2009,1][2011,1][2013,1][2008,1]>
+834;process plant data sharing;<[2009,]>;1;<[2009,1]>
+835;3D content based retrieval;<[2009,]>;1;<[2009,1]>
+836;3D search;<[2009,]>;1;<[2009,1]>
+837;computer aided design data management;<[2009,]>;1;<[2009,1]>
+838;computer aided design database;<[2009,]>;1;<[2009,1]>
+839;shape benchmark;<[2009,]>;1;<[2009,1]>
+840;axiomatic design;<[2005,]>;1;<[2005,1]>
+841;business relationship;<[2005,]>;1;<[2005,1]>
+842;data graph;<[2012,]>;1;<[2012,1]>
+843;semantic relationship;<[2012,]>;1;<[2012,1]>
+844;semantic;<[2009,2007,2011,]>;3;<[2009,1][2007,1][2011,1]>
+845;empirical study;<[2011,2013,]>;2;<[2011,1][2013,1]>
+846;implementation model;<[2011,]>;1;<[2011,1]>
+847;requirement management;<[2011,2010,2007,]>;3;<[2011,1][2010,1][2007,1]>
+848;knowledge assessing;<[2009,]>;1;<[2009,1]>
+849;environmental sustainable design;<[2013,]>;1;<[2013,1]>
+850;degradation;<[2007,]>;1;<[2007,1]>
+851;product embedded information device;<[2007,2008,]>;2;<[2007,1][2008,1]>
+852;product improvement;<[2007,]>;1;<[2007,1]>
+853;product usage data;<[2007,]>;1;<[2007,1]>
+854;motion planning;<[2010,]>;1;<[2010,1]>
+855;numerical control simulation;<[2010,]>;1;<[2010,1]>
+856;open control system;<[2010,]>;1;<[2010,1]>
+857;computer aided engineering data management;<[2011,]>;1;<[2011,1]>
+858;simulation data management ;<[2011,]>;1;<[2011,1]>
+859;simulation process;<[2011,]>;1;<[2011,1]>
+860;engineering environment;<[2011,]>;1;<[2011,1]>
+861;information modeling;<[2011,2005,]>;2;<[2011,1][2005,1]>
+862;federation;<[2005,]>;1;<[2005,1]>
+863;legacy data;<[2005,]>;1;<[2005,1]>
+864;logistics support;<[2005,]>;1;<[2005,1]>
+865;reputation;<[2009,]>;1;<[2009,1]>
+866;trust;<[2009,]>;1;<[2009,1]>
+867;function behaviour structure;<[2009,]>;1;<[2009,1]>
+868;intelligent agent;<[2009,2007,]>;2;<[2009,1][2007,1]>
+869;profile;<[2009,]>;1;<[2009,1]>
+870;role;<[2009,2015,]>;2;<[2009,1][2015,1]>
+871;self organization;<[2009,]>;1;<[2009,1]>
+872;business to business;<[2005,]>;1;<[2005,1]>
+873;JAVA;<[2005,]>;1;<[2005,1]>
+874;parts library standardisation initiative;<[2005,]>;1;<[2005,1]>
+875;prototyping;<[2012,]>;1;<[2012,1]>
+876;testing;<[2012,]>;1;<[2012,1]>
+877;operation and maintenance;<[2011,2015,]>;2;<[2011,1][2015,1]>
+878;ship product structure;<[2011,]>;1;<[2011,1]>
+879;serious game;<[2011,]>;1;<[2011,1]>
+880;product information and knowledge management;<[2010,]>;1;<[2010,1]>
+881;product information lifecycle;<[2010,]>;1;<[2010,1]>
+882;virtual 3D simulation;<[2010,]>;1;<[2010,1]>
+883;cable harness design;<[2009,]>;1;<[2009,1]>
+884;design rationale;<[2009,2015,]>;3;<[2009,1][2015,2]>
+885;design task analysis;<[2009,]>;1;<[2009,1]>
+886;knowledge capture;<[2009,2013,]>;2;<[2009,1][2013,1]>
+887;user logging;<[2009,]>;1;<[2009,1]>
+888;parallel structure;<[2009,]>;1;<[2009,1]>
+889;set theory;<[2009,]>;1;<[2009,1]>
+890;structure mapping;<[2009,]>;1;<[2009,1]>
+891;product ontology;<[2009,2005,]>;2;<[2009,1][2005,1]>
+892;shape function relationship framework;<[2009,]>;1;<[2009,1]>
+893;asset management;<[2009,2008,2014,2015,]>;4;<[2009,1][2008,1][2014,1][2015,1]>
+894;manufacturing knowledge;<[2005,]>;1;<[2005,1]>
+895;product and service lifecycle;<[2011,]>;1;<[2011,1]>
+896;sensor;<[2011,]>;1;<[2011,1]>
+897;intuitiveness;<[2013,]>;1;<[2013,1]>
+898;collaborative management;<[2005,]>;1;<[2005,1]>
+899;injection mold;<[2005,]>;1;<[2005,1]>
+900;process analysis;<[2005,]>;1;<[2005,1]>
+901;adaptable product;<[2009,]>;1;<[2009,1]>
+902;engineering design;<[2009,2012,2005,2015,]>;4;<[2009,1][2012,1][2005,1][2015,1]>
+903;self organizing map;<[2009,]>;1;<[2009,1]>
+904;model transfer process;<[2011,]>;1;<[2011,1]>
+905;acrylonitrile butadien styrene;<[2007,]>;1;<[2007,1]>
+906;blend;<[2007,]>;1;<[2007,1]>
+907;thermoplastic;<[2007,]>;1;<[2007,1]>
+908;integrated design;<[2010,]>;1;<[2010,1]>
+909;knowledge based;<[2010,]>;1;<[2010,1]>
+910;process planning;<[2010,]>;2;<[2010,2]>
+911;application lifecycle management;<[2012,2015,]>;2;<[2012,1][2015,1]>
+912;mechatronic design;<[2012,2015,]>;2;<[2012,1][2015,1]>
+913;version control;<[2012,]>;1;<[2012,1]>
+914;process information model;<[2014,]>;1;<[2014,1]>
+915;process parameter;<[2014,]>;1;<[2014,1]>
+916;sheet metal operation;<[2014,]>;1;<[2014,1]>
+917;lifecycle costing;<[2014,2015,]>;2;<[2014,1][2015,1]>
+918;lifecycle optimization;<[2014,]>;1;<[2014,1]>
+919;building;<[2005,]>;1;<[2005,1]>
+920;industry foundation class;<[2005,]>;1;<[2005,1]>
+921;experimental data and information;<[2013,]>;1;<[2013,1]>
+922;engineering drawing;<[2009,]>;1;<[2009,1]>
+923;reduced dimensioning;<[2009,]>;1;<[2009,1]>
+924;geographical information system;<[2010,2014,]>;2;<[2010,1][2014,1]>
+925;product lifecycle data;<[2007,]>;1;<[2007,1]>
+926;resource description framework;<[2007,2005,2008,]>;3;<[2007,1][2005,1][2008,1]>
+927;tracing;<[2007,]>;1;<[2007,1]>
+928;tracking;<[2007,]>;1;<[2007,1]>
+929;computer aided manufacturing;<[2009,]>;1;<[2009,1]>
+930;system integration;<[2009,]>;1;<[2009,1]>
+931;working process;<[2009,]>;1;<[2009,1]>
+932;integrated logistics;<[2012,]>;1;<[2012,1]>
+933;information flow;<[2009,2012,]>;2;<[2009,1][2012,1]>
+934;assembly process information;<[2007,]>;1;<[2007,1]>
+935;assembly model;<[2007,]>;1;<[2007,1]>
+936;connected graph model;<[2007,]>;1;<[2007,1]>
+937;building information management education and training;<[2013,]>;1;<[2013,1]>
+938;collaborative work;<[2013,2012,2007,]>;3;<[2013,1][2012,1][2007,1]>
+939;construction education;<[2013,]>;1;<[2013,1]>
+940;product lifecycle information model ;<[2013,]>;1;<[2013,1]>
+941;information demand;<[2011,]>;1;<[2011,1]>
+942;information logistics;<[2011,]>;1;<[2011,1]>
+943;pattern;<[2011,]>;1;<[2011,1]>
+944;process improvement;<[2011,]>;1;<[2011,1]>
+945;dashboard;<[2007,]>;1;<[2007,1]>
+946;engineering change;<[2007,2010,]>;2;<[2007,1][2010,1]>
+947;IDEF;<[2007,]>;1;<[2007,1]>
+948;informational object;<[2007,]>;1;<[2007,1]>
+949;manufacturing process planning;<[2007,2012,]>;2;<[2007,1][2012,1]>
+950;process modeling;<[2007,]>;1;<[2007,1]>
+951;business model;<[2005,2011,2015,]>;3;<[2005,1][2011,1][2015,1]>
+952;enterprise process framework;<[2005,]>;1;<[2005,1]>
+953;federated enterprise architecture;<[2005,]>;1;<[2005,1]>
+954;information technology classification framework;<[2005,]>;1;<[2005,1]>
+955;culture;<[2007,]>;1;<[2007,1]>
+956;process innovation;<[2007,]>;1;<[2007,1]>
+957;technology management;<[2007,]>;1;<[2007,1]>
+958;digital mockup maturity;<[2012,]>;1;<[2012,1]>
+959;product assembly;<[2012,]>;1;<[2012,1]>
+960;product reverse engineering;<[2012,]>;1;<[2012,1]>
+961;data classification;<[2007,]>;1;<[2007,1]>
+962;data collection;<[2007,]>;1;<[2007,1]>
+963;workflow analysis;<[2007,]>;1;<[2007,1]>
+964;aspirator compressor;<[2007,]>;1;<[2007,1]>
+965;industrial experience;<[2011,]>;1;<[2011,1]>
+966;product lifecycle management benefit;<[2011,2010,]>;2;<[2011,1][2010,1]>
+967;lifecycle orientation;<[2013,]>;1;<[2013,1]>
+968;computer aided design data exchange;<[2010,]>;1;<[2010,1]>
+969;persistent naming problem;<[2010,]>;1;<[2010,1]>
+970;point based method;<[2010,]>;1;<[2010,1]>
+971;complex engineering;<[2012,]>;1;<[2012,1]>
+972;method and tool;<[2012,]>;1;<[2012,1]>
+973;document lifecycle;<[2011,]>;1;<[2011,1]>
+974;document model release process;<[2011,]>;1;<[2011,1]>
+975;document version and status;<[2011,]>;1;<[2011,1]>
+976;industrial case;<[2012,]>;1;<[2012,1]>
+977;maintenance repair and overhaul;<[2012,]>;1;<[2012,1]>
+978;service business process;<[2012,]>;1;<[2012,1]>
+979;service data management;<[2012,]>;1;<[2012,1]>
+980;steam turbine;<[2012,]>;1;<[2012,1]>
+981;engineer to order;<[2007,]>;2;<[2007,2]>
+982;metamodelization;<[2007,]>;1;<[2007,1]>
+983;model driven architecture;<[2007,2008,2014,]>;4;<[2007,1][2008,2][2014,1]>
+984;model transformation;<[2007,]>;1;<[2007,1]>
+985;synchronization;<[2007,2008,]>;2;<[2007,1][2008,1]>
+986;virtual prototype family;<[2008,]>;1;<[2008,1]>
+987;authoring;<[2013,]>;1;<[2013,1]>
+988;configuration rule;<[2013,2011,]>;2;<[2013,1][2011,1]>
+989;global product development;<[2010,]>;1;<[2010,1]>
+990;research and development;<[2010,]>;1;<[2010,1]>
+991;model based engineering;<[2012,]>;2;<[2012,2]>
+992;agent technology;<[2008,]>;1;<[2008,1]>
+993;autonomous;<[2008,]>;1;<[2008,1]>
+994;product centric;<[2008,]>;1;<[2008,1]>
+995;cognitive work analysis;<[2011,]>;1;<[2011,1]>
+996;data management system;<[2011,]>;1;<[2011,1]>
+997;requirement elicitation;<[2011,]>;1;<[2011,1]>
+998;sustainable production;<[2011,]>;1;<[2011,1]>
+999;metadata;<[2007,2005,]>;2;<[2007,1][2005,1]>
+1000;design method;<[2007,]>;1;<[2007,1]>
+1001;competence;<[2010,]>;1;<[2010,1]>
+1002;virtual environment;<[2010,]>;1;<[2010,1]>
+1003;design project management;<[2008,]>;1;<[2008,1]>
+1004;performance inductor in design;<[2008,]>;1;<[2008,1]>
+1005;fact based design;<[2012,]>;1;<[2012,1]>
+1006;leisure boat production;<[2012,]>;1;<[2012,1]>
+1007;middle of life;<[2012,2014,]>;3;<[2012,2][2014,1]>
+1008;usage information;<[2008,]>;1;<[2008,1]>
+1009;usage lifecycle management;<[2008,]>;1;<[2008,1]>
+1010;ecosystem collaboration;<[2012,]>;1;<[2012,1]>
+1011;service lifecycle management;<[2012,2015,]>;2;<[2012,1][2015,1]>
+1012;service science management and engineering;<[2012,]>;1;<[2012,1]>
+1013;virtual factory;<[2012,2015,]>;2;<[2012,1][2015,1]>
+1014;weapon system lifecycle management;<[2010,]>;1;<[2010,1]>
+1015;data and process management;<[2011,]>;1;<[2011,1]>
+1016;formula student;<[2011,]>;1;<[2011,1]>
+1017;feature technology;<[2007,]>;1;<[2007,1]>
+1018;process architecture;<[2007,]>;1;<[2007,1]>
+1019;clustering regression analysis;<[2007,]>;1;<[2007,1]>
+1020;KANSEI engineering;<[2007,2015,]>;2;<[2007,1][2015,1]>
+1021;analogy;<[2007,]>;1;<[2007,1]>
+1022;decision engineering;<[2008,]>;1;<[2008,1]>
+1023;information reuse;<[2008,]>;1;<[2008,1]>
+1024;fusion energy;<[2011,]>;1;<[2011,1]>
+1025;mechatronic system;<[2011,]>;1;<[2011,1]>
+1026;democratized innovation;<[2010,]>;1;<[2010,1]>
+1027;information sharing;<[2010,]>;1;<[2010,1]>
+1028;smart environment;<[2010,]>;1;<[2010,1]>
+1029;health monitoring;<[2010,]>;1;<[2010,1]>
+1030;exchange process;<[2013,]>;1;<[2013,1]>
+1031;plant;<[2013,]>;1;<[2013,1]>
+1032;authentication;<[2010,]>;1;<[2010,1]>
+1033;grid technology;<[2010,]>;1;<[2010,1]>
+1034;simulation data management;<[2010,2015,]>;2;<[2010,1][2015,1]>
+1035;customization;<[2007,]>;1;<[2007,1]>
+1036;maintainability;<[2007,]>;1;<[2007,1]>
+1037;reliability;<[2007,]>;1;<[2007,1]>
+1038;industrial implementation;<[2013,]>;1;<[2013,1]>
+1039;requirement module;<[2012,]>;1;<[2012,1]>
+1040;structural complexity management;<[2012,]>;1;<[2012,1]>
+1041;electronic mobility;<[2011,]>;1;<[2011,1]>
+1042;XQUERY;<[2012,]>;1;<[2012,1]>
+1043;sustainable manufacturing;<[2012,]>;1;<[2012,1]>
+1044;agent based simulation modeling;<[2014,]>;1;<[2014,1]>
+1045;indonesian fertiliser industry;<[2014,]>;1;<[2014,1]>
+1046;socio technical system;<[2014,2015,]>;2;<[2014,1][2015,1]>
+1047;knowledge and data extraction;<[2014,]>;1;<[2014,1]>
+1048;WINDCHILL;<[2014,]>;1;<[2014,1]>
+1049;cost;<[2007,]>;1;<[2007,1]>
+1050;economic value analysis;<[2007,]>;1;<[2007,1]>
+1051;artificial neural network;<[2010,2015,]>;2;<[2010,1][2015,1]>
+1052;expert system;<[2010,]>;1;<[2010,1]>
+1053;product knowledge;<[2005,]>;1;<[2005,1]>
+1054;set based concurrent engineering;<[2012,2015,]>;4;<[2012,2][2015,2]>
+1055;tracking and tracing;<[2007,]>;1;<[2007,1]>
+1056;metaknowledge ontology;<[2007,]>;1;<[2007,1]>
+1057;multilingual;<[2007,]>;1;<[2007,1]>
+1058;project coordination;<[2005,]>;1;<[2005,1]>
+1059;basic need;<[2013,]>;1;<[2013,1]>
+1060;different types of industry;<[2013,]>;1;<[2013,1]>
+1061;modular production;<[2013,]>;1;<[2013,1]>
+1062;open industry framework;<[2013,]>;1;<[2013,1]>
+1063;parallel distributed processing;<[2013,]>;1;<[2013,1]>
+1064;collaborative process;<[2005,]>;1;<[2005,1]>
+1065;performance evaluation;<[2005,]>;1;<[2005,1]>
+1066;constraint satisfaction problem;<[2007,2011,]>;2;<[2007,1][2011,1]>
+1067;knowledge based system;<[2007,]>;1;<[2007,1]>
+1068;project planning;<[2007,]>;1;<[2007,1]>
+1069;innovation and idea management;<[2014,]>;1;<[2014,1]>
+1070;product lifecycle management reference model;<[2014,]>;1;<[2014,1]>
+1071;product planning and product lifecycle management;<[2014,]>;1;<[2014,1]>
+1072;aeronautical final assembly line conceptual design;<[2013,]>;1;<[2013,1]>
+1073;industrial digital mockup;<[2013,]>;2;<[2013,2]>
+1074;component;<[2008,]>;1;<[2008,1]>
+1075;end user development;<[2008,]>;1;<[2008,1]>
+1076;flow diagram;<[2008,]>;1;<[2008,1]>
+1077;information management system;<[2008,]>;1;<[2008,1]>
+1078;digital chain;<[2010,]>;1;<[2010,1]>
+1079;data security;<[2008,]>;1;<[2008,1]>
+1080;skeleton;<[2008,]>;1;<[2008,1]>
+1081;recovery management system;<[2007,]>;1;<[2007,1]>
+1082;global engineering network;<[2010,]>;1;<[2010,1]>
+1083;network configuration;<[2010,]>;1;<[2010,1]>
+1084;collaborative product design;<[2008,]>;1;<[2008,1]>
+1085;design chain;<[2008,]>;1;<[2008,1]>
+1086;model driven interoperability;<[2008,]>;1;<[2008,1]>
+1087;product data quality;<[2008,]>;1;<[2008,1]>
+1088;shifting lead;<[2007,]>;1;<[2007,1]>
+1089;software;<[2007,]>;1;<[2007,1]>
+1090;attitude;<[2011,]>;1;<[2011,1]>
+1091;curriculum structure;<[2011,]>;1;<[2011,1]>
+1092;skill;<[2011,]>;1;<[2011,1]>
+1093;civil;<[2013,]>;1;<[2013,1]>
+1094;marine;<[2013,]>;1;<[2013,1]>
+1095;wind;<[2013,]>;1;<[2013,1]>
+1096;agent based system;<[2011,]>;1;<[2011,1]>
+1097;engineering information;<[2011,]>;1;<[2011,1]>
+1098;scenario based approach;<[2011,]>;1;<[2011,1]>
+1099;TRENIN;<[2011,]>;1;<[2011,1]>
+1100;product lifecycle management benchmarking;<[2010,]>;1;<[2010,1]>
+1101;decision making and technical capability;<[2008,]>;1;<[2008,1]>
+1102;tool selection;<[2008,]>;1;<[2008,1]>
+1103;business process management notation;<[2013,]>;1;<[2013,1]>
+1104;maturity;<[2013,2015,]>;3;<[2013,2][2015,1]>
+1105;product lifecycle management process improvement;<[2013,]>;1;<[2013,1]>
+1106;proof of usage;<[2013,]>;1;<[2013,1]>
+1107;research steering;<[2013,]>;1;<[2013,1]>
+1108;technology readiness level;<[2013,]>;1;<[2013,1]>
+1109;product portfolio assessment;<[2014,]>;1;<[2014,1]>
+1110;simplified lifecycle assessment;<[2014,]>;1;<[2014,1]>
+1111;multiple partner;<[2007,]>;1;<[2007,1]>
+1112;AUDROSBOX;<[2013,]>;1;<[2013,1]>
+1113;collaborative feature;<[2013,]>;1;<[2013,1]>
+1114;learning science;<[2007,]>;1;<[2007,1]>
+1115;product information reuse;<[2011,]>;1;<[2011,1]>
+1116;shape based retrieval;<[2011,]>;1;<[2011,1]>
+1117;similarity and difference;<[2011,]>;1;<[2011,1]>
+1118;collaborative milestone model;<[2008,]>;1;<[2008,1]>
+1119;company milestone model;<[2008,]>;1;<[2008,1]>
+1120;framework of system integration;<[2008,]>;1;<[2008,1]>
+1121;milestone model;<[2008,]>;1;<[2008,1]>
+1122;phase and step;<[2008,]>;1;<[2008,1]>
+1123;parameter;<[2007,]>;1;<[2007,1]>
+1124;computer aided engineering process;<[2008,]>;1;<[2008,1]>
+1125;multidisciplinary design optimization;<[2008,]>;1;<[2008,1]>
+1126;web technology;<[2008,]>;1;<[2008,1]>
+1127;product and system coevolution;<[2007,]>;1;<[2007,1]>
+1128;prototype of software;<[2007,]>;1;<[2007,1]>
+1129;strategic business management;<[2007,]>;1;<[2007,1]>
+1130;customer demand;<[2014,]>;1;<[2014,1]>
+1131;product upgradability;<[2014,]>;1;<[2014,1]>
+1132;set based design;<[2014,]>;1;<[2014,1]>
+1133;learning and serious game;<[2012,]>;1;<[2012,1]>
+1134;product development waste;<[2012,]>;1;<[2012,1]>
+1135;knowledge asset;<[2011,]>;1;<[2011,1]>
+1136;sustainable product development;<[2011,]>;1;<[2011,1]>
+1137;alignment;<[2007,]>;1;<[2007,1]>
+1138;variety;<[2007,]>;1;<[2007,1]>
+1139;assembly;<[2005,]>;1;<[2005,1]>
+1140;manipulation;<[2005,]>;1;<[2005,1]>
+1141;path planning;<[2005,]>;1;<[2005,1]>
+1142;virtual mannequin;<[2005,]>;1;<[2005,1]>
+1143;future development product lifecycle management;<[2007,]>;1;<[2007,1]>
+1144;ubiquity;<[2007,]>;1;<[2007,1]>
+1145;continuous improvement;<[2013,]>;1;<[2013,1]>
+1146;self assessment;<[2013,]>;1;<[2013,1]>
+1147;product analysis;<[2007,]>;1;<[2007,1]>
+1148;data model;<[2014,2015,]>;2;<[2014,1][2015,1]>
+1149;design system process;<[2014,]>;1;<[2014,1]>
+1150;mechanical system design;<[2014,]>;1;<[2014,1]>
+1151;holistic product lifecycle management model;<[2010,]>;1;<[2010,1]>
+1152;integrated management;<[2010,]>;1;<[2010,1]>
+1153;generic model;<[2010,]>;1;<[2010,1]>
+1154;modeling framework;<[2010,]>;1;<[2010,1]>
+1155;environmental design;<[2007,]>;1;<[2007,1]>
+1156;material information;<[2011,]>;1;<[2011,1]>
+1157;semantic problem;<[2011,]>;1;<[2011,1]>
+1158;construction management body of knowledge;<[2013,]>;1;<[2013,1]>
+1159;construction manager;<[2013,]>;1;<[2013,1]>
+1160;conflict solving;<[2012,]>;1;<[2012,1]>
+1161;intuitive interaction;<[2012,]>;1;<[2012,1]>
+1162;project review;<[2012,]>;1;<[2012,1]>
+1163;offshore wind farm;<[2014,]>;1;<[2014,1]>
+1164;technology assessment;<[2010,]>;1;<[2010,1]>
+1165;total cost and benefit of ownership;<[2010,]>;1;<[2010,1]>
+1166;assembly design;<[2008,]>;1;<[2008,1]>
+1167;quality management;<[2008,2015,]>;2;<[2008,1][2015,1]>
+1168;authoring method;<[2011,]>;1;<[2011,1]>
+1169;verification method;<[2011,]>;1;<[2011,1]>
+1170;risk management;<[2012,]>;1;<[2012,1]>
+1171;uncertainty;<[2012,2013,]>;3;<[2012,2][2013,1]>
+1172;enterprise architecture;<[2013,]>;1;<[2013,1]>
+1173;multi domain ontology;<[2013,]>;1;<[2013,1]>
+1174;dynamic collaboration;<[2007,]>;1;<[2007,1]>
+1175;modular product;<[2007,]>;1;<[2007,1]>
+1176;quality management system;<[2007,]>;1;<[2007,1]>
+1177;engineering education;<[2012,2015,]>;2;<[2012,1][2015,1]>
+1178;free software;<[2012,]>;1;<[2012,1]>
+1179;system architecture;<[2008,]>;1;<[2008,1]>
+1180;computer aided design modeling;<[2012,]>;1;<[2012,1]>
+1181;design process modeling;<[2012,]>;1;<[2012,1]>
+1182;design information;<[2010,]>;1;<[2010,1]>
+1183;electronic product;<[2007,]>;1;<[2007,1]>
+1184;low temperature burn injury;<[2007,]>;1;<[2007,1]>
+1185;software change;<[2007,]>;1;<[2007,1]>
+1186;system level;<[2007,]>;1;<[2007,1]>
+1187;thermal design;<[2007,]>;1;<[2007,1]>
+1188;facility management;<[2013,2014,]>;3;<[2013,1][2014,2]>
+1189;operation;<[2013,]>;1;<[2013,1]>
+1190;product position;<[2014,]>;1;<[2014,1]>
+1191;reframing;<[2014,]>;1;<[2014,1]>
+1192;strategy;<[2014,]>;1;<[2014,1]>
+1193;partner network;<[2007,]>;1;<[2007,1]>
+1194;benchmarking;<[2005,2015,]>;2;<[2005,1][2015,1]>
+1195;capability maturity;<[2005,]>;1;<[2005,1]>
+1196;competitive advantage;<[2005,]>;1;<[2005,1]>
+1197;strategic alignment;<[2005,]>;1;<[2005,1]>
+1198;preliminary collaborative design;<[2013,]>;1;<[2013,1]>
+1199;comparison of models;<[2008,]>;1;<[2008,1]>
+1200;conflict notification;<[2008,]>;1;<[2008,1]>
+1201;cooperative design;<[2008,]>;1;<[2008,1]>
+1202;design constraint;<[2008,]>;1;<[2008,1]>
+1203;integrated model based design;<[2008,]>;1;<[2008,1]>
+1204;3D plant layout;<[2012,]>;1;<[2012,1]>
+1205;COLLADA;<[2012,]>;1;<[2012,1]>
+1206;constructive solid geometry;<[2012,]>;1;<[2012,1]>
+1207;WEBGL;<[2012,]>;1;<[2012,1]>
+1208;preparation of a virtual environment;<[2011,]>;1;<[2011,1]>
+1209;data complexity;<[2010,]>;1;<[2010,1]>
+1210;design domain;<[2010,]>;1;<[2010,1]>
+1211;pattern language;<[2008,]>;1;<[2008,1]>
+1212;product lifecycle management methodology;<[2008,]>;1;<[2008,1]>
+1213;neutral file;<[2007,]>;1;<[2007,1]>
+1214;product lifecycle management integrator;<[2007,]>;1;<[2007,1]>
+1215;computer aided design automation;<[2007,]>;1;<[2007,1]>
+1216;feature recognition;<[2007,]>;1;<[2007,1]>
+1217;topological optimization;<[2007,]>;1;<[2007,1]>
+1218;case based reasoning;<[2010,]>;1;<[2010,1]>
+1219;cross organization;<[2010,]>;1;<[2010,1]>
+1220;process knowledge;<[2010,]>;1;<[2010,1]>
+1221;workflow management;<[2010,]>;1;<[2010,1]>
+1222;benefit tool organization process people framework;<[2012,]>;1;<[2012,1]>
+1223;knowledge management of product lifecycle;<[2012,]>;1;<[2012,1]>
+1224;knowledge need;<[2012,]>;1;<[2012,1]>
+1225;new product definition;<[2012,]>;1;<[2012,1]>
+1226;quick term project development;<[2012,]>;1;<[2012,1]>
+1227;software configuration management;<[2010,2008,]>;2;<[2010,1][2008,1]>
+1228;software development lifecycle;<[2010,]>;1;<[2010,1]>
+1229;software development process;<[2010,]>;1;<[2010,1]>
+1230;software engineering;<[2010,]>;1;<[2010,1]>
+1231;computer aided design manufacturing and numerical control;<[2013,]>;1;<[2013,1]>
+1232;integrated design and manufacturing;<[2013,]>;1;<[2013,1]>
+1233;assessment tool;<[2012,2015,]>;2;<[2012,1][2015,1]>
+1234;design assessment;<[2012,]>;1;<[2012,1]>
+1235;design practice;<[2012,]>;1;<[2012,1]>
+1236;design system;<[2012,]>;1;<[2012,1]>
+1237;integration of product data management and software configuration management;<[2008,]>;1;<[2008,1]>
+1238;complex machinery;<[2007,]>;1;<[2007,1]>
+1239;industrial maintenance;<[2007,]>;1;<[2007,1]>
+1240;mobile computing;<[2007,2013,]>;2;<[2007,1][2013,1]>
+1241;telematics;<[2007,]>;1;<[2007,1]>
+1242;lot size one;<[2010,]>;1;<[2010,1]>
+1243;product driven manufacturing;<[2010,]>;1;<[2010,1]>
+1244;semantic manufacturing;<[2010,]>;1;<[2010,1]>
+1245;collaborative and distributed design;<[2007,]>;1;<[2007,1]>
+1246;consensus;<[2007,]>;1;<[2007,1]>
+1247;design analysis;<[2007,]>;1;<[2007,1]>
+1248;abstraction level;<[2007,]>;1;<[2007,1]>
+1249;product family modeling;<[2007,]>;1;<[2007,1]>
+1250;database;<[2005,]>;1;<[2005,1]>
+1251;graph theory;<[2014,]>;1;<[2014,1]>
+1252;heterogeneous data;<[2014,]>;1;<[2014,1]>
+1253;information visualization;<[2014,]>;1;<[2014,1]>
+1254;media product development;<[2005,]>;1;<[2005,1]>
+1255;web based collaboration;<[2005,]>;1;<[2005,1]>
+1256;design for manufacturing and assembly;<[2010,]>;1;<[2010,1]>
+1257;product lifecycle management tool;<[2010,2013,]>;2;<[2010,1][2013,1]>
+1258;project based training;<[2010,]>;1;<[2010,1]>
+1259;MALAYSIA;<[2014,2015,]>;2;<[2014,1][2015,1]>
+1260;partial least square;<[2014,]>;1;<[2014,1]>
+1261;computer aided design parameterization;<[2007,]>;1;<[2007,1]>
+1262;automobile;<[2010,]>;1;<[2010,1]>
+1263;maintenance personalization;<[2010,]>;1;<[2010,1]>
+1264;utilization condition;<[2010,]>;1;<[2010,1]>
+1265;multi life product;<[2007,]>;1;<[2007,1]>
+1266;lifecycle information management;<[2014,]>;1;<[2014,1]>
+1267;aviation maintenance;<[2013,]>;1;<[2013,1]>
+1268;model based product definition;<[2013,]>;1;<[2013,1]>
+1269;model based work instruction;<[2013,]>;1;<[2013,1]>
+1270;undergraduate research;<[2013,]>;1;<[2013,1]>
+1271;agency;<[2013,]>;1;<[2013,1]>
+1272;informational integration;<[2013,]>;1;<[2013,1]>
+1273;new product development process;<[2013,]>;1;<[2013,1]>
+1274;rule of use;<[2013,]>;1;<[2013,1]>
+1275;indian culture;<[2010,]>;1;<[2010,1]>
+1276;organizational change management;<[2010,]>;1;<[2010,1]>
+1277;resistance to change;<[2010,]>;1;<[2010,1]>
+1278;development process efficiency;<[2014,]>;1;<[2014,1]>
+1279;lifecycle tool;<[2014,]>;1;<[2014,1]>
+1280;sustainability analysis;<[2014,]>;1;<[2014,1]>
+1281;modeling;<[2013,]>;1;<[2013,1]>
+1282;coolant;<[2014,]>;1;<[2014,1]>
+1283;decomposition analysis resolution process;<[2014,]>;1;<[2014,1]>
+1284;engine;<[2014,]>;1;<[2014,1]>
+1285;head gasket;<[2014,]>;1;<[2014,1]>
+1286;leakage;<[2014,]>;1;<[2014,1]>
+1287;seal;<[2014,]>;1;<[2014,1]>
+1288;automated production system;<[2011,]>;1;<[2011,1]>
+1289;interval computation;<[2011,]>;1;<[2011,1]>
+1290;awareness in design;<[2013,]>;1;<[2013,1]>
+1291;proactive engineering;<[2013,]>;1;<[2013,1]>
+1292;qualitative description;<[2013,]>;1;<[2013,1]>
+1293;understanding;<[2013,]>;1;<[2013,1]>
+1294;casting;<[2010,]>;1;<[2010,1]>
+1295;closed loop;<[2010,2015,]>;2;<[2010,1][2015,1]>
+1296;embedded radio frequency identification;<[2010,]>;1;<[2010,1]>
+1297;item level product lifecycle management;<[2010,]>;1;<[2010,1]>
+1298;product variant corridor;<[2010,]>;1;<[2010,1]>
+1299;radio frequency identification integration;<[2010,]>;1;<[2010,1]>
+1300;beginning of life;<[2012,]>;1;<[2012,1]>
+1301;adaptation;<[2010,]>;1;<[2010,1]>
+1302;attainable set;<[2010,]>;1;<[2010,1]>
+1303;dynamic;<[2010,]>;1;<[2010,1]>
+1304;research and development project;<[2007,]>;1;<[2007,1]>
+1305;toolbox;<[2007,]>;1;<[2007,1]>
+1306;design intent;<[2014,2015,]>;2;<[2014,1][2015,1]>
+1307;know how;<[2014,]>;1;<[2014,1]>
+1308;quantum lifecycle management;<[2014,2015,]>;2;<[2014,1][2015,1]>
+1309;semantic ontology;<[2014,]>;1;<[2014,1]>
+1310;lifecycle data;<[2008,]>;1;<[2008,1]>
+1311;method;<[2008,]>;1;<[2008,1]>
+1312;process plant;<[2008,]>;1;<[2008,1]>
+1313;SPARQL;<[2008,]>;1;<[2008,1]>
+1314;aeronautical;<[2014,]>;1;<[2014,1]>
+1315;overhaul;<[2014,]>;1;<[2014,1]>
+1316;repair;<[2014,]>;1;<[2014,1]>
+1317;enterprise product data standard;<[2007,]>;1;<[2007,1]>
+1318;knowledge flow;<[2012,]>;1;<[2012,1]>
+1319;product data standard;<[2012,]>;1;<[2012,1]>
+1320;digital document;<[2007,]>;1;<[2007,1]>
+1321;information system model;<[2007,]>;1;<[2007,1]>
+1322;lifecycle model;<[2012,]>;1;<[2012,1]>
+1323;temporal pattern;<[2012,]>;1;<[2012,1]>
+1324;evolution of information system;<[2008,]>;1;<[2008,1]>
+1325;product structure model;<[2008,]>;1;<[2008,1]>
+1326;core product model;<[2007,]>;1;<[2007,1]>
+1327;ontological assembly model;<[2007,]>;1;<[2007,1]>
+1328;open assembly model;<[2007,]>;1;<[2007,1]>
+1329;reasoning capability;<[2007,]>;1;<[2007,1]>
+1330;information system interaction;<[2010,]>;1;<[2010,1]>
+1331;manufacturing execution system;<[2010,2015,]>;3;<[2010,1][2015,2]>
+1332;change management process;<[2010,]>;1;<[2010,1]>
+1333;lessons learned system;<[2010,]>;1;<[2010,1]>
+1334;after sales strategy;<[2007,]>;1;<[2007,1]>
+1335;cyber physical production system;<[2015,]>;1;<[2015,1]>
+1336;smart product;<[2015,]>;1;<[2015,1]>
+1337;collaborative platform;<[2015,]>;1;<[2015,1]>
+1338;demand driven supply network;<[2015,]>;1;<[2015,1]>
+1339;publish subscribe pattern;<[2015,]>;1;<[2015,1]>
+1340;lifecycle inventory;<[2015,]>;1;<[2015,1]>
+1341;material flow analysis;<[2015,]>;1;<[2015,1]>
+1342;PARETO rule;<[2015,]>;1;<[2015,1]>
+1343;meta product;<[2015,]>;1;<[2015,1]>
+1344;foot plantar pressure;<[2015,]>;1;<[2015,1]>
+1345;mechanical comfort;<[2015,]>;1;<[2015,1]>
+1346;data mining;<[2015,]>;1;<[2015,1]>
+1347;maintenance concept;<[2015,]>;1;<[2015,1]>
+1348;wind turbine;<[2015,]>;1;<[2015,1]>
+1349;modified MARKOV process;<[2015,]>;1;<[2015,1]>
+1350;risk assessment;<[2015,]>;1;<[2015,1]>
+1351;stochastic process;<[2015,]>;1;<[2015,1]>
+1352;supply chain uncertainty;<[2015,]>;1;<[2015,1]>
+1353;3D printing;<[2015,]>;1;<[2015,1]>
+1354;additive manufacturing;<[2015,]>;3;<[2015,3]>
+1355;agile;<[2015,]>;1;<[2015,1]>
+1356;comparison;<[2015,]>;2;<[2015,2]>
+1357;maturity approach;<[2015,]>;1;<[2015,1]>
+1358;state of the art;<[2015,]>;1;<[2015,1]>
+1359;CLIMB model;<[2015,]>;1;<[2015,1]>
+1360;product development assessment;<[2015,]>;1;<[2015,1]>
+1361;product development best practice;<[2015,]>;1;<[2015,1]>
+1362;product development maturity;<[2015,]>;1;<[2015,1]>
+1363;indicator;<[2015,]>;1;<[2015,1]>
+1364;manufacturing company;<[2015,]>;1;<[2015,1]>
+1365;process simulation;<[2015,]>;1;<[2015,1]>
+1366;collaborative business process;<[2015,]>;1;<[2015,1]>
+1367;execution trace;<[2015,]>;1;<[2015,1]>
+1368;ARCGIS;<[2015,]>;1;<[2015,1]>
+1369;CITYENGINE;<[2015,]>;1;<[2015,1]>
+1370;computer generated architecture;<[2015,]>;1;<[2015,1]>
+1371;FACADE modeling;<[2015,]>;1;<[2015,1]>
+1372;procedural modeling;<[2015,]>;1;<[2015,1]>
+1373;construction project;<[2015,]>;2;<[2015,2]>
+1374;improvement;<[2015,]>;1;<[2015,1]>
+1375;employer information requirement;<[2015,]>;1;<[2015,1]>
+1376;information requirement;<[2015,]>;1;<[2015,1]>
+1377;lifecycle information flow;<[2015,]>;1;<[2015,1]>
+1378;construction player;<[2015,]>;1;<[2015,1]>
+1379;responsibility;<[2015,]>;1;<[2015,1]>
+1380;architecture engineering and construction;<[2015,]>;1;<[2015,1]>
+1381;shipbuilding;<[2015,]>;1;<[2015,1]>
+1382;CATIA;<[2015,]>;1;<[2015,1]>
+1383;functional digital mockup;<[2015,]>;1;<[2015,1]>
+1384;natural language processing;<[2015,]>;1;<[2015,1]>
+1385;enterprise search;<[2015,]>;1;<[2015,1]>
+1386;dependency relation;<[2015,]>;1;<[2015,1]>
+1387;information extraction;<[2015,]>;1;<[2015,1]>
+1388;opinion mining;<[2015,]>;1;<[2015,1]>
+1389;part of speech;<[2015,]>;1;<[2015,1]>
+1390;product validation and testing;<[2015,]>;1;<[2015,1]>
+1391;social media tool;<[2015,]>;1;<[2015,1]>
+1392;tacit knowledge;<[2015,]>;1;<[2015,1]>
+1393;bioimaging;<[2015,]>;1;<[2015,1]>
+1394;ontology graph;<[2015,]>;1;<[2015,1]>
+1395;prediction;<[2015,]>;2;<[2015,2]>
+1396;product service system assessment;<[2015,]>;1;<[2015,1]>
+1397;product service system design;<[2015,]>;1;<[2015,1]>
+1398;product service system sustainability;<[2015,]>;1;<[2015,1]>
+1399;service orientation;<[2015,]>;1;<[2015,1]>
+1400;user integration;<[2015,]>;1;<[2015,1]>
+1401;engineering project process;<[2015,]>;1;<[2015,1]>
+1402;in service;<[2015,]>;1;<[2015,1]>
+1403;process evolution;<[2015,]>;1;<[2015,1]>
+1404;cyber physical system;<[2015,]>;1;<[2015,1]>
+1405;meta model;<[2015,]>;1;<[2015,1]>
+1406;system of systems;<[2015,]>;1;<[2015,1]>
+1407;service oriented manufacturing;<[2015,]>;1;<[2015,1]>
+1408;value creation;<[2015,]>;1;<[2015,1]>
+1409;Value network;<[2015,]>;1;<[2015,1]>
+1410;servicization;<[2015,]>;1;<[2015,1]>
+1411;computer supported engineering design;<[2015,]>;1;<[2015,1]>
+1412;design automation system;<[2015,]>;1;<[2015,1]>
+1413;design for manufacturability;<[2015,]>;1;<[2015,1]>
+1414;knowledge capitalization;<[2015,]>;1;<[2015,1]>
+1415;multi scale modelling;<[2015,]>;1;<[2015,1]>
+1416;capitalization;<[2015,]>;1;<[2015,1]>
+1417;management;<[2015,]>;1;<[2015,1]>
+1418;success factor product lifecycle management;<[2015,]>;1;<[2015,1]>
+1419;edit trace behaviour;<[2015,]>;1;<[2015,1]>
+1420;engineering project management;<[2015,]>;1;<[2015,1]>
+1421;evolution;<[2015,]>;1;<[2015,1]>
+1422;sigmoid;<[2015,]>;1;<[2015,1]>
+1423;manufacturability;<[2015,]>;1;<[2015,1]>
+1424;multi objective optimization;<[2015,]>;1;<[2015,1]>
+1425;robotic welding;<[2015,]>;1;<[2015,1]>
+1426;end of life product;<[2015,]>;1;<[2015,1]>
+1427;factory relocation;<[2015,]>;1;<[2015,1]>
+1428;reliability centered maintenance;<[2015,]>;1;<[2015,1]>
+1429;agile product development;<[2015,]>;1;<[2015,1]>
+1430;business experiment;<[2015,]>;1;<[2015,1]>
+1431;digital industry;<[2015,]>;1;<[2015,1]>
+1432;early prototyping;<[2015,]>;1;<[2015,1]>
+1433;regular pattern;<[2015,]>;1;<[2015,1]>
+1434;symmetry in computer aided design model;<[2015,]>;1;<[2015,1]>
+1435;conceptual modeling;<[2015,]>;1;<[2015,1]>
+1436;object process methodology;<[2015,]>;1;<[2015,1]>
+1437;innovation performance measurement;<[2015,]>;1;<[2015,1]>
+1438;integrated framework;<[2015,]>;1;<[2015,1]>
+1439;knowledge management performance measurement;<[2015,]>;1;<[2015,1]>
+1440;knowledge management process;<[2015,]>;1;<[2015,1]>
+1441;STEP AP209;<[2015,]>;1;<[2015,1]>
+1442;verification and validation;<[2015,]>;1;<[2015,1]>
+1443;data visualization;<[2015,]>;1;<[2015,1]>
+1444;diagnosis;<[2015,]>;1;<[2015,1]>
+1445;natural language text;<[2015,]>;1;<[2015,1]>
+1446;Sentiment analysis;<[2015,]>;1;<[2015,1]>
+1447;digitalization;<[2015,]>;1;<[2015,1]>
+1448;measurement service;<[2015,]>;1;<[2015,1]>
+1449;virtual validation;<[2015,]>;1;<[2015,1]>
+1450;social lifecycle assessment;<[2015,]>;1;<[2015,1]>
+1451;lack of data;<[2015,]>;1;<[2015,1]>
+1452;polypropylene;<[2015,]>;1;<[2015,1]>
+1453;big data;<[2015,]>;1;<[2015,1]>
+1454;cultural heritage ontology;<[2015,]>;1;<[2015,1]>
+1455;DBSCAN;<[2015,]>;1;<[2015,1]>
+1456;system lifecycle;<[2015,]>;1;<[2015,1]>
+1457;augmented reality aided manufacturing;<[2015,]>;1;<[2015,1]>
+1458;computer aided design and manufacturing;<[2015,]>;1;<[2015,1]>
+1459;milling;<[2015,]>;2;<[2015,2]>
+1460;prismatic machining;<[2015,]>;1;<[2015,1]>
+1461;compromising strategy;<[2015,]>;1;<[2015,1]>
+1462;decision making model;<[2015,]>;1;<[2015,1]>
+1463;sustainable performance;<[2015,]>;1;<[2015,1]>
+1464;general manufacturing model;<[2015,]>;1;<[2015,1]>
+1465;SYSTEMATICA metamodel;<[2015,]>;1;<[2015,1]>
+1466;customer engagement;<[2015,]>;1;<[2015,1]>
+1467;process value;<[2015,]>;1;<[2015,1]>
+1468;product with growing value;<[2015,]>;1;<[2015,1]>
+1469;reconfigurable modularization;<[2015,]>;1;<[2015,1]>
+1470;self actualization;<[2015,]>;1;<[2015,1]>
+1471;GOOGLE APPS;<[2015,]>;1;<[2015,1]>
+1472;learning cloud service;<[2015,]>;1;<[2015,1]>
+1473;software as a service;<[2015,]>;1;<[2015,1]>
+1474;software selection;<[2015,]>;1;<[2015,1]>
+1475;cognitive dimension framework;<[2015,]>;1;<[2015,1]>
+1476;development of notational system;<[2015,]>;1;<[2015,1]>
+1477;diagram;<[2015,]>;1;<[2015,1]>
+1478;notation;<[2015,]>;1;<[2015,1]>
+1479;development lifecycle;<[2015,]>;1;<[2015,1]>
+1480;smart energy product;<[2015,]>;1;<[2015,1]>
+1481;utility industry;<[2015,]>;1;<[2015,1]>
+1482;provenance;<[2015,]>;1;<[2015,1]>
+1483;virtual confidence;<[2015,]>;1;<[2015,1]>
+1484;bibliometric;<[2015,]>;1;<[2015,1]>
+1485;citation analysis;<[2015,]>;1;<[2015,1]>
+1486;product lifecycle management conference proceeding;<[2015,]>;1;<[2015,1]>
+1487;fashion industry;<[2015,]>;1;<[2015,1]>
+1488;event management;<[2015,]>;1;<[2015,1]>
+1489;smart city;<[2015,]>;1;<[2015,1]>
+1490;customer requirement;<[2015,]>;1;<[2015,1]>
+1491;mixed reality;<[2015,]>;1;<[2015,1]>
+1492;tangible user interface;<[2015,]>;1;<[2015,1]>
+1493;business collaboration;<[2015,]>;1;<[2015,1]>
+1494;end to end information and communication technology solution;<[2015,]>;1;<[2015,1]>
+1495;process monitoring;<[2015,]>;1;<[2015,1]>
+1496;information technology governance;<[2015,]>;1;<[2015,1]>
+1497;master data;<[2015,]>;1;<[2015,1]>
+1498;master data management ;<[2015,]>;1;<[2015,1]>
+1499;monitoring system;<[2015,]>;2;<[2015,2]>
+1500;product system performance;<[2015,]>;1;<[2015,1]>
+1501;design for additive manufacturing;<[2015,]>;1;<[2015,1]>
+1502;quotation;<[2015,]>;1;<[2015,1]>
+1503;embodiment design;<[2015,]>;1;<[2015,1]>
+1504;mechatronic product;<[2015,]>;1;<[2015,1]>
+1505;multiobjective optimization;<[2015,]>;1;<[2015,1]>
+1506;production planning and control;<[2015,]>;1;<[2015,1]>
+1507;data analytics;<[2015,]>;1;<[2015,1]>
+1508;data generator;<[2015,]>;1;<[2015,1]>
+1509;MTCONNECT;<[2015,]>;1;<[2015,1]>
+1510;interface;<[2015,]>;1;<[2015,1]>
+1511;multidisciplinary integration;<[2015,]>;1;<[2015,1]>
+1512;product lifecycle management maturity;<[2015,]>;1;<[2015,1]>
+1513;product lifecycle management system architecture;<[2015,]>;1;<[2015,1]>
+1514;discourse analysis;<[2014,]>;1;<[2014,1]>
+1515;knowledge acquisition;<[2014,]>;1;<[2014,1]>
+1516;mechanical assembly;<[2014,]>;1;<[2014,1]>
+1517;segmentation;<[2014,]>;1;<[2014,1]>
+1518;3D target;<[2014,]>;1;<[2014,1]>
+1519;edge measurement;<[2014,]>;1;<[2014,1]>
+1520;laser scanner;<[2014,]>;1;<[2014,1]>
+1521;point cloud data;<[2014,]>;1;<[2014,1]>
