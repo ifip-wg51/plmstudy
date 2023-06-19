@@ -10,7 +10,7 @@ class Normalizer:
     def readNormTable(self):
         self.normTable = []
         with open(self.normTableFile, newline='') as file:
-            kwReader = csv.reader(file, delimiter=';')
+            kwReader = csv.reader(file, delimiter=',')
             for row in kwReader:
                 self.normTable.append(row)
         return self.normTable
@@ -18,9 +18,9 @@ class Normalizer:
     def readAcronyms():
         return
 
-    def logMissingKeywords(self, keyword):
+    def logMissingKeywords(self, keyword, title, year):
         file = open(self.logfile, 'a')
-        file.write(keyword+"\n")
+        file.write(keyword + "; " + title + "; " + str(year) + "\n")
         file.close
 
     def normalize(self, publications):
@@ -33,7 +33,8 @@ class Normalizer:
                 check = False
                 for row in normTable:
                     # check if keywords matches mapping in normalization or is already in normalized form
-                    if row[0].lower() == keyword.lower() or row[1] == keyword.lower():
+                    # trim keyword white space and convert to lower case
+                    if row[0].lower() == keyword.strip().lower() or row[1] == keyword.strip().lower():
                         index = self.addOrWeightKeyword(row[1], pub['year'])
                         normKeywords.append(index)
                         check = True
@@ -41,7 +42,7 @@ class Normalizer:
                 if check == False:
                     #print('Keyword not found: "' + keyword + '" in  "' + pub['title']+'"')
                     missingKeywordCount = missingKeywordCount + 1
-                    self.logMissingKeywords(keyword)
+                    self.logMissingKeywords(keyword, pub['title'], pub['year'])
             pub['keywords'] = normKeywords
         print ('    Quality report: Missing keywords: ' + str(missingKeywordCount))
         return publications

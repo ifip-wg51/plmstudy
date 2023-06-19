@@ -38,11 +38,15 @@ class ICPLMReader:
         pubs=[]
         for pub in data['records']:
             if 'keyword' in pub.keys():
-                pubs.append({
+                pub = {
                     'title': pub['title'],
                     'keywords': pub['keyword'],
                     'year':  pub['publicationDate'][0:4]
-                })
+                }
+                #correction for 2021 (officially these papers are published in 2022, but we want to assign them to 2021)
+                if isbn == '978-3-030-94335-6' or isbn == '978-3-030-94399-8':
+                    pub['year'] = '2021'
+                pubs.append(pub)
             else:
                 print("    !!! Publication without keyword: " + pub['title'])
         return pubs
@@ -52,9 +56,9 @@ class ICPLMReader:
         print("    Start reading IC PLM input Data")
         print("    ... get content from Springer API")
         for isbn in self.isbns:  
-            pubs = self.getSpringerAPI(isbn)
-            print('isbn: ' + isbn + ' count: ' + str(len(pubs)))
-            publications.extend(pubs)
+           pubs = self.getSpringerAPI(isbn)
+           print('isbn: ' + isbn + ' count: ' + str(len(pubs)))
+           publications.extend(pubs)
         print("    ... get content from PLM Study database")
         pubs = self.getPLMStudyDatabase()
         publications.extend(pubs)
