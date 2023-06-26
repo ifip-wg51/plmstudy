@@ -89,3 +89,9 @@ class GraphBuilderRAW:
                     
         plt.close()
         return
+    
+    def removeKeywords(self, labels):
+        for keyword in self.keywords:
+            if keyword['keyword'] in labels:
+                self.keywords.remove(keyword)
+        return
