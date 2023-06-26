@@ -46,6 +46,12 @@ class ICPLMReader:
                 #correction for 2021 (officially these papers are published in 2022, but we want to assign them to 2021)
                 if isbn == '978-3-030-94335-6' or isbn == '978-3-030-94399-8':
                     pub['year'] = '2021'
+                if isbn == '978-3-031-25182-5':
+                    pub['year'] = '2022'
+                if isbn == '978-3-030-42250-9':
+                    pub['year'] = '2019'
+                if isbn == '978-3-319-54660-5':
+                    pub['year'] = '2016'
                 pubs.append(pub)
             else:
                 print("    !!! Publication without keyword: " + pub['title'])

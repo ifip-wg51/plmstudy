@@ -35,7 +35,7 @@ isbns = [
     "978-3-031-25182-5", #2022
 ]
 # Process Settings
-buildGraph = False
+buildGraph = True
 thAnalysis = False
 
 def importAndNormalize():
@@ -50,7 +50,7 @@ def importAndNormalize():
     print("... write publications")
     normalizer.writePublications(publicationsFile, publications)
     print("... save raw data")
-    saveJSON('out/graph')
+    saveJSON('out/graph',normalizer.keywords, publications)
     return
 
 def analyze():
@@ -92,7 +92,7 @@ def analyze():
 def saveJSON(filename, keywords, publications):
     rootObject = {
         'keywords' : keywords,
-        'publication' : self.publications,
+        'publication' : publications,
     }  
     file = open(filename + '.json', 'w')
     file.write(json.dumps(rootObject, indent = 4))
@@ -113,6 +113,7 @@ print("Start building graph data")
 
 if buildGraph:
    importAndNormalize()
+   root = loadJSON('out/graph')
 else:
     print("... load raw data")
     root = loadJSON('out/graph')
