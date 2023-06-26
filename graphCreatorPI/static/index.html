@@ -1,0 +1,194 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <h1>20 Years of PLM Conference</h1>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/main.js"></script>
+  <select id="myDropdown" class="dropdown-content">
+    <option value="2005">2005</option>
+    <option value="2006">2006</option>
+    <option value="2007">2007</option>
+    <option value="2008">2008</option>
+    <option value="2009">2009</option>
+    <option value="2010">2010</option>
+    <option value="2011">2011</option>
+    <option value="2012">2012</option>
+    <option value="2013">2013</option>
+    <option value="2014">2014</option>
+    <option value="2015">2015</option>
+    <option value="2016">2016</option>
+    <option value="2017">2017</option>
+    <option value="2018">2018</option>
+    <option value="2019">2019</option>
+    <option value="2020">2020 (Virtual)</option>
+    <option value="2021">2021 (Virtual)</option>
+    <option value="2022">2022</option>
+  </select>
+  <div class="container">
+    <canvas id="myChart"></canvas>
+  </div>
+  <script>
+    // See also: https://nicgirault.github.io/circosJS/demo/
+    //
+    const ctx = document.getElementById('myChart');
+    const select = document.getElementById('myDropdown');
+    const graphSize = 15;
+    var data = []
+    
+    function drawSymbol(change, context, x, y) {
+      if (change > 0) {
+        // Move Up
+        context.beginPath();
+        context.moveTo(x, y);
+        context.lineTo(x+5, y-5);
+        context.lineTo(x+10, y);
+        context.closePath();
+
+        // the outline
+        context.lineWidth = 2;
+        context.strokeStyle = '#C1ECE4';
+        context.stroke();
+
+        // the fill color
+        context.fillStyle = "#C1ECE4";
+        context.fill();
+        return
+      } else if (change < 0) {
+        // Move Down
+        context.beginPath();
+        context.moveTo(x, y-5);
+        context.lineTo(x+5, y);
+        context.lineTo(x+10, y-5);
+        context.closePath();
+
+        // the outline
+        context.lineWidth = 2;
+        context.strokeStyle = '#FF9EAA';
+        context.stroke();
+
+        // the fill color
+        context.fillStyle = "#FF9EAA";
+        context.fill();
+        return 'triangle'
+      } else {
+        // New TYPE 0
+        // the outline
+        context.beginPath();
+        context.arc(x+3, y, 3, 0, 2 * Math.PI);
+        context.lineWidth = 2;
+        context.strokeStyle = '#FFD0D0';
+        context.stroke();
+
+        // the fill color
+        context.fillStyle = "#FFD0D0";
+        context.fill();
+        return 'rect'
+      }
+    }
+    
+    var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: Array.apply(null, Array(graphSize)).map(function () {}) ,
+        datasets: [{
+          label: '# of Votes',
+          data: Array.apply(null, Array(graphSize)).map(function () {}),
+          borderWidth: 1,
+          backgroundColor: '#3AA6B9'
+        }]
+      },
+      options: {
+        indexAxis: 'y', // <-- here
+        responsive: true,
+        animation: {
+          duration: 2000,
+          onProgress: function(animation) {
+            var meta = myChart.getDatasetMeta(0);
+            var scale = myChart.scales[meta.yAxisID];
+            if (data.top != undefined) { 
+              meta.data.forEach(function(element) {
+                var yValue = element.y;
+                var index = element.$context.index
+                var record = data.top[index]
+                var text = '(' + record.change + ') ' + record.keyword
+                animation.chart.ctx.fillStyle = '#FFFFFF';
+                animation.chart.ctx.fillText(text, 30, yValue);
+                drawSymbol(record.posdiv, animation.chart.ctx, 12, yValue)
+              });
+            }
+          },
+        },
+        scales: {
+          y: {
+            ticks: {display: false}
+          }
+        }
+      }
+    });
+
+    const fetchTopOfYear  = async (year) => {
+      const response = await fetch('/keywordsByYear/'+ year + '?max=' + graphSize);
+      const myJson = await response.json(); //extract JSON from the http response
+      // Move records to the right position if already in graph. Add, if new.
+      data = myJson;
+      // copy data to temporary array
+      var temp = [];
+      for (var i = 0; i < myChart.data.labels.length; i++) {
+        temp.push({keyword: myChart.data.labels[i], data: myChart.data.datasets[0].data[i]})
+      }
+      for (var j = 0; j < data.top.length; j++) {
+        // if keyword exisits in current graph, move to right position
+        d = data.top[j]
+        for (var i = 0; i < temp.length; i++) {
+          var found = false;
+          if (d.keyword == temp[i].keyword) {
+            myChart.data.datasets[0].data[j] = temp[i].data;
+            myChart.data.labels[j] = temp[i].keyword;
+            myChart.update();
+            found = true;
+            break;
+          }
+          if (!found) {
+            myChart.data.datasets[0].data[j] = d.count;
+            myChart.data.labels[j] = d.keyword;
+            myChart.update();
+          }
+        }
+      };
+      myChart.update();
+    }
+    
+    select.addEventListener('change', (event) => {
+      fetchTopOfYear(event.target.value)
+    });
+
+  </script>
+</body>
+
+</html>
