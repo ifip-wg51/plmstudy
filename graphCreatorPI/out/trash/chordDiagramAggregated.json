@@ -1,0 +1,1727 @@
+[
+    {
+        "source": "product data management",
+        "target": "product ...",
+        "value": 8
+    },
+    {
+        "source": "product development process",
+        "target": "product lifecycle management",
+        "value": 6
+    },
+    {
+        "source": "product development process",
+        "target": "product data management",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "product data management",
+        "value": 16
+    },
+    {
+        "source": "heterogeneous ...",
+        "target": "product lifecycle management",
+        "value": 4
+    },
+    {
+        "source": "multi ...",
+        "target": "product lifecycle management",
+        "value": 11
+    },
+    {
+        "source": "process ...",
+        "target": "product lifecycle management",
+        "value": 9
+    },
+    {
+        "source": "cloud",
+        "target": "product lifecycle management",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "open ...",
+        "value": 6
+    },
+    {
+        "source": "smart manufacturing",
+        "target": "industry 4.0",
+        "value": 6
+    },
+    {
+        "source": "interoperability",
+        "target": "product ...",
+        "value": 6
+    },
+    {
+        "source": "modular ...",
+        "target": "product ...",
+        "value": 5
+    },
+    {
+        "source": "collaborative engineering",
+        "target": "product lifecycle management",
+        "value": 5
+    },
+    {
+        "source": "industrial ...",
+        "target": "platform",
+        "value": 4
+    },
+    {
+        "source": "industrial ...",
+        "target": "product lifecycle management",
+        "value": 5
+    },
+    {
+        "source": "industry 4.0",
+        "target": "platform",
+        "value": 3
+    },
+    {
+        "source": "industry 4.0",
+        "target": "product lifecycle management",
+        "value": 14
+    },
+    {
+        "source": "internet of things",
+        "target": "smart ...",
+        "value": 3
+    },
+    {
+        "source": "process ...",
+        "target": "decision making",
+        "value": 3
+    },
+    {
+        "source": "knowledge management",
+        "target": "small and ...",
+        "value": 3
+    },
+    {
+        "source": "data ...",
+        "target": "machine learning",
+        "value": 3
+    },
+    {
+        "source": "internet of things",
+        "target": "product lifecycle management",
+        "value": 12
+    },
+    {
+        "source": "closed loop product lifecycle management",
+        "target": "internet of things",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "smart product",
+        "value": 5
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "value ...",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "closed ...",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "smart ...",
+        "value": 4
+    },
+    {
+        "source": "system of systems",
+        "target": "smart ...",
+        "value": 3
+    },
+    {
+        "source": "building information management",
+        "target": "product lifecycle management",
+        "value": 9
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "product structure",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "bill of ...",
+        "value": 5
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "modular ...",
+        "value": 6
+    },
+    {
+        "source": "collaboration",
+        "target": "product lifecycle management",
+        "value": 5
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "interoperability",
+        "value": 12
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "standard",
+        "value": 6
+    },
+    {
+        "source": "interoperability",
+        "target": "standard",
+        "value": 4
+    },
+    {
+        "source": "interoperability",
+        "target": "multi ...",
+        "value": 4
+    },
+    {
+        "source": "new product development",
+        "target": "product lifecycle management",
+        "value": 8
+    },
+    {
+        "source": "new product development",
+        "target": "food ...",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "food ...",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "product lifecycle management ...",
+        "value": 16
+    },
+    {
+        "source": "food ...",
+        "target": "product lifecycle management ...",
+        "value": 3
+    },
+    {
+        "source": "knowledge base ...",
+        "target": "design ...",
+        "value": 3
+    },
+    {
+        "source": "design ...",
+        "target": "knowledge reuse",
+        "value": 3
+    },
+    {
+        "source": "design ...",
+        "target": "design ...",
+        "value": 9
+    },
+    {
+        "source": "engineering ...",
+        "target": "data ...",
+        "value": 6
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "ontology",
+        "value": 8
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "semantic interoperability",
+        "value": 3
+    },
+    {
+        "source": "product ...",
+        "target": "global ...",
+        "value": 5
+    },
+    {
+        "source": "product ...",
+        "target": "model ...",
+        "value": 7
+    },
+    {
+        "source": "traceability",
+        "target": "product lifecycle management",
+        "value": 5
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "data ...",
+        "value": 23
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "education",
+        "value": 5
+    },
+    {
+        "source": "product ...",
+        "target": "product lifecycle management",
+        "value": 43
+    },
+    {
+        "source": "product ...",
+        "target": "product lifecycle management ...",
+        "value": 4
+    },
+    {
+        "source": "work ...",
+        "target": "product lifecycle management",
+        "value": 3
+    },
+    {
+        "source": "design ...",
+        "target": "product lifecycle management",
+        "value": 8
+    },
+    {
+        "source": "product lifecycle management ...",
+        "target": "product lifecycle management ...",
+        "value": 28
+    },
+    {
+        "source": "knowledge ...",
+        "target": "knowledge reuse",
+        "value": 3
+    },
+    {
+        "source": "internet of things",
+        "target": "product ...",
+        "value": 6
+    },
+    {
+        "source": "closed loop product lifecycle management",
+        "target": "product ...",
+        "value": 5
+    },
+    {
+        "source": "product ...",
+        "target": "product ...",
+        "value": 17
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "digital ...",
+        "value": 22
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "closed loop product lifecycle management",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "integration",
+        "value": 5
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "information ...",
+        "value": 12
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "small and ...",
+        "value": 6
+    },
+    {
+        "source": "smart ...",
+        "target": "smart ...",
+        "value": 5
+    },
+    {
+        "source": "smart ...",
+        "target": "industry 4.0",
+        "value": 4
+    },
+    {
+        "source": "building information modeling",
+        "target": "product lifecycle management",
+        "value": 3
+    },
+    {
+        "source": "product ...",
+        "target": "digital ...",
+        "value": 10
+    },
+    {
+        "source": "digital ...",
+        "target": "digital ...",
+        "value": 5
+    },
+    {
+        "source": "lean ...",
+        "target": "product lifecycle management",
+        "value": 5
+    },
+    {
+        "source": "lean ...",
+        "target": "lifecycle",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "lifecycle",
+        "value": 4
+    },
+    {
+        "source": "cloud",
+        "target": "collaborative ...",
+        "value": 3
+    },
+    {
+        "source": "collaborative ...",
+        "target": "product lifecycle management",
+        "value": 8
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "additive manufacturing",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "manufacturing ...",
+        "value": 10
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "project ...",
+        "value": 4
+    },
+    {
+        "source": "lean ...",
+        "target": "industry 4.0",
+        "value": 8
+    },
+    {
+        "source": "lean ...",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "lean ...",
+        "target": "lean ...",
+        "value": 9
+    },
+    {
+        "source": "digital ...",
+        "target": "industry 4.0",
+        "value": 10
+    },
+    {
+        "source": "industry 4.0",
+        "target": "product ...",
+        "value": 4
+    },
+    {
+        "source": "design ...",
+        "target": "SYSML",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "enterprise ...",
+        "value": 9
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "model based system engineering",
+        "value": 7
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "SYSML",
+        "value": 4
+    },
+    {
+        "source": "model based system engineering",
+        "target": "SYSML",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management implementation",
+        "target": "product lifecycle management ...",
+        "value": 5
+    },
+    {
+        "source": "product lifecycle management ...",
+        "target": "small and ...",
+        "value": 3
+    },
+    {
+        "source": "product ...",
+        "target": "integrated ...",
+        "value": 4
+    },
+    {
+        "source": "product ...",
+        "target": "decision ...",
+        "value": 5
+    },
+    {
+        "source": "product service system",
+        "target": "product ...",
+        "value": 5
+    },
+    {
+        "source": "product ...",
+        "target": "design for x",
+        "value": 3
+    },
+    {
+        "source": "product ...",
+        "target": "design ...",
+        "value": 7
+    },
+    {
+        "source": "design for x",
+        "target": "design ...",
+        "value": 3
+    },
+    {
+        "source": "part ...",
+        "target": "lifecycle",
+        "value": 3
+    },
+    {
+        "source": "ontology",
+        "target": "manufacturing ...",
+        "value": 5
+    },
+    {
+        "source": "process ...",
+        "target": "manufacturing ...",
+        "value": 6
+    },
+    {
+        "source": "virtual reality",
+        "target": "virtual ...",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "manufacturing execution system",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "information system",
+        "value": 6
+    },
+    {
+        "source": "virtual reality",
+        "target": "digital ...",
+        "value": 3
+    },
+    {
+        "source": "virtual ...",
+        "target": "digital ...",
+        "value": 4
+    },
+    {
+        "source": "knowledge ...",
+        "target": "computer aided design",
+        "value": 3
+    },
+    {
+        "source": "interoperability",
+        "target": "ontology",
+        "value": 5
+    },
+    {
+        "source": "multi ...",
+        "target": "knowledge ...",
+        "value": 3
+    },
+    {
+        "source": "ontology",
+        "target": "knowledge ...",
+        "value": 8
+    },
+    {
+        "source": "product service system",
+        "target": "product service ...",
+        "value": 5
+    },
+    {
+        "source": "platform",
+        "target": "open ...",
+        "value": 3
+    },
+    {
+        "source": "maturity model",
+        "target": "industry 4.0",
+        "value": 4
+    },
+    {
+        "source": "concept ...",
+        "target": "product lifecycle management",
+        "value": 6
+    },
+    {
+        "source": "function ...",
+        "target": "product lifecycle management",
+        "value": 4
+    },
+    {
+        "source": "concurrent engineering",
+        "target": "product lifecycle management",
+        "value": 5
+    },
+    {
+        "source": "machine learning",
+        "target": "artificial intelligence",
+        "value": 3
+    },
+    {
+        "source": "model ...",
+        "target": "ontology",
+        "value": 7
+    },
+    {
+        "source": "model ...",
+        "target": "manufacturing ...",
+        "value": 4
+    },
+    {
+        "source": "system engineering",
+        "target": "model based system engineering",
+        "value": 4
+    },
+    {
+        "source": "model based system engineering",
+        "target": "digital ...",
+        "value": 3
+    },
+    {
+        "source": "augmented reality",
+        "target": "industry 4.0",
+        "value": 3
+    },
+    {
+        "source": "3D ...",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "industry 4.0",
+        "target": "manufacturing ...",
+        "value": 4
+    },
+    {
+        "source": "information system",
+        "target": "business process",
+        "value": 3
+    },
+    {
+        "source": "semantic interoperability",
+        "target": "multi ...",
+        "value": 3
+    },
+    {
+        "source": "knowledge management",
+        "target": "knowledge ...",
+        "value": 13
+    },
+    {
+        "source": "knowledge management",
+        "target": "graph ...",
+        "value": 4
+    },
+    {
+        "source": "digitalization",
+        "target": "industry 4.0",
+        "value": 5
+    },
+    {
+        "source": "small and ...",
+        "target": "industry 4.0",
+        "value": 4
+    },
+    {
+        "source": "semantic interoperability",
+        "target": "semantic ...",
+        "value": 3
+    },
+    {
+        "source": "semantic interoperability",
+        "target": "product ...",
+        "value": 5
+    },
+    {
+        "source": "semantic ...",
+        "target": "multi ...",
+        "value": 3
+    },
+    {
+        "source": "semantic ...",
+        "target": "product ...",
+        "value": 5
+    },
+    {
+        "source": "multi ...",
+        "target": "product ...",
+        "value": 6
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "product service system",
+        "value": 6
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "digital mockup",
+        "value": 5
+    },
+    {
+        "source": "additive manufacturing",
+        "target": "cost ...",
+        "value": 4
+    },
+    {
+        "source": "smart ...",
+        "target": "ecosystem ...",
+        "value": 3
+    },
+    {
+        "source": "industry 4.0",
+        "target": "industrial internet of things",
+        "value": 7
+    },
+    {
+        "source": "industry 4.0",
+        "target": "business model ...",
+        "value": 5
+    },
+    {
+        "source": "industrial internet of things",
+        "target": "business model ...",
+        "value": 6
+    },
+    {
+        "source": "business model ...",
+        "target": "pay per outcome",
+        "value": 5
+    },
+    {
+        "source": "product lifecycle",
+        "target": "design ...",
+        "value": 3
+    },
+    {
+        "source": "education",
+        "target": "industry 4.0",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "maturity model",
+        "value": 14
+    },
+    {
+        "source": "process ...",
+        "target": "process ...",
+        "value": 3
+    },
+    {
+        "source": "lifecycle",
+        "target": "data ...",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "implementation",
+        "value": 9
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "reference model",
+        "value": 5
+    },
+    {
+        "source": "internet of things",
+        "target": "industry 4.0",
+        "value": 7
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "product lifecycle",
+        "value": 4
+    },
+    {
+        "source": "3D ...",
+        "target": "computer aided design",
+        "value": 3
+    },
+    {
+        "source": "3D ...",
+        "target": "product lifecycle management",
+        "value": 4
+    },
+    {
+        "source": "computer aided design",
+        "target": "product lifecycle management",
+        "value": 8
+    },
+    {
+        "source": "building information management",
+        "target": "knowledge ...",
+        "value": 3
+    },
+    {
+        "source": "knowledge management",
+        "target": "ontology",
+        "value": 4
+    },
+    {
+        "source": "knowledge ...",
+        "target": "knowledge ...",
+        "value": 6
+    },
+    {
+        "source": "engineering ...",
+        "target": "design ...",
+        "value": 4
+    },
+    {
+        "source": "engineering ...",
+        "target": "data exchange",
+        "value": 3
+    },
+    {
+        "source": "industrial internet of things",
+        "target": "internet of things",
+        "value": 5
+    },
+    {
+        "source": "manufacturing ...",
+        "target": "product ...",
+        "value": 8
+    },
+    {
+        "source": "product ...",
+        "target": "quality ...",
+        "value": 3
+    },
+    {
+        "source": "product development process",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "design ...",
+        "target": "knowledge management",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "data exchange",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "application ...",
+        "value": 6
+    },
+    {
+        "source": "product ...",
+        "target": "project ...",
+        "value": 3
+    },
+    {
+        "source": "business model ...",
+        "target": "non ...",
+        "value": 3
+    },
+    {
+        "source": "business model ...",
+        "target": "pay ...",
+        "value": 8
+    },
+    {
+        "source": "non ...",
+        "target": "pay ...",
+        "value": 3
+    },
+    {
+        "source": "non ...",
+        "target": "industrial internet of things",
+        "value": 3
+    },
+    {
+        "source": "pay ...",
+        "target": "industrial internet of things",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "knowledge management",
+        "value": 17
+    },
+    {
+        "source": "data ...",
+        "target": "product data management",
+        "value": 3
+    },
+    {
+        "source": "industry 4.0",
+        "target": "data ...",
+        "value": 3
+    },
+    {
+        "source": "internet of things",
+        "target": "data ...",
+        "value": 4
+    },
+    {
+        "source": "collaborative ...",
+        "target": "data ...",
+        "value": 3
+    },
+    {
+        "source": "open ...",
+        "target": "data ...",
+        "value": 3
+    },
+    {
+        "source": "digital ...",
+        "target": "cyber physical system",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management ...",
+        "target": "multi ...",
+        "value": 4
+    },
+    {
+        "source": "data ...",
+        "target": "data ...",
+        "value": 6
+    },
+    {
+        "source": "data ...",
+        "target": "product ...",
+        "value": 9
+    },
+    {
+        "source": "product data management",
+        "target": "virtual reality",
+        "value": 3
+    },
+    {
+        "source": "concept ...",
+        "target": "product ...",
+        "value": 4
+    },
+    {
+        "source": "product ...",
+        "target": "design",
+        "value": 3
+    },
+    {
+        "source": "artificial intelligence",
+        "target": "data ...",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "supply chain management",
+        "value": 7
+    },
+    {
+        "source": "information ...",
+        "target": "manufacturing ...",
+        "value": 4
+    },
+    {
+        "source": "smart ...",
+        "target": "industrial ...",
+        "value": 3
+    },
+    {
+        "source": "social ...",
+        "target": "product lifecycle management",
+        "value": 8
+    },
+    {
+        "source": "social ...",
+        "target": "social ...",
+        "value": 6
+    },
+    {
+        "source": "product ...",
+        "target": "ontology",
+        "value": 4
+    },
+    {
+        "source": "circular ...",
+        "target": "product lifecycle management",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "decision ...",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "enterprise resource planning",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "engineering ...",
+        "value": 13
+    },
+    {
+        "source": "engineering ...",
+        "target": "computer aided design",
+        "value": 3
+    },
+    {
+        "source": "maturity model",
+        "target": "benchmark ...",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "benchmark ...",
+        "value": 4
+    },
+    {
+        "source": "design ...",
+        "target": "knowledge ...",
+        "value": 4
+    },
+    {
+        "source": "model ...",
+        "target": "product lifecycle management",
+        "value": 7
+    },
+    {
+        "source": "ontology",
+        "target": "data ...",
+        "value": 3
+    },
+    {
+        "source": "model based definition",
+        "target": "model based ...",
+        "value": 6
+    },
+    {
+        "source": "model based definition",
+        "target": "manufacturing ...",
+        "value": 3
+    },
+    {
+        "source": "model based ...",
+        "target": "manufacturing ...",
+        "value": 3
+    },
+    {
+        "source": "model based ...",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "information technology ...",
+        "value": 4
+    },
+    {
+        "source": "digital ...",
+        "target": "sustainability ...",
+        "value": 3
+    },
+    {
+        "source": "model based ...",
+        "target": "product lifecycle management",
+        "value": 5
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "sustainability ...",
+        "value": 8
+    },
+    {
+        "source": "supply chain",
+        "target": "blockchain",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "business ...",
+        "value": 4
+    },
+    {
+        "source": "product ...",
+        "target": "sustainability ...",
+        "value": 3
+    },
+    {
+        "source": "software ...",
+        "target": "software ...",
+        "value": 13
+    },
+    {
+        "source": "user experience",
+        "target": "human ...",
+        "value": 7
+    },
+    {
+        "source": "human ...",
+        "target": "human ...",
+        "value": 3
+    },
+    {
+        "source": "cost ...",
+        "target": "cost ...",
+        "value": 4
+    },
+    {
+        "source": "collaborative ...",
+        "target": "engineering ...",
+        "value": 3
+    },
+    {
+        "source": "pay ...",
+        "target": "pay ...",
+        "value": 3
+    },
+    {
+        "source": "pay ...",
+        "target": "pay per outcome",
+        "value": 6
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "virtual reality",
+        "value": 5
+    },
+    {
+        "source": "lean ...",
+        "target": "value ...",
+        "value": 3
+    },
+    {
+        "source": "ontology",
+        "target": "semantic ...",
+        "value": 4
+    },
+    {
+        "source": "configuration management",
+        "target": "product lifecycle management",
+        "value": 6
+    },
+    {
+        "source": "information ...",
+        "target": "heterogeneous ...",
+        "value": 3
+    },
+    {
+        "source": "system ...",
+        "target": "model ...",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "graph ...",
+        "value": 3
+    },
+    {
+        "source": "digital ...",
+        "target": "engineering ...",
+        "value": 3
+    },
+    {
+        "source": "model ...",
+        "target": "model ...",
+        "value": 4
+    },
+    {
+        "source": "configuration ...",
+        "target": "visualization",
+        "value": 3
+    },
+    {
+        "source": "knowledge ...",
+        "target": "knowledge base ...",
+        "value": 4
+    },
+    {
+        "source": "knowledge management",
+        "target": "knowledge base ...",
+        "value": 3
+    },
+    {
+        "source": "lifecycle ...",
+        "target": "product lifecycle management",
+        "value": 7
+    },
+    {
+        "source": "system engineering",
+        "target": "product lifecycle management",
+        "value": 6
+    },
+    {
+        "source": "lifecycle assessment",
+        "target": "data ...",
+        "value": 3
+    },
+    {
+        "source": "model ...",
+        "target": "meta ...",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "automotive ...",
+        "value": 3
+    },
+    {
+        "source": "manufacturing ...",
+        "target": "engineering ...",
+        "value": 3
+    },
+    {
+        "source": "lifecycle ...",
+        "target": "design for ...",
+        "value": 3
+    },
+    {
+        "source": "lifecycle ...",
+        "target": "ecodesign",
+        "value": 4
+    },
+    {
+        "source": "lifecycle ...",
+        "target": "lifecycle assessment",
+        "value": 8
+    },
+    {
+        "source": "lifecycle ...",
+        "target": "lifecycle ...",
+        "value": 4
+    },
+    {
+        "source": "environmental ...",
+        "target": "lifecycle assessment",
+        "value": 4
+    },
+    {
+        "source": "lifecycle assessment",
+        "target": "sustainable development",
+        "value": 3
+    },
+    {
+        "source": "product ...",
+        "target": "product family ...",
+        "value": 4
+    },
+    {
+        "source": "collaborative ...",
+        "target": "extended ...",
+        "value": 3
+    },
+    {
+        "source": "data exchange",
+        "target": "interoperability",
+        "value": 3
+    },
+    {
+        "source": "customer ...",
+        "target": "product lifecycle management",
+        "value": 4
+    },
+    {
+        "source": "collaborative ...",
+        "target": "integrated ...",
+        "value": 3
+    },
+    {
+        "source": "collaborative ...",
+        "target": "interoperability",
+        "value": 3
+    },
+    {
+        "source": "knowledge ...",
+        "target": "project ...",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "STEP",
+        "value": 3
+    },
+    {
+        "source": "collaborative ...",
+        "target": "supply chain",
+        "value": 3
+    },
+    {
+        "source": "customer ...",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "innovation",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "business ...",
+        "target": "enterprise ...",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "service oriented architecture",
+        "value": 3
+    },
+    {
+        "source": "knowledge management",
+        "target": "product ...",
+        "value": 8
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "UML",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "XML",
+        "value": 4
+    },
+    {
+        "source": "lifecycle ...",
+        "target": "product lifecycle",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "software ...",
+        "value": 6
+    },
+    {
+        "source": "building information management",
+        "target": "building information modeling",
+        "value": 3
+    },
+    {
+        "source": "business ...",
+        "target": "knowledge ...",
+        "value": 3
+    },
+    {
+        "source": "knowledge ...",
+        "target": "product lifecycle management",
+        "value": 10
+    },
+    {
+        "source": "knowledge ...",
+        "target": "semantic web",
+        "value": 3
+    },
+    {
+        "source": "ontology",
+        "target": "semantic web",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "semantic web",
+        "value": 4
+    },
+    {
+        "source": "lifecycle ...",
+        "target": "product service system",
+        "value": 3
+    },
+    {
+        "source": "lifecycle ...",
+        "target": "sustainability ...",
+        "value": 5
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "requirement ...",
+        "value": 3
+    },
+    {
+        "source": "global ...",
+        "target": "product lifecycle management",
+        "value": 5
+    },
+    {
+        "source": "knowledge base ...",
+        "target": "product lifecycle management",
+        "value": 4
+    },
+    {
+        "source": "process ...",
+        "target": "product development process",
+        "value": 3
+    },
+    {
+        "source": "process ...",
+        "target": "virtual ...",
+        "value": 3
+    },
+    {
+        "source": "modular ...",
+        "target": "service ...",
+        "value": 3
+    },
+    {
+        "source": "service ...",
+        "target": "service ...",
+        "value": 4
+    },
+    {
+        "source": "lifecycle assessment",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "user experience",
+        "value": 3
+    },
+    {
+        "source": "product service system",
+        "target": "service ...",
+        "value": 3
+    },
+    {
+        "source": "collaborative ...",
+        "target": "design ...",
+        "value": 3
+    },
+    {
+        "source": "data ...",
+        "target": "design ...",
+        "value": 4
+    },
+    {
+        "source": "engineering ...",
+        "target": "process ...",
+        "value": 5
+    },
+    {
+        "source": "material ...",
+        "target": "recycling",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management ...",
+        "target": "social ...",
+        "value": 3
+    },
+    {
+        "source": "mechatronic ...",
+        "target": "multi ...",
+        "value": 4
+    },
+    {
+        "source": "design ...",
+        "target": "multi ...",
+        "value": 3
+    },
+    {
+        "source": "3D ...",
+        "target": "computer aided design ...",
+        "value": 5
+    },
+    {
+        "source": "product lifecycle ...",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "product ...",
+        "target": "radio frequency identification",
+        "value": 3
+    },
+    {
+        "source": "engineering ...",
+        "target": "interoperability",
+        "value": 3
+    },
+    {
+        "source": "maturity ...",
+        "target": "product lifecycle management",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "product lifecycle management implementation",
+        "value": 3
+    },
+    {
+        "source": "integrated product ...",
+        "target": "product lifecycle management ...",
+        "value": 4
+    },
+    {
+        "source": "product ...",
+        "target": "production",
+        "value": 3
+    },
+    {
+        "source": "collaborative engineering",
+        "target": "virtual ...",
+        "value": 3
+    },
+    {
+        "source": "product ...",
+        "target": "social ...",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "supply chain",
+        "value": 3
+    },
+    {
+        "source": "engineering change management",
+        "target": "product lifecycle management",
+        "value": 4
+    },
+    {
+        "source": "engineering ...",
+        "target": "supply chain",
+        "value": 3
+    },
+    {
+        "source": "innovation",
+        "target": "product lifecycle management",
+        "value": 5
+    },
+    {
+        "source": "decision making",
+        "target": "product lifecycle management",
+        "value": 3
+    },
+    {
+        "source": "product ...",
+        "target": "virtual ...",
+        "value": 3
+    },
+    {
+        "source": "design ...",
+        "target": "use ...",
+        "value": 3
+    },
+    {
+        "source": "lean ...",
+        "target": "software ...",
+        "value": 3
+    },
+    {
+        "source": "simulation ...",
+        "target": "software ...",
+        "value": 3
+    },
+    {
+        "source": "product lifecycle management",
+        "target": "reverse engineering",
+        "value": 4
+    },
+    {
+        "source": "product lifecycle management ...",
+        "target": "product lifecycle management in ...",
+        "value": 4
+    },
+    {
+        "source": "design",
+        "target": "enterprise resource planning",
+        "value": 3
+    },
+    {
+        "source": "computer aided design",
+        "target": "computer aided engineering ...",
+        "value": 3
+    },
+    {
+        "source": "data ...",
+        "target": "product data ...",
+        "value": 3
+    },
+    {
+        "source": "interface ...",
+        "target": "multi ...",
+        "value": 3
+    },
+    {
+        "source": "complex ...",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "integrated product ...",
+        "target": "product ...",
+        "value": 5
+    },
+    {
+        "source": "process ...",
+        "target": "product ...",
+        "value": 7
+    },
+    {
+        "source": "computer aided design",
+        "target": "product data management",
+        "value": 4
+    },
+    {
+        "source": "computer aided design",
+        "target": "product ...",
+        "value": 5
+    },
+    {
+        "source": "organizational ...",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "model driven ...",
+        "target": "product data exchange",
+        "value": 3
+    },
+    {
+        "source": "business process",
+        "target": "product lifecycle management",
+        "value": 3
+    },
+    {
+        "source": "building information modeling",
+        "target": "construction ...",
+        "value": 10
+    },
+    {
+        "source": "construction ...",
+        "target": "construction ...",
+        "value": 4
+    },
+    {
+        "source": "interoperability",
+        "target": "ISO 15926",
+        "value": 3
+    },
+    {
+        "source": "product data management",
+        "target": "simulation ...",
+        "value": 3
+    },
+    {
+        "source": "interoperability",
+        "target": "product data management",
+        "value": 3
+    },
+    {
+        "source": "mechatronic ...",
+        "target": "product lifecycle management",
+        "value": 3
+    },
+    {
+        "source": "lifecycle cost",
+        "target": "lifecycle ...",
+        "value": 3
+    },
+    {
+        "source": "information ...",
+        "target": "process ...",
+        "value": 3
+    },
+    {
+        "source": "information management",
+        "target": "product ...",
+        "value": 4
+    },
+    {
+        "source": "information ...",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "collaborative ...",
+        "target": "model driven ...",
+        "value": 3
+    },
+    {
+        "source": "design",
+        "target": "product lifecycle management",
+        "value": 3
+    },
+    {
+        "source": "ISO 15926",
+        "target": "semantic web",
+        "value": 3
+    },
+    {
+        "source": "design ...",
+        "target": "model driven ...",
+        "value": 3
+    },
+    {
+        "source": "assembly ...",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "assessment ...",
+        "target": "design ...",
+        "value": 3
+    },
+    {
+        "source": "design ...",
+        "target": "engineering design",
+        "value": 4
+    },
+    {
+        "source": "engineering design",
+        "target": "product ...",
+        "value": 3
+    },
+    {
+        "source": "assessment ...",
+        "target": "product development ...",
+        "value": 3
+    },
+    {
+        "source": "benchmark ...",
+        "target": "product development ...",
+        "value": 3
+    },
+    {
+        "source": "maturity model",
+        "target": "product development ...",
+        "value": 3
+    },
+    {
+        "source": "product ...",
+        "target": "product development ...",
+        "value": 3
+    },
+    {
+        "source": "product development ...",
+        "target": "product development ...",
+        "value": 3
+    },
+    {
+        "source": "innovation ...",
+        "target": "knowledge ...",
+        "value": 4
+    }
+]

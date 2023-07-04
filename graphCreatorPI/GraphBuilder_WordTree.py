@@ -68,10 +68,11 @@ class GraphBuilderWordTree:
             if len(words) > level:
                 word = " ".join(words[:level+1])
                 if len(word) > 0:
-                    if word in ['in','of']:
+                    # special case for "in", "of" and "product" to avoid "production as part of product" as a node
+                    if word in ['in','of','product']:
                         word = " ".join(words[:level+1]) + " "
                     for keyB in node['keywords']:
-                        if keyB != keyA and keyB['keyword'].startswith(word):
+                        if keyB != keyA and keyB['keyword'].startswith(word+" "):
                             matches.append(keyB)
                             count += keyB['count']
                     if count > self.threshold:
@@ -169,7 +170,57 @@ class GraphBuilderWordTree:
         file.close()
         return
     
-        
+    def collectSunburstDataRecursive(self, node, level):
+        if node['label'] == 'product lifecycle management':
+            return None
+        treeNode = {
+            'name' : node['label'],
+            'value' : node['count'],
+            'children' : []
+        }
+        for subNode in node['nodes']:
+            newNode = self.collectSunburstDataRecursive(subNode, level + 1)
+            if newNode != None:
+                treeNode['children'].append(newNode)
+        if level > 0:
+            for keyword in node['keywords']:
+                if keyword['keyword'] != node['label']:
+                    treeNode['children'].append({
+                        'name' : keyword['keyword'],
+                        'value' : keyword['count'],
+                        'children' : []
+                    })
+        return treeNode
+
+    def writeSunburstJSON(self, filename):
+        treeRoot = self.collectSunburstDataRecursive(self.rootNode, 0)
+        jsonTree = json.dumps(treeRoot, indent = 4) 
+        file = open(filename + '.json', 'w')
+        file.write(jsonTree)
+        file.close()
+        return
+    
+    def getNodeByID(self, id):
+        for node in self.nodelist:
+            if node['id'] == id:
+                return node
+
+
+    def writeChordDiagramJSON(self, filename):
+        result = []
+        for edge in self.nodeEdges:
+            if edge['weight'] > 2:
+                result.append({
+                    'source' : self.getNodeByID(edge['A'])['label'],
+                    'target' : self.getNodeByID(edge['B'])['label'],
+                    'value' : edge['weight']
+                })
+        jsonData = json.dumps(result, indent = 4) 
+        file = open(filename + '.json', 'w')
+        file.write(jsonData)
+        file.close()
+        return
+    
     def writeGephi(self, filename):
         #Node Table
         

@@ -1,13 +1,15 @@
 import requests
 import sqlite3
+import openpyxl
 
 class ICPLMReader:
 
-    def __init__(self, dbFile, dbFrom, dbTo, isbns):
+    def __init__(self, dbFile, dbFrom, dbTo, isbns, plm23File):
         self.dbFile = dbFile
         self.dbFrom = dbFrom
         self.dbTo = dbTo
         self.isbns = isbns
+        self.plm23File = plm23File
 
     def getPLMStudyDatabase(self):
         pubs=[]
@@ -38,24 +40,39 @@ class ICPLMReader:
         pubs=[]
         for pub in data['records']:
             if 'keyword' in pub.keys():
-                pub = {
+                publication = {
                     'title': pub['title'],
                     'keywords': pub['keyword'],
                     'year':  pub['publicationDate'][0:4]
                 }
                 #correction for 2021 (officially these papers are published in 2022, but we want to assign them to 2021)
                 if isbn == '978-3-030-94335-6' or isbn == '978-3-030-94399-8':
-                    pub['year'] = '2021'
+                    publication['year'] = '2021'
                 if isbn == '978-3-031-25182-5':
-                    pub['year'] = '2022'
+                    publication['year'] = '2022'
                 if isbn == '978-3-030-42250-9':
-                    pub['year'] = '2019'
+                    publication['year'] = '2019'
                 if isbn == '978-3-319-54660-5':
-                    pub['year'] = '2016'
-                pubs.append(pub)
+                    publication['year'] = '2016'
+                pubs.append(publication)
             else:
                 print("    !!! Publication without keyword: " + pub['title'])
         return pubs
+    
+    def getPLM23(self):
+        pubs=[]
+        workbook = openpyxl.load_workbook(self.plm23File)
+        sheet = workbook.active
+        
+        for i in range(2, sheet.max_row + 1):
+            pubs.append({
+                    'title': sheet.cell(row = i, column = 3).value,
+                    'keywords': sheet.cell(row = i, column = 4).value.split(', '),
+                    'year':  '2023'
+                })
+        return pubs
+
+
 
     def read(self):
         publications = []
@@ -67,6 +84,9 @@ class ICPLMReader:
            publications.extend(pubs)
         print("    ... get content from PLM Study database")
         pubs = self.getPLMStudyDatabase()
+        publications.extend(pubs)
+        print("    ... get conteont from PLM23")
+        pubs = self.getPLM23()
         publications.extend(pubs)
         print("    Done reading")
         return publications

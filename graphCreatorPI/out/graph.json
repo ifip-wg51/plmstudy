@@ -104,7 +104,7 @@
         },
         {
             "keyword": "product lifecycle management",
-            "count": 327,
+            "count": 339,
             "years": [
                 {
                     "year": "2016",
@@ -177,12 +177,16 @@
                 {
                     "year": 2015,
                     "count": 24
+                },
+                {
+                    "year": "2023",
+                    "count": 12
                 }
             ]
         },
         {
             "keyword": "product design",
-            "count": 18,
+            "count": 19,
             "years": [
                 {
                     "year": "2016",
@@ -231,12 +235,16 @@
                 {
                     "year": 2015,
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
         {
             "keyword": "ergonomic",
-            "count": 4,
+            "count": 5,
             "years": [
                 {
                     "year": "2016",
@@ -252,6 +260,10 @@
                 },
                 {
                     "year": 2013,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -294,7 +306,7 @@
         },
         {
             "keyword": "product data management",
-            "count": 30,
+            "count": 31,
             "years": [
                 {
                     "year": "2016",
@@ -359,6 +371,10 @@
                 {
                     "year": 2015,
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
@@ -404,7 +420,7 @@
         },
         {
             "keyword": "product development",
-            "count": 30,
+            "count": 32,
             "years": [
                 {
                     "year": "2016",
@@ -465,12 +481,16 @@
                 {
                     "year": 2015,
                     "count": 4
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
         {
             "keyword": "product development process",
-            "count": 13,
+            "count": 14,
             "years": [
                 {
                     "year": "2016",
@@ -514,6 +534,10 @@
                 },
                 {
                     "year": 2014,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -634,7 +658,7 @@
         },
         {
             "keyword": "system engineering",
-            "count": 16,
+            "count": 18,
             "years": [
                 {
                     "year": "2016",
@@ -679,6 +703,10 @@
                 {
                     "year": 2015,
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -704,7 +732,7 @@
         },
         {
             "keyword": "knowledge management",
-            "count": 47,
+            "count": 52,
             "years": [
                 {
                     "year": "2016",
@@ -773,6 +801,10 @@
                 {
                     "year": 2015,
                     "count": 4
+                },
+                {
+                    "year": "2023",
+                    "count": 5
                 }
             ]
         },
@@ -986,7 +1018,7 @@
         },
         {
             "keyword": "smart manufacturing",
-            "count": 9,
+            "count": 10,
             "years": [
                 {
                     "year": "2016",
@@ -1011,6 +1043,10 @@
                 {
                     "year": "2021",
                     "count": 2
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
@@ -1026,7 +1062,7 @@
         },
         {
             "keyword": "industry 4.0",
-            "count": 50,
+            "count": 55,
             "years": [
                 {
                     "year": "2016",
@@ -1055,6 +1091,10 @@
                 {
                     "year": "2022",
                     "count": 7
+                },
+                {
+                    "year": "2023",
+                    "count": 5
                 }
             ]
         },
@@ -1406,7 +1446,7 @@
         },
         {
             "keyword": "ontology",
-            "count": 43,
+            "count": 45,
             "years": [
                 {
                     "year": "2016",
@@ -1474,6 +1514,10 @@
                 },
                 {
                     "year": 2015,
+                    "count": 2
+                },
+                {
+                    "year": "2023",
                     "count": 2
                 }
             ]
@@ -1568,7 +1612,7 @@
         },
         {
             "keyword": "internet of things",
-            "count": 25,
+            "count": 26,
             "years": [
                 {
                     "year": "2016",
@@ -1605,6 +1649,10 @@
                 {
                     "year": 2015,
                     "count": 3
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
@@ -1658,7 +1706,7 @@
         },
         {
             "keyword": "manufacturing execution system",
-            "count": 7,
+            "count": 8,
             "years": [
                 {
                     "year": "2016",
@@ -1683,6 +1731,10 @@
                 {
                     "year": 2015,
                     "count": 2
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
@@ -1842,7 +1894,7 @@
         },
         {
             "keyword": "semantic interoperability",
-            "count": 11,
+            "count": 12,
             "years": [
                 {
                     "year": "2016",
@@ -1870,6 +1922,10 @@
                 },
                 {
                     "year": 2005,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -1976,7 +2032,7 @@
         },
         {
             "keyword": "decision making",
-            "count": 8,
+            "count": 9,
             "years": [
                 {
                     "year": "2016",
@@ -2009,12 +2065,16 @@
                 {
                     "year": 2013,
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
         {
             "keyword": "knowledge based engineering",
-            "count": 16,
+            "count": 19,
             "years": [
                 {
                     "year": "2016",
@@ -2051,6 +2111,10 @@
                 {
                     "year": 2015,
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 3
                 }
             ]
         },
@@ -2216,7 +2280,7 @@
         },
         {
             "keyword": "small and medium sized enterprise",
-            "count": 18,
+            "count": 19,
             "years": [
                 {
                     "year": "2016",
@@ -2256,6 +2320,10 @@
                 },
                 {
                     "year": 2015,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -2356,7 +2424,7 @@
         },
         {
             "keyword": "machine learning",
-            "count": 14,
+            "count": 16,
             "years": [
                 {
                     "year": "2016",
@@ -2381,12 +2449,16 @@
                 {
                     "year": "2022",
                     "count": 5
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
         {
             "keyword": "deep learning",
-            "count": 2,
+            "count": 3,
             "years": [
                 {
                     "year": "2016",
@@ -2395,12 +2467,16 @@
                 {
                     "year": "2022",
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
         {
             "keyword": "computer vision",
-            "count": 5,
+            "count": 8,
             "years": [
                 {
                     "year": "2016",
@@ -2421,6 +2497,10 @@
                 {
                     "year": "2022",
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 3
                 }
             ]
         },
@@ -2946,7 +3026,7 @@
         },
         {
             "keyword": "collaboration",
-            "count": 14,
+            "count": 16,
             "years": [
                 {
                     "year": "2016",
@@ -2991,6 +3071,10 @@
                 {
                     "year": 2008,
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -3060,7 +3144,7 @@
         },
         {
             "keyword": "supply chain",
-            "count": 14,
+            "count": 15,
             "years": [
                 {
                     "year": "2016",
@@ -3096,6 +3180,10 @@
                 },
                 {
                     "year": 2008,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -3204,7 +3292,7 @@
         },
         {
             "keyword": "food industry",
-            "count": 4,
+            "count": 5,
             "years": [
                 {
                     "year": "2016",
@@ -3216,6 +3304,10 @@
                 },
                 {
                     "year": "2021",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -3274,7 +3366,7 @@
         },
         {
             "keyword": "cyber physical system",
-            "count": 7,
+            "count": 8,
             "years": [
                 {
                     "year": "2016",
@@ -3302,6 +3394,10 @@
                 },
                 {
                     "year": 2015,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -3530,7 +3626,7 @@
         },
         {
             "keyword": "lifecycle assessment",
-            "count": 19,
+            "count": 21,
             "years": [
                 {
                     "year": "2016",
@@ -3583,6 +3679,10 @@
                 {
                     "year": 2015,
                     "count": 3
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -3946,7 +4046,7 @@
         },
         {
             "keyword": "building information modeling",
-            "count": 21,
+            "count": 24,
             "years": [
                 {
                     "year": "2017",
@@ -3979,6 +4079,10 @@
                 {
                     "year": 2015,
                     "count": 2
+                },
+                {
+                    "year": "2023",
+                    "count": 3
                 }
             ]
         },
@@ -4284,7 +4388,7 @@
         },
         {
             "keyword": "design process",
-            "count": 8,
+            "count": 9,
             "years": [
                 {
                     "year": "2017",
@@ -4309,6 +4413,10 @@
                 {
                     "year": 2015,
                     "count": 3
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
@@ -4654,7 +4762,7 @@
         },
         {
             "keyword": "integration",
-            "count": 11,
+            "count": 13,
             "years": [
                 {
                     "year": "2017",
@@ -4683,12 +4791,16 @@
                 {
                     "year": 2007,
                     "count": 2
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
         {
             "keyword": "digital twin",
-            "count": 21,
+            "count": 26,
             "years": [
                 {
                     "year": "2017",
@@ -4712,6 +4824,10 @@
                 },
                 {
                     "year": "2022",
+                    "count": 5
+                },
+                {
+                    "year": "2023",
                     "count": 5
                 }
             ]
@@ -4786,7 +4902,7 @@
         },
         {
             "keyword": "ecodesign",
-            "count": 7,
+            "count": 8,
             "years": [
                 {
                     "year": "2017",
@@ -4810,6 +4926,10 @@
                 },
                 {
                     "year": 2013,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -5074,7 +5194,7 @@
         },
         {
             "keyword": "lifecycle",
-            "count": 15,
+            "count": 17,
             "years": [
                 {
                     "year": "2017",
@@ -5115,6 +5235,10 @@
                 {
                     "year": 2015,
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -5176,7 +5300,7 @@
         },
         {
             "keyword": "collaborative design",
-            "count": 15,
+            "count": 16,
             "years": [
                 {
                     "year": "2017",
@@ -5213,12 +5337,16 @@
                 {
                     "year": 2015,
                     "count": 2
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
         {
             "keyword": "additive manufacturing",
-            "count": 10,
+            "count": 13,
             "years": [
                 {
                     "year": "2017",
@@ -5243,12 +5371,16 @@
                 {
                     "year": 2015,
                     "count": 3
+                },
+                {
+                    "year": "2023",
+                    "count": 3
                 }
             ]
         },
         {
             "keyword": "manufacturing",
-            "count": 9,
+            "count": 11,
             "years": [
                 {
                     "year": "2017",
@@ -5269,6 +5401,10 @@
                 {
                     "year": 2015,
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -5872,7 +6008,7 @@
         },
         {
             "keyword": "product service system",
-            "count": 18,
+            "count": 19,
             "years": [
                 {
                     "year": "2017",
@@ -5909,6 +6045,10 @@
                 {
                     "year": 2015,
                     "count": 5
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
@@ -5964,7 +6104,7 @@
         },
         {
             "keyword": "design guideline",
-            "count": 2,
+            "count": 3,
             "years": [
                 {
                     "year": "2017",
@@ -5972,6 +6112,10 @@
                 },
                 {
                     "year": "2020",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -6030,7 +6174,7 @@
         },
         {
             "keyword": "part agent",
-            "count": 2,
+            "count": 3,
             "years": [
                 {
                     "year": "2017",
@@ -6038,6 +6182,10 @@
                 },
                 {
                     "year": "2019",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -6720,7 +6868,7 @@
         },
         {
             "keyword": "maturity model",
-            "count": 18,
+            "count": 19,
             "years": [
                 {
                     "year": "2017",
@@ -6765,6 +6913,10 @@
                 {
                     "year": 2015,
                     "count": 2
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
@@ -7088,10 +7240,14 @@
         },
         {
             "keyword": "computational design",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": "2018",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -7348,7 +7504,7 @@
         },
         {
             "keyword": "visualization",
-            "count": 6,
+            "count": 7,
             "years": [
                 {
                     "year": "2018",
@@ -7369,6 +7525,10 @@
                 {
                     "year": 2013,
                     "count": 2
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
@@ -7812,7 +7972,7 @@
         },
         {
             "keyword": "digitalization",
-            "count": 8,
+            "count": 9,
             "years": [
                 {
                     "year": "2018",
@@ -7832,6 +7992,10 @@
                 },
                 {
                     "year": 2015,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -8108,7 +8272,7 @@
         },
         {
             "keyword": "industrial internet of things",
-            "count": 9,
+            "count": 10,
             "years": [
                 {
                     "year": "2018",
@@ -8121,12 +8285,16 @@
                 {
                     "year": "2020",
                     "count": 3
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
         {
             "keyword": "business model",
-            "count": 15,
+            "count": 16,
             "years": [
                 {
                     "year": "2018",
@@ -8158,6 +8326,10 @@
                 },
                 {
                     "year": 2015,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -8538,7 +8710,7 @@
         },
         {
             "keyword": "change management",
-            "count": 6,
+            "count": 7,
             "years": [
                 {
                     "year": "2018",
@@ -8558,6 +8730,10 @@
                 },
                 {
                     "year": 2009,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -8628,10 +8804,14 @@
         },
         {
             "keyword": "design for manufacturing",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": "2018",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -8728,7 +8908,7 @@
         },
         {
             "keyword": "data management",
-            "count": 4,
+            "count": 5,
             "years": [
                 {
                     "year": "2018",
@@ -8744,6 +8924,10 @@
                 },
                 {
                     "year": 2011,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -8810,7 +8994,7 @@
         },
         {
             "keyword": "servitization",
-            "count": 2,
+            "count": 4,
             "years": [
                 {
                     "year": "2018",
@@ -8819,6 +9003,10 @@
                 {
                     "year": 2013,
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -8864,7 +9052,7 @@
         },
         {
             "keyword": "sustainability",
-            "count": 21,
+            "count": 23,
             "years": [
                 {
                     "year": "2018",
@@ -8901,6 +9089,10 @@
                 {
                     "year": 2015,
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -9300,7 +9492,7 @@
         },
         {
             "keyword": "blockchain",
-            "count": 6,
+            "count": 8,
             "years": [
                 {
                     "year": "2018",
@@ -9313,6 +9505,10 @@
                 {
                     "year": "2021",
                     "count": 4
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -9454,7 +9650,7 @@
         },
         {
             "keyword": "assessment",
-            "count": 4,
+            "count": 5,
             "years": [
                 {
                     "year": "2018",
@@ -9470,6 +9666,10 @@
                 },
                 {
                     "year": 2007,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -11548,7 +11748,7 @@
         },
         {
             "keyword": "circular economy",
-            "count": 4,
+            "count": 8,
             "years": [
                 {
                     "year": "2020",
@@ -11557,6 +11757,10 @@
                 {
                     "year": "2022",
                     "count": 2
+                },
+                {
+                    "year": "2023",
+                    "count": 4
                 }
             ]
         },
@@ -11582,7 +11786,7 @@
         },
         {
             "keyword": "smart product service system",
-            "count": 2,
+            "count": 3,
             "years": [
                 {
                     "year": "2020",
@@ -11590,6 +11794,10 @@
                 },
                 {
                     "year": "2022",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -11746,10 +11954,14 @@
         },
         {
             "keyword": "knowledge graph",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": "2020",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -11830,7 +12042,7 @@
         },
         {
             "keyword": "model based system engineering ",
-            "count": 4,
+            "count": 6,
             "years": [
                 {
                     "year": "2020",
@@ -11843,6 +12055,10 @@
                 {
                     "year": "2022",
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -12222,10 +12438,14 @@
         },
         {
             "keyword": "hybrid approach",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": "2020",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -12372,7 +12592,7 @@
         },
         {
             "keyword": "digital transformation",
-            "count": 3,
+            "count": 5,
             "years": [
                 {
                     "year": "2020",
@@ -12385,6 +12605,10 @@
                 {
                     "year": "2022",
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -12629,11 +12853,15 @@
             ]
         },
         {
-            "keyword": "datavdriven prediction",
-            "count": 1,
+            "keyword": "datadriven prediction",
+            "count": 2,
             "years": [
                 {
                     "year": "2021",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -13176,7 +13404,7 @@
         },
         {
             "keyword": "industry 5.0",
-            "count": 2,
+            "count": 4,
             "years": [
                 {
                     "year": "2021",
@@ -13185,6 +13413,10 @@
                 {
                     "year": "2022",
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -13200,7 +13432,7 @@
         },
         {
             "keyword": "technology",
-            "count": 3,
+            "count": 4,
             "years": [
                 {
                     "year": "2021",
@@ -13209,6 +13441,10 @@
                 {
                     "year": "2022",
                     "count": 2
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
@@ -14190,10 +14426,14 @@
         },
         {
             "keyword": "****",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": "2021",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -14280,10 +14520,14 @@
         },
         {
             "keyword": "model lifecycle management",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": "2022",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -14488,7 +14732,7 @@
         },
         {
             "keyword": "lifecycle engineering",
-            "count": 4,
+            "count": 5,
             "years": [
                 {
                     "year": "2022",
@@ -14500,6 +14744,10 @@
                 },
                 {
                     "year": 2008,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -14756,10 +15004,14 @@
         },
         {
             "keyword": "asset administration shell",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": "2022",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -15222,11 +15474,15 @@
         },
         {
             "keyword": "model based design",
-            "count": 2,
+            "count": 3,
             "years": [
                 {
                     "year": "2022",
                     "count": 2
+                },
+                {
+                    "year": "2023",
+                    "count": 1
                 }
             ]
         },
@@ -15246,16 +15502,6 @@
         },
         {
             "keyword": "digital innovation hub",
-            "count": 1,
-            "years": [
-                {
-                    "year": "2022",
-                    "count": 1
-                }
-            ]
-        },
-        {
-            "keyword": "mixed reality",
             "count": 2,
             "years": [
                 {
@@ -15263,7 +15509,25 @@
                     "count": 1
                 },
                 {
+                    "year": "2023",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "keyword": "mixed reality",
+            "count": 3,
+            "years": [
+                {
+                    "year": "2022",
+                    "count": 1
+                },
+                {
                     "year": 2015,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -15304,11 +15568,15 @@
         },
         {
             "keyword": "digital engineering",
-            "count": 1,
+            "count": 3,
             "years": [
                 {
                     "year": "2022",
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -15402,10 +15670,14 @@
         },
         {
             "keyword": "enterprise information system",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": "2022",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -15766,10 +16038,14 @@
         },
         {
             "keyword": "aerospace industry",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": "2022",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -15900,10 +16176,14 @@
         },
         {
             "keyword": "zero defect manufacturing",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": "2022",
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -15924,16 +16204,6 @@
         },
         {
             "keyword": "knowledge exchange",
-            "count": 1,
-            "years": [
-                {
-                    "year": "2022",
-                    "count": 1
-                }
-            ]
-        },
-        {
-            "keyword": "open innovation",
             "count": 2,
             "years": [
                 {
@@ -15941,7 +16211,25 @@
                     "count": 1
                 },
                 {
+                    "year": "2023",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "keyword": "open innovation",
+            "count": 3,
+            "years": [
+                {
+                    "year": "2022",
+                    "count": 1
+                },
+                {
                     "year": 2010,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -16904,7 +17192,7 @@
         },
         {
             "keyword": "requirement",
-            "count": 3,
+            "count": 4,
             "years": [
                 {
                     "year": 2006,
@@ -16916,6 +17204,10 @@
                 },
                 {
                     "year": 2015,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -16952,10 +17244,14 @@
         },
         {
             "keyword": "pharmaceutical industry",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": 2006,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -17580,7 +17876,7 @@
         },
         {
             "keyword": "project management",
-            "count": 4,
+            "count": 5,
             "years": [
                 {
                     "year": 2007,
@@ -17592,6 +17888,10 @@
                 },
                 {
                     "year": 2005,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -18692,7 +18992,7 @@
         },
         {
             "keyword": "product model",
-            "count": 6,
+            "count": 7,
             "years": [
                 {
                     "year": 2011,
@@ -18716,6 +19016,10 @@
                 },
                 {
                     "year": 2015,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -20608,10 +20912,14 @@
         },
         {
             "keyword": "textile industry",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": 2007,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -21810,7 +22118,7 @@
         },
         {
             "keyword": "product lifecycle management integration",
-            "count": 3,
+            "count": 4,
             "years": [
                 {
                     "year": 2012,
@@ -21822,6 +22130,10 @@
                 },
                 {
                     "year": 2015,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -21926,10 +22238,14 @@
         },
         {
             "keyword": "environmental impact",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": 2009,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -23100,7 +23416,7 @@
         },
         {
             "keyword": "complexity",
-            "count": 3,
+            "count": 4,
             "years": [
                 {
                     "year": 2009,
@@ -23112,6 +23428,10 @@
                 },
                 {
                     "year": 2010,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -24556,7 +24876,7 @@
         },
         {
             "keyword": "engineering change",
-            "count": 2,
+            "count": 4,
             "years": [
                 {
                     "year": 2007,
@@ -24565,6 +24885,10 @@
                 {
                     "year": 2010,
                     "count": 1
+                },
+                {
+                    "year": "2023",
+                    "count": 2
                 }
             ]
         },
@@ -26660,10 +26984,14 @@
         },
         {
             "keyword": "system architecture",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": 2008,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -29524,10 +29852,14 @@
         },
         {
             "keyword": "quotation",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": 2015,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -29584,10 +29916,14 @@
         },
         {
             "keyword": "interface",
-            "count": 1,
+            "count": 2,
             "years": [
                 {
                     "year": 2015,
+                    "count": 1
+                },
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -29678,6 +30014,96 @@
             "years": [
                 {
                     "year": 2014,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "keyword": "service design",
+            "count": 1,
+            "years": [
+                {
+                    "year": "2023",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "keyword": "linear programming",
+            "count": 1,
+            "years": [
+                {
+                    "year": "2023",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "keyword": "green manufacturing",
+            "count": 1,
+            "years": [
+                {
+                    "year": "2023",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "keyword": "performance based logistics",
+            "count": 1,
+            "years": [
+                {
+                    "year": "2023",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "keyword": "manufacturing planning",
+            "count": 1,
+            "years": [
+                {
+                    "year": "2023",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "keyword": "semantic web technology",
+            "count": 1,
+            "years": [
+                {
+                    "year": "2023",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "keyword": "collaborative computer aided design",
+            "count": 1,
+            "years": [
+                {
+                    "year": "2023",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "keyword": "semantic annotation",
+            "count": 1,
+            "years": [
+                {
+                    "year": "2023",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "keyword": "3DEXPERIENCE",
+            "count": 1,
+            "years": [
+                {
+                    "year": "2023",
                     "count": 1
                 }
             ]
@@ -40663,6 +41089,511 @@
                 2442
             ],
             "year": 2014
+        },
+        {
+            "title": "Development of a human-centric knowledge management framework through the integration between PLM and MES",
+            "keywords": [
+                5,
+                76,
+                44,
+                27
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A data structure for developing data-driven digital twins",
+            "keywords": [],
+            "year": "2023"
+        },
+        {
+            "title": "Benefits of Digital Twin Applications used to Study Product Design and Development Processes",
+            "keywords": [
+                267,
+                6,
+                13
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Machining learning algorithms for process optimization and quality prediction of spinning in textile industries",
+            "keywords": [
+                42,
+                858,
+                1571
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "How to foster the Circular Economy within the Pharmaceutical Industry? A research framework proposition",
+            "keywords": [
+                761,
+                1243,
+                237,
+                294
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Towards zero-defect manufacturing in the silicon wafer production through calibration: an Italian case",
+            "keywords": [
+                1153
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Integrating Processes, People and Data Management to Create a Comprehensive Roadmap Toward SMEs Digitalization: an Italian Case Study",
+            "keywords": [
+                299,
+                389
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Development of a multi-plant cross-function roadmapping tool: an industrial case in Food&Beverage sector",
+            "keywords": [
+                299,
+                44,
+                580
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Design And Release Process For Additive Manufacturing Parts",
+            "keywords": [
+                510,
+                298,
+                5,
+                517
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A multicriteria framework proposition for project management approaches",
+            "keywords": [
+                1297,
+                818,
+                907
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Understanding service design in the context of servitization",
+            "keywords": [
+                2443,
+                532
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "OPTIMIZATION OF THE OPERATION MANAGEMENT PROCESS OF A COMPANY IN THE ELECTRONIC MANUFACTURING SECTOR",
+            "keywords": [
+                2444
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "How to support knowledge exchange in a multi-division manufacturing firm?",
+            "keywords": [
+                1155,
+                1156,
+                154,
+                111
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Drivers of change impacting outcome-based business models in industrial production equipment",
+            "keywords": [
+                341
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Investigation of an integrated synthetic dataset genera-tion workflow for computer vision applications",
+            "keywords": [
+                120,
+                1686,
+                121
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A technical and systematic characterization of circular strategy processes",
+            "keywords": [
+                761,
+                1239
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A quality-oriented decision support framework: cyber-physical systems and model-based design to develop Design for Additive Manufacturing features",
+            "keywords": [
+                1092,
+                345,
+                170,
+                1094
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Gamification as a knowledge management tool",
+            "keywords": [
+                27,
+                154
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Smart Product-Service Systems: A Review and Preliminary Approach to Enable More Flexible Development Based On Ontology-Driven Semantic Interoperability",
+            "keywords": [
+                764,
+                64,
+                90
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A methodology to promote Circular Economy in Design by Additive Manufacturing",
+            "keywords": [
+                761,
+                274,
+                2445,
+                1696,
+                1025
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A preliminary framework of sustainability, smart cities, and digital transformation with effects on urban planning: A review and bibliometric analysis",
+            "keywords": [
+                833
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Blockchain applications in the food industry: a pilot project implementation in the ancient grains industry",
+            "keywords": [
+                569,
+                165,
+                5
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Knowledge-Based Engineering Design Supported by a Digital Twin Platform",
+            "keywords": [
+                100,
+                833
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Exploration of multi-layers networks to elicit and capture product changes",
+            "keywords": [
+                1937,
+                14,
+                10
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Innovative Development in a university environment based on the triple helix concepts: a systematic literature review",
+            "keywords": [
+                535
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "KARMEN: A knowledge graph based proposal to capture expert designer experience and foster expertise transfer",
+            "keywords": [
+                27,
+                100,
+                778,
+                64
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A Data Management Approach for Modular Industrial Augmented Reality Applications",
+            "keywords": [
+                5
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Development of IoT solutions according to the PLM approach",
+            "keywords": [
+                27
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Application of Life Cycle Assessment for more Sustainable Plastic Packaging - Challenges and Opportunities",
+            "keywords": [
+                186
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Examining the Influence of Business Models on Technical Implementation of Smart Services",
+            "keywords": [
+                465,
+                532,
+                484,
+                71
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A Model to Predict Span time and Effort for Product Development Processes",
+            "keywords": [
+                1803,
+                13
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Holistic Perspective to the Drug-Device Combination Product Development Challenges",
+            "keywords": [
+                5,
+                24,
+                786,
+                1099
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Prediction of Next Events in Business Processes: A Deep Learning Approach",
+            "keywords": [],
+            "year": "2023"
+        },
+        {
+            "title": "Industrialization of site operations planning and management: a BIM-based decision support system",
+            "keywords": [
+                216,
+                5,
+                100,
+                1108
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Optimizing closed-loop supply chain in the electric vehicle battery industry: a fully fuzzy approach",
+            "keywords": [],
+            "year": "2023"
+        },
+        {
+            "title": "Digital technologies and emotions: spectrum of worker decision behavior analysis.",
+            "keywords": [
+                905,
+                99
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Optimization Framework for Assembly Line Design Problem with Ergonomics Consideration in Fuzzy Environment",
+            "keywords": [
+                7
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Enhancing Collaborative Design through Process Feedback with Motivational Interviewing: Can AI Play a Role?",
+            "keywords": [
+                297,
+                119,
+                2446
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Investigation on additive manufacturing processes performed by collaborative robot",
+            "keywords": [
+                298
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "DRIVES AND BARRIERS FOR CIRCULAR ION-LITHIUM BATTERY ECONOMY: A CASE STUDY IN AN AUTOMOBILE MANUFACTURER",
+            "keywords": [
+                761
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "When Industry X.0 meets End-of-Life Aircraft treatment: A brief review and criteria for identifying the core technologies",
+            "keywords": [
+                44
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Industrial Layout Mapping by Human-Centered approach and Computer Vision",
+            "keywords": [
+                267,
+                121
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A Digital Twin framework for Industry 4.0/5.0 technologies",
+            "keywords": [
+                267,
+                483
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Application of BIM technology to propagate information and knowledge of design changes in the product development cycle",
+            "keywords": [
+                1937,
+                5,
+                216
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A preliminary discussion of semantic web technologies and machine learning to support the complex parts manufacturing quotation: an aerospace industry case",
+            "keywords": [
+                2427,
+                2447,
+                1140,
+                2448,
+                119
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A state of the art of the collaborative CAD solutions",
+            "keywords": [
+                2449
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Designing a human-centric manufacturing system from a skills-based perspective",
+            "keywords": [
+                44,
+                905
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "A Method to Interactive Simulations of Industrial Environments Based on Immersive Technologies",
+            "keywords": [
+                267,
+                121,
+                1095,
+                44
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Interface modeling for complex systems design: an MBSE and PLM system integration perspective",
+            "keywords": [
+                5,
+                786,
+                1099,
+                266,
+                2433,
+                996
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Protecting Manufacturing Supply Chains through PLM -Blockchain Integration and data model encapsulation",
+            "keywords": [
+                5,
+                569,
+                266,
+                159
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Navigating the Digital Twin: 3D Exploration for Asset Administration Shell Content",
+            "keywords": [
+                1049,
+                267,
+                429
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "E-Learning Content Creation for Interdisciplinary Master of Science Program in Product Lifecycle Management (PLM)",
+            "keywords": [
+                5
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Product model for lifecycle support of mechanical parts",
+            "keywords": [
+                1397,
+                294,
+                350
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Comparative Analysis of the Sustainability of Injection Molding and Selective Laser Sintering Technologies for Spare Part Manufacturing",
+            "keywords": [
+                535,
+                186,
+                298
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "An Implementation of Integrated Approach in Product Life-cycle Management Tool to Ensure Requirements-In-Loop during Complex Product Development: A Cubesat Case Study",
+            "keywords": [],
+            "year": "2023"
+        },
+        {
+            "title": "An approach to Model Lifecycle Management (MLM) for supporting collaborative Ontology-Based Engineering",
+            "keywords": [
+                1005,
+                5
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Towards a multi-view and multi-representation CAD models system for computational design of multi-material 4D printed structures",
+            "keywords": [
+                409
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Contextualization for Generating FAIR Data: A Dynamic Model for Documenting Research Activities",
+            "keywords": [
+                2450,
+                527,
+                27
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "On Considering a PLM Platform for Design Change Management in the Construction Industry",
+            "keywords": [
+                216,
+                5,
+                2451
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "SE Based Development Framework for Changeable Maritime Systems",
+            "keywords": [
+                24,
+                2143
+            ],
+            "year": "2023"
+        },
+        {
+            "title": "Hybrid Production Structures as a Solution for Flexibility and Transformability for Longer Life Cycles of Production Systems",
+            "keywords": [],
+            "year": "2023"
         }
     ]
 }

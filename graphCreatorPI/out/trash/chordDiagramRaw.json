@@ -1,0 +1,443 @@
+[
+    {
+        "source": "product data management",
+        "target": "product development",
+        "sourceID": 10,
+        "targetID": 13,
+        "weight": 3
+    },
+    {
+        "source": "product development process",
+        "target": "product data management",
+        "sourceID": 14,
+        "targetID": 10,
+        "weight": 4
+    },
+    {
+        "source": "smart manufacturing",
+        "target": "industry 4.0",
+        "sourceID": 42,
+        "targetID": 44,
+        "weight": 6
+    },
+    {
+        "source": "industrial internet",
+        "target": "platform",
+        "sourceID": 59,
+        "targetID": 60,
+        "weight": 3
+    },
+    {
+        "source": "industry 4.0",
+        "target": "platform",
+        "sourceID": 44,
+        "targetID": 60,
+        "weight": 3
+    },
+    {
+        "source": "process patterns",
+        "target": "decision making",
+        "sourceID": 98,
+        "targetID": 99,
+        "weight": 3
+    },
+    {
+        "source": "knowledge management",
+        "target": "small and medium sized enterprise",
+        "sourceID": 27,
+        "targetID": 111,
+        "weight": 3
+    },
+    {
+        "source": "closed loop product lifecycle management",
+        "target": "internet of things",
+        "sourceID": 128,
+        "targetID": 71,
+        "weight": 3
+    },
+    {
+        "source": "virtual twin",
+        "target": "smart product",
+        "sourceID": 131,
+        "targetID": 132,
+        "weight": 3
+    },
+    {
+        "source": "interoperability",
+        "target": "standard",
+        "sourceID": 53,
+        "targetID": 157,
+        "weight": 4
+    },
+    {
+        "source": "new product development",
+        "target": "new food development",
+        "sourceID": 164,
+        "targetID": 166,
+        "weight": 4
+    },
+    {
+        "source": "internet of things",
+        "target": "internet of everything",
+        "sourceID": 71,
+        "targetID": 253,
+        "weight": 4
+    },
+    {
+        "source": "internet of things",
+        "target": "product development",
+        "sourceID": 71,
+        "targetID": 13,
+        "weight": 3
+    },
+    {
+        "source": "model based system engineering",
+        "target": "SYSML",
+        "sourceID": 321,
+        "targetID": 222,
+        "weight": 3
+    },
+    {
+        "source": "building information management",
+        "target": "building lifecycle management",
+        "sourceID": 0,
+        "targetID": 206,
+        "weight": 3
+    },
+    {
+        "source": "interoperability",
+        "target": "ontology",
+        "sourceID": 53,
+        "targetID": 64,
+        "weight": 5
+    },
+    {
+        "source": "maturity model",
+        "target": "industry 4.0",
+        "sourceID": 389,
+        "targetID": 44,
+        "weight": 4
+    },
+    {
+        "source": "building information modeling",
+        "target": "facility management",
+        "sourceID": 216,
+        "targetID": 402,
+        "weight": 4
+    },
+    {
+        "source": "machine learning",
+        "target": "artificial intelligence",
+        "sourceID": 119,
+        "targetID": 413,
+        "weight": 3
+    },
+    {
+        "source": "models for manufacturing",
+        "target": "ontology",
+        "sourceID": 414,
+        "targetID": 64,
+        "weight": 4
+    },
+    {
+        "source": "system engineering",
+        "target": "model based system engineering",
+        "sourceID": 24,
+        "targetID": 321,
+        "weight": 4
+    },
+    {
+        "source": "augmented reality",
+        "target": "industry 4.0",
+        "sourceID": 437,
+        "targetID": 44,
+        "weight": 3
+    },
+    {
+        "source": "information system",
+        "target": "business process",
+        "sourceID": 367,
+        "targetID": 296,
+        "weight": 3
+    },
+    {
+        "source": "semantic interoperability",
+        "target": "multiple domain",
+        "sourceID": 90,
+        "targetID": 454,
+        "weight": 3
+    },
+    {
+        "source": "digitalization",
+        "target": "industry 4.0",
+        "sourceID": 465,
+        "targetID": 44,
+        "weight": 5
+    },
+    {
+        "source": "small and medium sized enterprise",
+        "target": "industry 4.0",
+        "sourceID": 111,
+        "targetID": 44,
+        "weight": 4
+    },
+    {
+        "source": "industry 4.0",
+        "target": "industrial internet of things",
+        "sourceID": 44,
+        "targetID": 483,
+        "weight": 7
+    },
+    {
+        "source": "industry 4.0",
+        "target": "business model",
+        "sourceID": 44,
+        "targetID": 484,
+        "weight": 5
+    },
+    {
+        "source": "industrial internet of things",
+        "target": "business model",
+        "sourceID": 483,
+        "targetID": 484,
+        "weight": 6
+    },
+    {
+        "source": "business model",
+        "target": "pay per use",
+        "sourceID": 484,
+        "targetID": 485,
+        "weight": 3
+    },
+    {
+        "source": "business model",
+        "target": "pay per outcome",
+        "sourceID": 484,
+        "targetID": 486,
+        "weight": 5
+    },
+    {
+        "source": "pay per use",
+        "target": "pay per outcome",
+        "sourceID": 485,
+        "targetID": 486,
+        "weight": 3
+    },
+    {
+        "source": "digital twin",
+        "target": "industry 4.0",
+        "sourceID": 267,
+        "targetID": 44,
+        "weight": 4
+    },
+    {
+        "source": "product lifecycle",
+        "target": "design intent",
+        "sourceID": 508,
+        "targetID": 178,
+        "weight": 3
+    },
+    {
+        "source": "education",
+        "target": "industry 4.0",
+        "sourceID": 225,
+        "targetID": 44,
+        "weight": 3
+    },
+    {
+        "source": "internet of things",
+        "target": "industry 4.0",
+        "sourceID": 71,
+        "targetID": 44,
+        "weight": 7
+    },
+    {
+        "source": "knowledge management",
+        "target": "ontology",
+        "sourceID": 27,
+        "targetID": 64,
+        "weight": 4
+    },
+    {
+        "source": "industrial internet of things",
+        "target": "internet of things",
+        "sourceID": 483,
+        "targetID": 71,
+        "weight": 5
+    },
+    {
+        "source": "business model",
+        "target": "pay per output",
+        "sourceID": 484,
+        "targetID": 632,
+        "weight": 4
+    },
+    {
+        "source": "nonownership business model",
+        "target": "industrial internet of things",
+        "sourceID": 631,
+        "targetID": 483,
+        "weight": 3
+    },
+    {
+        "source": "product data management",
+        "target": "virtual reality",
+        "sourceID": 10,
+        "targetID": 363,
+        "weight": 3
+    },
+    {
+        "source": "business model",
+        "target": "pay per X",
+        "sourceID": 484,
+        "targetID": 730,
+        "weight": 4
+    },
+    {
+        "source": "maturity model",
+        "target": "benchmark",
+        "sourceID": 389,
+        "targetID": 777,
+        "weight": 3
+    },
+    {
+        "source": "model based definition",
+        "target": "model based enterprise",
+        "sourceID": 301,
+        "targetID": 811,
+        "weight": 4
+    },
+    {
+        "source": "sustainability",
+        "target": "resilience",
+        "sourceID": 535,
+        "targetID": 851,
+        "weight": 3
+    },
+    {
+        "source": "supply chain",
+        "target": "blockchain",
+        "sourceID": 159,
+        "targetID": 569,
+        "weight": 3
+    },
+    {
+        "source": "pay per X",
+        "target": "pay per output",
+        "sourceID": 730,
+        "targetID": 632,
+        "weight": 3
+    },
+    {
+        "source": "pay per X",
+        "target": "pay per outcome",
+        "sourceID": 730,
+        "targetID": 486,
+        "weight": 3
+    },
+    {
+        "source": "pay per output",
+        "target": "pay per outcome",
+        "sourceID": 632,
+        "targetID": 486,
+        "weight": 3
+    },
+    {
+        "source": "knowledge management",
+        "target": "knowledge based engineering",
+        "sourceID": 27,
+        "targetID": 100,
+        "weight": 3
+    },
+    {
+        "source": "ecodesign",
+        "target": "lifecycle thinking",
+        "sourceID": 274,
+        "targetID": 1172,
+        "weight": 3
+    },
+    {
+        "source": "environmental impact assessment",
+        "target": "lifecycle assessment",
+        "sourceID": 1171,
+        "targetID": 186,
+        "weight": 3
+    },
+    {
+        "source": "lifecycle assessment",
+        "target": "sustainable development",
+        "sourceID": 186,
+        "targetID": 471,
+        "weight": 3
+    },
+    {
+        "source": "data exchange",
+        "target": "interoperability",
+        "sourceID": 565,
+        "targetID": 53,
+        "weight": 3
+    },
+    {
+        "source": "building information management",
+        "target": "building information modeling",
+        "sourceID": 0,
+        "targetID": 216,
+        "weight": 3
+    },
+    {
+        "source": "ontology",
+        "target": "semantic web",
+        "sourceID": 64,
+        "targetID": 1292,
+        "weight": 4
+    },
+    {
+        "source": "design",
+        "target": "enterprise resource planning",
+        "sourceID": 687,
+        "targetID": 768,
+        "weight": 3
+    },
+    {
+        "source": "computer aided design",
+        "target": "computer aided engineering",
+        "sourceID": 377,
+        "targetID": 1708,
+        "weight": 3
+    },
+    {
+        "source": "computer aided design",
+        "target": "product data management",
+        "sourceID": 377,
+        "targetID": 10,
+        "weight": 4
+    },
+    {
+        "source": "building information modeling",
+        "target": "construction industry",
+        "sourceID": 216,
+        "targetID": 683,
+        "weight": 3
+    },
+    {
+        "source": "interoperability",
+        "target": "ISO 15926",
+        "sourceID": 53,
+        "targetID": 1842,
+        "weight": 3
+    },
+    {
+        "source": "interoperability",
+        "target": "product data management",
+        "sourceID": 53,
+        "targetID": 10,
+        "weight": 3
+    },
+    {
+        "source": "ISO 15926",
+        "target": "semantic web",
+        "sourceID": 1842,
+        "targetID": 1292,
+        "weight": 3
+    }
+]

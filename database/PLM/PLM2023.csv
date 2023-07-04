@@ -1,0 +1,232 @@
+﻿paperID,authors,title,keywords
+1,"Marongiu, Giovanni;
+Giulia, Bruno;
+Franco, Lombardi",Development of a human-centric knowledge management framework through the integration between PLM and MES,"PLM, MES, Industry 4.0, Knowledge Management, Human-centric production"
+2,"ORUKELE, Oghenemarho (1);
+POLETTE, Arnaud (1);
+GONZALEZ LORENZO, Aldo (2);
+MARI, Jean-Luc (2);
+PERNOT, Jean-Philippe (1)",A data structure for developing data-driven digital twins,"Digital and physical twin, data structure, digital coherence"
+3,"Attari Shendi, Milad (1);
+Thomson, Vincent (1);
+Wang, Haoqi (2);
+Lou, Gaopeng (2)",Benefits of Digital Twin Applications used to Study Product Design and Development Processes,"Digital Twin, Product Design, Product Development, Digital Twin Benefits"
+4,"choi, hyekyung (1);
+lee, whan (1);
+Sajadieh, seyed mohammad mehdi (1);
+Noh, Sang Do (1);
+Son, Hyun Sik Son (2);
+Sim, Seung bum (3)",Machining learning algorithms for process optimization and quality prediction of spinning in textile industries,"smart manufacturing, data-driven prediction, textile industry, spinning pro-cess."
+5,"Massot, Simon (1,2);
+Luu, Duc-Nam (1);
+Maier, Claus-Jürgen (3);
+Maranzana, Nicolas (1);
+Aoussat, Améziane (1)",How to foster the Circular Economy within the Pharmaceutical Industry? A research framework proposition,"Circular Economy, Pharmaceutical Industry, Design Process, Lifecycle"
+6,"Acerbi, Federica (1);
+Pranzo, Andrea (2);
+Sanna, Cristina (2);
+Spaltini, Marco (1);
+Taisch, Marco (1)",Towards zero-defect manufacturing in the silicon wafer production through calibration: an Italian case,"Silicon Wafer, Mechanical Parameters, Bow/Warp Calibration, Zero Defect Manufacturing, Waste Management"
+7,"Spaltini, Marco;
+Acerbi, Federica;
+De Carolis, Anna;
+Taisch, Marco","Integrating Processes, People and Data Management to Create a Comprehensive Roadmap Toward SMEs Digitalization: an Italian Case Study","Manufacturing, Maturity Models, Resource Management"
+8,"Beducci, Elena;
+Acerbi, Federica;
+Spaltini, Marco;
+De Carolis, Anna;
+Taisch, Marco",Development of a multi-plant cross-function roadmapping tool: an industrial case in Food&Beverage sector,"Food & Beverage, Manufacturing, Digital Transition Roadmapping, Industry 4.0, Assessment"
+9,"Schmid, Daniel",Design And Release Process For Additive Manufacturing Parts,"Release Process, Change Management, Additive Manufacturing, Product Lifecycle Management, Design for Manufacturing"
+10,"do Prado, Márcio Leandro (1,2);
+Seelent, João Felipe Capioto (1);
+Reynoso-Meza, Gilberto (1);
+Benitez, Guilherme Brittes (1)",A multicriteria framework proposition for project management approaches,"Project Management, Hybrid Approach, Technology"
+11,"Cardoso, Ana Maria Kaiser;
+Robell, Pedro da Rocha Loures;
+Canciglieri Junior, Osíris;
+Benitez, Guilherme Brittes",Understanding service design in the context of servitization,"Service Design, Servitization, Services"
+12,"Goncalves, Marcelo (1);
+Hamasaki, Katuzi (2);
+Dias, Izamara (1);
+Nara, Elpidio (1);
+Canciglieri Junior, Osiris (1)",OPTIMIZATION OF THE OPERATION MANAGEMENT PROCESS OF A COMPANY IN THE ELECTRONIC MANUFACTURING SECTOR,"Linear Programming, Robust Optimization, Operations Management."
+13,"Proulx, Mélick (1);
+Gardoni, Mickaël (1,2)",How to support knowledge exchange in a multi-division manufacturing firm?,"Knowledge exchange, Open Innovation, Collaboration, SME"
+14,"Kuismanen, Olli Kristian;
+Menon, Karan;
+Kärkkäinen, Hannu",Drivers of change impacting outcome-based business models in industrial production equipment,"Outcome-based PSS, outcome-based contracting, Product-Service Systems, industrial production equipment, Drivers of Change"
+15,"Rolf, Julian;
+Wolf, Mario;
+Gerhard, Detlef",Investigation of an integrated synthetic dataset genera-tion workflow for computer vision applications,"deep learning, synthetic data generation, PLM integration, object detection, computer vision"
+16,"VANSON, Gautier (1,2);
+MARANGE, Pascale (1,2);
+LEVRAT, Eric (1,2)",A technical and systematic characterization of circular strategy processes,"Circular Economy, Circular Strategy, Product regeneration, Holistic approach, Requirement, characterization"
+17,"Sassanelli, Claudio (1);
+Borzi, Giovanni (2);
+Quadrini, Walter (3);
+De Marco, Giuseppe (4);
+Mossa, Giorgio (1);
+Terzi, Sergio (3)",A quality-oriented decision support framework: cyber-physical systems and model-based design to develop Design for Additive Manufacturing features,"metal additive manufacturing, model-based design, design guideline, cyber-physical systems, digital innovation hub"
+19,"Miroite, Pierre;
+Gardoni, Mickaël",Gamification as a knowledge management tool,"Knowledge management, Gamification, Collaboration"
+20,"Leite, Athon Francisco Curi Staben de Moura;
+Canciglieri, Matheus Beltrame;
+Canciglieri Junior, Osiris",Smart Product-Service Systems: A Review and Preliminary Approach to Enable More Flexible Development Based On Ontology-Driven Semantic Interoperability,"Smart Product-Service Systems, Ontology, Semantic Interoperability, Artificial  Intelligence, Literature Review"
+21,"Ianniello, Simona (1,2);
+Bruno, Giulia (2);
+Chiabert, Paolo (2);
+Mantelet, Fabrice (1);
+Segonds, Frederic (1)",A methodology to promote Circular Economy in Design by Additive Manufacturing,"Circular Economy, Eco-design, Green Manufacturing, Environmental Impact, Life cycle engineering, Design by Additive Manufacturing"
+22,"Castro e Silva, Andreia de;
+Nara, Elpidio Oscar Benitez;
+Junior, Osiris Canciglieri;
+Gonçalves, Marcelo Carneiro;
+Dias, Izamara Cristina Palheta;
+Piovesan, Camila Vitoria;
+Domingos, Gabrielly dos Santos","A preliminary framework of sustainability, smart cities, and digital transformation with effects on urban planning: A review and bibliometric analysis","Sustainable practices, Smart cities, Digital Transformation, Urban Planning."
+23,"Fani, Virginia (1);
+Padovan, Gloria (1);
+Bindi, Bianca (1);
+Trombi, Giacomo (1);
+Bartoloni, Niccolò (1);
+Moriondo, Marco (2);
+Dibari, Camilla (1);
+Bandinelli, Romeo (1)",Blockchain applications in the food industry: a pilot project implementation in the ancient grains industry,"Blockchain, Ancient Grain, Food Industry, PLM"
+24,"Berwanger, Sthefan (1);
+Cardoso da Silva, Henrique Diogo (1,2);
+Soares, António Lucas (1,2);
+Coutinho, Cristiano (3)",Knowledge-Based Engineering Design Supported by a Digital Twin Platform,"Knowledge-based Engineering, Digital Platform, Digital Transformation"
+25,"Cheutet, Vincent (1);
+Sekhari, Aicha (1);
+Cherifi, Chantal (1);
+Favre, Justin (2);
+Douass, Mohamed (3);
+Millescamps, MAxence (3)",Exploration of multi-layers networks to elicit and capture product changes,"Engineering change, multi-layer network, product development process, PDM"
+26,"Sidorak Lessa, Lucas;
+Marcos de Oliveira, Michele;
+Canciglieri Junior, Osiris",Innovative Development in a university environment based on the triple helix concepts: a systematic literature review,"Innovation Ecosystem, Triple Helix, University, Disruptive Innova-tion, Sustainability, Digital Transformation."
+27,"CAMARA, Jean René (1,2);
+Véron, Philippe (3);
+Segonds, Frédéric (1);
+Yahia, Esma (3);
+Mallet, Antoine (2);
+Deguilhem, Benjamin (2)",KARMEN: A knowledge graph based proposal to capture expert designer experience and foster expertise transfer,"Knowledge Management, KBE, Knowledge Graph, Ontology, Neo4J"
+28,"Siewert, Jan Luca;
+Neges, Matthias;
+Gerhard, Detlef",A Data Management Approach for Modular Industrial Augmented Reality Applications,"Industrial Augmented Reality, Modular Augmented Reality, Data Manage-ment, Product Lifecycle Management"
+29,"Serio, Francesco (1);
+Awouda, Ahmed (1);
+Asranov, Mansur (1,2);
+Chiabert, Paolo (1,2)",Development of IoT solutions according to the PLM approach,"Product Lifecycle Management Guidelines, Industrial Internet of Things solutions, Knowledge Management"
+30,"Merschak, Simon;
+Kneidinger, Christian;
+Katzmayr, David;
+Casata, Johanna;
+Hehenberger, Peter",Application of Life Cycle Assessment for more Sustainable Plastic Packaging - Challenges and Opportunities,"Life Cycle Assessment, Plastic Packaging, Plastic Recycling"
+31,"Helbling, Samuel;
+Nyffenegger, Felix",Examining the Influence of Business Models on Technical Implementation of Smart Services,"smart services, digitalization, servitization, business model, IoT"
+32,"Ahmed, Shourav (1,2);
+Thomson, Vince (1)",A Model to Predict Span time and Effort for Product Development Processes,"Project span time, Timeliness, Complexity, Product development, Agent-based"
+33,"Menshenin, Yaroslav;
+Pinquié, Romain;
+Chevrier, Pierre",Holistic Perspective to the Drug-Device Combination Product Development Challenges,"Combination Product, MedTech, PLM, Systems Engineering, MBSE, Digital Engineering"
+34,"Abu Musa, Tahani Hussein;
+Bouras, Abdelaziz",Prediction of Next Events in Business Processes: A Deep Learning Approach,"Business Process Mining, Event log, LSTM, Business Process."
+35,"Blampain, Félix (1,2);
+Bricogne, Matthieu (1);
+Eynard, Benoît (1);
+Bricogne, Céline (2);
+Pinon, Sébastien (2)",Industrialization of site operations planning and management: a BIM-based decision support system,"Building Information Modelling, Product Lifecycle Management, Knowledge-Based Engineering, Enterprise Information System"
+36,"kazemi miyangaskary, Mina (1);
+Keivanpour, Samira (1);
+Lamghari, Amina (2)",Optimizing closed-loop supply chain in the electric vehicle battery industry: a fully fuzzy approach,"Buttery Electric Vehicle, Sustainable Closed-Loop Supply Chain, Fully Fuzzy Multi-Objective Programming, Echelon Utilization."
+37,"Dupuis, Ambre (1,2);
+Dadouchi, Camélia (1,2);
+Agard, Bruno (1,2)",Digital technologies and emotions: spectrum of worker decision behavior analysis.,"Industry 5.0, Decision-making, Emotions, Human behavior, Industry"
+38,"Ghorbani, Elham;
+Keivanpour, Samira;
+Sekkay, Firdaous;
+Imbeau, Daniel",Optimization Framework for Assembly Line Design Problem with Ergonomics Consideration in Fuzzy Environment,"Assembly Line Balancing Problem, Ergonomics, Fuzzy Set Theory"
+39,"Farshad, Sabah;
+Brovar, Yana;
+Fortin, Clement",Enhancing Collaborative Design through Process Feedback with Motivational Interviewing: Can AI Play a Role?,"Collaborative Design, Feedback, Machine Learning, Motivational Interviewing, PBL"
+40,"Aliev, Khurshid (1,2);
+Asranov, Mansur (1,2);
+Liu, Tianhao (1);
+Chiabert, Paolo (1,2)",Investigation on additive manufacturing processes performed by collaborative robot,"Additive manufacturing, Cobot 3D printing, Industry 4.0/5.0, Smart manufacturing."
+41,"Yamada, Ana Paula (1);
+Domingos, Enzo (2);
+Hoffmann, Juliana (1);
+Rosa Leite, Luciana (1);
+Pereira, Carla Robeta (3)",DRIVES AND BARRIERS FOR CIRCULAR ION-LITHIUM BATTERY ECONOMY: A CASE STUDY IN AN AUTOMOBILE MANUFACTURER,"Circular Economy, Electric Vehicles, Lithium-Ion Batteries"
+42,"El Anbri, Ghita;
+Keivanpour, Samira",When Industry X.0 meets End-of-Life Aircraft treatment: A brief review and criteria for identifying the core technologies,"Industry 4.0, End-of-life aircraft, Analytical Network Process (ANP), Indus-try 5.0"
+43,"Rudek, Marcelo (1);
+da Silva, Osmar Moreira (2)",Industrial Layout Mapping by Human-Centered approach and Computer Vision,"Digital Twin, Computer Vision, Digitalisation in production systems, 3D layout"
+44,"Asranov, Mansur (1,2);
+Aliev, Khurshid (1,2);
+Chiabert, Paolo (1,2);
+Inoyatkhodjaev, Jamshid (2)",A Digital Twin framework for Industry 4.0/5.0 technologies,"Industry 4.0/5.0, Digital Twins, Industrial Internet of Things, Robotics."
+45,"Alcântara Lobo, José Roberto;
+Szejka, Anderson Luis;
+Canciglieri Junior, Osiris",Application of BIM technology to propagate information and knowledge of design changes in the product development cycle,"Engineering Change, Product Life Cycle Management, Building Information Modeling"
+46,"Skrzek, Murillo (1);
+Szejka, Anderson Luis (1);
+Mas, Fernando (2,3)",A preliminary discussion of semantic web technologies and machine learning to support the complex parts manufacturing quotation: an aerospace industry case,"Complex Parts Manufacturing, Quotation, Manufacturing Planning, Aerospace Industry, Semantic Web Technologies, Machine Learning"
+47,"Locquet, Hugo (1,2);
+Rivest, Louis (1);
+Bricogne, Matthieu (2)",A state of the art of the collaborative CAD solutions,"Collaborative Aided Design, Collaborative Computer Aided Design, Synchronous Computer Aided Design, Asynchronous Computer Aided Design."
+48,"Dautaj, Marco (1,2);
+Callupe, Maira (1);
+Rossi, Monica (1);
+Terzi, Sergio (1)",Designing a human-centric manufacturing system from a skills-based perspective,"Industry 4.0, Industry 5.0, Skills, Human-centric Manufacturing, Focus Group"
+49,"Rudek, Marcelo (1);
+Valandro, Richard (2);
+Nogueira, João Cláudio (3)",A Method to Interactive Simulations of Industrial Environments Based on Immersive Technologies,"Digital Twin, Computer Vision, Mixed Reality, Industry 4.0"
+50,"Brovar, Yana;
+Kazanskii, Arkadii;
+Tapia, Betania;
+Fortin, Clement",Interface modeling for complex systems design: an MBSE and PLM system integration perspective,"PLM, MBSE, Digital Engineering, integration, interfaces, DSM"
+51,"Belhi, Abdelhak (1);
+Bouras, Abdelaziz (2)",Protecting Manufacturing Supply Chains through PLM -Blockchain Integration and data model encapsulation,"PLM, Blockchain, Data protection, Integration, Supply Chain"
+52,"Wolf, Mario;
+Vogt, Oliver;
+Gerhard, Detlef",Navigating the Digital Twin: 3D Exploration for Asset Administration Shell Content,"Asset Administration Shell, Digital Twin, User-centered Interaction, Visualization"
+53,"Saliger, Alexandra (1);
+Juresa, Yannick (2);
+Grafinger, Manfred (1);
+Göbel, Jens C. (2)",E-Learning Content Creation for Interdisciplinary Master of Science Program in Product Lifecycle Management (PLM),"product lifecycle management, online platform, curriculum"
+54,"Hiraoka, Hiroyuki;
+Hori, Arata",Product model for lifecycle support of mechanical parts,"Product model, lifecycle, Part agent"
+55,"Jung, Philipp;
+Tuschen, Klaas;
+Zagatta, Kristin;
+Mozgova, Iryna",Comparative Analysis of the Sustainability of Injection Molding and Selective Laser Sintering Technologies for Spare Part Manufacturing,"sustainability, lifecycle assessment, low carbon manufacturing, additive manufacturing"
+56,"Rehman, Mubeen Ur;
+Fortin, Clement",An Implementation of Integrated Approach in Product Life-cycle Management Tool to Ensure Requirements-In-Loop during Complex Product Development: A Cubesat Case Study,Model Based Systems Engineering · RFLP · Requirements- in-Loop· Product Life-cycle Management · Decision Support
+57,"Oliva, Manuel (1);
+Arista, Rebeca (2,3);
+Morales-Palma, Domingo (3);
+Szejka, Anderson Luis (4);
+Mas, Fernando (5)",An approach to Model Lifecycle Management (MLM) for supporting collaborative Ontology-Based Engineering,"Model Lifecycle Management, Ontology-Based Engineering, Models for Man-ufacturing, Product Lifecycle Management"
+58,"Belkebir, Hadrien (1);
+Prod'hon, Romaric (1);
+Foufou, Sebti (2);
+Gomes, Samuel (1);
+Demoly, Frédéric (1)",Towards a multi-view and multi-representation CAD models system for computational design of multi-material 4D printed structures,"CAD representation, 4D Printing, Computational design"
+59,"Altun, Osman (1);
+Hinterthaner, Marc (2);
+Barienti, Khemais (1);
+Nürnberger, Florian (1);
+Lachmayer, Roland (1);
+Mozgova, Iryna (3);
+Koepler, Oliver (2);
+Auer, Sören (1)",Contextualization for Generating FAIR Data: A Dynamic Model for Documenting Research Activities,"FAIR Data, Semantic Annotation, Data Management, Knowledge Management"
+60,"Pourzarei, Hamidreza;
+Boton, Conrad;
+Rivest, Louis",On Considering a PLM Platform for Design Change Management in the Construction Industry,"Building Information Modeling, Product Lifecycle Management, 3DExperience, Design Change Management, Engineering Change Management."
+61,"Sullivan, Brendan;
+Rossi, Monica",SE Based Development Framework for Changeable Maritime Systems,"Systems Engineering, System Development, Changeability, Intelligent De-sign, System Architecture, Extended Value"
+62,"Schumann, Dorit;
+Bleckmann, Marco;
+Nyhuis, Peter",Hybrid Production Structures as a Solution for Flexibility and Transformability for Longer Life Cycles of Production Systems,Hybrid Production Structures; Flow Production; Job Shop Production; Flexibility; Interdependencies; Transformability; Life Cycle

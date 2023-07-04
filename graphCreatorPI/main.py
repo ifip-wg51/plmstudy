@@ -24,8 +24,10 @@ publicationsFile = 'out/publications.csv'
 graphKeywordsFile = 'out/graphKeywords.csv'
 graphEdgesFile = 'out/graphEdges.csv'
 dbFile = '../database/PLM/PLM_analysis.sqlite'
+plm23File = '../database/PLM/PLM2023.xlsx'
+
 isbns = [
-    "978-3-319-54660-5", #2016
+    "978-3-319-54660-5", #2016cd ..
     "978-3-319-72905-3", #2017
     "978-3-030-01614-2", #2018
     "978-3-030-42250-9", #2019
@@ -35,13 +37,13 @@ isbns = [
     "978-3-031-25182-5", #2022
 ]
 # Process Settings
-buildGraph = True
+buildGraph = False
 thAnalysis = False
 
 def importAndNormalize():
     print("... rebuilding raw graph data")
     print("... read source data")
-    reader = ICPLMReader(dbFile, 2005, 2011, isbns)
+    reader = ICPLMReader(dbFile, 2005, 2011, isbns, plm23File)
     publications = reader.read()
     # print(publications)
     print("... normalize keywords")
@@ -122,20 +124,27 @@ print("... raw build graph")
 graphRaw = GraphBuilderRAW(root['keywords'], root['publication'])
 graphRaw.build()
 
-graphWT = GraphBuilderWordTree(root['keywords'], root['publication'])
-
 print("... build condense keywords graph")
+graphWT = GraphBuilderWordTree(root['keywords'], root['publication'])
+graphWT.build(4, 10)
+
 if thAnalysis:
     analyze()
 
-graphWT.build(4, 10)
+# Write data files for visualization
+graphRaw.writeChordDiagramJSON('out/chordDiagramRaw', 3, [5])
+graphRaw.writeChordDiagramJSON('out/chordDiagramRawNoPLM', 3, [5])
+graphRaw.writeForceDirectedGraphJSON('out/forceDirectedGraphRaw', 2, [5])
+graphRaw.writeTopKeywords('out/topKeywordsRaw', 15, [5])
 graphWT.writeJSON('out/condensedKeywords')
-graphWT.writeGephi('out/condensedKeywords')
+#graphWT.writeGephi('out/condensedKeywords')
 graphWT.writeIgnoredKeywords('out/ignodedKeywords.csv')
+graphWT.writeSunburstJSON('out/sunburst')
+#graphWT.writeChordDiagramJSON('out/chordDiagramAggregated')
 
-graphKWA = GraphBuilderKWA(root['keywords'], root['publication'])
-graphKWA.build()
-graphKWA.write('out/kwaTable')
+#graphKWA = GraphBuilderKWA(root['keywords'], root['publication'])
+#graphKWA.build()
+#graphKWA.write('out/kwaTable')
 
 print("All done")
 print("-------------------------")

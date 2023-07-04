@@ -1,21 +1,28 @@
 keyword;count
+ecosystem;5
 coevolution;4
 impact analysis;1
 research method;1
-product design;18
-ergonomic;4
+product design;19
+design method;5
 business process modeling;4
 mobile device feature;1
+product development;32
 variant rule;1
 part usage;1
+multidimensional data;1
 graph;4
+processing integration;1
 biomedical;1
+product development value stream mapping;1
 modular approach;1
+metallurgical equipment development;1
+engineering education;4
 internal combustion engines;1
 machining;2
-performance measurement;5
 fashion industry;3
 open application group integration specification;1
+product lifecycle support;4
 reference data library;1
 core components;1
 information modeling;3
@@ -29,8 +36,11 @@ mobile manipulator;1
 ASTM F45;1
 artifacts;1
 ground truth;1
+modularity;2
+production capabilities;1
 safety engineering;1
 integrated design;2
+product lifecycle management challenges;1
 variant design;1
 liaison;2
 knowledge based framework;1
@@ -38,6 +48,7 @@ meta model;3
 neural network;2
 manufacturing process;1
 predictive modeling;1
+product lifecycle management process;2
 multi party interaction;1
 visioneering workshop facilitation;1
 lean manufacturing;3
@@ -47,15 +58,19 @@ capability evaluation;1
 data asset;1
 closed loop product lifecycle;1
 CRISP-DM;1
+product usage data;2
 standardization;2
 transdisciplinary engineering;1
+formal model;2
 model driven ontology;1
+product lifecycle management concept;1
 progressive user centred approach;1
 collaborative design process;1
 process mining;3
 supervised classification;1
 complex system;2
 interface model;1
+multidisciplinary integration;2
 agile;2
 project planning;2
 problem definition;1
@@ -66,7 +81,7 @@ cost effectiveness;1
 planning;2
 non availability;1
 investment decision;1
-deep learning;2
+deep learning;3
 automatic synthesis;1
 assembly feature;1
 automatic identification system;1
@@ -75,11 +90,12 @@ marine industry;1
 social network;2
 virtual twin;3
 return on investment;2
+value;4
 grounded theory;1
 simulation data management ;1
-design of experiment;1
 service lifecycle management;3
 construction;1
+modular;1
 supplier selection;2
 frugal innovation;1
 bibliometric analysis;1
@@ -94,8 +110,10 @@ error generation;1
 inventory record inaccuracy;1
 system dynamic;2
 new food development;3
+product lifecycle management for the food industry;2
 cyber manufacturing system;1
 cloud manufacturing;1
+modeling and simulation;2
 railway wheel profile;1
 computer numerical control lathe remanufacturing;1
 rolling surface reshaping;1
@@ -105,6 +123,7 @@ parameter database;1
 geographical information system;4
 regionalization;1
 spatio temporal network;1
+product lifecycle mapping;1
 global manufacturing;1
 handle of elevator design;1
 finite element analysis;3
@@ -119,8 +138,11 @@ lazy evaluation;1
 SATISFICING;1
 aircraft ontology;1
 A320 aircraft;1
+parts of speech tagging;1
 building lifecycle management;4
 quality function deployment;4
+product supply chain;1
+modeling;3
 software as a service;2
 reconfiguration;3
 automated compliance audit processes;1
@@ -133,16 +155,22 @@ survey;2
 context;1
 assemblability factors;1
 module independence;2
+product lifecycle management for food and fashion;1
 food and fashion;1
 medical device development;1
+workshop facilitation;3
 industry university collaboration;1
 educational and training approach;1
+product lifecycle management customizing;2
 customizing process;1
+product lifecycle management in industry;1
 petri net;1
+product feature;1
 internet of everything;3
 digital economy;1
 internet of everything platform;1
 high performance computing;1
+product usage information;2
 hydro dynamic simulations;1
 cultural heritage;2
 3D modeling;2
@@ -159,47 +187,63 @@ NFD process performances;1
 railway infrastructure;1
 RAILTOPOMODEL;1
 RAILML;1
+product and process maturity;1
 benevolent production system;1
 benevolent system;1
 true lean;2
 TOYOTA production system;2
 6R concept;1
 decision mining;2
+manufacturing;11
+product lifecycle management tool;4
 case based reasoning;3
 machining part;1
 case study mapping;1
 organizational change;1
 tool complexity;1
+productivity;3
+modularization;3
+product configurator;2
 Flexible best fit;1
 flexible assembly;1
 tolerancing;1
 ArchiMate;2
+formal definition;1
 transformation;1
 evolving product;1
 skeleton based design;1
 cybertronic systems;1
+assembly;2
 supply chain management new product development alignment;1
 impact;2
+product lifecycle management process management;1
 manual assembly;1
 analysis framework;1
+product service system design;2
 management;2
 architecture engineering and construction;2
 replace;1
+aeronautical industry;1
 flexible job shop with operators;1
 license models;1
 online trading;1
 technology data;1
 usage control;1
+uncertainty;5
 criticality;1
-application view;1
+customervoriented view;1
 strategy;2
 interaction system;1
 commercial product lifecycle management software;1
 MEMORAE;1
 automotive supply chain;1
+product service system lean design methodology;1
+product service system engineering environment;1
+openness;2
 manufacturer capabilities;1
 ISO 10303;3
 EXPRESS G;1
+functional system model;1
 behavioral system model;1
 space systems;1
 concurrent data exchange;1
@@ -208,9 +252,10 @@ shipbuilding;3
 key performance indicator;3
 big data analysis;1
 learning factory;3
-computational design;1
+computational design;2
 visual recognition;1
 machine vision;1
+models for manufacturing;7
 single point incremental forming;1
 facility layout problem;1
 facilities planning and design;1
@@ -231,21 +276,26 @@ causal;3
 bayesian network;1
 developing countries;1
 the building industry;1
+agent based simulation modeling;2
 civil aircraft maintenance;1
 six sigma;1
 efficiency improvement;1
+product development and manufacturing;1
 reference ontology;2
 competence mapping;1
 coword analysis;1
 interactive design;1
 legacy users;1
+toolbox;2
+toolkit;1
+product design and manufacturing;2
 evaluation method;1
 real time simulation;1
 vendor managed inventory;1
 demand forecast;1
 end of life;6
 pay per use;3
-configuration view;1
+smartification;1
 nuclear decommissioning;1
 vessel design;1
 maritime design;1
@@ -255,21 +305,31 @@ remanufacturing;4
 personalization;1
 indoor health parameters;1
 office building;1
+worker preference;1
 additive manufacturing technology;2
 push button;1
+multicriteria decision making and analysis;1
 linkography;1
 analysis tools;1
 patient specific device;1
+product lifecycle management model;1
+product lifecycle management adaptation;2
+product lifecycle management realization;1
+product lifecycle management change management;1
 predictive maintenance;4
 installed base;1
-servitization;2
+product service system development;1
+servitization;4
 humidifiers industry;1
+sustainability;23
 early design stages;1
 digitization;1
 supply chain performance;1
 unitary traceability;1
 disruption management;1
 reactivity;1
+product lifecycle management competence;1
+product lifecycle management job offers;1
 TF_IDF;2
 clustering;1
 university industry collaboration;1
@@ -279,6 +339,7 @@ mockup;1
 entity classification;1
 calibration;1
 concept map;1
+analytics;1
 geometric parameter;1
 coalition;2
 robot;2
@@ -286,6 +347,7 @@ self assessment tool;1
 craftsmanship;1
 switching costs;1
 lockin;1
+graphical user interface monitoring;1
 3 layer model;3
 communities of practice;2
 mixed methodology;1
@@ -295,18 +357,20 @@ function;3
 satellite;1
 nanosatellite;1
 behavioural model;1
+product instance data management;1
+product improvement;2
+product recovery;3
 disassembly;4
 prescriptive analytics;1
-hybrid modelling;1
 jet engine simulation;1
 context awareness;2
 cognitive assistant;2
+lean;3
 file formats;1
 feedback data;1
 communication;4
 OPC UA;1
 MQTT;1
-hybrid agile process;1
 assessment method;1
 readiness model;1
 DREAMY;1
@@ -318,6 +382,7 @@ operator training;1
 usability;4
 fuzzy logic;2
 coalition game;1
+nonownership business model;2
 capital goods;1
 automation system;1
 tacit knowledge codification;1
@@ -333,14 +398,15 @@ structural complexity management;2
 prototype;1
 stiffness;1
 elastic modulus;1
-parametric design;1
 cloud storage;1
 communication protocol;1
 motion structural simulation;1
 testbed;1
 variety;2
 genetic algorithm;1
+product family;3
 retail 4.0;1
+product lifecycle management strategy planning;1
 octrees;1
 voxelization;1
 childrenswear;1
@@ -351,18 +417,19 @@ constraint management;1
 robotic task planning;1
 continuous improvement;2
 sketching;1
+concept lifecycle;1
 fundamental objectives;1
 comparison;3
 comparative analysis;1
 cross pollination;1
 ecoefficiency;1
+aerospace;2
 cobots;2
 SWOT analyses;1
 ethics;1
 regulation;1
 cluster;1
 proactive obsolescence management;1
-risk assessment;2
 WEIBULL;1
 initial analysis;1
 inventive design;1
@@ -384,13 +451,18 @@ profitability;1
 query system;1
 distributed scheduling;1
 cellular assembly;1
+application;1
 case study research;1
 structured literature review;1
+concept evaluation;1
 balanced scorecard;1
 DEMATEL;2
 gaze following;1
 gaze direction;1
 artificial neural network;4
+maturity;4
+model;2
+product;1
 alignment;2
 matching;1
 heterogeneous;1
@@ -400,6 +472,7 @@ wireless;1
 testbed design;1
 change;1
 capability analysis;1
+benchmark;4
 RAMI 4.0;1
 group clustering;1
 startup;1
@@ -411,15 +484,21 @@ disparate systems;1
 continuous engineering;1
 connected automation;1
 fashion;3
+functionality;1
+workfloor;1
 dashboard;2
+partial least squares;1
 integration manufacturing;1
 obsolescence;2
 obsolescence management;1
+automotive;3
+product manufacturing information;1
 free text analysis;1
-hybrid approach;1
 SCRUM;1
 V MODEL;1
 reference model for product development;1
+product development and manufacturing process;1
+risk factors;1
 monte carlo simulation;1
 circular design;1
 OST;1
@@ -443,16 +522,20 @@ material selection;1
 last mile vehicle;1
 resistance spot welding;1
 electrode wear prediction;1
+datadriven prediction;2
 consumer attitude;1
 repurchase intention;1
 structural equation modeling;1
 nested model;1
 anomaly detection;1
+analytic hierarchy process;3
+multicriteria;1
 solar energy;1
 soil reuse;1
 quantum behaved particle swarm optimization;1
 interpretive structural modeling;1
 MICMAC;1
+methodology;4
 textile;1
 kjnitted fabric;1
 enabling collaborative situation;1
@@ -468,17 +551,23 @@ residual value;1
 buyback policy;1
 COVID-19;2
 society 5.0;1
+human;1
+technology;4
 automated decision making;1
 autonomous systems;1
 wireless sensor network;1
 BERT;1
 natural language processing;3
+non ownership business model;1
 transparency;1
 HYPERLEDGER fabric;2
 redlining;1
 failure mode and effect analysis;1
 strategic alignment;2
 PMBOK;2
+semantic;4
+product design process;1
+risk;2
 archetype;1
 piping system;1
 ensemble learning;1
@@ -497,29 +586,36 @@ annotated 3D model;1
 store price image;1
 retail features;1
 customer behavior;1
+webmetry;1
 teaching;1
 surrogate model;1
 ontology based engineering;1
+product risk management;1
 higher education;1
 signature pedagogies;1
 BMSA;1
 timeline;1
+systematic review;1
 safety;1
 security;3
 threat;1
 remote education;1
+workflow;3
 provenance;2
 start stop system;1
 fuel economy;1
 emissions;1
 hole detection;1
 mesh processing;1
-****;1
+analytical evaluation of mechanical part;1
+****;2
 mechanical process design;1
+digitalization of engineering;1
 maturity level;1
 MAF;1
 surface;1
 implants;1
+data quality;1
 neuronal network;1
 NMR spectroscopy;1
 heating ventilation and air conditioning diagram recognition;1
@@ -538,6 +634,7 @@ generative design;1
 generative engineering;1
 topology optimization;1
 named entity recognition;1
+dataset;1
 legal domain;1
 parameter optimization;1
 laser welding;1
@@ -549,13 +646,14 @@ physical vapor deposition;1
 glancing angle deposition;1
 columns;1
 mesh;2
-asset administration shell;1
+datapoint;1
 heating ventilation and air conditioning;1
 retrofit;1
 classification;1
 ecological transition;1
 infrastructure lifecycle management;1
 4th industrial revolution;1
+systematic literature review;1
 energy consumption management;1
 supervision and reconfiguration of complex industrial systems;1
 geometry;1
@@ -572,21 +670,28 @@ luxury industry;1
 university spinoff;1
 disruptive innovation;1
 science based enterprises;1
-mixed reality;2
+product innovation;2
+metadata;3
+mixed reality;3
 G CODE;1
 operation management;2
 cyber physical human system;1
+product complexity;4
 telexistence;1
 immersive interface;1
+formulated product;1
 cosmetic industry;1
 fragrance industry;1
 grounding;1
 benchmark problem;1
+requirements coengineering;1
 capability maturity;2
 protocol;1
 stage gate;1
 computational design method;1
+circular value chain;1
 shipbuilding industry;1
+aerospace & defence case study;1
 roadmap;2
 equipment manufacturing;1
 remote monitoring;1
@@ -594,26 +699,31 @@ holistic view;1
 metro map;1
 classification framework;1
 classification for application lifecycle management;1
+aerospace industry;2
 problem analysis;1
 structured bibliographic research;1
 SWOT analysis;1
 positive emotions;1
 responsible consumption;1
 emotional experience;1
-zero defect manufacturing;1
-hybrid intelligence;1
+product service ecosystems;1
+zero defect manufacturing;2
+formal systems;1
 TRIZ;1
 customized matrix;1
 work planning;1
 neutral model;1
 nuclear power plant;1
 coupling;1
+product architecture;4
+product platform;2
 claim;1
 warranty management;1
 document delivery process;1
 electronic product documentation;1
 biomedical imaging;2
 neuroscience;1
+product realization;2
 relationship;1
 support;1
 vehicle;1
@@ -621,12 +731,17 @@ vehicule relationship management;1
 document structure;1
 interactive technical publication;1
 notification;1
+product process organization model;2
 electronic manufacturing;1
+product lifecycle application;1
 quick budget estimation;1
 time to market;1
+multiview;1
+product breakdown;1
 augmented product;1
 competitive differentiation;2
-web service;7
+customer;1
+product decision;1
 analysis;3
 benefit;1
 defect;1
@@ -636,15 +751,24 @@ power plant;1
 rule;2
 SWRL;2
 plant lifecycle;1
+product process;1
+environmentally conscious nano product;1
+product lifecycle simulation;1
+information;2
 interaction;2
+requirement;4
 task;1
 actual production cost;1
 communicating product data;1
-pharmaceutical industry;1
+pharmaceutical industry;2
+product phase;1
 novelty;1
+product and service solution;1
+parametric;3
 portfolio management;1
 deformation feature;1
 free form surface feature;1
+product information exchange;1
 shape feature taxonomy;1
 volumetric feature;1
 conflict management;1
@@ -664,19 +788,26 @@ pollution transfer phenomena;1
 printed circuit board;2
 configured digital mockup;1
 configured digital mokup;1
+product methodology;1
 option valuation;1
+product family architecture;1
+product family configuration design;1
 real option;1
 codesign;1
+product lifecycle management metrics;1
 stakeholder;1
+work breakdown structure;1
 generic architecture;1
 item specific product;1
 reusability;2
+product variety;2
 automation;1
 buffer geometry;1
 master geometry;1
 master geometry creation;1
 master geometry validation workflow;1
 reasoning;2
+functional requirement;1
 automation application programming interface;1
 integration of the translator;1
 macro parametrics;2
@@ -685,31 +816,40 @@ view;1
 road mapping;1
 sustainable building;1
 ontology based data integration;1
+product master data management;1
 qualitative research;1
 maintenance cost management;1
 machining processes simulation;1
 surface roughness;1
 dye solar cell;1
+product lifecycle management strategy;1
 analytic hierarchy process methodology;1
+product lifecycle management maturity model;2
 TIFOS framework;1
+quality;2
 museum;1
 preliminary information;1
 cloud computing;2
 emerging technology;2
 sales;1
 neutral schema;1
+collaborative;1
 object management;1
 evaluation grid method;1
 sound quality;1
 use case;1
 secondary resource;1
 pilot project;2
+product lifecycle management introduction;2
 statistical analysis;2
+user need;2
 property validation;1
+product lifecycle management 2.0;1
 apparel;1
 context management;1
 group profiling;1
 behavior model generation;1
+mechatronic;4
 integration of simulation;1
 ISO 14001;1
 strategic management;1
@@ -725,12 +865,20 @@ platform strategy;1
 mereotopology;1
 telecommunication industry;1
 architectural design process;1
+globalization;1
+product lifecycle management backbone;1
+product lifecycle management data model;1
 regulation and standard;1
 iteration;1
+product life management;1
 exchange information;1
+multiple viewpoints;1
+product and process information;1
 association;1
 reconciliation matrix;1
 transposition of associations;1
+work package;1
+particle accelerator;1
 metrics;2
 criterion;1
 hard disk drive;1
@@ -738,33 +886,51 @@ identification;1
 recovery of resource;1
 robotic;1
 waste;1
+product lifecycle management component maturity assessment;1
+product lifecycle management maturity evaluation;1
 triangular fuzzy element;1
+product lifecycle information management;1
 PROMISE;1
 platform approach;1
 existing product;1
+function analysis;2
 problem solving;1
 mental model;1
 teamwork;2
 hazard identification;1
 plant design;1
 network agent;2
+maturity assessment;2
 configurable product;1
 space;1
 tertiary education;1
+performance;2
 program;1
+modeling engineering design;1
 guideline;1
+product lifecycle management architecture;1
+product lifecycle management solution;2
 archival;1
 SASIG;1
 ambidexterity;1
 exploitation;1
 exploration;1
+asset;2
 behavior;2
 autonomous logistics;1
 positive emergence;1
 extended product;2
+product lifecycle management fast;1
+product lifecycle management flex;1
+product lifecycle management max;1
 CERN;1
 item;1
 FACEBOOK;1
+product avatar;3
+product state;1
+product carbon footprint;1
+product data management system;2
+product data model;2
 variant management;2
 heritage;1
 structuring system;1
@@ -772,14 +938,22 @@ line balancing;1
 common area;1
 liaison graph;1
 related ratio;1
+product lifecycle management improvement concept;1
+data;4
 naval;2
+product data and  lifecycle management;2
 preliminary design;1
 sensory analysis;1
+user;2
+agent;2
 future product lifecycle management;1
 informal communication;1
+product architecture modeling;1
+benchmarking methodology;1
 medical device industry;1
+product portfolio management;1
 green supply chain;1
-textile industry;1
+textile industry;2
 boundary representation;1
 error detection;1
 error documentation;1
@@ -790,6 +964,7 @@ task oriented method;1
 unit function element;1
 coordination;2
 competitiveness;1
+tool;2
 benefit analysis;1
 instance specific information management;1
 middleware;1
@@ -818,6 +993,7 @@ electronic waste;1
 JT standard;1
 efficiency;1
 original equipment manufacturer;2
+tool and process;1
 training;1
 supply chain operations reference;1
 credible commitment;1
@@ -826,14 +1002,18 @@ escalation;1
 outsourcing;2
 difference identification;1
 geometric constraint;1
+product shape;1
 supplier integration;2
 integration level;1
 trust level;1
 activity recording;1
 capability maturity model integration;1
+product lifecycle management data;1
 associativity;1
+product lifecycle management project execution;1
 survey analysis;1
 usage of product lifecycle management system;1
+product service;1
 codesign platform;1
 consumer electronic appliance;1
 radio frequency identification tag;1
@@ -844,8 +1024,14 @@ biomimicry;1
 I-MANUFACTURING;1
 reeb graph;1
 topsis;1
+product lifecycle management decision framework;1
+product lifecycle management harmonization;1
+product lifecycle management integration;4
+product lifecycle management planning;1
+product lifecycle management procedure model;1
 corporate strategy;1
 standard reference framework;1
+product lifecycle sustainability;1
 reverse logistics;3
 support vector regression;1
 feature;1
@@ -853,36 +1039,60 @@ translation;1
 long lasting product;1
 sustainability indicator;1
 action research;1
+web based service;1
 energy renovation;1
+industrialization;2
 migration;2
+service;1
 front loading;1
 demand chain supply chain;1
 demand lifecycle;1
+product data;4
 civil construction;1
 email;1
+engineering;2
+participant;1
 record;1
 domain specific language;1
+metamodel;1
+multiview modeling;1
 usage mode;1
 living labs;1
+non functional requirement;1
+project;1
 professional practice;1
 role and responsibility;1
 stakeholder relation;1
 supplier;1
+product management;2
 algorithm based;1
+configuration;2
+product property;1
 conditional constraint satisfaction problem;1
 standard for exchange;1
 foundation ontology;1
 organization design;1
 interdependency;1
+complexity management;1
+industrialization telecommunication industry;1
+product modularization;1
+product knowledge management;1
 aero engine;2
 gas turbine;1
+product design automation;1
 inheritance;1
 skeleton model;1
 top down assembly design;1
+product lifecycle management n tier architecture;1
 synchronization model of control web service;1
+product design architecture;1
+product globalization;1
+product lifecycle engineering;1
+product lifecycle management interoperability;1
 biomimetic;1
 organization lifecycle;1
 intellectual property;2
+workflow process;1
 interoperability of product models;1
 completion;1
 green aviation;1
@@ -892,27 +1102,38 @@ explorative research;1
 guidance system;2
 maritime industry;2
 operating data;2
+complexity;4
 measure;1
 plastics waste;1
 domain specific model;1
 embedded system;2
 STEP AP233;1
 JT;1
+conceptual model;1
 form;1
 XML schema;1
 biotechnology;1
+non linear dynamic system;1
+product lifecycle knowledge management;1
+product flexibility;1
+product lifecycle model;1
+product planning;2
+product module design;1
 active asset configuration management;1
 corporate environmental management;1
 discriminant analysis;1
+product oriented environmental;1
 availability contract;1
 defence aerospace;1
 input output analysis;1
+system;1
 through life costing;1
 FACADE;1
 axiomatic design;1
 empirical study;2
 implementation model;1
 degradation;1
+product embedded information device;2
 motion planning;1
 numerical control simulation;1
 federation;1
@@ -920,17 +1141,23 @@ legacy data;1
 logistics support;1
 reputation;1
 trust;1
+function behaviour structure;1
 profile;1
 role;2
 JAVA;1
+parts library standardization initiative;1
 testing;1
 operation and maintenance;2
 ship product structure;1
 serious game;1
+product information and knowledge management;1
+product information lifecycle;1
 cable harness design;1
 parallel structure;1
 set theory;1
 structure mapping;1
+product ontology;2
+product and service lifecycle;1
 sensor;1
 intuitiveness;1
 injection mold;1
@@ -940,17 +1167,26 @@ blend;1
 thermoplastic;1
 version control;1
 sheet metal operation;1
+building;1
 experimental data and information;1
 reduced dimensioning;1
+product lifecycle data;1
 resource description framework;3
 tracing;1
+working process;1
 connected graph model;1
+product lifecycle information model;1
 pattern;1
 IDEF;1
+informational object;1
 federated enterprise architecture;1
 culture;1
+product assembly;1
+product reverse engineering;1
+workflow analysis;1
 aspirator compressor;1
 ECOINDICATOR 99;1
+product lifecycle management benefit;2
 persistent naming problem;1
 method and tool;1
 document lifecycle;1
@@ -958,9 +1194,12 @@ document model release process;1
 document version and status;1
 maintenance repair and overhaul;1
 steam turbine;1
+engineer to order;2
+metamodelization;1
 authoring;1
 agent technology;1
 autonomous;1
+product centric;1
 cognitive work analysis;1
 sustainable production;1
 competence;1
@@ -991,46 +1230,66 @@ XQUERY;1
 indonesian fertiliser industry;1
 socio technical system;2
 WINDCHILL;1
+cost;1
 economic value analysis;1
 expert system;1
+product knowledge;1
 tracking and tracing;1
+metaknowledge ontology;1
+multilingual;1
 basic need;1
 different types of industry;1
 parallel distributed processing;1
 constraint satisfaction problem;2
+product lifecycle management reference model;1
+product planning and product lifecycle management;1
+aeronautical final assembly line conceptual design;1
 component;1
 flow diagram;1
 skeleton;1
 recovery management system;1
 network configuration;1
+product data quality;1
 shifting lead;1
+software;1
 attitude;1
 curriculum structure;1
 skill;1
 civil;1
 marine;1
 wind;1
+agent based system;1
 scenario based approach;1
 TRENIN;1
+product lifecycle management benchmarking;1
+tool selection;1
+product lifecycle management process improvement;1
 proof of usage;1
+product portfolio assessment;1
 simplified lifecycle assessment;1
 AUDROSBOX;1
+product information reuse;1
 similarity and difference;1
 company milestone model;1
 framework of system integration;1
 milestone model;1
 phase and step;1
 parameter;1
+product and system coevolution;1
 prototype of software;1
 strategic business management;1
+product upgradability;1
+product development waste;1
 sustainable product development;1
 manipulation;1
 path planning;1
 future development product lifecycle management;1
 ubiquity;1
+product analysis;1
 mechanical system design;1
 holistic product lifecycle management model;1
 generic model;1
+modeling framework;1
 conflict solving;1
 intuitive interaction;1
 offshore wind farm;1
@@ -1042,7 +1301,9 @@ electronic product;1
 low temperature burn injury;1
 thermal design;1
 operation;1
+product position;1
 reframing;1
+partner network;1
 competitive advantage;1
 preliminary collaborative design;1
 comparison of models;1
@@ -1053,30 +1314,40 @@ constructive solid geometry;1
 WEBGL;1
 preparation of a virtual environment;1
 pattern language;1
+product lifecycle management methodology;1
 neutral file;1
+product lifecycle management integrator;1
 feature recognition;1
 topological optimization;1
 cross organization;1
+workflow management;1
 benefit tool organization process people framework;1
 quick term project development;1
+assessment tool;2
 integration of product data management and software configuration management;1
 mobile computing;2
 telematics;1
 lot size one;1
+product driven manufacturing;1
 consensus;1
 abstraction level;1
+product family modeling;1
+database;1
 media product development;1
 MALAYSIA;2
+partial least square;1
 automobile;1
 maintenance personalization;1
 utilization condition;1
 aviation maintenance;1
 undergraduate research;1
 agency;1
+informational integration;1
 rule of use;1
 indian culture;1
 resistance to change;1
 development process efficiency;1
+sustainability analysis;1
 coolant;1
 decomposition analysis resolution process;1
 engine;1
@@ -1092,18 +1363,24 @@ understanding;1
 casting;1
 embedded radio frequency identification;1
 item level product lifecycle management;1
+product variant corridor;1
 radio frequency identification integration;1
 beginning of life;1
 adaptation;1
 attainable set;1
+dynamic;1
 know how;1
 PROTEGE;1
 quantum lifecycle management;2
+method;1
 SPARQL;1
+aeronautical;1
 overhaul;1
 repair;1
+product data standard;1
 temporal pattern;1
 evolution of information system;1
+product structure model;1
 ontological assembly model;1
 reasoning capability;1
 lessons learned system;1
@@ -1112,6 +1389,7 @@ cyber physical production system;1
 demand driven supply network;1
 publish subscribe pattern;1
 PARETO rule;1
+meta product;1
 foot plantar pressure;1
 mechanical comfort;1
 maintenance concept;1
@@ -1119,8 +1397,12 @@ wind turbine;1
 modified MARKOV process;1
 stochastic process;1
 supply chain uncertainty;1
+maturity approach;1
 state of the art;1
 CLIMB model;1
+product development assessment;1
+product development best practice;1
+product development maturity;1
 indicator;1
 execution trace;1
 ARCGIS;1
@@ -1132,12 +1414,16 @@ employer information requirement;1
 responsibility;1
 CATIA;1
 ENOVIA;1
+functional digital mockup;1
 dependency relation;1
 opinion mining;1
+product validation and testing;1
 tacit knowledge;1
 bioimaging;1
 ontology graph;1
 prediction;2
+product service system assessment;1
+product service system sustainability;1
 in service;1
 Value network;1
 servicization;1
@@ -1169,6 +1455,7 @@ compromising strategy;1
 sustainable performance;1
 general manufacturing model;1
 SYSTEMATICA metamodel;1
+product with growing value;1
 reconfigurable modularization;1
 GOOGLE APPS;1
 cognitive dimension framework;1
@@ -1179,16 +1466,25 @@ development lifecycle;1
 utility industry;1
 bibliometric;1
 citation analysis;1
+product lifecycle management conference proceeding;1
 event management;1
 tangible user interface;1
 master data;1
 master data management;1
 monitoring system;2
-quotation;1
+product system performance;1
+quotation;2
 embodiment design;1
+multiobjective optimization;1
 MTCONNECT;1
+interface;2
+product lifecycle management maturity;1
+product lifecycle management system architecture;1
 discourse analysis;1
 mechanical assembly;1
 segmentation;1
 edge measurement;1
 laser scanner;1
+linear programming;1
+green manufacturing;1
+3DEXPERIENCE;1

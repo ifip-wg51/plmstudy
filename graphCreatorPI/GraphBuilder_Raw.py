@@ -2,6 +2,9 @@ import re
 import json
 import numpy as np
 import matplotlib.pyplot as plt
+import networkx as nx
+from datetime import date
+
 
 class GraphBuilderRAW:
 
@@ -68,6 +71,68 @@ class GraphBuilderRAW:
         file.close
         return
 
+    def createJsonEdges(self, edgeThreshold, blacklist):
+        result = []
+        for edge in self.edges:
+            if edge['weight'] >= edgeThreshold:
+                if not edge['A'] in blacklist and not edge['B'] in blacklist:
+                    result.append({
+                        'source' : self.keywords[edge['A']]['keyword'],
+                        'target' : self.keywords[edge['B']]['keyword'],
+                        'sourceID' : edge['A'],
+                        'targetID' : edge['B'],
+                        'weight' : edge['weight']
+                    })
+        return result
+
+    def clusterByModularity(self, edges):
+        G = nx.Graph()
+        for edge in edges:
+            G.add_edge(edge['sourceID'], edge['targetID'], weight=edge['weight'])
+        communities = nx.algorithms.community.modularity_max.greedy_modularity_communities(G)
+        return communities
+    
+    def addOnceFDGNode(self, list, keyword, gid, communities):
+        group = -1
+        for gn, community in enumerate(communities):
+            if gid in community:
+                group = gn
+        node = {
+                'id' : keyword['keyword'],
+                'gid' : gid,
+                'group' : group,
+                'count' : keyword['count']
+            }
+        for item in list:
+            if item['gid'] == node['gid']:
+                return
+        list.append(node)
+        return
+    
+    def writeForceDirectedGraphJSON(self, filename, edgeThreshold, blacklist):
+        graph = {
+            'links' : self.createJsonEdges(edgeThreshold, blacklist),
+            'nodes' : []
+        }
+        communities = self.clusterByModularity(graph['links'])
+        for link in graph['links']:
+            keyA = self.keywords[link['sourceID']]
+            self.addOnceFDGNode(graph['nodes'], keyA, link['sourceID'], communities)
+            keyB = self.keywords[link['targetID']]
+            self.addOnceFDGNode(graph['nodes'], keyB, link['targetID'], communities)
+
+        file = open(filename + '.json', 'w')
+        file.write(json.dumps(graph, indent = 4))
+        file.close()
+        return
+    
+    def writeChordDiagramJSON(self, filename, edgeThreshold, blacklist):
+        jsonData = json.dumps(self.createJsonEdges(edgeThreshold, blacklist), indent = 4) 
+        file = open(filename + '.json', 'w')
+        file.write(jsonData)
+        file.close()
+        return
+
     def plotKeywords(self, filename, xlim, ylim, show=True):
         labels = []
         counts = []
@@ -90,6 +155,33 @@ class GraphBuilderRAW:
         plt.close()
         return
     
+    def writeTopKeywords(self, filename, max, blacklist):
+        result = []
+        for i in range(2005,2024):
+            res = self.getTopKeywordsForYear(str(i), max)
+            for r in res:
+                r['date'] = date(i, 1, 1).isoformat()
+                result.append(r)
+        jsonData = json.dumps(result, indent = 4) 
+        file = open(filename + '.json', 'w')
+        file.write(jsonData)
+        file.close()
+        return result
+
+    def getTopKeywordsForYear(self, year, max):
+        result = []
+        for keyword in self.keywords:
+            for y in keyword['years']:
+                if int(y['year']) == int(year):
+                    result.append({
+                        'name': keyword['keyword'],
+                        'value': y['count'],
+                        'change': 0,
+                        'posdiv': 0
+                    })
+        result.sort(key=lambda x: x['value'], reverse=True)
+        return result[0: min(max, len(result))]
+
     def removeKeywords(self, labels):
         for keyword in self.keywords:
             if keyword['keyword'] in labels:
