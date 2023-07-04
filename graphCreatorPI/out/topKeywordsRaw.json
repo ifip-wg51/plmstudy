@@ -1,26 +1,5 @@
 [
     {
-        "name": "product design",
-        "value": 89,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2005-01-01"
-    },
-    {
-        "name": "product lifecycle management",
-        "value": 12,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2005-01-01"
-    },
-    {
-        "name": "collaborative design",
-        "value": 6,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2005-01-01"
-    },
-    {
         "name": "interoperability",
         "value": 4,
         "change": 0,
@@ -49,35 +28,7 @@
         "date": "2005-01-01"
     },
     {
-        "name": "business model",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2005-01-01"
-    },
-    {
-        "name": "web service",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2005-01-01"
-    },
-    {
         "name": "XML",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2005-01-01"
-    },
-    {
-        "name": "design optimization",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2005-01-01"
-    },
-    {
-        "name": "value management",
         "value": 3,
         "change": 0,
         "posdiv": 0,
@@ -105,18 +56,53 @@
         "date": "2005-01-01"
     },
     {
-        "name": "product design",
-        "value": 45,
+        "name": "collaborative design",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2006-01-01"
+        "date": "2005-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 11,
+        "name": "computer aided design",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2006-01-01"
+        "date": "2005-01-01"
+    },
+    {
+        "name": "STEP",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2005-01-01"
+    },
+    {
+        "name": "optimization",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2005-01-01"
+    },
+    {
+        "name": "product lifecycle",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2005-01-01"
+    },
+    {
+        "name": "function",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2005-01-01"
+    },
+    {
+        "name": "process",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2005-01-01"
     },
     {
         "name": "collaborative design",
@@ -127,13 +113,6 @@
     },
     {
         "name": "product lifecycle",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2006-01-01"
-    },
-    {
-        "name": "data warehouse",
         "value": 3,
         "change": 0,
         "posdiv": 0,
@@ -182,22 +161,15 @@
         "date": "2006-01-01"
     },
     {
-        "name": "lifecycle design",
+        "name": "data warehouse",
         "value": 2,
         "change": 0,
         "posdiv": 0,
         "date": "2006-01-01"
     },
     {
-        "name": "customer relationship management",
-        "value": 2,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2006-01-01"
-    },
-    {
-        "name": "integrated model",
-        "value": 2,
+        "name": "product design",
+        "value": 1,
         "change": 0,
         "posdiv": 0,
         "date": "2006-01-01"
@@ -210,32 +182,32 @@
         "date": "2006-01-01"
     },
     {
-        "name": "product design",
-        "value": 150,
+        "name": "ontology",
+        "value": 1,
         "change": 0,
         "posdiv": 0,
-        "date": "2007-01-01"
+        "date": "2006-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 22,
+        "name": "small and medium sized enterprise",
+        "value": 1,
         "change": 0,
         "posdiv": 0,
-        "date": "2007-01-01"
+        "date": "2006-01-01"
     },
     {
-        "name": "collaborative design",
-        "value": 8,
+        "name": "standard",
+        "value": 1,
         "change": 0,
         "posdiv": 0,
-        "date": "2007-01-01"
+        "date": "2006-01-01"
     },
     {
-        "name": "process optimization",
-        "value": 5,
+        "name": "lifecycle assessment",
+        "value": 1,
         "change": 0,
         "posdiv": 0,
-        "date": "2007-01-01"
+        "date": "2006-01-01"
     },
     {
         "name": "product development",
@@ -294,20 +266,6 @@
         "date": "2007-01-01"
     },
     {
-        "name": "enterprise portal",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2007-01-01"
-    },
-    {
-        "name": "complex product design",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2007-01-01"
-    },
-    {
         "name": "radio frequency identification",
         "value": 3,
         "change": 0,
@@ -315,63 +273,49 @@
         "date": "2007-01-01"
     },
     {
-        "name": "product development",
-        "value": 67,
+        "name": "product data management",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2008-01-01"
+        "date": "2007-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 12,
+        "name": "interoperability",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2008-01-01"
+        "date": "2007-01-01"
     },
     {
-        "name": "collaborative design",
-        "value": 4,
+        "name": "small and medium sized enterprise",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2008-01-01"
+        "date": "2007-01-01"
     },
     {
-        "name": "design repository",
-        "value": 4,
+        "name": "supply chain",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2008-01-01"
+        "date": "2007-01-01"
+    },
+    {
+        "name": "product configuration",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2007-01-01"
     },
     {
         "name": "integration",
-        "value": 3,
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2008-01-01"
+        "date": "2007-01-01"
     },
     {
-        "name": "web service",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2008-01-01"
-    },
-    {
-        "name": "decision support",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2008-01-01"
-    },
-    {
-        "name": "information and knowledge organization",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2008-01-01"
-    },
-    {
-        "name": "model driven architecture",
+        "name": "integration",
         "value": 3,
         "change": 0,
         "posdiv": 0,
@@ -392,7 +336,7 @@
         "date": "2008-01-01"
     },
     {
-        "name": "system design",
+        "name": "collaborative design",
         "value": 2,
         "change": 0,
         "posdiv": 0,
@@ -406,13 +350,6 @@
         "date": "2008-01-01"
     },
     {
-        "name": "multi agent system",
-        "value": 2,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2008-01-01"
-    },
-    {
         "name": "UML",
         "value": 2,
         "change": 0,
@@ -420,35 +357,70 @@
         "date": "2008-01-01"
     },
     {
-        "name": "product design",
-        "value": 113,
+        "name": "concurrent engineering",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2009-01-01"
+        "date": "2008-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 17,
+        "name": "implementation",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2009-01-01"
+        "date": "2008-01-01"
     },
     {
-        "name": "design rationale",
-        "value": 5,
+        "name": "service oriented architecture",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2009-01-01"
+        "date": "2008-01-01"
+    },
+    {
+        "name": "web service",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2008-01-01"
+    },
+    {
+        "name": "radio frequency identification",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2008-01-01"
+    },
+    {
+        "name": "model driven architecture",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2008-01-01"
     },
     {
         "name": "product data management",
-        "value": 4,
+        "value": 1,
         "change": 0,
         "posdiv": 0,
-        "date": "2009-01-01"
+        "date": "2008-01-01"
     },
     {
-        "name": "engineering process",
+        "name": "architecture",
+        "value": 1,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2008-01-01"
+    },
+    {
+        "name": "product development",
+        "value": 1,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2008-01-01"
+    },
+    {
+        "name": "product data management",
         "value": 4,
         "change": 0,
         "posdiv": 0,
@@ -469,43 +441,8 @@
         "date": "2009-01-01"
     },
     {
-        "name": "process lifecycle",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2009-01-01"
-    },
-    {
-        "name": "software development",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2009-01-01"
-    },
-    {
-        "name": "computer aided engineering",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2009-01-01"
-    },
-    {
-        "name": "3D mockup",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2009-01-01"
-    },
-    {
-        "name": "knowledge sharing",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2009-01-01"
-    },
-    {
-        "name": "cost modeling",
-        "value": 3,
+        "name": "product design",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
         "date": "2009-01-01"
@@ -525,49 +462,70 @@
         "date": "2009-01-01"
     },
     {
-        "name": "product development",
-        "value": 96,
+        "name": "interoperability",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2010-01-01"
+        "date": "2009-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 24,
+        "name": "ontology",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2010-01-01"
+        "date": "2009-01-01"
     },
     {
-        "name": "information sharing",
-        "value": 7,
+        "name": "collaboration",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2010-01-01"
+        "date": "2009-01-01"
     },
     {
-        "name": "process planning",
-        "value": 5,
+        "name": "SYSML",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2010-01-01"
+        "date": "2009-01-01"
+    },
+    {
+        "name": "lifecycle management",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2009-01-01"
+    },
+    {
+        "name": "implementation",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2009-01-01"
+    },
+    {
+        "name": "supplier integration",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2009-01-01"
+    },
+    {
+        "name": "engineering process",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2009-01-01"
+    },
+    {
+        "name": "product data exchange",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2009-01-01"
     },
     {
         "name": "product data management",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2010-01-01"
-    },
-    {
-        "name": "software engineering",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2010-01-01"
-    },
-    {
-        "name": "service product",
         "value": 4,
         "change": 0,
         "posdiv": 0,
@@ -582,27 +540,6 @@
     },
     {
         "name": "collaborative product development",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2010-01-01"
-    },
-    {
-        "name": "global network",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2010-01-01"
-    },
-    {
-        "name": "social media",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2010-01-01"
-    },
-    {
-        "name": "design corpus",
         "value": 3,
         "change": 0,
         "posdiv": 0,
@@ -630,35 +567,70 @@
         "date": "2010-01-01"
     },
     {
-        "name": "product design",
-        "value": 78,
+        "name": "lifecycle",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2011-01-01"
+        "date": "2010-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 13,
+        "name": "manufacturing",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2011-01-01"
+        "date": "2010-01-01"
+    },
+    {
+        "name": "product lifecycle management implementation",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2010-01-01"
+    },
+    {
+        "name": "process planning",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2010-01-01"
+    },
+    {
+        "name": "design",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2010-01-01"
+    },
+    {
+        "name": "knowledge",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2010-01-01"
+    },
+    {
+        "name": "product complexity",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2010-01-01"
+    },
+    {
+        "name": "product variety",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2010-01-01"
+    },
+    {
+        "name": "process configuration",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2010-01-01"
     },
     {
         "name": "knowledge management",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2011-01-01"
-    },
-    {
-        "name": "engineering knowledge",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2011-01-01"
-    },
-    {
-        "name": "knowledge engineering",
         "value": 4,
         "change": 0,
         "posdiv": 0,
@@ -680,20 +652,6 @@
     },
     {
         "name": "sustainability",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2011-01-01"
-    },
-    {
-        "name": "model comparison",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2011-01-01"
-    },
-    {
-        "name": "data sharing",
         "value": 3,
         "change": 0,
         "posdiv": 0,
@@ -728,49 +686,63 @@
         "date": "2011-01-01"
     },
     {
-        "name": "digital manufacturing",
+        "name": "engineering change management",
         "value": 2,
         "change": 0,
         "posdiv": 0,
         "date": "2011-01-01"
     },
     {
+        "name": "semantic web",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2011-01-01"
+    },
+    {
+        "name": "pilot project",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2011-01-01"
+    },
+    {
+        "name": "product lifecycle management introduction",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2011-01-01"
+    },
+    {
+        "name": "statistical analysis",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2011-01-01"
+    },
+    {
+        "name": "user need",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2011-01-01"
+    },
+    {
+        "name": "product design",
+        "value": 1,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2011-01-01"
+    },
+    {
         "name": "product development",
-        "value": 102,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2012-01-01"
-    },
-    {
-        "name": "product lifecycle management",
-        "value": 24,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2012-01-01"
-    },
-    {
-        "name": "design reuse",
-        "value": 6,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2012-01-01"
-    },
-    {
-        "name": "data semantic",
-        "value": 5,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2012-01-01"
-    },
-    {
-        "name": "ontology",
         "value": 4,
         "change": 0,
         "posdiv": 0,
         "date": "2012-01-01"
     },
     {
-        "name": "knowledge representation and definition",
+        "name": "ontology",
         "value": 4,
         "change": 0,
         "posdiv": 0,
@@ -805,34 +777,6 @@
         "date": "2012-01-01"
     },
     {
-        "name": "model based enterprise",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2012-01-01"
-    },
-    {
-        "name": "virtual engineering",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2012-01-01"
-    },
-    {
-        "name": "engineering efficiency",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2012-01-01"
-    },
-    {
-        "name": "service business process",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2012-01-01"
-    },
-    {
         "name": "product development process",
         "value": 2,
         "change": 0,
@@ -840,18 +784,60 @@
         "date": "2012-01-01"
     },
     {
-        "name": "product design",
-        "value": 95,
+        "name": "lean product development",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2013-01-01"
+        "date": "2012-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 20,
+        "name": "system engineering",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2013-01-01"
+        "date": "2012-01-01"
+    },
+    {
+        "name": "knowledge management",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2012-01-01"
+    },
+    {
+        "name": "middle of life",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2012-01-01"
+    },
+    {
+        "name": "product structure",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2012-01-01"
+    },
+    {
+        "name": "product lifecycle management system",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2012-01-01"
+    },
+    {
+        "name": "model based system engineering",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2012-01-01"
+    },
+    {
+        "name": "product lifecycle management implementation",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2012-01-01"
     },
     {
         "name": "knowledge management",
@@ -863,20 +849,6 @@
     {
         "name": "building information modeling",
         "value": 5,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2013-01-01"
-    },
-    {
-        "name": "lifecycle design",
-        "value": 5,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2013-01-01"
-    },
-    {
-        "name": "engineering actions management system",
-        "value": 4,
         "change": 0,
         "posdiv": 0,
         "date": "2013-01-01"
@@ -924,13 +896,6 @@
         "date": "2013-01-01"
     },
     {
-        "name": "construction education",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2013-01-01"
-    },
-    {
         "name": "ontology",
         "value": 2,
         "change": 0,
@@ -945,50 +910,43 @@
         "date": "2013-01-01"
     },
     {
-        "name": "product development",
-        "value": 91,
+        "name": "supply chain",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2014-01-01"
+        "date": "2013-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 17,
+        "name": "product lifecycle management system",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2014-01-01"
+        "date": "2013-01-01"
     },
     {
-        "name": "knowledge acquisition",
-        "value": 6,
+        "name": "industrial digital mockup",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2014-01-01"
+        "date": "2013-01-01"
     },
     {
-        "name": "design intent",
-        "value": 5,
+        "name": "configuration management",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2014-01-01"
+        "date": "2013-01-01"
+    },
+    {
+        "name": "product service system",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2013-01-01"
     },
     {
         "name": "building information modeling",
         "value": 5,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2014-01-01"
-    },
-    {
-        "name": "lifecycle based requirement",
-        "value": 5,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2014-01-01"
-    },
-    {
-        "name": "information visualization",
-        "value": 4,
         "change": 0,
         "posdiv": 0,
         "date": "2014-01-01"
@@ -1022,13 +980,6 @@
         "date": "2014-01-01"
     },
     {
-        "name": "process optimization",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2014-01-01"
-    },
-    {
         "name": "sustainability",
         "value": 3,
         "change": 0,
@@ -1050,49 +1001,56 @@
         "date": "2014-01-01"
     },
     {
-        "name": "product design",
-        "value": 149,
+        "name": "lifecycle assessment",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2015-01-01"
+        "date": "2014-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 24,
+        "name": "ecodesign",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2015-01-01"
-    },
-    {
-        "name": "data model",
-        "value": 6,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2015-01-01"
-    },
-    {
-        "name": "process management",
-        "value": 6,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2015-01-01"
-    },
-    {
-        "name": "design intent",
-        "value": 5,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2015-01-01"
+        "date": "2014-01-01"
     },
     {
         "name": "product service system",
-        "value": 5,
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2015-01-01"
+        "date": "2014-01-01"
     },
     {
-        "name": "knowledge capitalization",
+        "name": "maturity model",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2014-01-01"
+    },
+    {
+        "name": "facility management",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2014-01-01"
+    },
+    {
+        "name": "knowledge",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2014-01-01"
+    },
+    {
+        "name": "data",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2014-01-01"
+    },
+    {
+        "name": "product service system",
         "value": 5,
         "change": 0,
         "posdiv": 0,
@@ -1107,27 +1065,6 @@
     },
     {
         "name": "knowledge management",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2015-01-01"
-    },
-    {
-        "name": "collaborative design",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2015-01-01"
-    },
-    {
-        "name": "construction industry",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2015-01-01"
-    },
-    {
-        "name": "lifecycle impact assessment",
         "value": 4,
         "change": 0,
         "posdiv": 0,
@@ -1155,28 +1092,70 @@
         "date": "2015-01-01"
     },
     {
-        "name": "ecosystem",
-        "value": 147,
+        "name": "additive manufacturing",
+        "value": 3,
         "change": 0,
         "posdiv": 0,
-        "date": "2016-01-01"
+        "date": "2015-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 24,
+        "name": "information system",
+        "value": 3,
         "change": 0,
         "posdiv": 0,
-        "date": "2016-01-01"
+        "date": "2015-01-01"
+    },
+    {
+        "name": "building information management",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2015-01-01"
+    },
+    {
+        "name": "ontology",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2015-01-01"
+    },
+    {
+        "name": "manufacturing execution system",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2015-01-01"
+    },
+    {
+        "name": "design rationale",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2015-01-01"
+    },
+    {
+        "name": "building information modeling",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2015-01-01"
+    },
+    {
+        "name": "collaborative design",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2015-01-01"
+    },
+    {
+        "name": "computer aided design",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2015-01-01"
     },
     {
         "name": "internet of things",
-        "value": 5,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2016-01-01"
-    },
-    {
-        "name": "design of experiment",
         "value": 5,
         "change": 0,
         "posdiv": 0,
@@ -1260,25 +1239,25 @@
         "date": "2016-01-01"
     },
     {
-        "name": "ecosystem",
-        "value": 131,
+        "name": "cloud",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2017-01-01"
+        "date": "2016-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 26,
+        "name": "performance measurement",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2017-01-01"
+        "date": "2016-01-01"
     },
     {
-        "name": "digital preservation",
-        "value": 7,
+        "name": "industry 4.0",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2017-01-01"
+        "date": "2016-01-01"
     },
     {
         "name": "industry 4.0",
@@ -1296,27 +1275,6 @@
     },
     {
         "name": "product development",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2017-01-01"
-    },
-    {
-        "name": "design automation",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2017-01-01"
-    },
-    {
-        "name": "knowledge acquisition",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2017-01-01"
-    },
-    {
-        "name": "smart assembly",
         "value": 4,
         "change": 0,
         "posdiv": 0,
@@ -1344,20 +1302,6 @@
         "date": "2017-01-01"
     },
     {
-        "name": "assembly retrieval",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2017-01-01"
-    },
-    {
-        "name": "information visualization",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2017-01-01"
-    },
-    {
         "name": "industrial digital mockup",
         "value": 3,
         "change": 0,
@@ -1365,18 +1309,60 @@
         "date": "2017-01-01"
     },
     {
-        "name": "ecosystem",
-        "value": 125,
+        "name": "product service system",
+        "value": 3,
         "change": 0,
         "posdiv": 0,
-        "date": "2018-01-01"
+        "date": "2017-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 19,
+        "name": "building information management",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2018-01-01"
+        "date": "2017-01-01"
+    },
+    {
+        "name": "design method",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2017-01-01"
+    },
+    {
+        "name": "semantic interoperability",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2017-01-01"
+    },
+    {
+        "name": "small and medium sized enterprise",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2017-01-01"
+    },
+    {
+        "name": "closed loop product lifecycle management",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2017-01-01"
+    },
+    {
+        "name": "food industry",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2017-01-01"
+    },
+    {
+        "name": "knowledge reuse",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2017-01-01"
     },
     {
         "name": "industry 4.0",
@@ -1388,13 +1374,6 @@
     {
         "name": "ontology",
         "value": 6,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2018-01-01"
-    },
-    {
-        "name": "digital twin",
-        "value": 5,
         "change": 0,
         "posdiv": 0,
         "date": "2018-01-01"
@@ -1414,21 +1393,7 @@
         "date": "2018-01-01"
     },
     {
-        "name": "process patterns",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2018-01-01"
-    },
-    {
-        "name": "smart city",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2018-01-01"
-    },
-    {
-        "name": "collaborative design",
+        "name": "digital twin",
         "value": 4,
         "change": 0,
         "posdiv": 0,
@@ -1436,13 +1401,6 @@
     },
     {
         "name": "model based system engineering",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2018-01-01"
-    },
-    {
-        "name": "lean concept",
         "value": 4,
         "change": 0,
         "posdiv": 0,
@@ -1463,25 +1421,53 @@
         "date": "2018-01-01"
     },
     {
-        "name": "design intent",
+        "name": "building information modeling",
         "value": 3,
         "change": 0,
         "posdiv": 0,
         "date": "2018-01-01"
     },
     {
-        "name": "product design",
-        "value": 77,
+        "name": "additive manufacturing",
+        "value": 3,
         "change": 0,
         "posdiv": 0,
-        "date": "2019-01-01"
+        "date": "2018-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 12,
+        "name": "graph",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2019-01-01"
+        "date": "2018-01-01"
+    },
+    {
+        "name": "cloud",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2018-01-01"
+    },
+    {
+        "name": "smart manufacturing",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2018-01-01"
+    },
+    {
+        "name": "collaborative engineering",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2018-01-01"
+    },
+    {
+        "name": "semantic interoperability",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2018-01-01"
     },
     {
         "name": "industry 4.0",
@@ -1513,13 +1499,6 @@
     },
     {
         "name": "industrial internet of things",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2019-01-01"
-    },
-    {
-        "name": "data exploitation",
         "value": 4,
         "change": 0,
         "posdiv": 0,
@@ -1561,39 +1540,39 @@
         "date": "2019-01-01"
     },
     {
-        "name": "design intent",
+        "name": "case study",
         "value": 2,
         "change": 0,
         "posdiv": 0,
         "date": "2019-01-01"
     },
     {
-        "name": "part reuse",
+        "name": "business model",
         "value": 2,
         "change": 0,
         "posdiv": 0,
         "date": "2019-01-01"
     },
     {
-        "name": "ecosystem",
-        "value": 114,
+        "name": "implementation",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2020-01-01"
+        "date": "2019-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 24,
+        "name": "project AREPRON",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2020-01-01"
+        "date": "2019-01-01"
     },
     {
-        "name": "data relevance",
-        "value": 7,
+        "name": "nonownership business model",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2020-01-01"
+        "date": "2019-01-01"
     },
     {
         "name": "digital twin",
@@ -1604,13 +1583,6 @@
     },
     {
         "name": "virtual reality",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2020-01-01"
-    },
-    {
-        "name": "building information management thinking",
         "value": 4,
         "change": 0,
         "posdiv": 0,
@@ -1659,13 +1631,6 @@
         "date": "2020-01-01"
     },
     {
-        "name": "design guideline",
-        "value": 3,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2020-01-01"
-    },
-    {
         "name": "artificial intelligence",
         "value": 3,
         "change": 0,
@@ -1680,18 +1645,39 @@
         "date": "2020-01-01"
     },
     {
-        "name": "ecosystem",
-        "value": 159,
+        "name": "knowledge management",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2021-01-01"
+        "date": "2020-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 15,
+        "name": "smart manufacturing",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2021-01-01"
+        "date": "2020-01-01"
+    },
+    {
+        "name": "internet of things",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2020-01-01"
+    },
+    {
+        "name": "lifecycle",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2020-01-01"
+    },
+    {
+        "name": "model based definition",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2020-01-01"
     },
     {
         "name": "industry 4.0",
@@ -1708,34 +1694,6 @@
         "date": "2021-01-01"
     },
     {
-        "name": "digital twin",
-        "value": 6,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2021-01-01"
-    },
-    {
-        "name": "business model",
-        "value": 6,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2021-01-01"
-    },
-    {
-        "name": "cost estimation",
-        "value": 5,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2021-01-01"
-    },
-    {
-        "name": "human robot collaboration",
-        "value": 5,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2021-01-01"
-    },
-    {
         "name": "product design",
         "value": 4,
         "change": 0,
@@ -1744,13 +1702,6 @@
     },
     {
         "name": "product development",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2021-01-01"
-    },
-    {
-        "name": "lean thinking",
         "value": 4,
         "change": 0,
         "posdiv": 0,
@@ -1771,6 +1722,13 @@
         "date": "2021-01-01"
     },
     {
+        "name": "business model",
+        "value": 4,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2021-01-01"
+    },
+    {
         "name": "blockchain",
         "value": 4,
         "change": 0,
@@ -1778,39 +1736,53 @@
         "date": "2021-01-01"
     },
     {
-        "name": "pay per output",
-        "value": 4,
+        "name": "knowledge management",
+        "value": 3,
         "change": 0,
         "posdiv": 0,
         "date": "2021-01-01"
     },
     {
-        "name": "product design",
-        "value": 123,
+        "name": "ontology",
+        "value": 3,
         "change": 0,
         "posdiv": 0,
-        "date": "2022-01-01"
+        "date": "2021-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 11,
+        "name": "supply chain",
+        "value": 3,
         "change": 0,
         "posdiv": 0,
-        "date": "2022-01-01"
+        "date": "2021-01-01"
     },
     {
-        "name": "digital twin",
-        "value": 10,
+        "name": "conceptual design",
+        "value": 3,
         "change": 0,
         "posdiv": 0,
-        "date": "2022-01-01"
+        "date": "2021-01-01"
     },
     {
-        "name": "data model",
-        "value": 8,
+        "name": "resilience",
+        "value": 3,
         "change": 0,
         "posdiv": 0,
-        "date": "2022-01-01"
+        "date": "2021-01-01"
+    },
+    {
+        "name": "TOYOTA KATA",
+        "value": 3,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2021-01-01"
+    },
+    {
+        "name": "building information management",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2021-01-01"
     },
     {
         "name": "industry 4.0",
@@ -1827,6 +1799,13 @@
         "date": "2022-01-01"
     },
     {
+        "name": "digital twin",
+        "value": 5,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2022-01-01"
+    },
+    {
         "name": "system engineering",
         "value": 4,
         "change": 0,
@@ -1834,35 +1813,14 @@
         "date": "2022-01-01"
     },
     {
-        "name": "business model",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2022-01-01"
-    },
-    {
-        "name": "human machine interaction",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2022-01-01"
-    },
-    {
-        "name": "software design",
-        "value": 4,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2022-01-01"
-    },
-    {
-        "name": "knowledge based engineering",
+        "name": "product design",
         "value": 3,
         "change": 0,
         "posdiv": 0,
         "date": "2022-01-01"
     },
     {
-        "name": "design automation",
+        "name": "knowledge based engineering",
         "value": 3,
         "change": 0,
         "posdiv": 0,
@@ -1876,39 +1834,60 @@
         "date": "2022-01-01"
     },
     {
-        "name": "knowledge transfer",
+        "name": "business model",
         "value": 3,
         "change": 0,
         "posdiv": 0,
         "date": "2022-01-01"
     },
     {
-        "name": "model lifecycle management",
-        "value": 3,
+        "name": "ontology",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
         "date": "2022-01-01"
     },
     {
-        "name": "product design",
-        "value": 27,
+        "name": "lifecycle assessment",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2023-01-01"
+        "date": "2022-01-01"
     },
     {
-        "name": "product lifecycle management",
-        "value": 12,
+        "name": "model based system engineering",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2023-01-01"
+        "date": "2022-01-01"
     },
     {
-        "name": "digital twin",
-        "value": 8,
+        "name": "virtual reality",
+        "value": 2,
         "change": 0,
         "posdiv": 0,
-        "date": "2023-01-01"
+        "date": "2022-01-01"
+    },
+    {
+        "name": "computer aided design",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2022-01-01"
+    },
+    {
+        "name": "lifecycle management",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2022-01-01"
+    },
+    {
+        "name": "pay per outcome",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2022-01-01"
     },
     {
         "name": "knowledge management",
@@ -1919,6 +1898,13 @@
     },
     {
         "name": "industry 4.0",
+        "value": 5,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2023-01-01"
+    },
+    {
+        "name": "digital twin",
         "value": 5,
         "change": 0,
         "posdiv": 0,
@@ -1953,7 +1939,28 @@
         "date": "2023-01-01"
     },
     {
+        "name": "lifecycle",
+        "value": 3,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2023-01-01"
+    },
+    {
         "name": "additive manufacturing",
+        "value": 3,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2023-01-01"
+    },
+    {
+        "name": "digital transformation",
+        "value": 3,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2023-01-01"
+    },
+    {
+        "name": "industry 5.0",
         "value": 3,
         "change": 0,
         "posdiv": 0,
@@ -1974,21 +1981,14 @@
         "date": "2023-01-01"
     },
     {
+        "name": "smart manufacturing",
+        "value": 2,
+        "change": 0,
+        "posdiv": 0,
+        "date": "2023-01-01"
+    },
+    {
         "name": "ontology",
-        "value": 2,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2023-01-01"
-    },
-    {
-        "name": "machine learning",
-        "value": 2,
-        "change": 0,
-        "posdiv": 0,
-        "date": "2023-01-01"
-    },
-    {
-        "name": "collaboration",
         "value": 2,
         "change": 0,
         "posdiv": 0,

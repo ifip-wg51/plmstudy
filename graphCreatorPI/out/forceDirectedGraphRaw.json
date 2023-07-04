@@ -3,2631 +3,2652 @@
         {
             "source": "product data management",
             "target": "architecture",
+            "weight": 2,
             "sourceID": 10,
-            "targetID": 12,
-            "weight": 2
+            "targetID": 12
         },
         {
             "source": "product data management",
             "target": "product development",
+            "weight": 3,
             "sourceID": 10,
-            "targetID": 13,
-            "weight": 3
+            "targetID": 13
         },
         {
             "source": "architecture",
             "target": "product development",
+            "weight": 2,
             "sourceID": 12,
-            "targetID": 13,
-            "weight": 2
+            "targetID": 13
         },
         {
             "source": "product development process",
             "target": "product data management",
+            "weight": 5,
             "sourceID": 14,
-            "targetID": 10,
-            "weight": 5
+            "targetID": 10
         },
         {
             "source": "smart manufacturing",
             "target": "industry 4.0",
+            "weight": 6,
             "sourceID": 42,
-            "targetID": 44,
-            "weight": 6
+            "targetID": 44
         },
         {
             "source": "smart manufacturing",
             "target": "intelligent manufacturing",
+            "weight": 2,
             "sourceID": 42,
-            "targetID": 46,
-            "weight": 2
+            "targetID": 46
         },
         {
             "source": "industry 4.0",
             "target": "smart factory",
+            "weight": 2,
             "sourceID": 44,
-            "targetID": 45,
-            "weight": 2
+            "targetID": 45
         },
         {
             "source": "industry 4.0",
             "target": "intelligent manufacturing",
+            "weight": 2,
             "sourceID": 44,
-            "targetID": 46,
-            "weight": 2
+            "targetID": 46
         },
         {
             "source": "core product model",
             "target": "open assembly model",
+            "weight": 2,
             "sourceID": 47,
-            "targetID": 48,
-            "weight": 2
+            "targetID": 48
         },
         {
             "source": "industrial internet",
             "target": "industry 4.0",
+            "weight": 2,
             "sourceID": 59,
-            "targetID": 44,
-            "weight": 2
+            "targetID": 44
         },
         {
             "source": "industrial internet",
             "target": "platform",
+            "weight": 3,
             "sourceID": 59,
-            "targetID": 60,
-            "weight": 3
+            "targetID": 60
         },
         {
             "source": "industry 4.0",
             "target": "platform",
+            "weight": 3,
             "sourceID": 44,
-            "targetID": 60,
-            "weight": 3
+            "targetID": 60
         },
         {
             "source": "semantic interoperability",
             "target": "formal model",
+            "weight": 2,
             "sourceID": 90,
-            "targetID": 91,
-            "weight": 2
+            "targetID": 91
         },
         {
             "source": "process mining",
             "target": "process patterns",
+            "weight": 2,
             "sourceID": 96,
-            "targetID": 98,
-            "weight": 2
+            "targetID": 98
         },
         {
             "source": "process mining",
             "target": "decision making",
+            "weight": 2,
             "sourceID": 96,
-            "targetID": 99,
-            "weight": 2
+            "targetID": 99
         },
         {
             "source": "process patterns",
             "target": "decision making",
+            "weight": 3,
             "sourceID": 98,
-            "targetID": 99,
-            "weight": 3
+            "targetID": 99
         },
         {
             "source": "design method",
             "target": "complex system",
+            "weight": 2,
             "sourceID": 8,
-            "targetID": 101,
-            "weight": 2
+            "targetID": 101
         },
         {
             "source": "knowledge management",
             "target": "big data",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 79,
-            "weight": 2
+            "targetID": 79
         },
         {
             "source": "knowledge management",
             "target": "small and medium sized enterprise",
+            "weight": 3,
             "sourceID": 27,
-            "targetID": 111,
-            "weight": 3
+            "targetID": 111
         },
         {
             "source": "big data",
             "target": "small and medium sized enterprise",
+            "weight": 2,
             "sourceID": 79,
-            "targetID": 111,
-            "weight": 2
+            "targetID": 111
         },
         {
             "source": "data analytics",
             "target": "small and medium sized enterprise",
+            "weight": 2,
             "sourceID": 66,
-            "targetID": 111,
-            "weight": 2
+            "targetID": 111
         },
         {
             "source": "reverse engineering",
             "target": "deep learning",
+            "weight": 2,
             "sourceID": 117,
-            "targetID": 120,
-            "weight": 2
+            "targetID": 120
         },
         {
             "source": "knowledge based engineering",
             "target": "computer vision",
+            "weight": 2,
             "sourceID": 100,
-            "targetID": 121,
-            "weight": 2
+            "targetID": 121
         },
         {
             "source": "machine learning",
             "target": "computer vision",
+            "weight": 2,
             "sourceID": 119,
-            "targetID": 121,
-            "weight": 2
+            "targetID": 121
         },
         {
             "source": "deep learning",
             "target": "computer vision",
+            "weight": 2,
             "sourceID": 120,
-            "targetID": 121,
-            "weight": 2
+            "targetID": 121
         },
         {
             "source": "closed loop product lifecycle management",
             "target": "internet of things",
+            "weight": 3,
             "sourceID": 128,
-            "targetID": 71,
-            "weight": 3
+            "targetID": 71
         },
         {
             "source": "social network",
             "target": "internet of things",
+            "weight": 2,
             "sourceID": 129,
-            "targetID": 71,
-            "weight": 2
+            "targetID": 71
         },
         {
             "source": "internet of things",
             "target": "data analytics",
+            "weight": 2,
             "sourceID": 71,
-            "targetID": 66,
-            "weight": 2
+            "targetID": 66
         },
         {
             "source": "virtual twin",
             "target": "smart product",
+            "weight": 3,
             "sourceID": 131,
-            "targetID": 132,
-            "weight": 3
+            "targetID": 132
         },
         {
             "source": "building information management",
             "target": "product structure",
+            "weight": 2,
             "sourceID": 0,
-            "targetID": 143,
-            "weight": 2
+            "targetID": 143
         },
         {
             "source": "building information management",
             "target": "bill of materials",
+            "weight": 2,
             "sourceID": 0,
-            "targetID": 144,
-            "weight": 2
+            "targetID": 144
         },
         {
             "source": "product structure",
             "target": "bill of materials",
+            "weight": 2,
             "sourceID": 143,
-            "targetID": 144,
-            "weight": 2
+            "targetID": 144
         },
         {
             "source": "bill of materials",
             "target": "construction",
+            "weight": 2,
             "sourceID": 144,
-            "targetID": 145,
-            "weight": 2
+            "targetID": 145
         },
         {
             "source": "interoperability",
             "target": "standard",
+            "weight": 4,
             "sourceID": 53,
-            "targetID": 157,
-            "weight": 4
+            "targetID": 157
         },
         {
             "source": "supply chain",
             "target": "inventory control",
+            "weight": 2,
             "sourceID": 159,
-            "targetID": 160,
-            "weight": 2
+            "targetID": 160
         },
         {
             "source": "new product development",
             "target": "food industry",
+            "weight": 2,
             "sourceID": 164,
-            "targetID": 165,
-            "weight": 2
+            "targetID": 165
         },
         {
             "source": "new product development",
             "target": "new food development",
+            "weight": 4,
             "sourceID": 164,
-            "targetID": 166,
-            "weight": 4
+            "targetID": 166
         },
         {
             "source": "new product development",
             "target": "product lifecycle management for the food industry",
+            "weight": 2,
             "sourceID": 164,
-            "targetID": 167,
-            "weight": 2
+            "targetID": 167
         },
         {
             "source": "food industry",
             "target": "new food development",
+            "weight": 2,
             "sourceID": 165,
-            "targetID": 166,
-            "weight": 2
+            "targetID": 166
         },
         {
             "source": "food industry",
             "target": "product lifecycle management for the food industry",
+            "weight": 2,
             "sourceID": 165,
-            "targetID": 167,
-            "weight": 2
+            "targetID": 167
         },
         {
             "source": "new food development",
             "target": "product lifecycle management for the food industry",
+            "weight": 2,
             "sourceID": 166,
-            "targetID": 167,
-            "weight": 2
+            "targetID": 167
         },
         {
             "source": "knowledge based engineering",
             "target": "knowledge reuse",
+            "weight": 2,
             "sourceID": 100,
-            "targetID": 177,
-            "weight": 2
+            "targetID": 177
         },
         {
             "source": "geographical information system",
             "target": "lifecycle assessment",
+            "weight": 2,
             "sourceID": 185,
-            "targetID": 186,
-            "weight": 2
+            "targetID": 186
         },
         {
             "source": "natural language text",
             "target": "sentiment analysis",
+            "weight": 2,
             "sourceID": 195,
-            "targetID": 197,
-            "weight": 2
+            "targetID": 197
         },
         {
             "source": "reconfiguration",
             "target": "smart product",
+            "weight": 2,
             "sourceID": 213,
-            "targetID": 132,
-            "weight": 2
+            "targetID": 132
         },
         {
             "source": "reconfiguration",
             "target": "virtual twin",
+            "weight": 2,
             "sourceID": 213,
-            "targetID": 131,
-            "weight": 2
+            "targetID": 131
         },
         {
             "source": "modular design",
             "target": "product configuration",
+            "weight": 2,
             "sourceID": 231,
-            "targetID": 232,
-            "weight": 2
+            "targetID": 232
         },
         {
             "source": "modular design",
             "target": "module independence",
+            "weight": 2,
             "sourceID": 231,
-            "targetID": 233,
-            "weight": 2
+            "targetID": 233
         },
         {
             "source": "product configuration",
             "target": "module independence",
+            "weight": 2,
             "sourceID": 232,
-            "targetID": 233,
-            "weight": 2
+            "targetID": 233
         },
         {
             "source": "product development",
             "target": "fashion industry",
+            "weight": 2,
             "sourceID": 13,
-            "targetID": 33,
-            "weight": 2
+            "targetID": 33
         },
         {
             "source": "internet of things",
             "target": "workshop facilitation",
+            "weight": 2,
             "sourceID": 71,
-            "targetID": 240,
-            "weight": 2
+            "targetID": 240
         },
         {
             "source": "internet of things",
             "target": "design thinking",
+            "weight": 2,
             "sourceID": 71,
-            "targetID": 242,
-            "weight": 2
+            "targetID": 242
         },
         {
             "source": "workshop facilitation",
             "target": "design thinking",
+            "weight": 2,
             "sourceID": 240,
-            "targetID": 242,
-            "weight": 2
+            "targetID": 242
         },
         {
             "source": "ontology",
             "target": "semantic interoperability",
+            "weight": 2,
             "sourceID": 64,
-            "targetID": 90,
-            "weight": 2
+            "targetID": 90
         },
         {
             "source": "internet of things",
             "target": "internet of everything",
+            "weight": 4,
             "sourceID": 71,
-            "targetID": 253,
-            "weight": 4
+            "targetID": 253
         },
         {
             "source": "internet of things",
             "target": "product development",
+            "weight": 3,
             "sourceID": 71,
-            "targetID": 13,
-            "weight": 3
+            "targetID": 13
         },
         {
             "source": "internet of things",
             "target": "digital economy",
+            "weight": 2,
             "sourceID": 71,
-            "targetID": 254,
-            "weight": 2
+            "targetID": 254
         },
         {
             "source": "internet of things",
             "target": "internet of everything platform",
+            "weight": 2,
             "sourceID": 71,
-            "targetID": 255,
-            "weight": 2
+            "targetID": 255
         },
         {
             "source": "internet of everything",
             "target": "product development",
+            "weight": 2,
             "sourceID": 253,
-            "targetID": 13,
-            "weight": 2
+            "targetID": 13
         },
         {
             "source": "internet of everything",
             "target": "digital economy",
+            "weight": 2,
             "sourceID": 253,
-            "targetID": 254,
-            "weight": 2
+            "targetID": 254
         },
         {
             "source": "internet of everything",
             "target": "internet of everything platform",
+            "weight": 2,
             "sourceID": 253,
-            "targetID": 255,
-            "weight": 2
+            "targetID": 255
         },
         {
             "source": "closed loop product lifecycle management",
             "target": "product usage information",
+            "weight": 2,
             "sourceID": 128,
-            "targetID": 257,
-            "weight": 2
+            "targetID": 257
         },
         {
             "source": "true lean",
             "target": "TOYOTA production system",
+            "weight": 2,
             "sourceID": 289,
-            "targetID": 291,
-            "weight": 2
+            "targetID": 291
         },
         {
             "source": "process patterns",
             "target": "business process",
+            "weight": 2,
             "sourceID": 98,
-            "targetID": 296,
-            "weight": 2
+            "targetID": 296
         },
         {
             "source": "decision making",
             "target": "business process",
+            "weight": 2,
             "sourceID": 99,
-            "targetID": 296,
-            "weight": 2
+            "targetID": 296
         },
         {
             "source": "cloud",
             "target": "collaborative design",
+            "weight": 2,
             "sourceID": 31,
-            "targetID": 297,
-            "weight": 2
+            "targetID": 297
         },
         {
             "source": "lean thinking",
             "target": "industry 4.0",
+            "weight": 2,
             "sourceID": 290,
-            "targetID": 44,
-            "weight": 2
+            "targetID": 44
         },
         {
             "source": "mass customization",
             "target": "modularization",
+            "weight": 2,
             "sourceID": 313,
-            "targetID": 314,
-            "weight": 2
+            "targetID": 314
         },
         {
             "source": "mass customization",
             "target": "product configurator",
+            "weight": 2,
             "sourceID": 313,
-            "targetID": 315,
-            "weight": 2
+            "targetID": 315
         },
         {
             "source": "modularization",
             "target": "product configurator",
+            "weight": 2,
             "sourceID": 314,
-            "targetID": 315,
-            "weight": 2
+            "targetID": 315
         },
         {
             "source": "design automation",
             "target": "model based system engineering",
+            "weight": 2,
             "sourceID": 176,
-            "targetID": 321,
-            "weight": 2
+            "targetID": 321
         },
         {
             "source": "design automation",
             "target": "SYSML",
+            "weight": 2,
             "sourceID": 176,
-            "targetID": 222,
-            "weight": 2
+            "targetID": 222
         },
         {
             "source": "enterprise architecture",
             "target": "ArchiMate",
+            "weight": 2,
             "sourceID": 320,
-            "targetID": 322,
-            "weight": 2
+            "targetID": 322
         },
         {
             "source": "enterprise architecture",
             "target": "SYSML",
+            "weight": 2,
             "sourceID": 320,
-            "targetID": 222,
-            "weight": 2
+            "targetID": 222
         },
         {
             "source": "model based system engineering",
             "target": "SYSML",
+            "weight": 3,
             "sourceID": 321,
-            "targetID": 222,
-            "weight": 3
+            "targetID": 222
         },
         {
             "source": "ArchiMate",
             "target": "SYSML",
+            "weight": 2,
             "sourceID": 322,
-            "targetID": 222,
-            "weight": 2
+            "targetID": 222
         },
         {
             "source": "industrial digital mockup",
             "target": "interoperability",
+            "weight": 2,
             "sourceID": 284,
-            "targetID": 53,
-            "weight": 2
+            "targetID": 53
         },
         {
             "source": "industrial digital mockup",
             "target": "collaborative engineering",
+            "weight": 2,
             "sourceID": 284,
-            "targetID": 58,
-            "weight": 2
+            "targetID": 58
         },
         {
             "source": "interoperability",
             "target": "collaborative engineering",
+            "weight": 2,
             "sourceID": 53,
-            "targetID": 58,
-            "weight": 2
+            "targetID": 58
         },
         {
             "source": "product service system",
             "target": "product service system design",
+            "weight": 2,
             "sourceID": 341,
-            "targetID": 342,
-            "weight": 2
+            "targetID": 342
         },
         {
             "source": "design for x",
             "target": "design guideline",
+            "weight": 2,
             "sourceID": 343,
-            "targetID": 345,
-            "weight": 2
+            "targetID": 345
         },
         {
             "source": "building information management",
             "target": "building lifecycle management",
+            "weight": 3,
             "sourceID": 0,
-            "targetID": 206,
-            "weight": 3
+            "targetID": 206
         },
         {
             "source": "building information management",
             "target": "architecture engineering and construction",
+            "weight": 2,
             "sourceID": 0,
-            "targetID": 347,
-            "weight": 2
+            "targetID": 347
         },
         {
             "source": "part reuse",
             "target": "part agent",
+            "weight": 2,
             "sourceID": 348,
-            "targetID": 350,
-            "weight": 2
+            "targetID": 350
         },
         {
             "source": "part agent",
             "target": "lifecycle",
+            "weight": 2,
             "sourceID": 350,
-            "targetID": 294,
-            "weight": 2
+            "targetID": 294
         },
         {
             "source": "virtual reality",
             "target": "virtual prototyping",
+            "weight": 2,
             "sourceID": 363,
-            "targetID": 364,
-            "weight": 2
+            "targetID": 364
         },
         {
             "source": "manufacturing execution system",
             "target": "information system",
+            "weight": 2,
             "sourceID": 76,
-            "targetID": 367,
-            "weight": 2
+            "targetID": 367
         },
         {
             "source": "manufacturing execution system",
             "target": "industry 4.0",
+            "weight": 3,
             "sourceID": 76,
-            "targetID": 44,
-            "weight": 3
+            "targetID": 44
         },
         {
             "source": "interoperability",
             "target": "ontology",
+            "weight": 5,
             "sourceID": 53,
-            "targetID": 64,
-            "weight": 5
+            "targetID": 64
         },
         {
             "source": "industrial internet",
             "target": "openness",
+            "weight": 2,
             "sourceID": 59,
-            "targetID": 387,
-            "weight": 2
+            "targetID": 387
         },
         {
             "source": "platform",
             "target": "openness",
+            "weight": 2,
             "sourceID": 60,
-            "targetID": 387,
-            "weight": 2
+            "targetID": 387
         },
         {
             "source": "maturity model",
             "target": "industry 4.0",
+            "weight": 4,
             "sourceID": 389,
-            "targetID": 44,
-            "weight": 4
+            "targetID": 44
         },
         {
             "source": "interoperability",
             "target": "STEP",
+            "weight": 2,
             "sourceID": 53,
-            "targetID": 393,
-            "weight": 2
+            "targetID": 393
         },
         {
             "source": "STEP",
             "target": "UML",
+            "weight": 2,
             "sourceID": 393,
-            "targetID": 395,
-            "weight": 2
+            "targetID": 395
         },
         {
             "source": "building information modeling",
             "target": "facility management",
+            "weight": 4,
             "sourceID": 216,
-            "targetID": 402,
-            "weight": 4
+            "targetID": 402
         },
         {
             "source": "machine learning",
             "target": "artificial intelligence",
+            "weight": 3,
             "sourceID": 119,
-            "targetID": 413,
-            "weight": 3
+            "targetID": 413
         },
         {
             "source": "models for manufacturing",
             "target": "model based system engineering",
+            "weight": 2,
             "sourceID": 414,
-            "targetID": 321,
-            "weight": 2
+            "targetID": 321
         },
         {
             "source": "models for manufacturing",
             "target": "ontology",
+            "weight": 4,
             "sourceID": 414,
-            "targetID": 64,
-            "weight": 4
+            "targetID": 64
         },
         {
             "source": "models for manufacturing",
             "target": "manufacturing process modelling",
+            "weight": 2,
             "sourceID": 414,
-            "targetID": 415,
-            "weight": 2
+            "targetID": 415
         },
         {
             "source": "model based system engineering",
             "target": "ontology",
+            "weight": 2,
             "sourceID": 321,
-            "targetID": 64,
-            "weight": 2
+            "targetID": 64
         },
         {
             "source": "system engineering",
             "target": "model based system engineering",
+            "weight": 4,
             "sourceID": 24,
-            "targetID": 321,
-            "weight": 4
+            "targetID": 321
         },
         {
             "source": "content management",
             "target": "creativity",
+            "weight": 2,
             "sourceID": 425,
-            "targetID": 428,
-            "weight": 2
+            "targetID": 428
         },
         {
             "source": "content management",
             "target": "knowledge management",
+            "weight": 2,
             "sourceID": 425,
-            "targetID": 27,
-            "weight": 2
+            "targetID": 27
         },
         {
             "source": "content management",
             "target": "visualization",
+            "weight": 2,
             "sourceID": 425,
-            "targetID": 429,
-            "weight": 2
+            "targetID": 429
         },
         {
             "source": "ideation",
             "target": "graph",
+            "weight": 2,
             "sourceID": 427,
-            "targetID": 19,
-            "weight": 2
+            "targetID": 19
         },
         {
             "source": "creativity",
             "target": "knowledge management",
+            "weight": 2,
             "sourceID": 428,
-            "targetID": 27,
-            "weight": 2
+            "targetID": 27
         },
         {
             "source": "creativity",
             "target": "visualization",
+            "weight": 2,
             "sourceID": 428,
-            "targetID": 429,
-            "weight": 2
+            "targetID": 429
         },
         {
             "source": "knowledge management",
             "target": "visualization",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 429,
-            "weight": 2
+            "targetID": 429
         },
         {
             "source": "augmented reality",
             "target": "industry 4.0",
+            "weight": 3,
             "sourceID": 437,
-            "targetID": 44,
-            "weight": 3
+            "targetID": 44
         },
         {
             "source": "information system",
             "target": "business process",
+            "weight": 3,
             "sourceID": 367,
-            "targetID": 296,
-            "weight": 3
+            "targetID": 296
         },
         {
             "source": "semantic interoperability",
             "target": "multiple domain",
+            "weight": 3,
             "sourceID": 90,
-            "targetID": 454,
-            "weight": 3
+            "targetID": 454
         },
         {
             "source": "semantic interoperability",
             "target": "reference ontology",
+            "weight": 2,
             "sourceID": 90,
-            "targetID": 456,
-            "weight": 2
+            "targetID": 456
         },
         {
             "source": "knowledge management",
             "target": "graph theory",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 459,
-            "weight": 2
+            "targetID": 459
         },
         {
             "source": "information management",
             "target": "interoperability",
+            "weight": 2,
             "sourceID": 373,
-            "targetID": 53,
-            "weight": 2
+            "targetID": 53
         },
         {
             "source": "digitalization",
             "target": "industry 4.0",
+            "weight": 5,
             "sourceID": 465,
-            "targetID": 44,
-            "weight": 5
+            "targetID": 44
         },
         {
             "source": "digitalization",
             "target": "smart manufacturing",
+            "weight": 2,
             "sourceID": 465,
-            "targetID": 42,
-            "weight": 2
+            "targetID": 42
         },
         {
             "source": "small and medium sized enterprise",
             "target": "industry 4.0",
+            "weight": 4,
             "sourceID": 111,
-            "targetID": 44,
-            "weight": 4
+            "targetID": 44
         },
         {
             "source": "semantic interoperability",
             "target": "semantic rules",
+            "weight": 2,
             "sourceID": 90,
-            "targetID": 468,
-            "weight": 2
+            "targetID": 468
         },
         {
             "source": "semantic interoperability",
             "target": "product design and manufacturing",
+            "weight": 2,
             "sourceID": 90,
-            "targetID": 469,
-            "weight": 2
+            "targetID": 469
         },
         {
             "source": "multiple domain",
             "target": "product design and manufacturing",
+            "weight": 2,
             "sourceID": 454,
-            "targetID": 469,
-            "weight": 2
+            "targetID": 469
         },
         {
             "source": "smart city",
             "target": "internet of things",
+            "weight": 2,
             "sourceID": 142,
-            "targetID": 71,
-            "weight": 2
+            "targetID": 71
         },
         {
             "source": "industry 4.0",
             "target": "industrial internet of things",
+            "weight": 7,
             "sourceID": 44,
-            "targetID": 483,
-            "weight": 7
+            "targetID": 483
         },
         {
             "source": "industry 4.0",
             "target": "business model",
+            "weight": 5,
             "sourceID": 44,
-            "targetID": 484,
-            "weight": 5
+            "targetID": 484
         },
         {
             "source": "industrial internet of things",
             "target": "business model",
+            "weight": 6,
             "sourceID": 483,
-            "targetID": 484,
-            "weight": 6
+            "targetID": 484
         },
         {
             "source": "business model",
             "target": "pay per use",
+            "weight": 3,
             "sourceID": 484,
-            "targetID": 485,
-            "weight": 3
+            "targetID": 485
         },
         {
             "source": "business model",
             "target": "pay per outcome",
+            "weight": 5,
             "sourceID": 484,
-            "targetID": 486,
-            "weight": 5
+            "targetID": 486
         },
         {
             "source": "pay per use",
             "target": "pay per outcome",
+            "weight": 3,
             "sourceID": 485,
-            "targetID": 486,
-            "weight": 3
+            "targetID": 486
         },
         {
             "source": "digital twin",
             "target": "industry 4.0",
+            "weight": 5,
             "sourceID": 267,
-            "targetID": 44,
-            "weight": 5
+            "targetID": 44
         },
         {
             "source": "additive manufacturing technology",
             "target": "product lifecycle",
+            "weight": 2,
             "sourceID": 507,
-            "targetID": 508,
-            "weight": 2
+            "targetID": 508
         },
         {
             "source": "additive manufacturing technology",
             "target": "design intent",
+            "weight": 2,
             "sourceID": 507,
-            "targetID": 178,
-            "weight": 2
+            "targetID": 178
         },
         {
             "source": "product lifecycle",
             "target": "design intent",
+            "weight": 3,
             "sourceID": 508,
-            "targetID": 178,
-            "weight": 3
+            "targetID": 178
         },
         {
             "source": "change management",
             "target": "business process",
+            "weight": 2,
             "sourceID": 510,
-            "targetID": 296,
-            "weight": 2
+            "targetID": 296
         },
         {
             "source": "product lifecycle management tool",
             "target": "collaborative engineering",
+            "weight": 2,
             "sourceID": 300,
-            "targetID": 58,
-            "weight": 2
+            "targetID": 58
         },
         {
             "source": "education",
             "target": "industry 4.0",
+            "weight": 3,
             "sourceID": 225,
-            "targetID": 44,
-            "weight": 3
+            "targetID": 44
         },
         {
             "source": "food sector",
             "target": "new product development",
+            "weight": 2,
             "sourceID": 512,
-            "targetID": 164,
-            "weight": 2
+            "targetID": 164
         },
         {
             "source": "innovation process",
             "target": "new product development",
+            "weight": 2,
             "sourceID": 426,
-            "targetID": 164,
-            "weight": 2
+            "targetID": 164
         },
         {
             "source": "product lifecycle management adaptation",
             "target": "product lifecycle management customizing",
+            "weight": 2,
             "sourceID": 523,
-            "targetID": 244,
-            "weight": 2
+            "targetID": 244
         },
         {
             "source": "product lifecycle management adaptation",
             "target": "product lifecycle management realization",
+            "weight": 2,
             "sourceID": 523,
-            "targetID": 524,
-            "weight": 2
+            "targetID": 524
         },
         {
             "source": "product lifecycle management adaptation",
             "target": "product lifecycle management change management",
+            "weight": 2,
             "sourceID": 523,
-            "targetID": 525,
-            "weight": 2
+            "targetID": 525
         },
         {
             "source": "predictive maintenance",
             "target": "internet of things",
+            "weight": 2,
             "sourceID": 529,
-            "targetID": 71,
-            "weight": 2
+            "targetID": 71
         },
         {
             "source": "product service system",
             "target": "case study",
+            "weight": 2,
             "sourceID": 341,
-            "targetID": 356,
-            "weight": 2
+            "targetID": 356
         },
         {
             "source": "small and medium sized enterprise",
             "target": "implementation",
+            "weight": 2,
             "sourceID": 111,
-            "targetID": 534,
-            "weight": 2
+            "targetID": 534
         },
         {
             "source": "additive manufacturing",
             "target": "sustainability",
+            "weight": 2,
             "sourceID": 298,
-            "targetID": 535,
-            "weight": 2
+            "targetID": 535
         },
         {
             "source": "internet of things",
             "target": "industry 4.0",
+            "weight": 7,
             "sourceID": 71,
-            "targetID": 44,
-            "weight": 7
+            "targetID": 44
         },
         {
             "source": "computer aided design",
             "target": "industry foundation class",
+            "weight": 2,
             "sourceID": 377,
-            "targetID": 556,
-            "weight": 2
+            "targetID": 556
         },
         {
             "source": "knowledge management",
             "target": "ontology",
+            "weight": 5,
             "sourceID": 27,
-            "targetID": 64,
-            "weight": 5
+            "targetID": 64
         },
         {
             "source": "coalition",
             "target": "robot",
+            "weight": 2,
             "sourceID": 567,
-            "targetID": 568,
-            "weight": 2
+            "targetID": 568
         },
         {
             "source": "coalition",
             "target": "smart contract",
+            "weight": 2,
             "sourceID": 567,
-            "targetID": 570,
-            "weight": 2
+            "targetID": 570
         },
         {
             "source": "robot",
             "target": "smart contract",
+            "weight": 2,
             "sourceID": 568,
-            "targetID": 570,
-            "weight": 2
+            "targetID": 570
         },
         {
             "source": "blockchain",
             "target": "smart contract",
+            "weight": 2,
             "sourceID": 569,
-            "targetID": 570,
-            "weight": 2
+            "targetID": 570
         },
         {
             "source": "smart manufacturing",
             "target": "industrial internet of things",
+            "weight": 2,
             "sourceID": 42,
-            "targetID": 483,
-            "weight": 2
+            "targetID": 483
         },
         {
             "source": "industrial internet of things",
             "target": "internet of things",
+            "weight": 5,
             "sourceID": 483,
-            "targetID": 71,
-            "weight": 5
+            "targetID": 71
         },
         {
             "source": "artificial intelligence",
             "target": "computer vision",
+            "weight": 2,
             "sourceID": 413,
-            "targetID": 121,
-            "weight": 2
+            "targetID": 121
         },
         {
             "source": "models for manufacturing",
             "target": "3 layer model",
+            "weight": 2,
             "sourceID": 414,
-            "targetID": 577,
-            "weight": 2
+            "targetID": 577
         },
         {
             "source": "ontology",
             "target": "3 layer model",
+            "weight": 2,
             "sourceID": 64,
-            "targetID": 577,
-            "weight": 2
+            "targetID": 577
         },
         {
             "source": "conceptual design",
             "target": "behaviour",
+            "weight": 2,
             "sourceID": 396,
-            "targetID": 582,
-            "weight": 2
+            "targetID": 582
         },
         {
             "source": "conceptual design",
             "target": "causal",
+            "weight": 2,
             "sourceID": 396,
-            "targetID": 435,
-            "weight": 2
+            "targetID": 435
         },
         {
             "source": "behaviour",
             "target": "causal",
+            "weight": 2,
             "sourceID": 582,
-            "targetID": 435,
-            "weight": 2
+            "targetID": 435
         },
         {
             "source": "models for manufacturing",
             "target": "semantic rules",
+            "weight": 2,
             "sourceID": 414,
-            "targetID": 468,
-            "weight": 2
+            "targetID": 468
         },
         {
             "source": "sustainable manufacturing",
             "target": "product recovery",
+            "weight": 2,
             "sourceID": 292,
-            "targetID": 591,
-            "weight": 2
+            "targetID": 591
         },
         {
             "source": "sustainable manufacturing",
             "target": "disassembly",
+            "weight": 2,
             "sourceID": 292,
-            "targetID": 592,
-            "weight": 2
+            "targetID": 592
         },
         {
             "source": "product recovery",
             "target": "disassembly",
+            "weight": 2,
             "sourceID": 591,
-            "targetID": 592,
-            "weight": 2
+            "targetID": 592
         },
         {
             "source": "product recovery",
             "target": "decision support system",
+            "weight": 2,
             "sourceID": 591,
-            "targetID": 594,
-            "weight": 2
+            "targetID": 594
         },
         {
             "source": "design rule",
             "target": "knowledge management",
+            "weight": 2,
             "sourceID": 600,
-            "targetID": 27,
-            "weight": 2
+            "targetID": 27
         },
         {
             "source": "design rule",
             "target": "context awareness",
+            "weight": 2,
             "sourceID": 600,
-            "targetID": 602,
-            "weight": 2
+            "targetID": 602
         },
         {
             "source": "design rule",
             "target": "cognitive assistant",
+            "weight": 2,
             "sourceID": 600,
-            "targetID": 603,
-            "weight": 2
+            "targetID": 603
         },
         {
             "source": "knowledge management",
             "target": "context awareness",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 602,
-            "weight": 2
+            "targetID": 602
         },
         {
             "source": "knowledge management",
             "target": "cognitive assistant",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 603,
-            "weight": 2
+            "targetID": 603
         },
         {
             "source": "context awareness",
             "target": "cognitive assistant",
+            "weight": 2,
             "sourceID": 602,
-            "targetID": 603,
-            "weight": 2
+            "targetID": 603
         },
         {
             "source": "industry 4.0",
             "target": "lean",
+            "weight": 2,
             "sourceID": 44,
-            "targetID": 604,
-            "weight": 2
+            "targetID": 604
         },
         {
             "source": "industry 4.0",
             "target": "project AREPRON",
+            "weight": 2,
             "sourceID": 44,
-            "targetID": 613,
-            "weight": 2
+            "targetID": 613
         },
         {
             "source": "digitalization",
             "target": "project AREPRON",
+            "weight": 2,
             "sourceID": 465,
-            "targetID": 613,
-            "weight": 2
+            "targetID": 613
         },
         {
             "source": "ergonomic",
             "target": "usability",
+            "weight": 2,
             "sourceID": 7,
-            "targetID": 628,
-            "weight": 2
+            "targetID": 628
         },
         {
             "source": "industry 4.0",
             "target": "nonownership business model",
+            "weight": 2,
             "sourceID": 44,
-            "targetID": 631,
-            "weight": 2
+            "targetID": 631
         },
         {
             "source": "business model",
             "target": "nonownership business model",
+            "weight": 2,
             "sourceID": 484,
-            "targetID": 631,
-            "weight": 2
+            "targetID": 631
         },
         {
             "source": "business model",
             "target": "pay per output",
+            "weight": 4,
             "sourceID": 484,
-            "targetID": 632,
-            "weight": 4
+            "targetID": 632
         },
         {
             "source": "business model",
             "target": "small and medium sized enterprise",
+            "weight": 2,
             "sourceID": 484,
-            "targetID": 111,
-            "weight": 2
+            "targetID": 111
         },
         {
             "source": "nonownership business model",
             "target": "industrial internet of things",
+            "weight": 3,
             "sourceID": 631,
-            "targetID": 483,
-            "weight": 3
+            "targetID": 483
         },
         {
             "source": "industry 4.0",
             "target": "knowledge management",
+            "weight": 2,
             "sourceID": 44,
-            "targetID": 27,
-            "weight": 2
+            "targetID": 27
         },
         {
             "source": "industry 4.0",
             "target": "assessment",
+            "weight": 2,
             "sourceID": 44,
-            "targetID": 580,
-            "weight": 2
+            "targetID": 580
         },
         {
             "source": "digitalization",
             "target": "maturity model",
+            "weight": 2,
             "sourceID": 465,
-            "targetID": 389,
-            "weight": 2
+            "targetID": 389
         },
         {
             "source": "digital twin",
             "target": "cyber physical system",
+            "weight": 2,
             "sourceID": 267,
-            "targetID": 170,
-            "weight": 2
+            "targetID": 170
         },
         {
             "source": "business model",
             "target": "internet of things",
+            "weight": 3,
             "sourceID": 484,
-            "targetID": 71,
-            "weight": 3
+            "targetID": 71
         },
         {
             "source": "data analytics",
             "target": "machine learning",
+            "weight": 2,
             "sourceID": 66,
-            "targetID": 119,
-            "weight": 2
+            "targetID": 119
         },
         {
             "source": "product data management",
             "target": "virtual reality",
+            "weight": 3,
             "sourceID": 10,
-            "targetID": 363,
-            "weight": 3
+            "targetID": 363
         },
         {
             "source": "product data management",
             "target": "design",
+            "weight": 2,
             "sourceID": 10,
-            "targetID": 687,
-            "weight": 2
+            "targetID": 687
         },
         {
             "source": "collaboration",
             "target": "small and medium sized enterprise",
+            "weight": 2,
             "sourceID": 154,
-            "targetID": 111,
-            "weight": 2
+            "targetID": 111
         },
         {
             "source": "blockchain",
             "target": "supply chain management",
+            "weight": 2,
             "sourceID": 569,
-            "targetID": 708,
-            "weight": 2
+            "targetID": 708
         },
         {
             "source": "industrial internet of things",
             "target": "pay per X",
+            "weight": 2,
             "sourceID": 483,
-            "targetID": 730,
-            "weight": 2
+            "targetID": 730
         },
         {
             "source": "industrial internet of things",
             "target": "rapid sales growth",
+            "weight": 2,
             "sourceID": 483,
-            "targetID": 731,
-            "weight": 2
+            "targetID": 731
         },
         {
             "source": "industrial internet of things",
             "target": "profitability",
+            "weight": 2,
             "sourceID": 483,
-            "targetID": 732,
-            "weight": 2
+            "targetID": 732
         },
         {
             "source": "business model",
             "target": "pay per X",
+            "weight": 4,
             "sourceID": 484,
-            "targetID": 730,
-            "weight": 4
+            "targetID": 730
         },
         {
             "source": "enterprise resource planning",
             "target": "manufacturing execution system",
+            "weight": 2,
             "sourceID": 768,
-            "targetID": 76,
-            "weight": 2
+            "targetID": 76
         },
         {
             "source": "maturity model",
             "target": "benchmark",
+            "weight": 3,
             "sourceID": 389,
-            "targetID": 777,
-            "weight": 3
+            "targetID": 777
         },
         {
             "source": "knowledge graph",
             "target": "knowledge management",
+            "weight": 2,
             "sourceID": 778,
-            "targetID": 27,
-            "weight": 2
+            "targetID": 27
         },
         {
             "source": "interoperability",
             "target": "virtual reality",
+            "weight": 2,
             "sourceID": 53,
-            "targetID": 363,
-            "weight": 2
+            "targetID": 363
         },
         {
             "source": "model based system engineering ",
             "target": "conceptual design",
+            "weight": 2,
             "sourceID": 786,
-            "targetID": 396,
-            "weight": 2
+            "targetID": 396
         },
         {
             "source": "model based system engineering ",
             "target": "ontology",
+            "weight": 2,
             "sourceID": 786,
-            "targetID": 64,
-            "weight": 2
+            "targetID": 64
         },
         {
             "source": "digital twin",
             "target": "virtual reality",
+            "weight": 2,
             "sourceID": 267,
-            "targetID": 363,
-            "weight": 2
+            "targetID": 363
         },
         {
             "source": "machine learning",
             "target": "industry 4.0",
+            "weight": 2,
             "sourceID": 119,
-            "targetID": 44,
-            "weight": 2
+            "targetID": 44
         },
         {
             "source": "interoperability",
             "target": "industry 4.0",
+            "weight": 2,
             "sourceID": 53,
-            "targetID": 44,
-            "weight": 2
+            "targetID": 44
         },
         {
             "source": "industry 4.0",
             "target": "artificial intelligence",
+            "weight": 2,
             "sourceID": 44,
-            "targetID": 413,
-            "weight": 2
+            "targetID": 413
         },
         {
             "source": "knowledge based system",
             "target": "models for manufacturing",
+            "weight": 2,
             "sourceID": 805,
-            "targetID": 414,
-            "weight": 2
+            "targetID": 414
         },
         {
             "source": "obsolescence",
             "target": "conceptual design",
+            "weight": 2,
             "sourceID": 806,
-            "targetID": 396,
-            "weight": 2
+            "targetID": 396
         },
         {
             "source": "additive manufacturing",
             "target": "3D printing",
+            "weight": 2,
             "sourceID": 298,
-            "targetID": 654,
-            "weight": 2
+            "targetID": 654
         },
         {
             "source": "model based definition",
             "target": "model based enterprise",
+            "weight": 4,
             "sourceID": 301,
-            "targetID": 811,
-            "weight": 4
+            "targetID": 811
         },
         {
             "source": "model based definition",
             "target": "model based engineering",
+            "weight": 2,
             "sourceID": 301,
-            "targetID": 812,
-            "weight": 2
+            "targetID": 812
         },
         {
             "source": "model based definition",
             "target": "ecosystem",
+            "weight": 2,
             "sourceID": 301,
-            "targetID": 1,
-            "weight": 2
+            "targetID": 1
         },
         {
             "source": "model based definition",
             "target": "manufacturing ecosystem",
+            "weight": 2,
             "sourceID": 301,
-            "targetID": 813,
-            "weight": 2
+            "targetID": 813
         },
         {
             "source": "model based definition",
             "target": "product manufacturing information",
+            "weight": 2,
             "sourceID": 301,
-            "targetID": 814,
-            "weight": 2
+            "targetID": 814
         },
         {
             "source": "geographical information system",
             "target": "integration",
+            "weight": 2,
             "sourceID": 185,
-            "targetID": 266,
-            "weight": 2
+            "targetID": 266
         },
         {
             "source": "digital supply chain",
             "target": "sustainability",
+            "weight": 2,
             "sourceID": 849,
-            "targetID": 535,
-            "weight": 2
+            "targetID": 535
         },
         {
             "source": "digital supply chain",
             "target": "resilience",
+            "weight": 2,
             "sourceID": 849,
-            "targetID": 851,
-            "weight": 2
+            "targetID": 851
         },
         {
             "source": "sustainability",
             "target": "resilience",
+            "weight": 3,
             "sourceID": 535,
-            "targetID": 851,
-            "weight": 3
+            "targetID": 851
         },
         {
             "source": "maturity model",
             "target": "manufacturing",
+            "weight": 2,
             "sourceID": 389,
-            "targetID": 299,
-            "weight": 2
+            "targetID": 299
         },
         {
             "source": "supply chain",
             "target": "blockchain",
+            "weight": 4,
             "sourceID": 159,
-            "targetID": 569,
-            "weight": 4
+            "targetID": 569
         },
         {
             "source": "new product development",
             "target": "knowledge management",
+            "weight": 2,
             "sourceID": 164,
-            "targetID": 27,
-            "weight": 2
+            "targetID": 27
         },
         {
             "source": "product development",
             "target": "conceptual design",
+            "weight": 2,
             "sourceID": 13,
-            "targetID": 396,
-            "weight": 2
+            "targetID": 396
         },
         {
             "source": "lean",
             "target": "TOYOTA KATA",
+            "weight": 2,
             "sourceID": 604,
-            "targetID": 881,
-            "weight": 2
+            "targetID": 881
         },
         {
             "source": "user experience",
             "target": "human computer interaction",
+            "weight": 2,
             "sourceID": 889,
-            "targetID": 890,
-            "weight": 2
+            "targetID": 890
         },
         {
             "source": "user experience",
             "target": "human PLM interaction",
+            "weight": 2,
             "sourceID": 889,
-            "targetID": 891,
-            "weight": 2
+            "targetID": 891
         },
         {
             "source": "user experience",
             "target": "human centricity",
+            "weight": 2,
             "sourceID": 889,
-            "targetID": 892,
-            "weight": 2
+            "targetID": 892
         },
         {
             "source": "industry 4.0",
             "target": "manufacturing",
+            "weight": 2,
             "sourceID": 44,
-            "targetID": 299,
-            "weight": 2
+            "targetID": 299
         },
         {
             "source": "pay per X",
             "target": "pay per output",
+            "weight": 3,
             "sourceID": 730,
-            "targetID": 632,
-            "weight": 3
+            "targetID": 632
         },
         {
             "source": "pay per X",
             "target": "pay per outcome",
+            "weight": 3,
             "sourceID": 730,
-            "targetID": 486,
-            "weight": 3
+            "targetID": 486
         },
         {
             "source": "pay per output",
             "target": "pay per outcome",
+            "weight": 3,
             "sourceID": 632,
-            "targetID": 486,
-            "weight": 3
+            "targetID": 486
         },
         {
             "source": "blockchain",
             "target": "HYPERLEDGER fabric",
+            "weight": 2,
             "sourceID": 569,
-            "targetID": 921,
-            "weight": 2
+            "targetID": 921
         },
         {
             "source": "ontology",
             "target": "semantic",
+            "weight": 2,
             "sourceID": 64,
-            "targetID": 929,
-            "weight": 2
+            "targetID": 929
         },
         {
             "source": "interoperability",
             "target": "product lifecycle",
+            "weight": 2,
             "sourceID": 53,
-            "targetID": 508,
-            "weight": 2
+            "targetID": 508
         },
         {
             "source": "standard",
             "target": "product lifecycle",
+            "weight": 2,
             "sourceID": 157,
-            "targetID": 508,
-            "weight": 2
+            "targetID": 508
         },
         {
             "source": "pay per X",
             "target": "pay per use",
+            "weight": 2,
             "sourceID": 730,
-            "targetID": 485,
-            "weight": 2
+            "targetID": 485
         },
         {
             "source": "pay per use",
             "target": "pay per output",
+            "weight": 2,
             "sourceID": 485,
-            "targetID": 632,
-            "weight": 2
+            "targetID": 632
+        },
+        {
+            "source": "models for manufacturing",
+            "target": "ontology based engineering",
+            "weight": 2,
+            "sourceID": 414,
+            "targetID": 968
         },
         {
             "source": "knowledge management",
             "target": "knowledge transfer",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 970,
-            "weight": 2
+            "targetID": 970
         },
         {
             "source": "knowledge management",
             "target": "knowledge reuse",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 177,
-            "weight": 2
+            "targetID": 177
         },
         {
             "source": "knowledge management",
             "target": "computer aided design",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 377,
-            "weight": 2
+            "targetID": 377
         },
         {
             "source": "knowledge management",
             "target": "concurrent engineering",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 399,
-            "weight": 2
+            "targetID": 399
         },
         {
             "source": "knowledge transfer",
             "target": "knowledge reuse",
+            "weight": 2,
             "sourceID": 970,
-            "targetID": 177,
-            "weight": 2
+            "targetID": 177
         },
         {
             "source": "knowledge transfer",
             "target": "computer aided design",
+            "weight": 2,
             "sourceID": 970,
-            "targetID": 377,
-            "weight": 2
+            "targetID": 377
         },
         {
             "source": "knowledge reuse",
             "target": "computer aided design",
+            "weight": 2,
             "sourceID": 177,
-            "targetID": 377,
-            "weight": 2
+            "targetID": 377
         },
         {
             "source": "digital twin",
             "target": "product development",
+            "weight": 2,
             "sourceID": 267,
-            "targetID": 13,
-            "weight": 2
+            "targetID": 13
         },
         {
             "source": "product design",
             "target": "ontology",
+            "weight": 2,
             "sourceID": 6,
-            "targetID": 64,
-            "weight": 2
+            "targetID": 64
         },
         {
             "source": "****",
             "target": "model based system engineering ",
+            "weight": 2,
             "sourceID": 996,
-            "targetID": 786,
-            "weight": 2
+            "targetID": 786
         },
         {
             "source": "system lifecycle management",
             "target": "model based system engineering",
+            "weight": 2,
             "sourceID": 330,
-            "targetID": 321,
-            "weight": 2
+            "targetID": 321
+        },
+        {
+            "source": "models for manufacturing",
+            "target": "model lifecycle management",
+            "weight": 2,
+            "sourceID": 414,
+            "targetID": 1005
         },
         {
             "source": "configuration rule",
             "target": "visualization",
+            "weight": 2,
             "sourceID": 1008,
-            "targetID": 429,
-            "weight": 2
+            "targetID": 429
         },
         {
             "source": "knowledge management",
             "target": "knowledge based engineering",
+            "weight": 4,
             "sourceID": 27,
-            "targetID": 100,
-            "weight": 4
+            "targetID": 100
         },
         {
             "source": "virtual reality",
             "target": "computer aided design",
+            "weight": 2,
             "sourceID": 363,
-            "targetID": 377,
-            "weight": 2
+            "targetID": 377
         },
         {
             "source": "model based design",
             "target": "cyber physical system",
+            "weight": 2,
             "sourceID": 1092,
-            "targetID": 170,
-            "weight": 2
+            "targetID": 170
         },
         {
             "source": "model based design",
             "target": "digital innovation hub",
+            "weight": 2,
             "sourceID": 1092,
-            "targetID": 1094,
-            "weight": 2
+            "targetID": 1094
         },
         {
             "source": "cyber physical system",
             "target": "digital innovation hub",
+            "weight": 2,
             "sourceID": 170,
-            "targetID": 1094,
-            "weight": 2
+            "targetID": 1094
         },
         {
             "source": "system engineering",
             "target": "digital engineering",
+            "weight": 2,
             "sourceID": 24,
-            "targetID": 1099,
-            "weight": 2
+            "targetID": 1099
         },
         {
             "source": "manufacturing bill of materials",
             "target": "engineering bill of materials",
+            "weight": 2,
             "sourceID": 1125,
-            "targetID": 1126,
-            "weight": 2
+            "targetID": 1126
         },
         {
             "source": "collaboration",
             "target": "knowledge exchange",
+            "weight": 2,
             "sourceID": 154,
-            "targetID": 1155,
-            "weight": 2
+            "targetID": 1155
         },
         {
             "source": "collaboration",
             "target": "open innovation",
+            "weight": 2,
             "sourceID": 154,
-            "targetID": 1156,
-            "weight": 2
+            "targetID": 1156
         },
         {
             "source": "knowledge exchange",
             "target": "open innovation",
+            "weight": 2,
             "sourceID": 1155,
-            "targetID": 1156,
-            "weight": 2
+            "targetID": 1156
         },
         {
             "source": "ecodesign",
             "target": "environmental impact assessment",
+            "weight": 2,
             "sourceID": 274,
-            "targetID": 1171,
-            "weight": 2
+            "targetID": 1171
         },
         {
             "source": "ecodesign",
             "target": "lifecycle thinking",
+            "weight": 3,
             "sourceID": 274,
-            "targetID": 1172,
-            "weight": 3
+            "targetID": 1172
         },
         {
             "source": "environmental impact assessment",
             "target": "lifecycle assessment",
+            "weight": 3,
             "sourceID": 1171,
-            "targetID": 186,
-            "weight": 3
+            "targetID": 186
         },
         {
             "source": "lifecycle assessment",
             "target": "sustainable development",
+            "weight": 3,
             "sourceID": 186,
-            "targetID": 471,
-            "weight": 3
+            "targetID": 471
         },
         {
             "source": "digital mockup",
             "target": "extended enterprise",
+            "weight": 2,
             "sourceID": 473,
-            "targetID": 366,
-            "weight": 2
+            "targetID": 366
         },
         {
             "source": "digital mockup",
             "target": "product data management",
+            "weight": 2,
             "sourceID": 473,
-            "targetID": 10,
-            "weight": 2
+            "targetID": 10
         },
         {
             "source": "data exchange",
             "target": "interoperability",
+            "weight": 3,
             "sourceID": 565,
-            "targetID": 53,
-            "weight": 3
+            "targetID": 53
         },
         {
             "source": "data exchange",
             "target": "standard",
+            "weight": 2,
             "sourceID": 565,
-            "targetID": 157,
-            "weight": 2
+            "targetID": 157
         },
         {
             "source": "supply chain management",
             "target": "customer relationship management",
+            "weight": 2,
             "sourceID": 708,
-            "targetID": 1185,
-            "weight": 2
+            "targetID": 1185
         },
         {
             "source": "collaborative design",
             "target": "integrated model",
+            "weight": 2,
             "sourceID": 297,
-            "targetID": 1192,
-            "weight": 2
+            "targetID": 1192
         },
         {
             "source": "collaborative design",
             "target": "interoperability",
+            "weight": 2,
             "sourceID": 297,
-            "targetID": 53,
-            "weight": 2
+            "targetID": 53
         },
         {
             "source": "collaborative design",
             "target": "product process organization model",
+            "weight": 2,
             "sourceID": 297,
-            "targetID": 1194,
-            "weight": 2
+            "targetID": 1194
         },
         {
             "source": "integrated model",
             "target": "product process organization model",
+            "weight": 2,
             "sourceID": 1192,
-            "targetID": 1194,
-            "weight": 2
+            "targetID": 1194
         },
         {
             "source": "knowledge engineering",
             "target": "knowledge management",
+            "weight": 2,
             "sourceID": 1195,
-            "targetID": 27,
-            "weight": 2
+            "targetID": 27
         },
         {
             "source": "knowledge management",
             "target": "traceability",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 138,
-            "weight": 2
+            "targetID": 138
         },
         {
             "source": "competitive differentiation",
             "target": "innovation",
+            "weight": 2,
             "sourceID": 1214,
-            "targetID": 110,
-            "weight": 2
+            "targetID": 110
         },
         {
             "source": "description logic",
             "target": "ontology",
+            "weight": 2,
             "sourceID": 1226,
-            "targetID": 64,
-            "weight": 2
+            "targetID": 64
         },
         {
             "source": "description logic",
             "target": "SWRL",
+            "weight": 2,
             "sourceID": 1226,
-            "targetID": 1229,
-            "weight": 2
+            "targetID": 1229
         },
         {
             "source": "ontology",
             "target": "SWRL",
+            "weight": 2,
             "sourceID": 64,
-            "targetID": 1229,
-            "weight": 2
+            "targetID": 1229
         },
         {
             "source": "process lifecycle",
             "target": "product lifecycle",
+            "weight": 2,
             "sourceID": 1268,
-            "targetID": 508,
-            "weight": 2
+            "targetID": 508
         },
         {
             "source": "standard",
             "target": "STEP",
+            "weight": 2,
             "sourceID": 157,
-            "targetID": 393,
-            "weight": 2
+            "targetID": 393
         },
         {
             "source": "closed loop product lifecycle management",
             "target": "product lifecycle",
+            "weight": 2,
             "sourceID": 128,
-            "targetID": 508,
-            "weight": 2
+            "targetID": 508
         },
         {
             "source": "lifecycle assessment",
             "target": "lifecycle impact assessment",
+            "weight": 2,
             "sourceID": 186,
-            "targetID": 1275,
-            "weight": 2
+            "targetID": 1275
         },
         {
             "source": "lifecycle assessment",
             "target": "printed circuit board",
+            "weight": 2,
             "sourceID": 186,
-            "targetID": 1277,
-            "weight": 2
+            "targetID": 1277
         },
         {
             "source": "lifecycle assessment",
             "target": "product lifecycle",
+            "weight": 2,
             "sourceID": 186,
-            "targetID": 508,
-            "weight": 2
+            "targetID": 508
         },
         {
             "source": "lifecycle impact assessment",
             "target": "printed circuit board",
+            "weight": 2,
             "sourceID": 1275,
-            "targetID": 1277,
-            "weight": 2
+            "targetID": 1277
         },
         {
             "source": "lifecycle impact assessment",
             "target": "product lifecycle",
+            "weight": 2,
             "sourceID": 1275,
-            "targetID": 508,
-            "weight": 2
+            "targetID": 508
         },
         {
             "source": "printed circuit board",
             "target": "product lifecycle",
+            "weight": 2,
             "sourceID": 1277,
-            "targetID": 508,
-            "weight": 2
+            "targetID": 508
         },
         {
             "source": "building information management",
             "target": "building information modeling",
+            "weight": 3,
             "sourceID": 0,
-            "targetID": 216,
-            "weight": 3
+            "targetID": 216
         },
         {
             "source": "ontology",
             "target": "semantic web",
+            "weight": 4,
             "sourceID": 64,
-            "targetID": 1292,
-            "weight": 4
+            "targetID": 1292
         },
         {
             "source": "collaborative product development",
             "target": "computer supported cooperative work",
+            "weight": 2,
             "sourceID": 1294,
-            "targetID": 1295,
-            "weight": 2
+            "targetID": 1295
         },
         {
             "source": "collaborative product development",
             "target": "extended enterprise",
+            "weight": 2,
             "sourceID": 1294,
-            "targetID": 366,
-            "weight": 2
+            "targetID": 366
         },
         {
             "source": "product service system",
             "target": "sustainability",
+            "weight": 2,
             "sourceID": 341,
-            "targetID": 535,
-            "weight": 2
+            "targetID": 535
         },
         {
             "source": "sustainability",
             "target": "traceability",
+            "weight": 2,
             "sourceID": 535,
-            "targetID": 138,
-            "weight": 2
+            "targetID": 138
         },
         {
             "source": "ontology web language",
             "target": "reasoning",
+            "weight": 2,
             "sourceID": 1317,
-            "targetID": 1318,
-            "weight": 2
+            "targetID": 1318
         },
         {
             "source": "numerical simulation",
             "target": "semantic web",
+            "weight": 2,
             "sourceID": 1321,
-            "targetID": 1292,
-            "weight": 2
+            "targetID": 1292
         },
         {
             "source": "key performance indicator",
             "target": "product lifecycle management maturity model",
+            "weight": 2,
             "sourceID": 406,
-            "targetID": 1356,
-            "weight": 2
+            "targetID": 1356
         },
         {
             "source": "pilot project",
             "target": "product lifecycle management introduction",
+            "weight": 2,
             "sourceID": 1392,
-            "targetID": 1393,
-            "weight": 2
+            "targetID": 1393
         },
         {
             "source": "pilot project",
             "target": "statistical analysis",
+            "weight": 2,
             "sourceID": 1392,
-            "targetID": 1394,
-            "weight": 2
+            "targetID": 1394
         },
         {
             "source": "pilot project",
             "target": "user need",
+            "weight": 2,
             "sourceID": 1392,
-            "targetID": 1395,
-            "weight": 2
+            "targetID": 1395
         },
         {
             "source": "product lifecycle management introduction",
             "target": "statistical analysis",
+            "weight": 2,
             "sourceID": 1393,
-            "targetID": 1394,
-            "weight": 2
+            "targetID": 1394
         },
         {
             "source": "product lifecycle management introduction",
             "target": "user need",
+            "weight": 2,
             "sourceID": 1393,
-            "targetID": 1395,
-            "weight": 2
+            "targetID": 1395
         },
         {
             "source": "statistical analysis",
             "target": "user need",
+            "weight": 2,
             "sourceID": 1394,
-            "targetID": 1395,
-            "weight": 2
+            "targetID": 1395
         },
         {
             "source": "annotation",
             "target": "ontology",
+            "weight": 2,
             "sourceID": 1420,
-            "targetID": 64,
-            "weight": 2
+            "targetID": 64
         },
         {
             "source": "recycling",
             "target": "waste electrical and electronic equipment",
+            "weight": 2,
             "sourceID": 497,
-            "targetID": 1465,
-            "weight": 2
+            "targetID": 1465
         },
         {
             "source": "network agent",
             "target": "reuse",
+            "weight": 2,
             "sourceID": 1490,
-            "targetID": 498,
-            "weight": 2
+            "targetID": 498
         },
         {
             "source": "maturity assessment",
             "target": "product lifecycle management implementation",
+            "weight": 2,
             "sourceID": 1492,
-            "targetID": 334,
-            "weight": 2
+            "targetID": 334
         },
         {
             "source": "building information modeling",
             "target": "framework",
+            "weight": 2,
             "sourceID": 216,
-            "targetID": 365,
-            "weight": 2
+            "targetID": 365
         },
         {
             "source": "computer aided design",
             "target": "STEP",
+            "weight": 2,
             "sourceID": 377,
-            "targetID": 393,
-            "weight": 2
+            "targetID": 393
         },
         {
             "source": "data",
             "target": "lifecycle",
+            "weight": 2,
             "sourceID": 1547,
-            "targetID": 294,
-            "weight": 2
+            "targetID": 294
         },
         {
             "source": "data",
             "target": "maintenance",
+            "weight": 2,
             "sourceID": 1547,
-            "targetID": 450,
-            "weight": 2
+            "targetID": 450
         },
         {
             "source": "lifecycle",
             "target": "maintenance",
+            "weight": 2,
             "sourceID": 294,
-            "targetID": 450,
-            "weight": 2
+            "targetID": 450
         },
         {
             "source": "collaborative engineering",
             "target": "virtual product creation",
+            "weight": 2,
             "sourceID": 58,
-            "targetID": 1554,
-            "weight": 2
+            "targetID": 1554
         },
         {
             "source": "engineering collaboration",
             "target": "supply chain",
+            "weight": 2,
             "sourceID": 1620,
-            "targetID": 159,
-            "weight": 2
+            "targetID": 159
         },
         {
             "source": "interface control document",
             "target": "interface management",
+            "weight": 2,
             "sourceID": 1663,
-            "targetID": 1664,
-            "weight": 2
+            "targetID": 1664
         },
         {
             "source": "computer aided design",
             "target": "reverse engineering",
+            "weight": 2,
             "sourceID": 377,
-            "targetID": 117,
-            "weight": 2
+            "targetID": 117
         },
         {
             "source": "design",
             "target": "industrialization",
+            "weight": 2,
             "sourceID": 687,
-            "targetID": 1703,
-            "weight": 2
+            "targetID": 1703
         },
         {
             "source": "design",
             "target": "enterprise resource planning",
+            "weight": 3,
             "sourceID": 687,
-            "targetID": 768,
-            "weight": 3
+            "targetID": 768
         },
         {
             "source": "computer aided design",
             "target": "computer aided engineering",
+            "weight": 3,
             "sourceID": 377,
-            "targetID": 1708,
-            "weight": 3
+            "targetID": 1708
         },
         {
             "source": "lifecycle assessment",
             "target": "sustainability",
+            "weight": 2,
             "sourceID": 186,
-            "targetID": 535,
-            "weight": 2
+            "targetID": 535
         },
         {
             "source": "product lifecycle",
             "target": "simulation",
+            "weight": 2,
             "sourceID": 508,
-            "targetID": 353,
-            "weight": 2
+            "targetID": 353
         },
         {
             "source": "product data exchange",
             "target": "XML",
+            "weight": 2,
             "sourceID": 1744,
-            "targetID": 1274,
-            "weight": 2
+            "targetID": 1274
         },
         {
             "source": "computer aided design",
             "target": "product data management",
+            "weight": 4,
             "sourceID": 377,
-            "targetID": 10,
-            "weight": 4
+            "targetID": 10
         },
         {
             "source": "building information modeling",
             "target": "information technology",
+            "weight": 2,
             "sourceID": 216,
-            "targetID": 1786,
-            "weight": 2
+            "targetID": 1786
         },
         {
             "source": "guidance system",
             "target": "lifecycle management",
+            "weight": 2,
             "sourceID": 1800,
-            "targetID": 481,
-            "weight": 2
+            "targetID": 481
         },
         {
             "source": "guidance system",
             "target": "maritime industry",
+            "weight": 2,
             "sourceID": 1800,
-            "targetID": 1801,
-            "weight": 2
+            "targetID": 1801
         },
         {
             "source": "guidance system",
             "target": "operating data",
+            "weight": 2,
             "sourceID": 1800,
-            "targetID": 1802,
-            "weight": 2
+            "targetID": 1802
         },
         {
             "source": "guidance system",
             "target": "product data",
+            "weight": 2,
             "sourceID": 1800,
-            "targetID": 1715,
-            "weight": 2
+            "targetID": 1715
         },
         {
             "source": "guidance system",
             "target": "scenario",
+            "weight": 2,
             "sourceID": 1800,
-            "targetID": 1335,
-            "weight": 2
+            "targetID": 1335
         },
         {
             "source": "lifecycle management",
             "target": "maritime industry",
+            "weight": 2,
             "sourceID": 481,
-            "targetID": 1801,
-            "weight": 2
+            "targetID": 1801
         },
         {
             "source": "lifecycle management",
             "target": "operating data",
+            "weight": 2,
             "sourceID": 481,
-            "targetID": 1802,
-            "weight": 2
+            "targetID": 1802
         },
         {
             "source": "lifecycle management",
             "target": "product data",
+            "weight": 2,
             "sourceID": 481,
-            "targetID": 1715,
-            "weight": 2
+            "targetID": 1715
         },
         {
             "source": "lifecycle management",
             "target": "scenario",
+            "weight": 2,
             "sourceID": 481,
-            "targetID": 1335,
-            "weight": 2
+            "targetID": 1335
         },
         {
             "source": "maritime industry",
             "target": "operating data",
+            "weight": 2,
             "sourceID": 1801,
-            "targetID": 1802,
-            "weight": 2
+            "targetID": 1802
         },
         {
             "source": "maritime industry",
             "target": "product data",
+            "weight": 2,
             "sourceID": 1801,
-            "targetID": 1715,
-            "weight": 2
+            "targetID": 1715
         },
         {
             "source": "maritime industry",
             "target": "scenario",
+            "weight": 2,
             "sourceID": 1801,
-            "targetID": 1335,
-            "weight": 2
+            "targetID": 1335
         },
         {
             "source": "operating data",
             "target": "product data",
+            "weight": 2,
             "sourceID": 1802,
-            "targetID": 1715,
-            "weight": 2
+            "targetID": 1715
         },
         {
             "source": "operating data",
             "target": "scenario",
+            "weight": 2,
             "sourceID": 1802,
-            "targetID": 1335,
-            "weight": 2
+            "targetID": 1335
         },
         {
             "source": "product data",
             "target": "scenario",
+            "weight": 2,
             "sourceID": 1715,
-            "targetID": 1335,
-            "weight": 2
+            "targetID": 1335
         },
         {
             "source": "embedded system",
             "target": "SYSML",
+            "weight": 2,
             "sourceID": 1807,
-            "targetID": 222,
-            "weight": 2
+            "targetID": 222
         },
         {
             "source": "ontology",
             "target": "STEP",
+            "weight": 2,
             "sourceID": 64,
-            "targetID": 393,
-            "weight": 2
+            "targetID": 393
         },
         {
             "source": "integrated product development",
             "target": "product planning",
+            "weight": 2,
             "sourceID": 1820,
-            "targetID": 1823,
-            "weight": 2
+            "targetID": 1823
         },
         {
             "source": "building information modeling",
             "target": "construction industry",
+            "weight": 3,
             "sourceID": 216,
-            "targetID": 683,
-            "weight": 3
+            "targetID": 683
         },
         {
             "source": "interoperability",
             "target": "ISO 15926",
+            "weight": 3,
             "sourceID": 53,
-            "targetID": 1842,
-            "weight": 3
+            "targetID": 1842
         },
         {
             "source": "ISO 15926",
             "target": "web service",
+            "weight": 2,
             "sourceID": 1842,
-            "targetID": 1221,
-            "weight": 2
+            "targetID": 1221
         },
         {
             "source": "ontology",
             "target": "ontology web language",
+            "weight": 2,
             "sourceID": 64,
-            "targetID": 1317,
-            "weight": 2
+            "targetID": 1317
         },
         {
             "source": "product lifecycle management implementation",
             "target": "requirement management",
+            "weight": 2,
             "sourceID": 334,
-            "targetID": 1855,
-            "weight": 2
+            "targetID": 1855
         },
         {
             "source": "product data management",
             "target": "simulation data management",
+            "weight": 2,
             "sourceID": 10,
-            "targetID": 1864,
-            "weight": 2
+            "targetID": 1864
         },
         {
             "source": "interoperability",
             "target": "product data management",
+            "weight": 3,
             "sourceID": 53,
-            "targetID": 10,
-            "weight": 3
+            "targetID": 10
         },
         {
             "source": "ontology",
             "target": "web service",
+            "weight": 2,
             "sourceID": 64,
-            "targetID": 1221,
-            "weight": 2
+            "targetID": 1221
         },
         {
             "source": "product ontology",
             "target": "semantic interoperability",
+            "weight": 2,
             "sourceID": 1894,
-            "targetID": 90,
-            "weight": 2
+            "targetID": 90
         },
         {
             "source": "enterprise resource planning",
             "target": "product data management",
+            "weight": 2,
             "sourceID": 768,
-            "targetID": 10,
-            "weight": 2
+            "targetID": 10
         },
         {
             "source": "interoperability",
             "target": "product lifecycle support",
+            "weight": 2,
             "sourceID": 53,
-            "targetID": 35,
-            "weight": 2
+            "targetID": 35
         },
         {
             "source": "lifecycle assessment",
             "target": "lifecycle cost",
+            "weight": 2,
             "sourceID": 186,
-            "targetID": 380,
-            "weight": 2
+            "targetID": 380
         },
         {
             "source": "lifecycle assessment",
             "target": "lifecycle costing",
+            "weight": 2,
             "sourceID": 186,
-            "targetID": 1915,
-            "weight": 2
+            "targetID": 1915
         },
         {
             "source": "lifecycle cost",
             "target": "lifecycle costing",
+            "weight": 2,
             "sourceID": 380,
-            "targetID": 1915,
-            "weight": 2
+            "targetID": 1915
         },
         {
             "source": "manufacturing process planning",
             "target": "product development",
+            "weight": 2,
             "sourceID": 1940,
-            "targetID": 13,
-            "weight": 2
+            "targetID": 13
         },
         {
             "source": "engineer to order",
             "target": "product configuration",
+            "weight": 2,
             "sourceID": 1971,
-            "targetID": 232,
-            "weight": 2
+            "targetID": 232
         },
         {
             "source": "ontology web language",
             "target": "semantic web",
+            "weight": 2,
             "sourceID": 1317,
-            "targetID": 1292,
-            "weight": 2
+            "targetID": 1292
         },
         {
             "source": "supply chain management",
             "target": "product data management",
+            "weight": 2,
             "sourceID": 708,
-            "targetID": 10,
-            "weight": 2
+            "targetID": 10
         },
         {
             "source": "AREVA interoperability rich environment",
             "target": "ISO 15926",
+            "weight": 2,
             "sourceID": 2012,
-            "targetID": 1842,
-            "weight": 2
+            "targetID": 1842
         },
         {
             "source": "exchange process",
             "target": "ISO 15926",
+            "weight": 2,
             "sourceID": 2013,
-            "targetID": 1842,
-            "weight": 2
+            "targetID": 1842
         },
         {
             "source": "ISO 15926",
             "target": "plant",
+            "weight": 2,
             "sourceID": 1842,
-            "targetID": 2014,
-            "weight": 2
+            "targetID": 2014
         },
         {
             "source": "ISO 15926",
             "target": "semantic web",
+            "weight": 3,
             "sourceID": 1842,
-            "targetID": 1292,
-            "weight": 3
+            "targetID": 1292
         },
         {
             "source": "industrial digital mockup",
             "target": "product lifecycle management system",
+            "weight": 2,
             "sourceID": 284,
-            "targetID": 248,
-            "weight": 2
+            "targetID": 248
         },
         {
             "source": "configuration management",
             "target": "maturity model",
+            "weight": 2,
             "sourceID": 323,
-            "targetID": 389,
-            "weight": 2
+            "targetID": 389
         },
         {
             "source": "knowledge management",
             "target": "product model",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 1397,
-            "weight": 2
+            "targetID": 1397
         },
         {
             "source": "knowledge based engineering",
             "target": "ontology",
+            "weight": 2,
             "sourceID": 100,
-            "targetID": 64,
-            "weight": 2
+            "targetID": 64
         },
         {
             "source": "maturity model",
             "target": "performance measurement",
+            "weight": 2,
             "sourceID": 389,
-            "targetID": 32,
-            "weight": 2
+            "targetID": 32
         },
         {
             "source": "semantic web",
             "target": "web service",
+            "weight": 2,
             "sourceID": 1292,
-            "targetID": 1221,
-            "weight": 2
+            "targetID": 1221
         },
         {
             "source": "building information modeling",
             "target": "MALAYSIA",
+            "weight": 2,
             "sourceID": 216,
-            "targetID": 2212,
-            "weight": 2
+            "targetID": 2212
         },
         {
             "source": "construction industry",
             "target": "MALAYSIA",
+            "weight": 2,
             "sourceID": 683,
-            "targetID": 2212,
-            "weight": 2
+            "targetID": 2212
         },
         {
             "source": "knowledge management",
             "target": "mass customization",
+            "weight": 2,
             "sourceID": 27,
-            "targetID": 313,
-            "weight": 2
+            "targetID": 313
         },
         {
             "source": "building information modeling",
             "target": "construction project",
+            "weight": 2,
             "sourceID": 216,
-            "targetID": 2315,
-            "weight": 2
+            "targetID": 2315
         },
         {
             "source": "manufacturing execution system",
             "target": "monitoring system",
+            "weight": 2,
             "sourceID": 76,
-            "targetID": 2424,
-            "weight": 2
+            "targetID": 2424
         },
         {
             "source": "model based system engineering ",
             "target": "digital engineering",
+            "weight": 2,
             "sourceID": 786,
-            "targetID": 1099,
-            "weight": 2
+            "targetID": 1099
+        },
+        {
+            "source": "industry 4.0",
+            "target": "industry 5.0",
+            "weight": 2,
+            "sourceID": 44,
+            "targetID": 905
         },
         {
             "source": "digital twin",
             "target": "computer vision",
+            "weight": 2,
             "sourceID": 267,
-            "targetID": 121,
-            "weight": 2
+            "targetID": 121
         }
     ],
     "nodes": [
         {
             "id": "product data management",
             "gid": 10,
-            "group": 2,
+            "group": 3,
             "count": 31
         },
         {
             "id": "architecture",
             "gid": 12,
-            "group": 2,
+            "group": 3,
             "count": 6
         },
         {
             "id": "product development",
             "gid": 13,
-            "group": 2,
+            "group": 3,
             "count": 32
         },
         {
             "id": "product development process",
             "gid": 14,
-            "group": 2,
+            "group": 3,
             "count": 14
         },
         {
             "id": "smart manufacturing",
             "gid": 42,
             "group": 0,
-            "count": 10
+            "count": 11
         },
         {
             "id": "industry 4.0",
@@ -2674,13 +2695,13 @@
         {
             "id": "semantic interoperability",
             "gid": 90,
-            "group": 3,
+            "group": 2,
             "count": 12
         },
         {
             "id": "formal model",
             "gid": 91,
-            "group": 3,
+            "group": 2,
             "count": 2
         },
         {
@@ -2770,19 +2791,19 @@
         {
             "id": "closed loop product lifecycle management",
             "gid": 128,
-            "group": 2,
+            "group": 3,
             "count": 10
         },
         {
             "id": "internet of things",
             "gid": 71,
-            "group": 2,
+            "group": 3,
             "count": 26
         },
         {
             "id": "social network",
             "gid": 129,
-            "group": 2,
+            "group": 3,
             "count": 2
         },
         {
@@ -2926,49 +2947,49 @@
         {
             "id": "fashion industry",
             "gid": 33,
-            "group": 2,
+            "group": 3,
             "count": 3
         },
         {
             "id": "workshop facilitation",
             "gid": 240,
-            "group": 2,
+            "group": 3,
             "count": 3
         },
         {
             "id": "design thinking",
             "gid": 242,
-            "group": 2,
+            "group": 3,
             "count": 2
         },
         {
             "id": "ontology",
             "gid": 64,
-            "group": 3,
+            "group": 2,
             "count": 45
         },
         {
             "id": "internet of everything",
             "gid": 253,
-            "group": 2,
+            "group": 3,
             "count": 3
         },
         {
             "id": "digital economy",
             "gid": 254,
-            "group": 2,
+            "group": 3,
             "count": 1
         },
         {
             "id": "internet of everything platform",
             "gid": 255,
-            "group": 2,
+            "group": 3,
             "count": 1
         },
         {
             "id": "product usage information",
             "gid": 257,
-            "group": 2,
+            "group": 3,
             "count": 2
         },
         {
@@ -2987,7 +3008,7 @@
             "id": "business process",
             "gid": 296,
             "group": 9,
-            "count": 10
+            "count": 11
         },
         {
             "id": "cloud",
@@ -3035,7 +3056,7 @@
             "id": "model based system engineering",
             "gid": 321,
             "group": 5,
-            "count": 14
+            "count": 15
         },
         {
             "id": "SYSML",
@@ -3119,18 +3140,18 @@
             "id": "lifecycle",
             "gid": 294,
             "group": 13,
-            "count": 17
+            "count": 18
         },
         {
             "id": "virtual reality",
             "gid": 363,
-            "group": 2,
+            "group": 3,
             "count": 14
         },
         {
             "id": "virtual prototyping",
             "gid": 364,
-            "group": 2,
+            "group": 3,
             "count": 2
         },
         {
@@ -3185,18 +3206,18 @@
             "id": "artificial intelligence",
             "gid": 413,
             "group": 0,
-            "count": 12
+            "count": 13
         },
         {
             "id": "models for manufacturing",
             "gid": 414,
-            "group": 3,
-            "count": 7
+            "group": 2,
+            "count": 8
         },
         {
             "id": "manufacturing process modelling",
             "gid": 415,
-            "group": 3,
+            "group": 2,
             "count": 2
         },
         {
@@ -3244,13 +3265,13 @@
         {
             "id": "multiple domain",
             "gid": 454,
-            "group": 3,
+            "group": 2,
             "count": 3
         },
         {
             "id": "reference ontology",
             "gid": 456,
-            "group": 3,
+            "group": 2,
             "count": 2
         },
         {
@@ -3274,20 +3295,20 @@
         {
             "id": "semantic rules",
             "gid": 468,
-            "group": 3,
+            "group": 2,
             "count": 3
         },
         {
             "id": "product design and manufacturing",
             "gid": 469,
-            "group": 3,
+            "group": 2,
             "count": 2
         },
         {
             "id": "smart city",
             "gid": 142,
-            "group": 2,
-            "count": 3
+            "group": 3,
+            "count": 4
         },
         {
             "id": "industrial internet of things",
@@ -3394,7 +3415,7 @@
         {
             "id": "predictive maintenance",
             "gid": 529,
-            "group": 2,
+            "group": 3,
             "count": 4
         },
         {
@@ -3460,7 +3481,7 @@
         {
             "id": "3 layer model",
             "gid": 577,
-            "group": 3,
+            "group": 2,
             "count": 3
         },
         {
@@ -3574,7 +3595,7 @@
         {
             "id": "design",
             "gid": 687,
-            "group": 2,
+            "group": 3,
             "count": 9
         },
         {
@@ -3610,7 +3631,7 @@
         {
             "id": "enterprise resource planning",
             "gid": 768,
-            "group": 2,
+            "group": 3,
             "count": 6
         },
         {
@@ -3634,7 +3655,7 @@
         {
             "id": "knowledge based system",
             "gid": 805,
-            "group": 3,
+            "group": 2,
             "count": 3
         },
         {
@@ -3748,8 +3769,14 @@
         {
             "id": "semantic",
             "gid": 929,
-            "group": 3,
+            "group": 2,
             "count": 4
+        },
+        {
+            "id": "ontology based engineering",
+            "gid": 968,
+            "group": 2,
+            "count": 2
         },
         {
             "id": "knowledge transfer",
@@ -3766,7 +3793,7 @@
         {
             "id": "product design",
             "gid": 6,
-            "group": 3,
+            "group": 2,
             "count": 19
         },
         {
@@ -3780,6 +3807,12 @@
             "gid": 330,
             "group": 5,
             "count": 3
+        },
+        {
+            "id": "model lifecycle management",
+            "gid": 1005,
+            "group": 2,
+            "count": 2
         },
         {
             "id": "configuration rule",
@@ -3856,13 +3889,13 @@
         {
             "id": "digital mockup",
             "gid": 473,
-            "group": 2,
+            "group": 3,
             "count": 10
         },
         {
             "id": "extended enterprise",
             "gid": 366,
-            "group": 2,
+            "group": 3,
             "count": 9
         },
         {
@@ -3916,13 +3949,13 @@
         {
             "id": "description logic",
             "gid": 1226,
-            "group": 3,
+            "group": 2,
             "count": 3
         },
         {
             "id": "SWRL",
             "gid": 1229,
-            "group": 3,
+            "group": 2,
             "count": 2
         },
         {
@@ -3946,37 +3979,37 @@
         {
             "id": "semantic web",
             "gid": 1292,
-            "group": 3,
+            "group": 2,
             "count": 9
         },
         {
             "id": "collaborative product development",
             "gid": 1294,
-            "group": 2,
+            "group": 3,
             "count": 9
         },
         {
             "id": "computer supported cooperative work",
             "gid": 1295,
-            "group": 2,
+            "group": 3,
             "count": 2
         },
         {
             "id": "ontology web language",
             "gid": 1317,
-            "group": 3,
+            "group": 2,
             "count": 5
         },
         {
             "id": "reasoning",
             "gid": 1318,
-            "group": 3,
+            "group": 2,
             "count": 2
         },
         {
             "id": "numerical simulation",
             "gid": 1321,
-            "group": 3,
+            "group": 2,
             "count": 3
         },
         {
@@ -4018,7 +4051,7 @@
         {
             "id": "annotation",
             "gid": 1420,
-            "group": 3,
+            "group": 2,
             "count": 3
         },
         {
@@ -4102,7 +4135,7 @@
         {
             "id": "industrialization",
             "gid": 1703,
-            "group": 2,
+            "group": 3,
             "count": 2
         },
         {
@@ -4198,13 +4231,13 @@
         {
             "id": "ISO 15926",
             "gid": 1842,
-            "group": 3,
+            "group": 2,
             "count": 5
         },
         {
             "id": "web service",
             "gid": 1221,
-            "group": 3,
+            "group": 2,
             "count": 7
         },
         {
@@ -4216,13 +4249,13 @@
         {
             "id": "simulation data management",
             "gid": 1864,
-            "group": 2,
+            "group": 3,
             "count": 3
         },
         {
             "id": "product ontology",
             "gid": 1894,
-            "group": 3,
+            "group": 2,
             "count": 2
         },
         {
@@ -4246,7 +4279,7 @@
         {
             "id": "manufacturing process planning",
             "gid": 1940,
-            "group": 2,
+            "group": 3,
             "count": 2
         },
         {
@@ -4258,19 +4291,19 @@
         {
             "id": "AREVA interoperability rich environment",
             "gid": 2012,
-            "group": 3,
+            "group": 2,
             "count": 1
         },
         {
             "id": "exchange process",
             "gid": 2013,
-            "group": 3,
+            "group": 2,
             "count": 1
         },
         {
             "id": "plant",
             "gid": 2014,
-            "group": 3,
+            "group": 2,
             "count": 1
         },
         {
@@ -4314,6 +4347,12 @@
             "gid": 2424,
             "group": 9,
             "count": 2
+        },
+        {
+            "id": "industry 5.0",
+            "gid": 905,
+            "group": 0,
+            "count": 5
         }
     ]
 }

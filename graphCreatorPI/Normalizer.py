@@ -20,7 +20,8 @@ class Normalizer:
 
     def logMissingKeywords(self, keyword, title, year):
         file = open(self.logfile, 'a')
-        file.write(keyword + "; " + title + "; " + str(year) + "\n")
+        #file.write(keyword + "; " + title + "; " + str(year) + "\n")
+        file.write(keyword + "\n")
         file.close
 
     def normalize(self, publications):

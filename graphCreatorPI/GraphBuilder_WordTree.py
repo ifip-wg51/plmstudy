@@ -2,6 +2,7 @@ import re
 import json
 import numpy as np
 import matplotlib.pyplot as plt
+import copy
 
 class GraphBuilderWordTree:
 
@@ -72,7 +73,7 @@ class GraphBuilderWordTree:
                     if word in ['in','of','product']:
                         word = " ".join(words[:level+1]) + " "
                     for keyB in node['keywords']:
-                        if keyB != keyA and keyB['keyword'].startswith(word+" "):
+                        if keyB != keyA and keyB['keyword'].startswith(word):
                             matches.append(keyB)
                             count += keyB['count']
                     if count > self.threshold:
@@ -148,7 +149,8 @@ class GraphBuilderWordTree:
         self.threshold = threshold
         self.depth = depth
         self.rootNode = {}
-        rootNode = self.addNode('ICPLM', self.keywords.copy(), 0, None)
+        keywords = copy.deepcopy(self.keywords)
+        rootNode = self.addNode('ICPLM', keywords, 0, None)
         self.nodelist.remove(rootNode)
         self.rootNode = rootNode
         self.condenseByCommonWordsRecursive(rootNode, 0)

@@ -19,7 +19,7 @@ from GraphBuilder_KWA import GraphBuilderKWA
 import json
 
 logfile = 'out/missing-keywords.txt'
-normTableFile = '../database/PLM/PLM_normalized-02.csv'
+normTableFile = '../database/PLM/PLM_normalized-03.csv'
 publicationsFile = 'out/publications.csv'
 graphKeywordsFile = 'out/graphKeywords.csv'
 graphEdgesFile = 'out/graphEdges.csv'
@@ -121,24 +121,25 @@ else:
     root = loadJSON('out/graph')
 
 print("... raw build graph")
-graphRaw = GraphBuilderRAW(root['keywords'], root['publication'])
+graphRaw = GraphBuilderRAW(root['keywords'].copy(), root['publication'].copy())
 graphRaw.build()
 
 print("... build condense keywords graph")
-graphWT = GraphBuilderWordTree(root['keywords'], root['publication'])
+graphWT = GraphBuilderWordTree(root['keywords'].copy(), root['publication'].copy())
 graphWT.build(4, 10)
 
 if thAnalysis:
     analyze()
 
 # Write data files for visualization
-graphRaw.writeChordDiagramJSON('out/chordDiagramRaw', 3, [5])
+graphRaw.writeChordDiagramJSON('out/chordDiagramRaw', 3, [])
 graphRaw.writeChordDiagramJSON('out/chordDiagramRawNoPLM', 3, [5])
 graphRaw.writeForceDirectedGraphJSON('out/forceDirectedGraphRaw', 2, [5])
 graphRaw.writeTopKeywords('out/topKeywordsRaw', 15, [5])
-graphWT.writeJSON('out/condensedKeywords')
+
+#graphWT.writeJSON('out/condensedKeywords')
 #graphWT.writeGephi('out/condensedKeywords')
-graphWT.writeIgnoredKeywords('out/ignodedKeywords.csv')
+#graphWT.writeIgnoredKeywords('out/ignodedKeywords.csv')
 graphWT.writeSunburstJSON('out/sunburst')
 #graphWT.writeChordDiagramJSON('out/chordDiagramAggregated')
 

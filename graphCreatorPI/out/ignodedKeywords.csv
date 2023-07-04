@@ -204,7 +204,7 @@ tool complexity;1
 productivity;3
 modularization;3
 product configurator;2
-Flexible best fit;1
+flexible best fit;1
 flexible assembly;1
 tolerancing;1
 ArchiMate;2
@@ -255,7 +255,7 @@ learning factory;3
 computational design;2
 visual recognition;1
 machine vision;1
-models for manufacturing;7
+models for manufacturing;8
 single point incremental forming;1
 facility layout problem;1
 facilities planning and design;1
@@ -276,7 +276,6 @@ causal;3
 bayesian network;1
 developing countries;1
 the building industry;1
-agent based simulation modeling;2
 civil aircraft maintenance;1
 six sigma;1
 efficiency improvement;1
@@ -424,7 +423,7 @@ comparative analysis;1
 cross pollination;1
 ecoefficiency;1
 aerospace;2
-cobots;2
+cobot;2
 SWOT analyses;1
 ethics;1
 regulation;1
@@ -466,7 +465,7 @@ product;1
 alignment;2
 matching;1
 heterogeneous;1
-;1
+REST API;1
 factory communication;1
 wireless;1
 testbed design;1
@@ -477,7 +476,7 @@ RAMI 4.0;1
 group clustering;1
 startup;1
 startup lifecycle;1
-innovation ecosystems;1
+innovation ecosystem;2
 exchange;2
 synchronization;3
 disparate systems;1
@@ -589,12 +588,12 @@ customer behavior;1
 webmetry;1
 teaching;1
 surrogate model;1
-ontology based engineering;1
+ontology based engineering;2
 product risk management;1
 higher education;1
 signature pedagogies;1
 BMSA;1
-timeline;1
+timeline;2
 systematic review;1
 safety;1
 security;3
@@ -604,7 +603,7 @@ workflow;3
 provenance;2
 start stop system;1
 fuel economy;1
-emissions;1
+emission;1
 hole detection;1
 mesh processing;1
 analytical evaluation of mechanical part;1
@@ -668,13 +667,12 @@ real estate innovation;1
 effective learning;1
 luxury industry;1
 university spinoff;1
-disruptive innovation;1
+disruptive innovation;2
 science based enterprises;1
 product innovation;2
 metadata;3
 mixed reality;3
 G CODE;1
-operation management;2
 cyber physical human system;1
 product complexity;4
 telexistence;1
@@ -814,7 +812,6 @@ macro parametrics;2
 point of view;1
 view;1
 road mapping;1
-sustainable building;1
 ontology based data integration;1
 product master data management;1
 qualitative research;1
@@ -884,7 +881,7 @@ criterion;1
 hard disk drive;1
 identification;1
 recovery of resource;1
-robotic;1
+robotic;2
 waste;1
 product lifecycle management component maturity assessment;1
 product lifecycle management maturity evaluation;1
@@ -1043,7 +1040,7 @@ web based service;1
 energy renovation;1
 industrialization;2
 migration;2
-service;1
+service;2
 front loading;1
 demand chain supply chain;1
 demand lifecycle;1
@@ -1072,7 +1069,7 @@ conditional constraint satisfaction problem;1
 standard for exchange;1
 foundation ontology;1
 organization design;1
-interdependency;1
+interdependency;2
 complexity management;1
 industrialization telecommunication industry;1
 product modularization;1
@@ -1147,7 +1144,6 @@ role;2
 JAVA;1
 parts library standardization initiative;1
 testing;1
-operation and maintenance;2
 ship product structure;1
 serious game;1
 product information and knowledge management;1
@@ -1197,11 +1193,9 @@ steam turbine;1
 engineer to order;2
 metamodelization;1
 authoring;1
-agent technology;1
 autonomous;1
 product centric;1
 cognitive work analysis;1
-sustainable production;1
 competence;1
 fact based design;1
 leisure boat production;1
@@ -1254,11 +1248,10 @@ shifting lead;1
 software;1
 attitude;1
 curriculum structure;1
-skill;1
+skill;2
 civil;1
 marine;1
 wind;1
-agent based system;1
 scenario based approach;1
 TRENIN;1
 product lifecycle management benchmarking;1
@@ -1280,7 +1273,6 @@ prototype of software;1
 strategic business management;1
 product upgradability;1
 product development waste;1
-sustainable product development;1
 manipulation;1
 path planning;1
 future development product lifecycle management;1
@@ -1452,7 +1444,6 @@ augmented reality aided manufacturing;1
 milling;2
 prismatic machining;1
 compromising strategy;1
-sustainable performance;1
 general manufacturing model;1
 SYSTEMATICA metamodel;1
 product with growing value;1
@@ -1485,6 +1476,64 @@ mechanical assembly;1
 segmentation;1
 edge measurement;1
 laser scanner;1
+spinning process;1
+silicon wafer;1
+mechanical parameter;1
+bow warp calibration;1
+resource management;1
+release process;1
 linear programming;1
+robust optimization;1
+outcome based PSS;1
+outcome based contracting;1
+driver of change;1
+synthetic data generation;1
+object detection;1
+circular strategy;1
+product regeneration;1
+holistic approach;1
+characterization;1
+metal additive manufacturing;1
+gamification;1
+literature review;1
 green manufacturing;1
+urban planning;1
+ancient grain;1
+triple helix;1
+university;1
+NEO4J;1
+product lifecycle management guideline;1
+Industrial internet of things solutions;1
+plastic packaging;1
+plastic recycling;1
+combination product;1
+MEDTECH;1
+event log;1
+LSTM;1
+buttery electric vehicle;1
+fully fuzzy multi objective programming;1
+echelon utilization;1
+emotion;1
+industry;1
+fuzzy set theory;1
+feedback;1
+motivational interviewing;1
+cobot 3D printing;1
+electric vehicle;1
+lithium ion battery;1
+analytic network process;1
+digitalisation in production system;1
+synchronous computer aided design;1
+asynchronous computer aided design;1
+focus group;1
+online platform;1
+curriculum;1
+low carbon manufacturing;1
+4D printing;1
+FAIR data;1
 3DEXPERIENCE;1
+changeability;1
+flow production;1
+job shop production;1
+flexibility;1
+transformability;1

@@ -71,18 +71,20 @@ class GraphBuilderRAW:
         file.close
         return
 
-    def createJsonEdges(self, edgeThreshold, blacklist):
+    def createJsonEdges(self, edgeThreshold, blacklist, id = False):
         result = []
         for edge in self.edges:
             if edge['weight'] >= edgeThreshold:
                 if not edge['A'] in blacklist and not edge['B'] in blacklist:
-                    result.append({
+                    ed = {
                         'source' : self.keywords[edge['A']]['keyword'],
                         'target' : self.keywords[edge['B']]['keyword'],
-                        'sourceID' : edge['A'],
-                        'targetID' : edge['B'],
                         'weight' : edge['weight']
-                    })
+                    }
+                    if id:
+                        ed['sourceID'] = edge['A']
+                        ed['targetID'] = edge['B'] 
+                    result.append(ed)
         return result
 
     def clusterByModularity(self, edges):
@@ -111,7 +113,7 @@ class GraphBuilderRAW:
     
     def writeForceDirectedGraphJSON(self, filename, edgeThreshold, blacklist):
         graph = {
-            'links' : self.createJsonEdges(edgeThreshold, blacklist),
+            'links' : self.createJsonEdges(edgeThreshold, blacklist, True),
             'nodes' : []
         }
         communities = self.clusterByModularity(graph['links'])
@@ -127,7 +129,7 @@ class GraphBuilderRAW:
         return
     
     def writeChordDiagramJSON(self, filename, edgeThreshold, blacklist):
-        jsonData = json.dumps(self.createJsonEdges(edgeThreshold, blacklist), indent = 4) 
+        jsonData = json.dumps(self.createJsonEdges(edgeThreshold, blacklist, False), indent = 4) 
         file = open(filename + '.json', 'w')
         file.write(jsonData)
         file.close()
@@ -158,7 +160,7 @@ class GraphBuilderRAW:
     def writeTopKeywords(self, filename, max, blacklist):
         result = []
         for i in range(2005,2024):
-            res = self.getTopKeywordsForYear(str(i), max)
+            res = self.getTopKeywordsForYear(str(i), max, blacklist)
             for r in res:
                 r['date'] = date(i, 1, 1).isoformat()
                 result.append(r)
@@ -168,17 +170,18 @@ class GraphBuilderRAW:
         file.close()
         return result
 
-    def getTopKeywordsForYear(self, year, max):
+    def getTopKeywordsForYear(self, year, max, blacklist):
         result = []
-        for keyword in self.keywords:
-            for y in keyword['years']:
-                if int(y['year']) == int(year):
-                    result.append({
-                        'name': keyword['keyword'],
-                        'value': y['count'],
-                        'change': 0,
-                        'posdiv': 0
-                    })
+        for i, keyword in enumerate(self.keywords):
+            if not i in blacklist:
+                for y in keyword['years']:
+                    if int(y['year']) == int(year):
+                        result.append({
+                            'name': keyword['keyword'],
+                            'value': y['count'],
+                            'change': 0,
+                            'posdiv': 0
+                        })
         result.sort(key=lambda x: x['value'], reverse=True)
         return result[0: min(max, len(result))]
 

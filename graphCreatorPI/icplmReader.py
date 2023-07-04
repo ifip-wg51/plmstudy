@@ -28,7 +28,7 @@ class ICPLMReader:
             pubs.append({
                     'title': sqlPub[1],
                     'keywords': keys,
-                    'year':  sqlPub[2]
+                    'year':  str(sqlPub[2])
                 })
         con.close()
         return pubs
@@ -43,7 +43,7 @@ class ICPLMReader:
                 publication = {
                     'title': pub['title'],
                     'keywords': pub['keyword'],
-                    'year':  pub['publicationDate'][0:4]
+                    'year':  str(pub['publicationDate'][0:4])
                 }
                 #correction for 2021 (officially these papers are published in 2022, but we want to assign them to 2021)
                 if isbn == '978-3-030-94335-6' or isbn == '978-3-030-94399-8':
@@ -65,9 +65,12 @@ class ICPLMReader:
         sheet = workbook.active
         
         for i in range(2, sheet.max_row + 1):
+            keys = sheet.cell(row = i, column = 4).value.split(',')
+            for i, key in enumerate(keys):
+                keys[i] = key.strip()
             pubs.append({
                     'title': sheet.cell(row = i, column = 3).value,
-                    'keywords': sheet.cell(row = i, column = 4).value.split(', '),
+                    'keywords': keys,
                     'year':  '2023'
                 })
         return pubs

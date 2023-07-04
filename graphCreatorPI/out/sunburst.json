@@ -1,6 +1,6 @@
 {
     "name": "ICPLM",
-    "value": 1978,
+    "value": 1523,
     "children": [
         {
             "name": "building information management",
@@ -49,7 +49,7 @@
         },
         {
             "name": "smart manufacturing",
-            "value": 10,
+            "value": 11,
             "children": []
         },
         {
@@ -239,12 +239,12 @@
         },
         {
             "name": "lifecycle",
-            "value": 17,
+            "value": 18,
             "children": []
         },
         {
             "name": "business process",
-            "value": 10,
+            "value": 11,
             "children": []
         },
         {
@@ -264,7 +264,7 @@
         },
         {
             "name": "model based system engineering",
-            "value": 14,
+            "value": 15,
             "children": []
         },
         {
@@ -349,7 +349,7 @@
         },
         {
             "name": "artificial intelligence",
-            "value": 12,
+            "value": 13,
             "children": []
         },
         {
@@ -414,7 +414,7 @@
         },
         {
             "name": "data management",
-            "value": 5,
+            "value": 6,
             "children": []
         },
         {
@@ -449,7 +449,7 @@
         },
         {
             "name": "engineering change management",
-            "value": 8,
+            "value": 9,
             "children": []
         },
         {
@@ -479,7 +479,7 @@
         },
         {
             "name": "digital transformation",
-            "value": 5,
+            "value": 6,
             "children": []
         },
         {
@@ -490,6 +490,11 @@
         {
             "name": "user experience",
             "value": 7,
+            "children": []
+        },
+        {
+            "name": "industry 5.0",
+            "value": 5,
             "children": []
         },
         {
@@ -609,8 +614,841 @@
             ]
         },
         {
+            "name": "product  ...",
+            "value": 135,
+            "children": [
+                {
+                    "name": "product development ...",
+                    "value": 7,
+                    "children": [
+                        {
+                            "name": "product development value stream mapping",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product development and manufacturing",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product development and manufacturing process",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product development waste",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product development assessment",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product development best practice",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product development maturity",
+                            "value": 1,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "product lifecycle ...",
+                    "value": 11,
+                    "children": [
+                        {
+                            "name": "product lifecycle management ...",
+                            "value": 55,
+                            "children": [
+                                {
+                                    "name": "product lifecycle management in ...",
+                                    "value": 8,
+                                    "children": [
+                                        {
+                                            "name": "product lifecycle management introduction",
+                                            "value": 2,
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "product lifecycle management integration",
+                                            "value": 4,
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "product lifecycle management interoperability",
+                                            "value": 1,
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "product lifecycle management integrator",
+                                            "value": 1,
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "product lifecycle management process",
+                                    "value": 2,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management concept",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management for the food industry",
+                                    "value": 2,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management for food and fashion",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management customizing",
+                                    "value": 2,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management in industry",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management tool",
+                                    "value": 4,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management process management",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management model",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management adaptation",
+                                    "value": 2,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management realization",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management change management",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management competence",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management job offers",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management strategy planning",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management metrics",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management strategy",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management maturity model",
+                                    "value": 2,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management 2.0",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management backbone",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management data model",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management component maturity assessment",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management maturity evaluation",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management architecture",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management solution",
+                                    "value": 2,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management fast",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management flex",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management max",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management improvement concept",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management data",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management project execution",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management decision framework",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management harmonization",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management planning",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management procedure model",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management n tier architecture",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management benefit",
+                                    "value": 2,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management reference model",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management benchmarking",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management process improvement",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management methodology",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management conference proceeding",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management maturity",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management system architecture",
+                                    "value": 1,
+                                    "children": []
+                                },
+                                {
+                                    "name": "product lifecycle management guideline",
+                                    "value": 1,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "product lifecycle management challenges",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product lifecycle mapping",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product lifecycle application",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product lifecycle simulation",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product lifecycle information management",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product lifecycle sustainability",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product lifecycle engineering",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product lifecycle knowledge management",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product lifecycle model",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product lifecycle data",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product lifecycle information model",
+                            "value": 1,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "product service ...",
+                    "value": 7,
+                    "children": [
+                        {
+                            "name": "product service system lean design methodology",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product service system engineering environment",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product service system development",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product service ecosystems",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product service",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product service system assessment",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product service system sustainability",
+                            "value": 1,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "product family ...",
+                    "value": 5,
+                    "children": [
+                        {
+                            "name": "product family",
+                            "value": 3,
+                            "children": []
+                        },
+                        {
+                            "name": "product family configuration design",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product family modeling",
+                            "value": 1,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "product data ...",
+                    "value": 10,
+                    "children": [
+                        {
+                            "name": "product data model",
+                            "value": 2,
+                            "children": []
+                        },
+                        {
+                            "name": "product data and  lifecycle management",
+                            "value": 2,
+                            "children": []
+                        },
+                        {
+                            "name": "product data",
+                            "value": 4,
+                            "children": []
+                        },
+                        {
+                            "name": "product data quality",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "product data standard",
+                            "value": 1,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "product development",
+                    "value": 32,
+                    "children": []
+                },
+                {
+                    "name": "product lifecycle support",
+                    "value": 4,
+                    "children": []
+                },
+                {
+                    "name": "product usage data",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product supply chain",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product feature",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product usage information",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product and process maturity",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product configurator",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product service system design",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product design and manufacturing",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product instance data management",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product improvement",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product recovery",
+                    "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "product manufacturing information",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product design process",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product risk management",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product innovation",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product complexity",
+                    "value": 4,
+                    "children": []
+                },
+                {
+                    "name": "product architecture",
+                    "value": 4,
+                    "children": []
+                },
+                {
+                    "name": "product platform",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product realization",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product process organization model",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product breakdown",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product decision",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product process",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product phase",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product and service solution",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product information exchange",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product methodology",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product family architecture",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product variety",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product master data management",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product life management",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product and process information",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product avatar",
+                    "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "product state",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product carbon footprint",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product data management system",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product architecture modeling",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product portfolio management",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product shape",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product management",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product property",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product modularization",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product knowledge management",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product design automation",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product design architecture",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product globalization",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product flexibility",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product planning",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product module design",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product oriented environmental",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product embedded information device",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product information and knowledge management",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product information lifecycle",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product ontology",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "product and service lifecycle",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product assembly",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product reverse engineering",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product centric",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product knowledge",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product planning and product lifecycle management",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product portfolio assessment",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product information reuse",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product and system coevolution",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product upgradability",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product analysis",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product position",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product driven manufacturing",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product variant corridor",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product structure model",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product validation and testing",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product with growing value",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product system performance",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "product regeneration",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
             "name": "design ...",
-            "value": 58,
+            "value": 60,
             "children": [
                 {
                     "name": "design for ...",
@@ -867,17 +1705,54 @@
                     "name": "design automation system",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "design by additive manufacturing",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "design change management",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "business ...",
-            "value": 30,
+            "value": 10,
             "children": [
                 {
-                    "name": "business model",
+                    "name": "business model ...",
                     "value": 16,
-                    "children": []
+                    "children": [
+                        {
+                            "name": "business model",
+                            "value": 16,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "business process ...",
+                    "value": 5,
+                    "children": [
+                        {
+                            "name": "business process management",
+                            "value": 3,
+                            "children": []
+                        },
+                        {
+                            "name": "business process management notation",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "business process mining",
+                            "value": 1,
+                            "children": []
+                        }
+                    ]
                 },
                 {
                     "name": "business engineering",
@@ -892,11 +1767,6 @@
                 {
                     "name": "business model in services",
                     "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "business process management",
-                    "value": 3,
                     "children": []
                 },
                 {
@@ -925,11 +1795,6 @@
                     "children": []
                 },
                 {
-                    "name": "business process management notation",
-                    "value": 1,
-                    "children": []
-                },
-                {
                     "name": "business experiment",
                     "value": 1,
                     "children": []
@@ -943,8 +1808,13 @@
         },
         {
             "name": "part ...",
-            "value": 6,
+            "value": 13,
             "children": [
+                {
+                    "name": "parts of speech tagging",
+                    "value": 1,
+                    "children": []
+                },
                 {
                     "name": "part reuse",
                     "value": 2,
@@ -956,6 +1826,36 @@
                     "children": []
                 },
                 {
+                    "name": "partial least squares",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "particle accelerator",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "participant",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "parts library standardization initiative",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "partner network",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "partial least square",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "part of speech",
                     "value": 1,
                     "children": []
@@ -964,11 +1864,16 @@
         },
         {
             "name": "graph ...",
-            "value": 7,
+            "value": 8,
             "children": [
                 {
                     "name": "graph theory",
                     "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "graphical user interface monitoring",
+                    "value": 1,
                     "children": []
                 },
                 {
@@ -995,8 +1900,18 @@
         },
         {
             "name": "modular ...",
-            "value": 11,
+            "value": 18,
             "children": [
+                {
+                    "name": "modularity",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "modular",
+                    "value": 1,
+                    "children": []
+                },
                 {
                     "name": "modular design",
                     "value": 4,
@@ -1005,6 +1920,11 @@
                 {
                     "name": "modular architecture",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "modularization",
+                    "value": 3,
                     "children": []
                 },
                 {
@@ -1036,12 +1956,17 @@
                     "name": "modular product",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "modular augmented reality",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "engineering ...",
-            "value": 36,
+            "value": 38,
             "children": [
                 {
                     "name": "engineering parameter management",
@@ -1144,6 +2069,11 @@
                     "children": []
                 },
                 {
+                    "name": "engineering",
+                    "value": 2,
+                    "children": []
+                },
+                {
                     "name": "engineering collaboration via negotiation",
                     "value": 1,
                     "children": []
@@ -1182,7 +2112,7 @@
         },
         {
             "name": "performance ...",
-            "value": 6,
+            "value": 8,
             "children": [
                 {
                     "name": "performance management",
@@ -1192,6 +2122,11 @@
                 {
                     "name": "performance evaluation and improvement",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "performance",
+                    "value": 2,
                     "children": []
                 },
                 {
@@ -1213,7 +2148,7 @@
         },
         {
             "name": "open ...",
-            "value": 14,
+            "value": 16,
             "children": [
                 {
                     "name": "open questions",
@@ -1222,6 +2157,11 @@
                 },
                 {
                     "name": "open assembly model",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "openness",
                     "value": 2,
                     "children": []
                 },
@@ -1274,17 +2214,12 @@
         },
         {
             "name": "information ...",
-            "value": 29,
+            "value": 32,
             "children": [
                 {
                     "name": "information technology ...",
-                    "value": 5,
+                    "value": 6,
                     "children": [
-                        {
-                            "name": "information technology security",
-                            "value": 1,
-                            "children": []
-                        },
                         {
                             "name": "information technology benefits management",
                             "value": 1,
@@ -1293,6 +2228,11 @@
                         {
                             "name": "information technology system",
                             "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "information technology",
+                            "value": 2,
                             "children": []
                         },
                         {
@@ -1323,6 +2263,11 @@
                     "children": []
                 },
                 {
+                    "name": "information technology security",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "information requirements management",
                     "value": 1,
                     "children": []
@@ -1339,6 +2284,11 @@
                 },
                 {
                     "name": "information sharing",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "information",
                     "value": 2,
                     "children": []
                 },
@@ -1373,11 +2323,6 @@
                     "children": []
                 },
                 {
-                    "name": "information technology",
-                    "value": 2,
-                    "children": []
-                },
-                {
                     "name": "information flow",
                     "value": 2,
                     "children": []
@@ -1393,12 +2338,22 @@
                     "children": []
                 },
                 {
+                    "name": "informational object",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "information reuse",
                     "value": 1,
                     "children": []
                 },
                 {
                     "name": "information management system",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "informational integration",
                     "value": 1,
                     "children": []
                 },
@@ -1426,8 +2381,13 @@
         },
         {
             "name": "value ...",
-            "value": 6,
+            "value": 10,
             "children": [
+                {
+                    "name": "value",
+                    "value": 4,
+                    "children": []
+                },
                 {
                     "name": "value stream mapping",
                     "value": 1,
@@ -1462,7 +2422,7 @@
         },
         {
             "name": "industrial ...",
-            "value": 13,
+            "value": 18,
             "children": [
                 {
                     "name": "industrial internet",
@@ -1500,6 +2460,16 @@
                     "children": []
                 },
                 {
+                    "name": "industrialization",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "industrialization telecommunication industry",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "industrial experience",
                     "value": 1,
                     "children": []
@@ -1518,12 +2488,22 @@
                     "name": "industrial maintenance",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "industrial production equipment",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "industrial augmented reality",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "smart ...",
-            "value": 20,
+            "value": 23,
             "children": [
                 {
                     "name": "smart product ...",
@@ -1548,7 +2528,7 @@
                 },
                 {
                     "name": "smart city",
-                    "value": 3,
+                    "value": 4,
                     "children": []
                 },
                 {
@@ -1573,6 +2553,11 @@
                 },
                 {
                     "name": "smart product development",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "smartification",
                     "value": 1,
                     "children": []
                 },
@@ -1615,12 +2600,17 @@
                     "name": "smart energy product",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "smart service",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "intelligent ...",
-            "value": 8,
+            "value": 9,
             "children": [
                 {
                     "name": "intelligent system",
@@ -1640,6 +2630,11 @@
                 {
                     "name": "intelligent agent",
                     "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "intelligent design",
+                    "value": 1,
                     "children": []
                 }
             ]
@@ -1794,11 +2789,11 @@
         },
         {
             "name": "knowledge ...",
-            "value": 44,
+            "value": 43,
             "children": [
                 {
                     "name": "knowledge based ...",
-                    "value": 7,
+                    "value": 8,
                     "children": [
                         {
                             "name": "knowledge based engineering PLM integration",
@@ -1824,11 +2819,16 @@
                             "name": "knowledge based processing",
                             "value": 1,
                             "children": []
+                        },
+                        {
+                            "name": "knowledge based",
+                            "value": 1,
+                            "children": []
                         }
                     ]
                 },
                 {
-                    "name": "knowledge based ...",
+                    "name": "knowledge base ...",
                     "value": 19,
                     "children": [
                         {
@@ -1964,11 +2964,6 @@
                     "children": []
                 },
                 {
-                    "name": "knowledge based",
-                    "value": 1,
-                    "children": []
-                },
-                {
                     "name": "knowledge and data extraction",
                     "value": 1,
                     "children": []
@@ -2006,12 +3001,58 @@
             ]
         },
         {
+            "name": "meta ...",
+            "value": 9,
+            "children": [
+                {
+                    "name": "metallurgical equipment development",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "metadata",
+                    "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "metamodel",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "metamodelization",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "metaknowledge ontology",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "meta product",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "metal additive manufacturing",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
             "name": "manufacturing ...",
-            "value": 23,
+            "value": 34,
             "children": [
                 {
                     "name": "manufacturing design",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "manufacturing",
+                    "value": 11,
                     "children": []
                 },
                 {
@@ -2108,8 +3149,23 @@
         },
         {
             "name": "multi ...",
-            "value": 15,
+            "value": 38,
             "children": [
+                {
+                    "name": "multidimensional data",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "multidisciplinary integration",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "multidisciplinary design methodology",
+                    "value": 1,
+                    "children": []
+                },
                 {
                     "name": "multi level approach",
                     "value": 1,
@@ -2121,7 +3177,17 @@
                     "children": []
                 },
                 {
+                    "name": "multiple domain",
+                    "value": 3,
+                    "children": []
+                },
+                {
                     "name": "multi aspect",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "multicriteria decision making and analysis",
                     "value": 1,
                     "children": []
                 },
@@ -2131,7 +3197,32 @@
                     "children": []
                 },
                 {
+                    "name": "multicriteria",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "multi sided market",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "multiview",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "multidisciplinary simulation",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "multidisciplinary collaboration",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "multiple viewpoints",
                     "value": 1,
                     "children": []
                 },
@@ -2141,12 +3232,42 @@
                     "children": []
                 },
                 {
+                    "name": "multiple domain matrix",
+                    "value": 2,
+                    "children": []
+                },
+                {
                     "name": "multi lifecycle management",
                     "value": 1,
                     "children": []
                 },
                 {
+                    "name": "multiview modeling",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "multidisciplinary product",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "multi resolution model",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "multilingual",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "multiple partner",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "multidisciplinary design optimization",
                     "value": 1,
                     "children": []
                 },
@@ -2169,12 +3290,22 @@
                     "name": "multi objective optimization",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "multiobjective optimization",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "multi layer network",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "lean ...",
-            "value": 19,
+            "value": 22,
             "children": [
                 {
                     "name": "lean thinking",
@@ -2204,6 +3335,11 @@
                 {
                     "name": "lean transformation framework",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "lean",
+                    "value": 3,
                     "children": []
                 },
                 {
@@ -2311,7 +3447,7 @@
         },
         {
             "name": "data ...",
-            "value": 53,
+            "value": 65,
             "children": [
                 {
                     "name": "data science",
@@ -2389,6 +3525,11 @@
                     "children": []
                 },
                 {
+                    "name": "datadriven prediction",
+                    "value": 2,
+                    "children": []
+                },
+                {
                     "name": "data mapping",
                     "value": 1,
                     "children": []
@@ -2399,12 +3540,27 @@
                     "children": []
                 },
                 {
+                    "name": "data\u00a0quality",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "dataset",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "data engineering",
                     "value": 1,
                     "children": []
                 },
                 {
                     "name": "data storage technology",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "datapoint",
                     "value": 1,
                     "children": []
                 },
@@ -2451,6 +3607,11 @@
                 {
                     "name": "data maturity",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "data",
+                    "value": 4,
                     "children": []
                 },
                 {
@@ -2504,6 +3665,11 @@
                     "children": []
                 },
                 {
+                    "name": "database",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "data mining",
                     "value": 1,
                     "children": []
@@ -2515,6 +3681,16 @@
                 },
                 {
                     "name": "data generator",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "data structure",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "data protection",
                     "value": 1,
                     "children": []
                 }
@@ -2548,7 +3724,7 @@
         },
         {
             "name": "model ...",
-            "value": 17,
+            "value": 34,
             "children": [
                 {
                     "name": "model based ...",
@@ -2598,8 +3774,28 @@
                     ]
                 },
                 {
+                    "name": "modeling and simulation",
+                    "value": 2,
+                    "children": []
+                },
+                {
                     "name": "model management",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "modeling",
+                    "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "models for manufacturing",
+                    "value": 8,
+                    "children": []
+                },
+                {
+                    "name": "model",
+                    "value": 2,
                     "children": []
                 },
                 {
@@ -2628,6 +3824,11 @@
                     "children": []
                 },
                 {
+                    "name": "modeling engineering design",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "model driven engineering",
                     "value": 3,
                     "children": []
@@ -2646,12 +3847,17 @@
                     "name": "model transformation",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "modeling framework",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "collaborative ...",
-            "value": 43,
+            "value": 45,
             "children": [
                 {
                     "name": "collaborative lifecycle management",
@@ -2701,6 +3907,11 @@
                 {
                     "name": "collaborative product lifecycle management",
                     "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "collaborative",
+                    "value": 1,
                     "children": []
                 },
                 {
@@ -2769,6 +3980,11 @@
                     "children": []
                 },
                 {
+                    "name": "collaborative aided design",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "collaborative computer aided design",
                     "value": 1,
                     "children": []
@@ -2777,8 +3993,13 @@
         },
         {
             "name": "process ...",
-            "value": 41,
+            "value": 42,
             "children": [
+                {
+                    "name": "processing integration",
+                    "value": 1,
+                    "children": []
+                },
                 {
                     "name": "process patterns",
                     "value": 3,
@@ -2928,7 +4149,7 @@
         },
         {
             "name": "complex ...",
-            "value": 9,
+            "value": 15,
             "children": [
                 {
                     "name": "complex problem",
@@ -2956,8 +4177,18 @@
                     "children": []
                 },
                 {
+                    "name": "complexity management",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "complex product configuration",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "complexity",
+                    "value": 4,
                     "children": []
                 },
                 {
@@ -2969,12 +4200,17 @@
                     "name": "complex machinery",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "complex parts manufacturing",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "interface ...",
-            "value": 5,
+            "value": 7,
             "children": [
                 {
                     "name": "interface modeling",
@@ -2990,36 +4226,10 @@
                     "name": "interface management",
                     "value": 2,
                     "children": []
-                }
-            ]
-        },
-        {
-            "name": "multidisciplinary ...",
-            "value": 6,
-            "children": [
-                {
-                    "name": "multidisciplinary design methodology",
-                    "value": 1,
-                    "children": []
                 },
                 {
-                    "name": "multidisciplinary simulation",
-                    "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "multidisciplinary collaboration",
+                    "name": "interface",
                     "value": 2,
-                    "children": []
-                },
-                {
-                    "name": "multidisciplinary product",
-                    "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "multidisciplinary design optimization",
-                    "value": 1,
                     "children": []
                 }
             ]
@@ -3057,7 +4267,7 @@
         },
         {
             "name": "project ...",
-            "value": 13,
+            "value": 15,
             "children": [
                 {
                     "name": "project experience",
@@ -3095,6 +4305,11 @@
                     "children": []
                 },
                 {
+                    "name": "project",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "project lifecycle management",
                     "value": 1,
                     "children": []
@@ -3113,12 +4328,17 @@
                     "name": "project based training",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "project span time",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "cost ...",
-            "value": 10,
+            "value": 11,
             "children": [
                 {
                     "name": "cost estimation",
@@ -3159,12 +4379,43 @@
                     "name": "cost index model",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "cost",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "non ...",
+            "value": 5,
+            "children": [
+                {
+                    "name": "nonownership business model",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "non ownership business model",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "non functional requirement",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "non linear dynamic system",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "assembly ...",
-            "value": 17,
+            "value": 20,
             "children": [
                 {
                     "name": "assembly model",
@@ -3184,6 +4435,11 @@
                 {
                     "name": "assembly simulation",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "assembly",
+                    "value": 2,
                     "children": []
                 },
                 {
@@ -3233,6 +4489,11 @@
                 },
                 {
                     "name": "assembly design",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "assembly line balancing problem",
                     "value": 1,
                     "children": []
                 }
@@ -3428,7 +4689,7 @@
         },
         {
             "name": "service ...",
-            "value": 10,
+            "value": 12,
             "children": [
                 {
                     "name": "service product",
@@ -3448,6 +4709,11 @@
                 {
                     "name": "service engineering",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "service",
+                    "value": 2,
                     "children": []
                 },
                 {
@@ -3525,7 +4791,7 @@
         },
         {
             "name": "dynamic ...",
-            "value": 7,
+            "value": 8,
             "children": [
                 {
                     "name": "dynamic network analysis",
@@ -3561,12 +4827,17 @@
                     "name": "dynamic collaboration",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "dynamic",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "system ...",
-            "value": 13,
+            "value": 17,
             "children": [
                 {
                     "name": "system design",
@@ -3584,12 +4855,27 @@
                     "children": []
                 },
                 {
+                    "name": "systematic review",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "system relationship",
                     "value": 1,
                     "children": []
                 },
                 {
+                    "name": "systematic literature review",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "system models",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "system",
                     "value": 1,
                     "children": []
                 },
@@ -3605,6 +4891,11 @@
                 },
                 {
                     "name": "system lifecycle",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "system development",
                     "value": 1,
                     "children": []
                 }
@@ -3653,15 +4944,15 @@
         },
         {
             "name": "computer ...",
-            "value": 8,
+            "value": 7,
             "children": [
                 {
                     "name": "computer aided ...",
-                    "value": 12,
+                    "value": 8,
                     "children": [
                         {
                             "name": "computer aided design ...",
-                            "value": 13,
+                            "value": 14,
                             "children": [
                                 {
                                     "name": "computer aided design data",
@@ -3727,6 +5018,27 @@
                                     "name": "computer aided design and manufacturing",
                                     "value": 1,
                                     "children": []
+                                },
+                                {
+                                    "name": "computer aided design representation",
+                                    "value": 1,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "computer aided engineering ...",
+                            "value": 5,
+                            "children": [
+                                {
+                                    "name": "computer aided engineering",
+                                    "value": 4,
+                                    "children": []
+                                },
+                                {
+                                    "name": "computer aided engineering process",
+                                    "value": 1,
+                                    "children": []
                                 }
                             ]
                         },
@@ -3746,8 +5058,8 @@
                             "children": []
                         },
                         {
-                            "name": "computer aided engineering",
-                            "value": 4,
+                            "name": "computer aided",
+                            "value": 1,
                             "children": []
                         },
                         {
@@ -3762,11 +5074,6 @@
                         },
                         {
                             "name": "computer aided manufacturing",
-                            "value": 1,
-                            "children": []
-                        },
-                        {
-                            "name": "computer aided engineering process",
                             "value": 1,
                             "children": []
                         }
@@ -3788,11 +5095,6 @@
                     "children": []
                 },
                 {
-                    "name": "computer aided",
-                    "value": 1,
-                    "children": []
-                },
-                {
                     "name": "computer supported collaborative work",
                     "value": 1,
                     "children": []
@@ -3811,7 +5113,7 @@
         },
         {
             "name": "mechatronic ...",
-            "value": 8,
+            "value": 12,
             "children": [
                 {
                     "name": "mechatronic products development",
@@ -3821,6 +5123,11 @@
                 {
                     "name": "mechatronic product",
                     "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "mechatronic",
+                    "value": 4,
                     "children": []
                 },
                 {
@@ -3842,7 +5149,7 @@
         },
         {
             "name": "global ...",
-            "value": 7,
+            "value": 8,
             "children": [
                 {
                     "name": "global traceability",
@@ -3856,6 +5163,11 @@
                 },
                 {
                     "name": "global network",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "globalization",
                     "value": 1,
                     "children": []
                 },
@@ -3883,7 +5195,7 @@
         },
         {
             "name": "building ...",
-            "value": 3,
+            "value": 4,
             "children": [
                 {
                     "name": "building information ...",
@@ -3951,12 +5263,17 @@
                     "name": "building lifecycle stages",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "building",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "quality ...",
-            "value": 5,
+            "value": 7,
             "children": [
                 {
                     "name": "quality uncertainty management",
@@ -3966,6 +5283,11 @@
                 {
                     "name": "quality control",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "quality",
+                    "value": 2,
                     "children": []
                 },
                 {
@@ -3982,7 +5304,7 @@
         },
         {
             "name": "software ...",
-            "value": 18,
+            "value": 19,
             "children": [
                 {
                     "name": "software engineering",
@@ -4040,6 +5362,11 @@
                     "children": []
                 },
                 {
+                    "name": "software",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "software change",
                     "value": 1,
                     "children": []
@@ -4068,7 +5395,7 @@
         },
         {
             "name": "food ...",
-            "value": 7,
+            "value": 8,
             "children": [
                 {
                     "name": "food industry",
@@ -4084,12 +5411,17 @@
                     "name": "food packaging",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "food and beverage",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "industry ...",
-            "value": 8,
+            "value": 7,
             "children": [
                 {
                     "name": "industry 4.0 skills",
@@ -4102,29 +5434,40 @@
                     "children": []
                 },
                 {
-                    "name": "industry 5.0",
-                    "value": 4,
+                    "name": "industry specific",
+                    "value": 1,
                     "children": []
                 },
                 {
-                    "name": "industry specific",
+                    "name": "industry",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "industry 4.0 and industry 5.0",
+                    "value": 2,
                     "children": []
                 }
             ]
         },
         {
             "name": "digital ...",
-            "value": 56,
+            "value": 37,
             "children": [
+                {
+                    "name": "digital twin ...",
+                    "value": 26,
+                    "children": [
+                        {
+                            "name": "digital twin",
+                            "value": 26,
+                            "children": []
+                        }
+                    ]
+                },
                 {
                     "name": "digital preservation",
                     "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "digital twin",
-                    "value": 26,
                     "children": []
                 },
                 {
@@ -4164,6 +5507,11 @@
                 },
                 {
                     "name": "digital smart factory",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "digitalization of engineering",
                     "value": 1,
                     "children": []
                 },
@@ -4221,12 +5569,42 @@
                     "name": "digital industry",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "digital and physical twin",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "digital coherence",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "digital twin benefits",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "digital transition roadmapping",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "digital platform",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "digitalisation in production system",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "3D ...",
-            "value": 16,
+            "value": 18,
             "children": [
                 {
                     "name": "3D model based platform",
@@ -4297,12 +5675,22 @@
                     "name": "3D target",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "3D layout",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "3DEXPERIENCE",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "semantic ...",
-            "value": 16,
+            "value": 20,
             "children": [
                 {
                     "name": "semantic search",
@@ -4332,6 +5720,11 @@
                 {
                     "name": "semantic analysis",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "semantic",
+                    "value": 4,
                     "children": []
                 },
                 {
@@ -4377,8 +5770,44 @@
             ]
         },
         {
+            "name": "sustainable ...",
+            "value": 6,
+            "children": [
+                {
+                    "name": "sustainable building",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "sustainable production",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "sustainable product development",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "sustainable performance",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "sustainable practices",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "sustainable closed loop supply chain",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
             "name": "environmental ...",
-            "value": 10,
+            "value": 11,
             "children": [
                 {
                     "name": "environmental awareness",
@@ -4388,6 +5817,11 @@
                 {
                     "name": "environmental impact assessment",
                     "value": 4,
+                    "children": []
+                },
+                {
+                    "name": "environmentally conscious nano product",
+                    "value": 1,
                     "children": []
                 },
                 {
@@ -4414,7 +5848,7 @@
         },
         {
             "name": "decision ...",
-            "value": 13,
+            "value": 14,
             "children": [
                 {
                     "name": "decision rule",
@@ -4438,7 +5872,7 @@
                 },
                 {
                     "name": "decision support",
-                    "value": 3,
+                    "value": 4,
                     "children": []
                 },
                 {
@@ -4485,8 +5919,39 @@
             ]
         },
         {
+            "name": "tool ...",
+            "value": 7,
+            "children": [
+                {
+                    "name": "toolbox",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "toolkit",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "tool",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "tool and process",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "tool selection",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
             "name": "technology ...",
-            "value": 10,
+            "value": 14,
             "children": [
                 {
                     "name": "technology integration",
@@ -4496,6 +5961,11 @@
                 {
                     "name": "technology acceptance model",
                     "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "technology",
+                    "value": 4,
                     "children": []
                 },
                 {
@@ -4531,9 +6001,35 @@
             ]
         },
         {
-            "name": "automotive ...",
+            "name": "application ...",
             "value": 5,
             "children": [
+                {
+                    "name": "application interoperability",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "application",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "application lifecycle management",
+                    "value": 3,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "automotive ...",
+            "value": 8,
+            "children": [
+                {
+                    "name": "automotive",
+                    "value": 3,
+                    "children": []
+                },
                 {
                     "name": "automotive industry",
                     "value": 2,
@@ -4589,7 +6085,7 @@
         },
         {
             "name": "hybrid ...",
-            "value": 5,
+            "value": 6,
             "children": [
                 {
                     "name": "hybrid modelling",
@@ -4608,6 +6104,11 @@
                 },
                 {
                     "name": "hybrid intelligence",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "hybrid production structure",
                     "value": 1,
                     "children": []
                 }
@@ -4641,9 +6142,92 @@
             ]
         },
         {
-            "name": "end ...",
-            "value": 8,
+            "name": "change ...",
+            "value": 5,
             "children": [
+                {
+                    "name": "change",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "change agents",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "change prediction",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "change management process",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "changeability",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "agent ...",
+            "value": 5,
+            "children": [
+                {
+                    "name": "agent",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "agent technology",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "agent based system",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "agent based",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "end ...",
+            "value": 4,
+            "children": [
+                {
+                    "name": "end of ...",
+                    "value": 5,
+                    "children": [
+                        {
+                            "name": "end of life vehicle",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "end of life management",
+                            "value": 2,
+                            "children": []
+                        },
+                        {
+                            "name": "end of life product",
+                            "value": 1,
+                            "children": []
+                        },
+                        {
+                            "name": "end of life aircraft",
+                            "value": 1,
+                            "children": []
+                        }
+                    ]
+                },
                 {
                     "name": "end of life product quality",
                     "value": 1,
@@ -4655,22 +6239,7 @@
                     "children": []
                 },
                 {
-                    "name": "end of life vehicle",
-                    "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "end of life management",
-                    "value": 2,
-                    "children": []
-                },
-                {
                     "name": "end user development",
-                    "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "end of life product",
                     "value": 1,
                     "children": []
                 },
@@ -4693,6 +6262,58 @@
                 {
                     "name": "pay per X",
                     "value": 4,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "configuration ...",
+            "value": 6,
+            "children": [
+                {
+                    "name": "configuration system",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "configuration rule",
+                    "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "configuration",
+                    "value": 2,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "concept ...",
+            "value": 14,
+            "children": [
+                {
+                    "name": "conceptual design",
+                    "value": 10,
+                    "children": []
+                },
+                {
+                    "name": "concept lifecycle",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "concept evaluation",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "conceptual model",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "conceptual modeling",
+                    "value": 1,
                     "children": []
                 }
             ]
@@ -4728,6 +6349,42 @@
                 },
                 {
                     "name": "self actualization",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "function ...",
+            "value": 7,
+            "children": [
+                {
+                    "name": "functional system model",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "functionality",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "functional requirement",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "function analysis",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "function behaviour structure",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "functional digital mockup",
                     "value": 1,
                     "children": []
                 }
@@ -4825,8 +6482,71 @@
             ]
         },
         {
+            "name": "uncertainty ...",
+            "value": 5,
+            "children": [
+                {
+                    "name": "uncertainty",
+                    "value": 5,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "parametric ...",
+            "value": 7,
+            "children": [
+                {
+                    "name": "parametric accelerated life testing",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "parametric geometry",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "parametric",
+                    "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "parametric modeling",
+                    "value": 2,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "risk ...",
+            "value": 6,
+            "children": [
+                {
+                    "name": "risk factors",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "risk management",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "risk mitigation",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "risk",
+                    "value": 2,
+                    "children": []
+                }
+            ]
+        },
+        {
             "name": "human ...",
-            "value": 9,
+            "value": 13,
             "children": [
                 {
                     "name": "human robot collaboration",
@@ -4854,6 +6574,11 @@
                     "children": []
                 },
                 {
+                    "name": "human",
+                    "value": 1,
+                    "children": []
+                },
+                {
                     "name": "human interaction",
                     "value": 1,
                     "children": []
@@ -4867,26 +6592,31 @@
                     "name": "human systems integration",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "human centered production",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "human behavior",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "human centered manufacturing",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
-            "name": "application ...",
-            "value": 5,
+            "name": "product  ...",
+            "value": 19,
             "children": [
                 {
-                    "name": "application view",
-                    "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "application interoperability",
-                    "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "application lifecycle management",
-                    "value": 3,
+                    "name": "product design",
+                    "value": 19,
                     "children": []
                 }
             ]
@@ -4913,32 +6643,6 @@
             ]
         },
         {
-            "name": "change ...",
-            "value": 6,
-            "children": [
-                {
-                    "name": "change propagation",
-                    "value": 3,
-                    "children": []
-                },
-                {
-                    "name": "change agents",
-                    "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "change prediction",
-                    "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "change management process",
-                    "value": 1,
-                    "children": []
-                }
-            ]
-        },
-        {
             "name": "innovation ...",
             "value": 6,
             "children": [
@@ -4954,27 +6658,6 @@
                 },
                 {
                     "name": "innovation performance measurement",
-                    "value": 1,
-                    "children": []
-                }
-            ]
-        },
-        {
-            "name": "risk ...",
-            "value": 5,
-            "children": [
-                {
-                    "name": "risk assessment",
-                    "value": 2,
-                    "children": []
-                },
-                {
-                    "name": "risk management",
-                    "value": 2,
-                    "children": []
-                },
-                {
-                    "name": "risk mitigation",
                     "value": 1,
                     "children": []
                 }
@@ -5040,8 +6723,18 @@
         },
         {
             "name": "requirement ...",
-            "value": 6,
+            "value": 13,
             "children": [
+                {
+                    "name": "requirements coengineering",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "requirement",
+                    "value": 4,
+                    "children": []
+                },
                 {
                     "name": "requirement information management",
                     "value": 1,
@@ -5061,13 +6754,28 @@
                     "name": "requirement module",
                     "value": 1,
                     "children": []
+                },
+                {
+                    "name": "requirement functional logical and physical",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "requirement in loop",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
             "name": "customer ...",
-            "value": 8,
+            "value": 10,
             "children": [
+                {
+                    "name": "customervoriented view",
+                    "value": 1,
+                    "children": []
+                },
                 {
                     "name": "customer relationship management",
                     "value": 2,
@@ -5075,6 +6783,11 @@
                 },
                 {
                     "name": "customer driven",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "customer",
                     "value": 1,
                     "children": []
                 },
@@ -5106,27 +6819,151 @@
             ]
         },
         {
-            "name": "parametric ...",
+            "name": "maturity ...",
+            "value": 7,
+            "children": [
+                {
+                    "name": "maturity",
+                    "value": 4,
+                    "children": []
+                },
+                {
+                    "name": "maturity assessment",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "maturity approach",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "asset ...",
+            "value": 6,
+            "children": [
+                {
+                    "name": "asset",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "asset management system",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "asset lifecycle management",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "asset configuration management",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "benchmark ...",
             "value": 5,
             "children": [
                 {
-                    "name": "parametric design",
+                    "name": "benchmark",
+                    "value": 4,
+                    "children": []
+                },
+                {
+                    "name": "benchmarking methodology",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "work ...",
+            "value": 14,
+            "children": [
+                {
+                    "name": "workshop facilitation",
+                    "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "worker preference",
                     "value": 1,
                     "children": []
                 },
                 {
-                    "name": "parametric accelerated life testing",
+                    "name": "workfloor",
                     "value": 1,
                     "children": []
                 },
                 {
-                    "name": "parametric geometry",
+                    "name": "workflow",
+                    "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "work breakdown structure",
                     "value": 1,
                     "children": []
                 },
                 {
-                    "name": "parametric modeling",
-                    "value": 2,
+                    "name": "work package",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "workflow process",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "working process",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "workflow analysis",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "workflow management",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "web ...",
+            "value": 5,
+            "children": [
+                {
+                    "name": "webmetry",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "web based service",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "web application development",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "web technology",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "web based collaboration",
+                    "value": 1,
                     "children": []
                 }
             ]
@@ -5184,9 +7021,40 @@
             ]
         },
         {
-            "name": "user ...",
-            "value": 9,
+            "name": "analytic ...",
+            "value": 6,
             "children": [
+                {
+                    "name": "analytics",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "analytic hierarchy process",
+                    "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "analytical evaluation of mechanical part",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "analytic network process",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "use ...",
+            "value": 14,
+            "children": [
+                {
+                    "name": "user need",
+                    "value": 2,
+                    "children": []
+                },
                 {
                     "name": "user requirement",
                     "value": 1,
@@ -5208,6 +7076,11 @@
                     "children": []
                 },
                 {
+                    "name": "user",
+                    "value": 2,
+                    "children": []
+                },
+                {
                     "name": "user story mapping",
                     "value": 1,
                     "children": []
@@ -5224,6 +7097,11 @@
                 },
                 {
                     "name": "user integration",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "user centric interaction",
                     "value": 1,
                     "children": []
                 }
@@ -5251,29 +7129,8 @@
             ]
         },
         {
-            "name": "multiple ...",
-            "value": 6,
-            "children": [
-                {
-                    "name": "multiple domain",
-                    "value": 3,
-                    "children": []
-                },
-                {
-                    "name": "multiple domain matrix",
-                    "value": 2,
-                    "children": []
-                },
-                {
-                    "name": "multiple partner",
-                    "value": 1,
-                    "children": []
-                }
-            ]
-        },
-        {
             "name": "waste ...",
-            "value": 5,
+            "value": 6,
             "children": [
                 {
                     "name": "waste electrical and electronic equipment",
@@ -5284,41 +7141,9 @@
                     "name": "waste electrical and electronic equipment end of life strategy",
                     "value": 1,
                     "children": []
-                }
-            ]
-        },
-        {
-            "name": "performance ...",
-            "value": 5,
-            "children": [
-                {
-                    "name": "performance measurement",
-                    "value": 5,
-                    "children": []
-                }
-            ]
-        },
-        {
-            "name": "asset ...",
-            "value": 6,
-            "children": [
-                {
-                    "name": "asset administration shell",
-                    "value": 2,
-                    "children": []
                 },
                 {
-                    "name": "asset management system",
-                    "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "asset lifecycle management",
-                    "value": 2,
-                    "children": []
-                },
-                {
-                    "name": "asset configuration management",
+                    "name": "waste management",
                     "value": 1,
                     "children": []
                 }
@@ -5326,73 +7151,93 @@
         },
         {
             "name": "extended ...",
-            "value": 9,
+            "value": 10,
             "children": [
                 {
                     "name": "extended enterprise",
                     "value": 9,
                     "children": []
+                },
+                {
+                    "name": "extended value",
+                    "value": 1,
+                    "children": []
                 }
             ]
         },
         {
-            "name": "web ...",
-            "value": 10,
+            "name": "sustainability ...",
+            "value": 24,
             "children": [
                 {
-                    "name": "web service",
-                    "value": 7,
+                    "name": "sustainability",
+                    "value": 23,
                     "children": []
                 },
                 {
-                    "name": "web application development",
-                    "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "web technology",
-                    "value": 1,
-                    "children": []
-                },
-                {
-                    "name": "web based collaboration",
+                    "name": "sustainability analysis",
                     "value": 1,
                     "children": []
                 }
             ]
         },
         {
-            "name": "configuration ...",
+            "name": "aero ...",
+            "value": 8,
+            "children": [
+                {
+                    "name": "aeronautical industry",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "aerospace",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "aerospace & defence case study",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "aerospace industry",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "aeronautical final assembly line conceptual design",
+                    "value": 1,
+                    "children": []
+                },
+                {
+                    "name": "aeronautical",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "form ...",
             "value": 5,
             "children": [
                 {
-                    "name": "configuration view",
+                    "name": "formal model",
+                    "value": 2,
+                    "children": []
+                },
+                {
+                    "name": "formal definition",
                     "value": 1,
                     "children": []
                 },
                 {
-                    "name": "configuration system",
+                    "name": "formulated product",
                     "value": 1,
                     "children": []
                 },
                 {
-                    "name": "configuration rule",
-                    "value": 3,
-                    "children": []
-                }
-            ]
-        },
-        {
-            "name": "conceptual ...",
-            "value": 11,
-            "children": [
-                {
-                    "name": "conceptual design",
-                    "value": 10,
-                    "children": []
-                },
-                {
-                    "name": "conceptual modeling",
+                    "name": "formal systems",
                     "value": 1,
                     "children": []
                 }
@@ -5426,6 +7271,65 @@
                 {
                     "name": "set based design",
                     "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "method ...",
+            "value": 5,
+            "children": [
+                {
+                    "name": "methodology",
+                    "value": 4,
+                    "children": []
+                },
+                {
+                    "name": "method",
+                    "value": 1,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "ecosystem ...",
+            "value": 5,
+            "children": [
+                {
+                    "name": "ecosystem",
+                    "value": 5,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "operation ...",
+            "value": 5,
+            "children": [
+                {
+                    "name": "operation management",
+                    "value": 3,
+                    "children": []
+                },
+                {
+                    "name": "operation and maintenance",
+                    "value": 2,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "engine ...",
+            "value": 6,
+            "children": [
+                {
+                    "name": "engineering education",
+                    "value": 4,
+                    "children": []
+                },
+                {
+                    "name": "engineer to order",
+                    "value": 2,
                     "children": []
                 }
             ]
